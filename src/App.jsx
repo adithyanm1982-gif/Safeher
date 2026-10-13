@@ -13,7 +13,7 @@ import Settings from './pages/Settings';
 import { useApp } from './context/AppContext';
 import { useAuth } from './context/AuthContext';
 
-const PAGES = { home: Home, map: MapPage, tools: Tools, guardians: Guardians, settings: Settings };
+const PAGES = { home: Home, tools: Tools, guardians: Guardians, settings: Settings };
 
 export default function App() {
   const [tab, setTab] = useState('home');
@@ -27,9 +27,18 @@ export default function App() {
   return (
     <div className="mx-auto min-h-full max-w-md">
       <TopBar />
-      <main className="px-4 pb-28 pt-4">
-        <Page />
-      </main>
+      {tab === 'map' ? (
+        <div
+          className="fixed inset-x-0 z-10 mx-auto max-w-md"
+          style={{ top: 'calc(53px + env(safe-area-inset-top))', bottom: 'calc(57px + env(safe-area-inset-bottom))' }}
+        >
+          <MapPage />
+        </div>
+      ) : (
+        <main className="px-4 pb-28 pt-4">
+          <Page />
+        </main>
+      )}
       <BottomNav tab={tab} onChange={setTab} />
       <SOSOverlay />
       <Strobe />

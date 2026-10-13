@@ -17,7 +17,7 @@ export default function SOSOverlay() {
         <div className="text-center">
           <p className="text-lg font-semibold">{t('graceTitle')}</p>
           <p className="my-4 text-9xl font-black">{Math.max(grace, 0)}</p>
-          <Btn variant="ghost" className="!min-h-[64px] !px-10 !text-lg !text-black" onClick={cancel}>
+          <Btn variant="light" className="!min-h-[64px] !px-10 !text-lg" onClick={cancel}>
             {t('cancel')}
           </Btn>
         </div>
@@ -86,10 +86,10 @@ export default function SOSOverlay() {
       </div>
 
       <div className="mx-auto mt-4 flex w-full max-w-md gap-2">
-        <Btn variant="ghost" className="flex-1 !text-black" onClick={toggleSiren}>
+        <Btn variant="light" className="flex-1" onClick={toggleSiren}>
           <SirenIcon size={18} /> {sirenOn ? 'Siren off' : 'Siren on'}
         </Btn>
-        <Btn variant="ghost" className="flex-[2] !min-h-[56px] !text-black" onClick={resolve}>
+        <Btn variant="light" className="flex-[2] !min-h-[56px]" onClick={resolve}>
           <ShieldCheck size={18} /> {t('imSafe')}
         </Btn>
       </div>

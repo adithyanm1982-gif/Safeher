@@ -14,7 +14,8 @@ const VARIANTS = {
   primary: 'bg-accent text-onaccent',
   ghost: 'border border-line bg-card text-fg',
   danger: 'bg-red-600 text-white',
-  subtle: 'bg-fg/10 text-fg'
+  subtle: 'bg-fg/10 text-fg',
+  light: 'bg-white text-black'
 };
 
 export function Btn({ variant = 'primary', className = '', onClick, children, ...rest }) {
@@ -52,7 +53,7 @@ export function Toggle({ checked, onChange, label, hint, disabled }) {
       </span>
       <span className={`relative h-7 w-12 shrink-0 rounded-full transition ${checked ? 'bg-accent' : 'bg-fg/25'}`}>
         <span
-          className={`absolute top-0.5 h-6 w-6 rounded-full bg-white shadow transition-all ${checked ? 'left-[22px]' : 'left-0.5'}`}
+          className={`absolute top-0.5 h-6 w-6 rounded-full shadow transition-all ${checked ? 'left-[22px] bg-onaccent' : 'left-0.5 bg-white'}`}
         />
       </span>
     </button>
