@@ -33,11 +33,18 @@ export function AuthProvider({ children }) {
   const hasPin = Boolean(auth?.pinHash);
   const hasPattern = Boolean(auth?.patternHash);
   const hasBiometric = Boolean(auth?.credId);
+  // Length of the saved PIN. 0 means an older PIN saved before this field existed.
+  const pinLength = auth?.pinLength || 0;
 
   const setupPin = useCallback(
     async (pin) => {
       const salt = auth?.salt || randomSalt();
-      await persist({ ...(auth || {}), salt, pinHash: await sha256(salt + ':pin:' + pin) });
+      await persist({
+        ...(auth || {}),
+        salt,
+        pinHash: await sha256(salt + ':pin:' + pin),
+        pinLength: pin.length
+      });
     },
     [auth, persist]
   );
@@ -137,11 +144,11 @@ export function AuthProvider({ children }) {
 
   const value = useMemo(
     () => ({
-      ready, locked, hasPin, hasPattern, hasBiometric,
+      ready, locked, hasPin, hasPattern, hasBiometric, pinLength,
       setupPin, setupPattern, verifyPin, verifyPattern,
       unlockWithPin, unlockWithPattern, registerBiometric, unlockWithBiometric, clearAuth, lock
     }),
-    [ready, locked, hasPin, hasPattern, hasBiometric, setupPin, setupPattern, verifyPin, verifyPattern,
+    [ready, locked, hasPin, hasPattern, hasBiometric, pinLength, setupPin, setupPattern, verifyPin, verifyPattern,
       unlockWithPin, unlockWithPattern, registerBiometric, unlockWithBiometric, clearAuth, lock]
   );
 

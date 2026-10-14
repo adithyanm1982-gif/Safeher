@@ -2,6 +2,8 @@ import { useEffect, useMemo, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Circle, Polyline, Popup, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import { formatDistance, haversine } from '../../services/geo';
+import { useApp } from '../../context/AppContext';
+import { CAT_KEY, zoneName } from '../../services/i18n';
 
 const dot = (color, size = 16) =>
   L.divIcon({
@@ -66,10 +68,12 @@ export default function LiveMap({
   pos, heading, trail, zones = [], reports = [], results = [], destination,
   following, flyKey, focus, onDrag, onLongPress
 }) {
+  const { t } = useApp();
   const center = pos ? [pos.lat, pos.lng] : [20.5937, 78.9629];
   const h = heading == null ? null : Math.round(heading / 5) * 5;
   const icon = useMemo(() => userIcon(h), [h]);
   const shownIds = new Set(results.map((r) => r.id));
+  const cat = (z) => t(CAT_KEY[z.category] || 'cat_other');
 
   return (
     <MapContainer center={center} zoom={pos ? 16 : 4} style={{ height: '100%', width: '100%' }} zoomControl={false} attributionControl={false}>
@@ -88,17 +92,17 @@ export default function LiveMap({
       {destination && <Marker position={[destination.lat, destination.lng]} icon={destIcon} />}
       {zones.filter((z) => !shownIds.has(z.id)).map((z) => (
         <Marker key={z.id} position={[z.lat, z.lng]} icon={zoneIcon}>
-          <Popup><b>{z.name}</b><br />{z.category}{pos && <><br />{formatDistance(haversine(pos, z))}</>}</Popup>
+          <Popup><b>{zoneName(t, z)}</b><br />{cat(z)}{pos && <><br />{formatDistance(haversine(pos, z))}</>}</Popup>
         </Marker>
       ))}
       {results.map((z) => (
         <Marker key={z.id} position={[z.lat, z.lng]} icon={resultIcon} zIndexOffset={500}>
-          <Popup><b>{z.name}</b><br />{z.category}<br />{formatDistance(z.dist)} away</Popup>
+          <Popup><b>{zoneName(t, z)}</b><br />{cat(z)}<br />{t('away', { dist: formatDistance(z.dist) })}</Popup>
         </Marker>
       ))}
       {reports.filter((r) => r.pos).map((r) => (
         <Marker key={r.id} position={[r.pos.lat, r.pos.lng]} icon={reportIcon}>
-          <Popup>Safe score {r.score}/10<br />Lighting {r.lighting}/5 · Crowd {r.crowd}/5</Popup>
+          <Popup>{t('safeScoreOf', { s: r.score })}<br />{t('lightCrowd', { l: r.lighting, c: r.crowd })}</Popup>
         </Marker>
       ))}
     </MapContainer>

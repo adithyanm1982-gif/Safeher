@@ -11,14 +11,17 @@ import useWakeLock from '../hooks/useWakeLock';
 import { Siren } from '../services/siren';
 import { buildEmergencyLinks } from '../services/sms';
 import { LiveBroadcaster, sendOrQueue } from '../services/sync';
+import { cancelQueuedSOS, collectRecipients, sendSOSAlert } from '../services/alert';
 import { notify, requestBackgroundSync } from '../services/serviceWorker';
 import { sosPulse, vibrate } from '../services/haptics';
+import { speechLang, translate } from '../services/i18n';
 
 const SafetyContext = createContext(null);
 const GRACE_SECONDS = 3;
+const IDLE_ALERT = { status: 'idle', results: [], call: null };
 
 export function SafetyProvider({ children }) {
-  const { settings, guardians } = useApp();
+  const { settings, guardians, profile, emergencyContact } = useApp();
   const online = useOnlineStatus();
   const geo = useGeolocation();
   const rec = useRecorder();
@@ -29,6 +32,7 @@ export function SafetyProvider({ children }) {
   const [source, setSource] = useState(null);
   const [silent, setSilent] = useState(false);
   const [emergency, setEmergency] = useState({ links: [], group: null });
+  const [alert, setAlert] = useState(IDLE_ALERT);
   const [sirenOn, setSirenOn] = useState(false);
   const [strobeOn, setStrobeOn] = useState(false);
   const [walkActive, setWalkActive] = useState(false);
@@ -39,8 +43,16 @@ export function SafetyProvider({ children }) {
   const statusRef = useRef('idle');
   const guardiansRef = useRef(guardians);
   const settingsRef = useRef(settings);
+  const profileRef = useRef(profile);
+  const contactRef = useRef(emergencyContact);
+  const alertRef = useRef(alert);
+  const lastAlert = useRef(null);
+  const session = useRef(0);
   guardiansRef.current = guardians;
   settingsRef.current = settings;
+  profileRef.current = profile;
+  contactRef.current = emergencyContact;
+  alertRef.current = alert;
   statusRef.current = status;
 
   useWakeLock(status === 'active' || walkActive);
@@ -58,6 +70,40 @@ export function SafetyProvider({ children }) {
 
   const toggleSiren = useCallback(() => (siren.current.running ? stopSiren() : startSiren()), [startSiren, stopSiren]);
 
+  // Sends the automatic SMS to every contact and the automatic call to the default contact.
+  const dispatchAlert = useCallback(async (src, pos) => {
+    const mySession = ++session.current;
+    const ec = contactRef.current;
+    const recipients = collectRecipients(guardiansRef.current, ec);
+    if (!recipients.length) {
+      lastAlert.current = null;
+      setAlert({ status: 'no-contacts', results: [], call: null });
+      return;
+    }
+    const name = profileRef.current.fullName || '';
+    lastAlert.current = { recipients, name };
+    setAlert({ status: 'sending', results: [], call: null });
+
+    const out = await sendSOSAlert({
+      kind: 'sos',
+      name,
+      recipients,
+      callTo: ec.autoCall && ec.phone ? { name: ec.name, phone: ec.phone } : null,
+      pos: pos ? { lat: pos.lat, lng: pos.lng, accuracy: pos.accuracy, cached: Boolean(pos.cached) } : null,
+      source: src,
+      ts: Date.now()
+    });
+
+    if (session.current !== mySession) {
+      // The user pressed "I'm safe" while the alert was still being sent.
+      if (out.status === 'sent' || out.status === 'partial') {
+        sendSOSAlert({ kind: 'safe', name, recipients, ts: Date.now() });
+      }
+      return;
+    }
+    setAlert(out);
+  }, []);
+
   const activate = useCallback(
     async (src, quiet) => {
       setStatus('active');
@@ -71,13 +117,15 @@ export function SafetyProvider({ children }) {
       const built = buildEmergencyLinks(guardiansRef.current, pos);
       setEmergency(built);
 
+      dispatchAlert(src, pos);
+
       if (!quiet && cfg.sirenOnSOS) startSiren();
       if (cfg.recordOnSOS) rec.start({ source: src });
 
       sendOrQueue('incident', { type: 'sos', source: src, pos, ts: Date.now() }).then(requestBackgroundSync);
       broadcaster.current.start(() => ({ ts: Date.now(), pos: geo.posRef.current, source: src }), 10000);
 
-      if (!quiet) notify('SOS active', 'Your guardians are being alerted.');
+      if (!quiet) notify(translate(cfg.lang, 'notifTitle'), translate(cfg.lang, 'notifBody'));
       if (!quiet && cfg.autoOpenSms && !navigator.onLine && built.group) {
         try {
           window.location.href = built.group;
@@ -86,7 +134,7 @@ export function SafetyProvider({ children }) {
         }
       }
     },
-    [geo, rec, startSiren]
+    [geo, rec, startSiren, dispatchAlert]
   );
 
   const clearGraceTimer = () => {
@@ -141,6 +189,18 @@ export function SafetyProvider({ children }) {
     setSource(null);
     setSilent(false);
     setEmergency({ links: [], group: null });
+
+    // Tell contacts the alarm is over, but only if they actually received the SOS.
+    const last = lastAlert.current;
+    const delivered = alertRef.current.status === 'sent' || alertRef.current.status === 'partial';
+    session.current += 1;
+    lastAlert.current = null;
+    setAlert(IDLE_ALERT);
+    cancelQueuedSOS().then(() => {
+      if (last && delivered) {
+        sendSOSAlert({ kind: 'safe', name: last.name, recipients: last.recipients, ts: Date.now() });
+      }
+    });
   }, [rec, stopSiren, torch]);
 
   useEffect(() => {
@@ -165,7 +225,7 @@ export function SafetyProvider({ children }) {
   const voice = useVoiceTrigger({
     enabled: settings.voiceEnabled,
     phrases: settings.phrases,
-    lang: { en: 'en-US', es: 'es-ES', hi: 'hi-IN', fr: 'fr-FR' }[settings.lang] || 'en-US',
+    lang: speechLang(settings.lang),
     onMatch: settings.stealthMode ? covert : visible
   });
   usePowerSequence({ enabled: settings.powerEnabled, onTrigger: settings.stealthMode ? covert : visible });
@@ -179,7 +239,7 @@ export function SafetyProvider({ children }) {
   const value = useMemo(
     () => ({
       online, geo, rec, torch, voice,
-      status, grace, source, silent, emergency,
+      status, grace, source, silent, emergency, alert,
       trigger, cancel, resolve,
       sirenOn, toggleSiren, startSiren, stopSiren,
       strobeOn, setStrobeOn,
@@ -187,7 +247,7 @@ export function SafetyProvider({ children }) {
       activeSensors
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [online, geo, rec, torch, voice, status, grace, source, silent, emergency, trigger, cancel, resolve,
+    [online, geo, rec, torch, voice, status, grace, source, silent, emergency, alert, trigger, cancel, resolve,
       sirenOn, toggleSiren, startSiren, stopSiren, strobeOn, walkActive, activeSensors.join(',')]
   );
 

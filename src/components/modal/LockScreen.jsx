@@ -5,6 +5,8 @@ import { useApp } from '../../context/AppContext';
 import { vibrate } from '../../services/haptics';
 import { Btn } from '../ui/Primitives';
 
+const MAX_PIN = 8;
+
 export function PatternPad({ onComplete, resetKey }) {
   const [path, setPath] = useState([]);
   const drawing = useRef(false);
@@ -55,7 +57,7 @@ export function PatternPad({ onComplete, resetKey }) {
 }
 
 export default function LockScreen() {
-  const { hasPin, hasPattern, hasBiometric, unlockWithPin, unlockWithPattern, unlockWithBiometric } = useAuth();
+  const { hasPin, hasPattern, hasBiometric, pinLength, unlockWithPin, unlockWithPattern, unlockWithBiometric } = useAuth();
   const { t } = useApp();
   const [mode, setMode] = useState(hasPin ? 'pin' : 'pattern');
   const [pin, setPin] = useState('');
@@ -71,16 +73,27 @@ export default function LockScreen() {
   };
 
   const press = async (d) => {
-    const next = (pin + d).slice(0, 8);
+    const limit = pinLength || MAX_PIN;
+    if (pin.length >= limit) return;
+    const next = pin + d;
     setPin(next);
     vibrate(10);
-    if (next.length >= 4) {
+
+    if (pinLength) {
+      // Known PIN length: only check once the full PIN has been typed.
+      if (next.length === pinLength) {
+        const ok = await unlockWithPin(next);
+        if (!ok) fail();
+      }
+    } else if (next.length >= 4) {
+      // Older PIN with no saved length: quietly try each length, only fail at the maximum.
       const ok = await unlockWithPin(next);
-      if (!ok && next.length >= 6) fail();
+      if (!ok && next.length >= MAX_PIN) fail();
     }
   };
 
   const submitPin = async () => {
+    if (!pin) return;
     if (!(await unlockWithPin(pin))) fail();
   };
 
@@ -115,11 +128,11 @@ export default function LockScreen() {
       <div className="mt-6 flex gap-3">
         {hasPin && hasPattern && (
           <Btn variant="subtle" onClick={() => setMode(mode === 'pin' ? 'pattern' : 'pin')}>
-            {mode === 'pin' ? 'Pattern' : 'PIN'}
+            {mode === 'pin' ? t('pattern') : t('pin')}
           </Btn>
         )}
         {hasBiometric && (
-          <Btn variant="subtle" onClick={unlockWithBiometric}><Fingerprint size={18} /> Biometric</Btn>
+          <Btn variant="subtle" onClick={unlockWithBiometric}><Fingerprint size={18} /> {t('biometric')}</Btn>
         )}
       </div>
     </div>

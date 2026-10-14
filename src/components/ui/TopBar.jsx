@@ -21,9 +21,9 @@ export default function TopBar() {
       <div className="mx-auto flex min-h-[52px] max-w-md items-center justify-between gap-2 px-3">
         <span className="text-lg font-extrabold tracking-tight text-accent">SafeHer</span>
         <div className="flex items-center gap-2 text-xs">
-          <span className="flex items-center gap-1" title="GPS signal">
+          <span className="flex items-center gap-1" title={t('gpsSignal')}>
             <Satellite size={16} className={geo.signal ? '' : 'text-muted'} />
-            <span className="flex items-end gap-[2px]" aria-label={`GPS signal ${geo.signal} of 3`}>
+            <span className="flex items-end gap-[2px]" aria-label={`${t('gpsSignal')} ${geo.signal}/3`}>
               {[1, 2, 3].map((n) => (
                 <span key={n} className={`w-[3px] rounded-sm ${geo.signal >= n ? 'bg-accent' : 'bg-fg/20'}`} style={{ height: 4 + n * 3 }} />
               ))}

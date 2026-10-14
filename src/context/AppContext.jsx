@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { translate } from '../services/i18n';
+import { LANGS, translate, translateError } from '../services/i18n';
 import { getSecure, setSecure } from '../services/db';
 
 const SETTINGS_KEY = 'safeher.settings';
@@ -33,11 +33,17 @@ export const EMPTY_PROFILE = {
   homeCoords: null
 };
 
+// Empty phone means "use 112" (one-tap button). A phone number means "call this person automatically".
+export const EMPTY_EMERGENCY_CONTACT = { name: '', phone: '', autoCall: true };
+
 const AppContext = createContext(null);
 
 function loadSettings() {
   try {
-    return { ...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}') };
+    const s = { ...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}') };
+    // Languages that were removed (Spanish, French) fall back to English.
+    if (!LANGS.some((l) => l.code === s.lang)) s.lang = 'en';
+    return s;
   } catch {
     return DEFAULT_SETTINGS;
   }
@@ -47,6 +53,7 @@ export function AppProvider({ children }) {
   const [settings, setSettings] = useState(loadSettings);
   const [guardians, setGuardians] = useState([]);
   const [profile, setProfile] = useState(EMPTY_PROFILE);
+  const [emergencyContact, setEmergencyContact] = useState(EMPTY_EMERGENCY_CONTACT);
   const [dataReady, setDataReady] = useState(false);
 
   useEffect(() => {
@@ -64,10 +71,15 @@ export function AppProvider({ children }) {
   useEffect(() => {
     let alive = true;
     (async () => {
-      const [g, p] = await Promise.all([getSecure('guardians', []), getSecure('profile', EMPTY_PROFILE)]);
+      const [g, p, ec] = await Promise.all([
+        getSecure('guardians', []),
+        getSecure('profile', EMPTY_PROFILE),
+        getSecure('emergencyContact', EMPTY_EMERGENCY_CONTACT)
+      ]);
       if (!alive) return;
       setGuardians(g);
       setProfile({ ...EMPTY_PROFILE, ...p });
+      setEmergencyContact({ ...EMPTY_EMERGENCY_CONTACT, ...ec });
       setDataReady(true);
     })();
     return () => {
@@ -88,11 +100,21 @@ export function AppProvider({ children }) {
     await setSecure('profile', next);
   }, []);
 
-  const t = useCallback((key) => translate(settings.lang, key), [settings.lang]);
+  const saveEmergencyContact = useCallback(async (next) => {
+    const clean = { ...EMPTY_EMERGENCY_CONTACT, ...next };
+    setEmergencyContact(clean);
+    await setSecure('emergencyContact', clean);
+  }, []);
+
+  const t = useCallback((key, vars) => translate(settings.lang, key, vars), [settings.lang]);
+  const te = useCallback((msg) => translateError(settings.lang, msg), [settings.lang]);
 
   const value = useMemo(
-    () => ({ settings, update, guardians, saveGuardians, profile, saveProfile, dataReady, t }),
-    [settings, update, guardians, saveGuardians, profile, saveProfile, dataReady, t]
+    () => ({
+      settings, update, guardians, saveGuardians, profile, saveProfile,
+      emergencyContact, saveEmergencyContact, dataReady, t, te
+    }),
+    [settings, update, guardians, saveGuardians, profile, saveProfile, emergencyContact, saveEmergencyContact, dataReady, t, te]
   );
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

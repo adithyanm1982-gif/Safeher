@@ -11,7 +11,7 @@ import { requestNotificationPermission } from '../services/serviceWorker';
 import { wipeEverything } from '../services/db';
 
 export default function Settings() {
-  const { settings, update, profile, saveProfile, t } = useApp();
+  const { settings, update, profile, saveProfile, t, te } = useApp();
   const auth = useAuth();
   const { rec } = useSafety();
   const [p, setP] = useState(profile);
@@ -24,28 +24,28 @@ export default function Settings() {
   const [phrases, setPhrases] = useState(settings.phrases.join(', '));
 
   const savePin = async () => {
-    if (!/^\d{4,8}$/.test(pin)) return setNote('PIN must be 4-8 digits');
+    if (!/^\d{4,8}$/.test(pin)) return setNote(t('pinInvalid'));
     await auth.setupPin(pin);
     setPin('');
-    setNote('PIN saved');
+    setNote(t('pinSaved'));
   };
 
   const onPattern = async (seq) => {
-    if (seq.length < 4) return setNote('Connect at least 4 dots');
-    if (!firstPattern) { setFirstPattern(seq); setNote('Draw it again to confirm'); return; }
-    if (firstPattern.join() !== seq.join()) { setFirstPattern(null); return setNote('Did not match, start over'); }
+    if (seq.length < 4) return setNote(t('patternMin'));
+    if (!firstPattern) { setFirstPattern(seq); setNote(t('patternAgain')); return; }
+    if (firstPattern.join() !== seq.join()) { setFirstPattern(null); return setNote(t('patternMismatch')); }
     await auth.setupPattern(seq);
     setFirstPattern(null);
     setPatternOpen(false);
-    setNote('Pattern saved');
+    setNote(t('patternSaved'));
   };
 
   const bio = async () => {
-    try { await auth.registerBiometric(); setNote('Biometric enabled'); } catch (e) { setNote(e.message); }
+    try { await auth.registerBiometric(); setNote(t('bioEnabled')); } catch (e) { setNote(te(e.message)); }
   };
 
   const toggleShake = async (v) => {
-    if (v && !(await requestMotionPermission())) return setNote('Motion permission denied');
+    if (v && !(await requestMotionPermission())) return setNote(t('motionDenied'));
     update({ shakeEnabled: v });
   };
 
@@ -60,51 +60,51 @@ export default function Settings() {
       <Card>
         <h3 className="mb-2 font-bold">{t('theme')}</h3>
         <div className="grid grid-cols-3 gap-2">
-          {[['light', 'light'], ['dark', 'dark'], ['contrast', 'contrast']].map(([id, k]) => (
-            <Btn key={id} variant={settings.theme === id ? 'primary' : 'ghost'} onClick={() => update({ theme: id })}>{t(k)}</Btn>
+          {['light', 'dark', 'contrast'].map((id) => (
+            <Btn key={id} variant={settings.theme === id ? 'primary' : 'ghost'} className="!px-2 text-center" onClick={() => update({ theme: id })}>{t(id)}</Btn>
           ))}
         </div>
         <h3 className="mb-2 mt-4 font-bold">{t('language')}</h3>
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 gap-2">
           {LANGS.map((l) => (
-            <Btn key={l.code} variant={settings.lang === l.code ? 'primary' : 'ghost'} onClick={() => update({ lang: l.code })}>{l.label}</Btn>
+            <Btn key={l.code} variant={settings.lang === l.code ? 'primary' : 'ghost'} onClick={() => update({ lang: l.code })}>{l.name}</Btn>
           ))}
         </div>
       </Card>
 
       <Card>
-        <h3 className="mb-1 font-bold">SOS triggers</h3>
+        <h3 className="mb-1 font-bold">{t('sosTriggers')}</h3>
         <Toggle label={t('shake')} checked={settings.shakeEnabled} onChange={toggleShake} />
         {settings.shakeEnabled && (
           <input type="range" min="1" max="10" value={settings.shakeSensitivity} className="w-full accent-[rgb(var(--accent))]"
-            onChange={(e) => update({ shakeSensitivity: Number(e.target.value) })} aria-label="Shake sensitivity" />
+            onChange={(e) => update({ shakeSensitivity: Number(e.target.value) })} aria-label={t('shakeSens')} />
         )}
-        <Toggle label={t('voice')} hint="Listens while the app is open" checked={settings.voiceEnabled} onChange={(v) => update({ voiceEnabled: v })} />
+        <Toggle label={t('voice')} hint={t('voiceHint')} checked={settings.voiceEnabled} onChange={(v) => update({ voiceEnabled: v })} />
         {settings.voiceEnabled && (
-          <Field label="Phrases (comma separated)" value={phrases}
+          <Field label={t('phrasesLabel')} value={phrases}
             onChange={(e) => { setPhrases(e.target.value); update({ phrases: e.target.value.split(',').map((s) => s.trim()).filter(Boolean) }); }} />
         )}
-        <Toggle label={t('power')} hint="5 quick volume-key presses or focus changes" checked={settings.powerEnabled} onChange={(v) => update({ powerEnabled: v })} />
-        <Toggle label="Siren on SOS" checked={settings.sirenOnSOS} onChange={(v) => update({ sirenOnSOS: v })} />
-        <Toggle label="Record evidence on SOS" checked={settings.recordOnSOS} onChange={(v) => update({ recordOnSOS: v })} />
-        <Toggle label="Disguise mode: calculator" hint="Type 999= to send a silent SOS, 000= to exit" checked={settings.stealthMode} onChange={(v) => update({ stealthMode: v })} />
-        <Btn variant="ghost" className="mt-2 w-full" onClick={requestNotificationPermission}>Enable notifications</Btn>
+        <Toggle label={t('power')} hint={t('powerHint')} checked={settings.powerEnabled} onChange={(v) => update({ powerEnabled: v })} />
+        <Toggle label={t('sirenOnSos')} checked={settings.sirenOnSOS} onChange={(v) => update({ sirenOnSOS: v })} />
+        <Toggle label={t('recordOnSos')} checked={settings.recordOnSOS} onChange={(v) => update({ recordOnSOS: v })} />
+        <Toggle label={t('disguiseMode')} hint={t('disguiseHint')} checked={settings.stealthMode} onChange={(v) => update({ stealthMode: v })} />
+        <Btn variant="ghost" className="mt-2 w-full" onClick={requestNotificationPermission}>{t('enableNotif')}</Btn>
       </Card>
 
       <Card>
-        <h3 className="mb-2 flex items-center gap-2 font-bold"><KeyRound size={18} /> App lock</h3>
+        <h3 className="mb-2 flex items-center gap-2 font-bold"><KeyRound size={18} /> {t('appLock')}</h3>
         <div className="flex items-end gap-2">
-          <Field className="flex-1" label="PIN (4-8 digits)" type="password" inputMode="numeric" value={pin} onChange={(e) => setPin(e.target.value)} />
+          <Field className="flex-1" label={t('pinLabel')} type="password" inputMode="numeric" value={pin} onChange={(e) => setPin(e.target.value)} />
           <Btn onClick={savePin}>{t('save')}</Btn>
         </div>
         <div className="mt-3 grid grid-cols-2 gap-2">
-          <Btn variant="ghost" onClick={() => { setFirstPattern(null); setPatternOpen(true); }}>Pattern</Btn>
-          <Btn variant="ghost" onClick={bio}><Fingerprint size={16} /> Biometric</Btn>
+          <Btn variant="ghost" onClick={() => { setFirstPattern(null); setPatternOpen(true); }}>{t('pattern')}</Btn>
+          <Btn variant="ghost" onClick={bio}><Fingerprint size={16} /> {t('biometric')}</Btn>
         </div>
         {(auth.hasPin || auth.hasPattern || auth.hasBiometric) && (
           <div className="mt-2 flex gap-2">
-            <Btn variant="subtle" className="flex-1" onClick={auth.lock}>Lock now</Btn>
-            <Btn variant="subtle" className="flex-1" onClick={auth.clearAuth}>Remove lock</Btn>
+            <Btn variant="subtle" className="flex-1" onClick={auth.lock}>{t('lockNow')}</Btn>
+            <Btn variant="subtle" className="flex-1" onClick={auth.clearAuth}>{t('removeLock')}</Btn>
           </div>
         )}
         {note && <p className="mt-2 text-xs text-muted">{note}</p>}
@@ -126,17 +126,17 @@ export default function Settings() {
       </Card>
 
       <Card>
-        <h3 className="mb-2 font-bold">Cloud sync (optional)</h3>
-        <Field label="API base URL" placeholder="https://example.com" value={settings.apiBase} onChange={(e) => update({ apiBase: e.target.value })} />
-        <Field className="mt-3" label="WebSocket URL" placeholder="wss://example.com/live" value={settings.wsUrl} onChange={(e) => update({ wsUrl: e.target.value })} />
+        <h3 className="mb-2 font-bold">{t('cloudSync')}</h3>
+        <Field label={t('apiBase')} placeholder="https://example.com" value={settings.apiBase} onChange={(e) => update({ apiBase: e.target.value })} />
+        <Field className="mt-3" label={t('wsUrl')} placeholder="wss://example.com/live" value={settings.wsUrl} onChange={(e) => update({ wsUrl: e.target.value })} />
       </Card>
 
       <Btn variant="danger" className="w-full !min-h-[56px]" onClick={() => setWipeOpen(true)}>
         <Trash2 size={18} /> {t('wipe')}
       </Btn>
 
-      <Sheet open={patternOpen} onClose={() => setPatternOpen(false)} title="Pattern">
-        <p className="mb-3 text-center text-sm text-muted">{note || 'Draw a pattern (4+ dots)'}</p>
+      <Sheet open={patternOpen} onClose={() => setPatternOpen(false)} title={t('pattern')}>
+        <p className="mb-3 text-center text-sm text-muted">{note || t('patternDraw')}</p>
         <PatternPad onComplete={onPattern} resetKey={String(Boolean(firstPattern))} />
       </Sheet>
 

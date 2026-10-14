@@ -8,7 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg'],
-      devOptions: { enabled: true },
+      devOptions: { enabled: false },
       manifest: {
         name: 'SafeHer - Women Safety',
         short_name: 'SafeHer',
@@ -29,6 +29,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
         navigateFallback: '/index.html',
+        navigateFallbackDenylist: [/^\/api\//],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
@@ -46,7 +47,9 @@ export default defineConfig({
             options: { cacheName: 'cdn-assets' }
           },
           {
-            urlPattern: /\/api\/.*/i,
+            // /api/sos is excluded on purpose: the app queues SOS alerts itself, and a second
+            // background-sync queue here would send duplicate SMS messages.
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/') && url.pathname !== '/api/sos',
             method: 'POST',
             handler: 'NetworkOnly',
             options: {
@@ -57,7 +60,7 @@ export default defineConfig({
             }
           },
           {
-            urlPattern: /\/api\/.*/i,
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/') && url.pathname !== '/api/sos',
             method: 'GET',
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'api-get' }

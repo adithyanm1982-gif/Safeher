@@ -2,26 +2,27 @@ import { useEffect, useRef, useState } from 'react';
 import { Phone, PhoneOff, User } from 'lucide-react';
 import { Ringtone } from '../../services/siren';
 import { vibrate } from '../../services/haptics';
-
-const LINES = [
-  'Hey, where are you right now?',
-  'Okay, I am already on my way. Stay on the line.',
-  'Yes, I can see the time. I will be there in five minutes.',
-  'Just keep walking, do not hang up.'
-];
+import { useApp } from '../../context/AppContext';
+import { speechLang } from '../../services/i18n';
 
 export default function FakeCall({ name, number, onClose }) {
+  const { t, settings } = useApp();
   const [state, setState] = useState('ringing');
   const [secs, setSecs] = useState(0);
   const ring = useRef(new Ringtone());
   const buzz = useRef(null);
+  const endedRef = useRef(false);
+  const speakTimer = useRef(null);
 
   useEffect(() => {
     const r = ring.current;
+    endedRef.current = false;
     r.start();
     vibrate([500, 400, 500, 400]);
     buzz.current = setInterval(() => vibrate([500, 400, 500]), 2500);
     return () => {
+      endedRef.current = true;
+      clearTimeout(speakTimer.current);
       r.stop();
       clearInterval(buzz.current);
       window.speechSynthesis?.cancel();
@@ -35,13 +36,17 @@ export default function FakeCall({ name, number, onClose }) {
   }, [state]);
 
   const speak = (i) => {
+    if (endedRef.current) return;
     try {
       const synth = window.speechSynthesis;
       if (!synth) return;
-      const u = new SpeechSynthesisUtterance(LINES[i % LINES.length]);
+      const u = new SpeechSynthesisUtterance(t(`fakeLine${(i % 4) + 1}`));
+      u.lang = speechLang(settings.lang);
       u.rate = 0.95;
       u.onend = () => {
-        if (state !== 'ended') setTimeout(() => speak(i + 1), 4500);
+        if (endedRef.current) return;
+        clearTimeout(speakTimer.current);
+        speakTimer.current = setTimeout(() => speak(i + 1), 4500);
       };
       synth.speak(u);
     } catch {
@@ -57,7 +62,10 @@ export default function FakeCall({ name, number, onClose }) {
   };
 
   const end = () => {
+    endedRef.current = true;
+    clearTimeout(speakTimer.current);
     ring.current.stop();
+    clearInterval(buzz.current);
     window.speechSynthesis?.cancel();
     setState('ended');
     onClose();
@@ -72,14 +80,14 @@ export default function FakeCall({ name, number, onClose }) {
         <div className="mx-auto mb-4 grid h-24 w-24 place-items-center rounded-full bg-slate-600"><User size={48} /></div>
         <h1 className="text-3xl font-semibold">{name}</h1>
         <p className="mt-1 text-slate-300">{number}</p>
-        <p className="mt-3 text-slate-400">{state === 'ringing' ? 'mobile · incoming call…' : `${mm}:${ss}`}</p>
+        <p className="mt-3 text-slate-400">{state === 'ringing' ? t('incoming') : `${mm}:${ss}`}</p>
       </div>
       <div className="mb-10 flex w-full max-w-xs justify-around">
-        <button type="button" aria-label="Decline" onClick={end} className="grid h-20 w-20 place-items-center rounded-full bg-red-600">
+        <button type="button" aria-label={t('decline')} onClick={end} className="grid h-20 w-20 place-items-center rounded-full bg-red-600">
           <PhoneOff size={32} />
         </button>
         {state === 'ringing' && (
-          <button type="button" aria-label="Answer" onClick={answer} className="grid h-20 w-20 place-items-center rounded-full bg-emerald-500">
+          <button type="button" aria-label={t('answer')} onClick={answer} className="grid h-20 w-20 place-items-center rounded-full bg-emerald-500">
             <Phone size={32} />
           </button>
         )}

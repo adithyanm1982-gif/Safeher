@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { tap } from '../../services/haptics';
+import { useApp } from '../../context/AppContext';
 
 export function Card({ className = '', children, ...rest }) {
   return (
@@ -72,6 +73,7 @@ export function Field({ label, className = '', multiline, ...rest }) {
 }
 
 export function Sheet({ open, onClose, title, children }) {
+  const { t } = useApp();
   return (
     <AnimatePresence>
       {open && (
@@ -91,7 +93,7 @@ export function Sheet({ open, onClose, title, children }) {
           >
             <div className="mb-3 flex items-center justify-between">
               <h2 className="text-lg font-bold">{title}</h2>
-              <button type="button" aria-label="Close" onClick={onClose} className="grid min-h-touch min-w-touch place-items-center">
+              <button type="button" aria-label={t('close')} onClick={onClose} className="grid min-h-touch min-w-touch place-items-center">
                 <X size={22} />
               </button>
             </div>
