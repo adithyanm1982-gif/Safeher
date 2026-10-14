@@ -20,8 +20,29 @@ const SafetyContext = createContext(null);
 const GRACE_SECONDS = 3;
 const IDLE_ALERT = { status: 'idle', results: [], call: null };
 
+const WALK_KEY = 'safeher.walk';
+const CHECK_KEY = 'safeher.checkin';
+const ASK_SECONDS = 60; // time the user has to answer "Are you okay?"
+const OVERDUE_MS = 10000; // deadline passed while the app was closed or asleep
+
+const readJSON = (k) => {
+  try {
+    return JSON.parse(localStorage.getItem(k) || 'null');
+  } catch {
+    return null;
+  }
+};
+const writeJSON = (k, v) => {
+  try {
+    if (v == null) localStorage.removeItem(k);
+    else localStorage.setItem(k, JSON.stringify(v));
+  } catch {
+    /* storage blocked */
+  }
+};
+
 export function SafetyProvider({ children }) {
-  const { settings, guardians, profile, emergencyContact } = useApp();
+  const { settings, guardians, profile, emergencyContact, dataReady } = useApp();
   const online = useOnlineStatus();
   const geo = useGeolocation();
   const rec = useRecorder();
@@ -35,7 +56,12 @@ export function SafetyProvider({ children }) {
   const [alert, setAlert] = useState(IDLE_ALERT);
   const [sirenOn, setSirenOn] = useState(false);
   const [strobeOn, setStrobeOn] = useState(false);
-  const [walkActive, setWalkActive] = useState(false);
+
+  // Walk timer and check-in. Both are saved so they survive a closed app or restart.
+  const [walkEndAt, setWalkEndAtState] = useState(() => readJSON(WALK_KEY)?.endAt || null);
+  const [walkLeft, setWalkLeft] = useState(0);
+  const [checkin, setCheckinState] = useState(() => readJSON(CHECK_KEY));
+  const [askLeft, setAskLeft] = useState(0);
 
   const siren = useRef(new Siren());
   const broadcaster = useRef(new LiveBroadcaster());
@@ -48,6 +74,11 @@ export function SafetyProvider({ children }) {
   const alertRef = useRef(alert);
   const lastAlert = useRef(null);
   const session = useRef(0);
+  const walkRef = useRef(walkEndAt);
+  const checkinRef = useRef(checkin);
+  const walkBuzzed = useRef(false);
+  const lastBuzz = useRef(0);
+  const triggerRef = useRef(null);
   guardiansRef.current = guardians;
   settingsRef.current = settings;
   profileRef.current = profile;
@@ -55,7 +86,50 @@ export function SafetyProvider({ children }) {
   alertRef.current = alert;
   statusRef.current = status;
 
-  useWakeLock(status === 'active' || walkActive);
+  useWakeLock(status === 'active' || Boolean(walkEndAt) || Boolean(checkin));
+
+  const setWalk = useCallback((endAt) => {
+    walkRef.current = endAt;
+    setWalkEndAtState(endAt);
+    writeJSON(WALK_KEY, endAt ? { endAt } : null);
+  }, []);
+
+  const setCheck = useCallback((c) => {
+    checkinRef.current = c;
+    setCheckinState(c);
+    writeJSON(CHECK_KEY, c);
+  }, []);
+
+  const startWalk = useCallback(
+    (minutes) => {
+      walkBuzzed.current = false;
+      setWalkLeft(minutes * 60);
+      setWalk(Date.now() + minutes * 60000);
+    },
+    [setWalk]
+  );
+
+  const endWalk = useCallback(() => {
+    setWalk(null);
+    setWalkLeft(0);
+  }, [setWalk]);
+
+  const startCheckin = useCallback(
+    (every) => setCheck({ every, nextAt: Date.now() + every * 60000, askUntil: null }),
+    [setCheck]
+  );
+
+  const stopCheckin = useCallback(() => {
+    setCheck(null);
+    setAskLeft(0);
+  }, [setCheck]);
+
+  const answerCheckin = useCallback(() => {
+    const c = checkinRef.current;
+    if (!c) return;
+    setCheck({ ...c, askUntil: null, nextAt: Date.now() + c.every * 60000 });
+    setAskLeft(0);
+  }, [setCheck]);
 
   const startSiren = useCallback(async () => {
     const ok = await siren.current.start();
@@ -114,7 +188,7 @@ export function SafetyProvider({ children }) {
       const cfg = settingsRef.current;
 
       const pos = await geo.getCurrent();
-      const built = buildEmergencyLinks(guardiansRef.current, pos);
+      const built = buildEmergencyLinks(guardiansRef.current, pos, profileRef.current);
       setEmergency(built);
 
       dispatchAlert(src, pos);
@@ -168,6 +242,7 @@ export function SafetyProvider({ children }) {
     },
     [activate]
   );
+  triggerRef.current = trigger;
 
   const cancel = useCallback(() => {
     clearGraceTimer();
@@ -203,9 +278,64 @@ export function SafetyProvider({ children }) {
     });
   }, [rec, stopSiren, torch]);
 
+  // One clock for the walk timer and check-ins. It runs on every tab, not only on Tools.
+  useEffect(() => {
+    if (!dataReady) return undefined;
+    const tick = () => {
+      const now = Date.now();
+
+      const w = walkRef.current;
+      if (w) {
+        const diff = w - now;
+        setWalkLeft(Math.max(0, Math.round(diff / 1000)));
+        if (diff <= 30000 && diff > 0 && !walkBuzzed.current) {
+          walkBuzzed.current = true;
+          vibrate([300, 100, 300]);
+        }
+        if (diff <= 0) {
+          setWalk(null);
+          // Expired while the app was closed: give the normal 3-second chance to cancel.
+          triggerRef.current('walk-timer', { immediate: -diff < OVERDUE_MS });
+        }
+      }
+
+      const c = checkinRef.current;
+      if (c) {
+        if (c.askUntil) {
+          const left = Math.ceil((c.askUntil - now) / 1000);
+          setAskLeft(Math.max(0, left));
+          if (left <= 0) {
+            if (-left * 1000 > OVERDUE_MS) {
+              // Missed while the app was closed: start a fresh answer window instead of alerting.
+              setCheck({ ...c, askUntil: now + ASK_SECONDS * 1000 });
+            } else {
+              setCheck(null);
+              triggerRef.current('checkin', { immediate: true });
+            }
+          } else if (now - lastBuzz.current > 3000) {
+            lastBuzz.current = now;
+            vibrate([200, 100, 200]);
+          }
+        } else if (now >= c.nextAt) {
+          if (statusRef.current !== 'idle') {
+            setCheck({ ...c, nextAt: now + c.every * 60000 });
+          } else {
+            setCheck({ ...c, askUntil: now + ASK_SECONDS * 1000 });
+            setAskLeft(ASK_SECONDS);
+            const lang = settingsRef.current.lang;
+            notify(translate(lang, 'ci_notifTitle'), translate(lang, 'ci_notifBody'));
+          }
+        }
+      }
+    };
+    tick();
+    const id = setInterval(tick, 500);
+    return () => clearInterval(id);
+  }, [dataReady, setWalk, setCheck]);
+
   useEffect(() => {
     if (status !== 'active') return;
-    setEmergency(buildEmergencyLinks(guardiansRef.current, geo.pos));
+    setEmergency(buildEmergencyLinks(guardiansRef.current, geo.pos, profileRef.current));
   }, [status, geo.pos]);
 
   useEffect(() => () => {
@@ -236,6 +366,8 @@ export function SafetyProvider({ children }) {
   if (settings.shakeEnabled) activeSensors.push('SHAKE');
   if (rec.recording) activeSensors.push('REC');
 
+  const walkActive = Boolean(walkEndAt);
+
   const value = useMemo(
     () => ({
       online, geo, rec, torch, voice,
@@ -243,12 +375,14 @@ export function SafetyProvider({ children }) {
       trigger, cancel, resolve,
       sirenOn, toggleSiren, startSiren, stopSiren,
       strobeOn, setStrobeOn,
-      walkActive, setWalkActive,
+      walkActive, walkLeft, startWalk, endWalk,
+      checkin, askLeft, startCheckin, stopCheckin, answerCheckin,
       activeSensors
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [online, geo, rec, torch, voice, status, grace, source, silent, emergency, alert, trigger, cancel, resolve,
-      sirenOn, toggleSiren, startSiren, stopSiren, strobeOn, walkActive, activeSensors.join(',')]
+      sirenOn, toggleSiren, startSiren, stopSiren, strobeOn, walkActive, walkLeft, startWalk, endWalk,
+      checkin, askLeft, startCheckin, stopCheckin, answerCheckin, activeSensors.join(',')]
   );
 
   return <SafetyContext.Provider value={value}>{children}</SafetyContext.Provider>;

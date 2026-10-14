@@ -6,6 +6,14 @@ export function mapsUrl(pos) {
   return `https://www.google.com/maps?q=${pos.lat.toFixed(6)},${pos.lng.toFixed(6)}`;
 }
 
+// One short line with the details a first responder needs. Empty if the profile has none.
+export function medicalLine(profile) {
+  const bits = [];
+  if (profile?.bloodGroup?.trim()) bits.push(`Blood group ${profile.bloodGroup.trim()}`);
+  if (profile?.allergies?.trim()) bits.push(`Allergies: ${profile.allergies.trim()}`);
+  return bits.length ? `Medical: ${bits.join('. ')}.` : '';
+}
+
 export function fillTemplate(template, guardian, pos) {
   const tpl = template && template.trim() ? template : DEFAULT_TEMPLATE;
   return tpl
@@ -30,10 +38,13 @@ export function whatsappLink(number, body) {
   return `https://wa.me/${digits}?text=${encodeURIComponent(body)}`;
 }
 
-export function buildEmergencyLinks(guardians, pos) {
+export function buildEmergencyLinks(guardians, pos, profile) {
+  const med = medicalLine(profile);
+  const withMed = (body) => (med ? `${body}\n${med}` : body);
+
   const sorted = [...guardians].sort((a, b) => (a.priority ?? 99) - (b.priority ?? 99));
   const links = sorted.map((g) => {
-    const body = fillTemplate(g.template, g, pos);
+    const body = withMed(fillTemplate(g.template, g, pos));
     return {
       id: g.id,
       name: g.name,
@@ -43,7 +54,7 @@ export function buildEmergencyLinks(guardians, pos) {
     };
   });
   const numbers = sorted.map((g) => clean(g.phone)).filter(Boolean);
-  const groupBody = fillTemplate('', { name: 'everyone' }, pos);
+  const groupBody = withMed(fillTemplate('', { name: 'everyone' }, pos));
   const group = numbers.length ? `sms:${numbers.join(',')}${isIOS() ? '&' : '?'}body=${encodeURIComponent(groupBody)}` : null;
   return { links, group };
 }

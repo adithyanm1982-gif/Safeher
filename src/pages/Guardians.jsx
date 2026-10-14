@@ -1,27 +1,18 @@
-import { useEffect, useState } from 'react';
-import { AlertTriangle, ArrowUp, Info, Pencil, PhoneCall, Plus, Trash2 } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowUp, Info, Pencil, PhoneCall, Plus, Trash2 } from 'lucide-react';
 import { Btn, Card, Field, Sheet, Toggle } from '../components/ui/Primitives';
 import { useApp } from '../context/AppContext';
-import { useSafety } from '../context/SafetyContext';
 import { DEFAULT_TEMPLATE } from '../services/sms';
-import { checkAlertServer } from '../services/alert';
 
 const blank = { id: '', name: '', phone: '', whatsapp: '', template: DEFAULT_TEMPLATE };
 const PHONE_RE = /^\+?[\d\s\-()]{6,20}$/;
 
 export default function Guardians() {
   const { guardians, saveGuardians, emergencyContact, saveEmergencyContact, t } = useApp();
-  const { online } = useSafety();
   const [form, setForm] = useState(null);
   const [error, setError] = useState('');
   const [ecForm, setEcForm] = useState(null);
   const [ecError, setEcError] = useState('');
-  const [serverOk, setServerOk] = useState(null);
-
-  useEffect(() => {
-    if (!online) return;
-    checkAlertServer().then(setServerOk);
-  }, [online]);
 
   const open = (g) => { setError(''); setForm(g ? { ...g } : { ...blank }); };
 
@@ -60,13 +51,6 @@ export default function Guardians() {
 
   return (
     <div className="space-y-4">
-      {serverOk === false && (
-        <div className="flex items-start gap-2 rounded-xl bg-amber-500 p-3 text-xs font-semibold text-black">
-          <AlertTriangle size={16} className="mt-0.5 shrink-0" />
-          <span>{t('serverNotSet')}</span>
-        </div>
-      )}
-
       <section className="space-y-2">
         <h2 className="text-lg font-bold">{t('defaultContact')}</h2>
         <Card className="border-accent/50 bg-accent/5">

@@ -1,3 +1,5 @@
+import { guide } from './i18nGuide';
+import { more } from './i18nMore';
 export const LANGS = [
   { code: 'en', label: 'EN', name: 'English', speech: 'en-IN' },
   { code: 'hi', label: 'HI', name: 'हिन्दी', speech: 'hi-IN' },
@@ -376,7 +378,7 @@ const dict = {
 };
 
 export function translate(lang, key, vars) {
-  let s = dict[lang]?.[key] ?? dict.en[key] ?? key;
+  let s = dict[lang]?.[key] ?? guide[lang]?.[key] ?? more[lang]?.[key] ?? dict.en[key] ?? guide.en[key] ?? more.en[key] ?? key;
   if (vars) s = s.replace(/\{(\w+)\}/g, (m, k) => (vars[k] !== undefined ? vars[k] : m));
   return s;
 }

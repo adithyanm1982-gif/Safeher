@@ -1,31 +1,36 @@
 import { Phone } from 'lucide-react';
-import { Card } from './Primitives';
 import { useApp } from '../../context/AppContext';
 import { HELPLINES } from '../../services/helplines';
 
 export default function HelplineList() {
   const { t } = useApp();
+  const [main, ...rest] = HELPLINES;
+
   return (
-    <Card className="!p-3">
-      <h3 className="font-bold">{t('helplines')}</h3>
-      <p className="mb-2 text-[11px] text-muted">{t('helplinesNote')}</p>
-      <div className="grid grid-cols-2 gap-2">
-        {HELPLINES.map((h, i) => (
+    <nav aria-label={t('helplines')} className="space-y-2">
+      <a
+        href={`tel:${main.num}`}
+        className="flex min-h-[56px] items-center justify-center gap-3 rounded-2xl bg-accent px-4 text-onaccent shadow active:scale-95"
+      >
+        <Phone size={22} className="shrink-0" />
+        <span className="text-2xl font-black leading-none">{main.num}</span>
+        <span className="min-w-0 truncate text-xs font-semibold opacity-95">{t(main.key)}</span>
+      </a>
+
+      <div className="grid grid-cols-3 gap-2">
+        {rest.map((h) => (
           <a
             key={h.num}
             href={`tel:${h.num}`}
-            className={`flex min-h-[56px] items-center gap-2 rounded-xl px-3 py-2 active:scale-95 ${
-              h.primary ? 'bg-accent text-onaccent' : 'bg-fg/10 text-fg'
-            } ${i === HELPLINES.length - 1 && HELPLINES.length % 2 ? 'col-span-2' : ''}`}
+            className={`flex min-h-[52px] min-w-0 flex-col items-center justify-center rounded-xl px-1 py-1 text-center active:scale-95 ${
+              h.primary ? 'bg-accent/90 text-onaccent' : 'bg-fg/10 text-fg'
+            }`}
           >
-            <Phone size={16} className="shrink-0" />
-            <span className="min-w-0">
-              <span className="block text-base font-extrabold leading-tight">{h.num}</span>
-              <span className="block truncate text-[11px] leading-tight opacity-90">{t(h.key)}</span>
-            </span>
+            <span className="text-base font-extrabold leading-tight">{h.num}</span>
+            <span className="w-full truncate text-[10px] leading-tight opacity-90">{t(h.key)}</span>
           </a>
         ))}
       </div>
-    </Card>
+    </nav>
   );
 }

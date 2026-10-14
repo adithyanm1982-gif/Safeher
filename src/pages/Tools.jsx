@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Flashlight, PhoneIncoming, Siren, Zap } from 'lucide-react';
 import { Btn, Card, Field } from '../components/ui/Primitives';
 import WalkTimer from '../components/sos/WalkTimer';
+import CheckInCard from '../components/sos/CheckIn';
 import FakeCall from '../components/sos/FakeCall';
 import { useApp } from '../context/AppContext';
 import { useSafety } from '../context/SafetyContext';
@@ -49,6 +50,7 @@ export default function Tools() {
       </Card>
 
       <WalkTimer />
+      <CheckInCard />
       {calling && <FakeCall name={settings.fakeCallerName} number={settings.fakeCallerNumber} onClose={() => setCalling(false)} />}
     </div>
   );

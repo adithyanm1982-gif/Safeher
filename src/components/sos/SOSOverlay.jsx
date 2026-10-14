@@ -9,25 +9,28 @@ const warnIcon = <AlertTriangle size={18} className="text-amber-300" />;
 
 function StatusCard({ alert, t }) {
   const { status, results, call } = alert;
+  // 'failed' and 'unconfigured' are intentionally missing: they show no message.
   const head = {
     idle: { icon: <Loader2 size={18} className="animate-spin" />, text: t('gettingLoc') },
     sending: { icon: <Loader2 size={18} className="animate-spin" />, text: t('sendingAlerts') },
     sent: { icon: <CheckCircle2 size={18} className="text-emerald-300" />, text: t('alertSent', { n: results.length }) },
     partial: { icon: warnIcon, text: t('partialAlert') },
-    failed: { icon: <XCircle size={18} className="text-amber-300" />, text: t('alertFailed') },
     queued: { icon: <Clock size={18} />, text: t('alertQueued') },
-    unconfigured: { icon: warnIcon, text: t('alertNoServer') },
     'no-contacts': { icon: warnIcon, text: t('noContacts') }
-  }[status] || { icon: null, text: '' };
+  }[status] || null;
+
+  if (!head && !results.length && !call) return null;
 
   return (
     <div className="rounded-2xl bg-black/25 p-3">
-      <p className="flex items-start gap-2 text-sm font-bold">
-        <span className="mt-0.5 shrink-0">{head.icon}</span>
-        <span>{head.text}</span>
-      </p>
+      {head && (
+        <p className="flex items-start gap-2 text-sm font-bold">
+          <span className="mt-0.5 shrink-0">{head.icon}</span>
+          <span>{head.text}</span>
+        </p>
+      )}
       {results.length > 0 && (
-        <ul className="mt-2 space-y-1 border-t border-white/20 pt-2">
+        <ul className={`space-y-1 ${head ? 'mt-2 border-t border-white/20 pt-2' : ''}`}>
           {results.map((r, i) => (
             <li key={`${r.id}-${i}`} className="flex items-center justify-between gap-2 text-sm">
               <span className="truncate">{r.name || t('guardians')}</span>
@@ -41,7 +44,7 @@ function StatusCard({ alert, t }) {
         </ul>
       )}
       {call && (
-        <p className={`mt-2 flex items-center gap-2 border-t border-white/20 pt-2 text-sm ${call.ok ? '' : 'text-amber-300'}`}>
+        <p className={`flex items-center gap-2 text-sm ${call.ok ? '' : 'text-amber-300'} ${head || results.length ? 'mt-2 border-t border-white/20 pt-2' : ''}`}>
           <PhoneCall size={14} className="shrink-0" />
           {call.ok
             ? t('calling', { name: call.name || t('defaultContactName') })
@@ -117,43 +120,42 @@ export default function SOSOverlay() {
             </a>
           )}
 
-          <details className="rounded-2xl bg-black/25 p-3">
-            <summary className="cursor-pointer text-sm font-bold">{t('manualSms')}</summary>
-            <div className="mt-3 space-y-2">
-              {emergency.group && (
-                <a href={emergency.group} className="flex min-h-[48px] items-center justify-center gap-2 rounded-xl bg-white font-bold text-red-700">
-                  <MessageSquare size={18} /> {t('smsAll')}
-                </a>
-              )}
-              {emergency.links.map((l) => (
-                <div key={l.id} className="flex gap-2">
-                  {l.sms && (
-                    <a href={l.sms} className="flex min-h-[44px] flex-1 items-center justify-center gap-2 rounded-xl bg-white/90 text-sm font-semibold text-red-700">
-                      <MessageSquare size={16} /> {l.name}
-                    </a>
-                  )}
-                  {l.whatsapp && (
-                    <a href={l.whatsapp} target="_blank" rel="noreferrer" className="flex min-h-[44px] items-center justify-center rounded-xl bg-emerald-500 px-4 text-sm font-semibold">
-                      WhatsApp
-                    </a>
-                  )}
-                </div>
-              ))}
-              {!emergency.links.length && (
-                <a
-                  href={smsLink('', fillTemplate('', { name: '' }, pos))}
-                  className="flex min-h-[44px] items-center justify-center gap-2 rounded-xl bg-white/90 text-sm font-semibold text-red-700"
-                >
-                  <MessageSquare size={16} /> {t('smsAddGuardians')}
-                </a>
-              )}
-              {pos && (
-                <a href={mapsUrl(pos)} target="_blank" rel="noreferrer" className="block break-all text-center text-xs underline">
-                  {mapsUrl(pos)}
-                </a>
-              )}
-            </div>
-          </details>
+          {/* Always visible: no collapsing, no triangle */}
+          <div className="space-y-2 rounded-2xl bg-black/25 p-3">
+            <p className="text-sm font-bold">{t('manualSms')}</p> {/* delete this line to remove the heading */}
+            {emergency.group && (
+              <a href={emergency.group} className="flex min-h-[48px] items-center justify-center gap-2 rounded-xl bg-white font-bold text-red-700">
+                <MessageSquare size={18} /> {t('smsAll')}
+              </a>
+            )}
+            {emergency.links.map((l) => (
+              <div key={l.id} className="flex gap-2">
+                {l.sms && (
+                  <a href={l.sms} className="flex min-h-[44px] flex-1 items-center justify-center gap-2 rounded-xl bg-white/90 text-sm font-semibold text-red-700">
+                    <MessageSquare size={16} /> {l.name}
+                  </a>
+                )}
+                {l.whatsapp && (
+                  <a href={l.whatsapp} target="_blank" rel="noreferrer" className="flex min-h-[44px] items-center justify-center rounded-xl bg-emerald-500 px-4 text-sm font-semibold">
+                    WhatsApp
+                  </a>
+                )}
+              </div>
+            ))}
+            {!emergency.links.length && (
+              <a
+                href={smsLink('', fillTemplate('', { name: '' }, pos))}
+                className="flex min-h-[44px] items-center justify-center gap-2 rounded-xl bg-white/90 text-sm font-semibold text-red-700"
+              >
+                <MessageSquare size={16} /> {t('smsAddGuardians')}
+              </a>
+            )}
+            {pos && (
+              <a href={mapsUrl(pos)} target="_blank" rel="noreferrer" className="block break-all text-center text-xs underline">
+                {mapsUrl(pos)}
+              </a>
+            )}
+          </div>
         </div>
       </div>
 

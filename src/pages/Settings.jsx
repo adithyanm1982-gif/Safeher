@@ -1,7 +1,9 @@
-import { useState } from 'react';
-import { Fingerprint, KeyRound, Trash2 } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { BookOpen, Fingerprint, KeyRound, ShieldCheck, Trash2, Video } from 'lucide-react';
 import { Btn, Card, Field, Sheet, Toggle } from '../components/ui/Primitives';
 import { PatternPad } from '../components/modal/LockScreen';
+import Recordings from '../components/modal/Recordings';
+import PrivacyPolicy from '../components/modal/PrivacyPolicy';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
 import { useSafety } from '../context/SafetyContext';
@@ -21,7 +23,12 @@ export default function Settings() {
   const [patternOpen, setPatternOpen] = useState(false);
   const [firstPattern, setFirstPattern] = useState(null);
   const [wipeOpen, setWipeOpen] = useState(false);
+  const [recOpen, setRecOpen] = useState(false);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
   const [phrases, setPhrases] = useState(settings.phrases.join(', '));
+
+  // Keep the form in sync if the saved profile finishes loading after this page opens.
+  useEffect(() => setP(profile), [profile]);
 
   const savePin = async () => {
     if (!/^\d{4,8}$/.test(pin)) return setNote(t('pinInvalid'));
@@ -54,6 +61,8 @@ export default function Settings() {
     await wipeEverything();
     window.location.reload();
   };
+
+  const openGuide = () => window.dispatchEvent(new Event('safeher:guide'));
 
   return (
     <div className="space-y-4">
@@ -110,8 +119,9 @@ export default function Settings() {
         {note && <p className="mt-2 text-xs text-muted">{note}</p>}
       </Card>
 
-      <Card>
-        <h3 className="mb-2 font-bold">{t('profile')}</h3>
+      <Card id="profile-card" className="scroll-mt-20">
+        <h3 className="mb-1 font-bold">{t('profile')}</h3>
+        <p className="mb-3 text-xs text-muted">{t('profileHint')}</p>
         <div className="space-y-3">
           <Field label={t('name')} value={p.fullName} onChange={(e) => setP({ ...p, fullName: e.target.value })} />
           <Field label={t('bloodGroup')} value={p.bloodGroup} onChange={(e) => setP({ ...p, bloodGroup: e.target.value })} />
@@ -122,6 +132,15 @@ export default function Settings() {
           <Btn className="w-full" onClick={async () => { await saveProfile(p); setSaved(true); setTimeout(() => setSaved(false), 1500); }}>
             {saved ? '✓' : t('save')}
           </Btn>
+        </div>
+      </Card>
+
+      <Card>
+        <h3 className="mb-2 font-bold">{t('helpData')}</h3>
+        <div className="space-y-2">
+          <Btn variant="ghost" className="w-full !justify-start" onClick={() => setRecOpen(true)}><Video size={18} /> {t('recordingsBtn')}</Btn>
+          <Btn variant="ghost" className="w-full !justify-start" onClick={openGuide}><BookOpen size={18} /> {t('howToUse')}</Btn>
+          <Btn variant="ghost" className="w-full !justify-start" onClick={() => setPrivacyOpen(true)}><ShieldCheck size={18} /> {t('privacy')}</Btn>
         </div>
       </Card>
 
@@ -147,6 +166,9 @@ export default function Settings() {
           <Btn variant="danger" onClick={doWipe}>{t('delete')}</Btn>
         </div>
       </Sheet>
+
+      <Recordings open={recOpen} onClose={() => setRecOpen(false)} />
+      <PrivacyPolicy open={privacyOpen} onClose={() => setPrivacyOpen(false)} />
     </div>
   );
 }

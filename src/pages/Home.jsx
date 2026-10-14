@@ -1,6 +1,7 @@
-import { EyeOff, Phone } from 'lucide-react';
+import { EyeOff } from 'lucide-react';
 import SOSButton from '../components/sos/SOSButton';
 import HelplineList from '../components/ui/HelplineList';
+import MedicalCard from '../components/ui/MedicalCard';
 import { Banner, Btn, Card } from '../components/ui/Primitives';
 import { useApp } from '../context/AppContext';
 import { useSafety } from '../context/SafetyContext';
@@ -21,14 +22,25 @@ export default function Home() {
   }, [online]);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {geo.lockFailed && <Banner>{t('gpsLost')}</Banner>}
-      <div className="flex flex-col items-center gap-3 py-6">
+
+      {/* Above the fold: SOS and emergency numbers only */}
+      <div className="flex flex-col items-center gap-1 pb-1 pt-1">
         <SOSButton />
         <p className="text-sm text-muted">{t('holdSos')}</p>
       </div>
 
-      <Card className="space-y-1 text-sm">
+      <HelplineList />
+
+      {/* Everything below is secondary and kept thin */}
+      <Btn variant="subtle" className="w-full !min-h-[48px]" onClick={() => update({ stealthMode: true })}>
+        <EyeOff size={18} /> {t('disguise')}
+      </Btn>
+
+      <MedicalCard />
+
+      <Card className="space-y-1 !p-3 text-sm">
         <p className="font-semibold">{t('guardians')}: {guardians.length}/5</p>
         {guardians.length === 0 && (
           <p className="text-xs font-semibold text-accent">{t('addGuardiansHint')}</p>
@@ -48,17 +60,6 @@ export default function Home() {
           </button>
         )}
       </Card>
-
-      <div className="grid grid-cols-2 gap-3">
-        <a href="tel:112" className="flex min-h-[56px] items-center justify-center gap-2 rounded-xl bg-fg/10 font-semibold">
-          <Phone size={18} /> 112
-        </a>
-        <Btn variant="subtle" className="!min-h-[56px]" onClick={() => update({ stealthMode: true })}>
-          <EyeOff size={18} /> {t('disguise')}
-        </Btn>
-      </div>
-
-      <HelplineList />
     </div>
   );
 }
