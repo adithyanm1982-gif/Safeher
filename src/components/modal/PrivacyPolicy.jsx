@@ -16,6 +16,7 @@ export default function PrivacyPolicy({ open, onClose }) {
           </section>
         ))}
       </div>
+      <p className="mt-4 text-xs text-muted">Thanks to © OpenStreetMap contributors</p>
       <p className="mt-4 text-xs">
         {t('priv_contact')}{' '}
         <a className="font-semibold text-accent underline" href={`mailto:${POLICY_CONTACT}`}>{POLICY_CONTACT}</a>

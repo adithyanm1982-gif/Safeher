@@ -285,7 +285,6 @@ export default function MapPage() {
               {sheet ? <ChevronDown size={18} /> : <ChevronUp size={18} />}
               {tab === 'nearby' ? `${t('safeZones')} (${base.length})` : t('reports')}
             </span>
-            <span className="text-[10px] text-muted">© OpenStreetMap contributors</span>
           </button>
           {sheet && (
             <div className="max-h-[36vh] overflow-y-auto px-4 pb-3">
