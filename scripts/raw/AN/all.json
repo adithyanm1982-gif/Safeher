@@ -1,0 +1,1702 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T14:51:57Z",
+    "timestamp_areas_base": "2026-10-14T11:20:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 293675346,
+      "lat": 11.66124,
+      "lon": 92.7324,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Julglighat Bus Stop",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293675352,
+      "lat": 11.66634,
+      "lon": 92.74135,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Aberdeen Bazaar Bus Station",
+        "name:ur": "ابرڈین بازار بس اسٹیشن",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293675425,
+      "lat": 11.62806,
+      "lon": 92.73077,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Austinabad Bus Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293675428,
+      "lat": 11.61326,
+      "lon": 92.70298,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Garacharma Bus Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293679899,
+      "lat": 11.66903,
+      "lon": 92.73839,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Town Hall",
+        "name:ur": "ضلعی مرکز"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293692114,
+      "lat": 11.66252,
+      "lon": 92.73259,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293692117,
+      "lat": 11.6215,
+      "lon": 92.71779,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410592085,
+      "lat": 9.156225,
+      "lon": 92.8215167,
+      "tags": {
+        "aeroway": "aerodrome",
+        "closest_town": "Car Nicobar",
+        "ele": "2",
+        "iata": "CBD",
+        "icao": "VOCX",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Car Nicobar Air Force Station",
+        "name:ta": "கார் நிக்கோபார் வான்படைத் தளம்",
+        "operator": "Indian Air Force",
+        "source": "ourairports.com;wikipedia",
+        "wikidata": "Q2172548",
+        "wikipedia": "en:Car Nicobar Air Force Base"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1162937480,
+      "lat": 12.0301181,
+      "lon": 92.9953136,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Global Pharmacy",
+        "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-12:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2167520192,
+      "lat": 10.5871153,
+      "lon": 92.5577844,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4104900200,
+      "lat": 11.66369,
+      "lon": 92.7409152,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Circuit Bench of Calcutta High Court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4440825092,
+      "lat": 13.2461132,
+      "lon": 92.9731291,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Diglipur bus stand",
+        "name:en": "Diglipur bus stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4685154190,
+      "lat": 12.5049742,
+      "lon": 92.9167384,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Rangat Bus Station",
+        "name:en": "Rangat Bus Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4685154191,
+      "lat": 12.4550798,
+      "lon": 92.8956007,
+      "tags": {
+        "name": "Yarata Jetty",
+        "name:en": "Yarata Jetty",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4685197589,
+      "lat": 12.3677266,
+      "lon": 92.9198303,
+      "tags": {
+        "name": "Range Forest Officer",
+        "name:en": "Range Forest Officer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4774274524,
+      "lat": 12.0417669,
+      "lon": 92.9824566,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4774274529,
+      "lat": 11.9860795,
+      "lon": 92.9535981,
+      "tags": {
+        "amenity": "bus_station",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Radhanagar beach",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5208111823,
+      "lat": 12.0088582,
+      "lon": 92.9716998,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5249830422,
+      "lat": 11.8203427,
+      "lon": 93.0395426,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Not really a \"station\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 5249902221,
+      "lat": 11.8334579,
+      "lon": 93.029194,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5252129921,
+      "lat": 11.674235,
+      "lon": 92.7372903,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5991004885,
+      "lat": 12.1740008,
+      "lon": 92.7870394,
+      "tags": {
+        "addr:postcode": "744210",
+        "addr:street": "PHC ROAD",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name": "प्रार्थमिक स्वास्थ्य सेवा केंद्र",
+        "name:en": "PRIMARY HEALTH CENTER"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6741695207,
+      "lat": 12.3709986,
+      "lon": 92.9195256,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Govt Medical Centre",
+        "operator": "Goverment A&N",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120433,
+      "lat": 11.6562608,
+      "lon": 92.7320874,
+      "tags": {
+        "addr:district": "South Andaman",
+        "addr:full": "Near Masjid",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "contact:mobile": "9933280204",
+        "contact:phone": "3192233434",
+        "healthcare": "hospital",
+        "name": "Maricar Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120435,
+      "lat": 11.6531427,
+      "lon": 92.7307114,
+      "tags": {
+        "addr:district": "South Andaman",
+        "addr:full": "Lamba Line, P.B. No. 526",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "contact:phone": "3192233193",
+        "healthcare": "hospital",
+        "name": "Pillar Health Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6919735985,
+      "lat": 11.83221,
+      "lon": 93.0305691,
+      "tags": {
+        "amenity": "fuel",
+        "name": "India Oil Petrol Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7252301294,
+      "lat": 11.6642248,
+      "lon": 92.7411194,
+      "tags": {
+        "name": "Tourism Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997496,
+      "lat": 13.2617555,
+      "lon": 92.9748487,
+      "tags": {
+        "addr:full": "Shyam Nagar Road, Madhupur",
+        "addr:postcode": "744202",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "name": "CMS Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997497,
+      "lat": 13.2475051,
+      "lon": 92.9702603,
+      "tags": {
+        "addr:full": "Subashgram",
+        "addr:postcode": "744202",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "name": "Dr. Nikhil's Multi Speciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997500,
+      "lat": 12.9119262,
+      "lon": 92.9057443,
+      "tags": {
+        "addr:full": "Mayabunder",
+        "addr:postcode": "744204",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997501,
+      "lat": 12.5143535,
+      "lon": 92.9114707,
+      "tags": {
+        "addr:full": "Rangat",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997509,
+      "lat": 11.6724137,
+      "lon": 92.6441249,
+      "tags": {
+        "addr:full": "Tusnabad",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "name": "Tusnabad Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997510,
+      "lat": 11.6219269,
+      "lon": 92.716462,
+      "tags": {
+        "addr:full": "Sumitra Complex, Garacharama, Port Blair",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Vidyadeep Surgicure Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997511,
+      "lat": 11.615976,
+      "lon": 92.705859,
+      "tags": {
+        "addr:full": "Garacharama, Port Blair",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "description": "Community Health Centre",
+        "healthcare": "hospital",
+        "name": "Community Health Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997512,
+      "lat": 11.712231,
+      "lon": 92.718559,
+      "tags": {
+        "addr:full": "Stewartgunj",
+        "addr:postcode": "744107",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997514,
+      "lat": 11.6621864,
+      "lon": 92.7288897,
+      "tags": {
+        "addr:full": "Junglighat, Port Blair",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ayush Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997516,
+      "lat": 11.669273,
+      "lon": 92.735389,
+      "tags": {
+        "addr:full": "Dag Colony, Port Blair",
+        "addr:postcode": "744101",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Arun Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997517,
+      "lat": 11.6697362,
+      "lon": 92.7296231,
+      "tags": {
+        "addr:full": "Delanipur, Port Blair",
+        "addr:postcode": "744102",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sanjeevani Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997518,
+      "lat": 11.663922,
+      "lon": 92.7469876,
+      "tags": {
+        "addr:full": "Shadipur, Port Blair",
+        "addr:postcode": "744104",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Rekha's Ayurvedic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997519,
+      "lat": 11.667588,
+      "lon": 92.7258476,
+      "tags": {
+        "addr:full": "Delanipur, Port Blair",
+        "addr:postcode": "744102",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rohin's Eye and Multispeciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7631997520,
+      "lat": 11.6330293,
+      "lon": 92.7207239,
+      "tags": {
+        "addr:full": "Port Blair",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "name": "Chakraborty Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9322517574,
+      "lat": 11.6654098,
+      "lon": 92.735886,
+      "tags": {
+        "name": "Directorate of Industry",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9322523926,
+      "lat": 11.6734011,
+      "lon": 92.7471726,
+      "tags": {
+        "name": "Directorate of Health Services",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9328955756,
+      "lat": 12.0403948,
+      "lon": 92.9828867,
+      "tags": {
+        "name": "Office of the Revenue Inspecter",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9341480554,
+      "lat": 11.6201923,
+      "lon": 92.7148656,
+      "tags": {
+        "name": "Office of the Revenue Inspecter",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9341489001,
+      "lat": 11.6457527,
+      "lon": 92.7310517,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10682531673,
+      "lat": 11.6596196,
+      "lon": 92.7481767,
+      "tags": {
+        "name": "ANIIDCO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10760868180,
+      "lat": 13.2462626,
+      "lon": 92.9730649,
+      "tags": {
+        "name": "Sts office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980252251,
+      "lat": 11.6707959,
+      "lon": 92.7389974,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "MS pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980252374,
+      "lat": 11.6669903,
+      "lon": 92.7432482,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980253721,
+      "lat": 11.6739719,
+      "lon": 92.7379483,
+      "tags": {
+        "name": "Marine community centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980256500,
+      "lat": 11.6701781,
+      "lon": 92.7392348,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Chennai medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980257554,
+      "lat": 11.6763797,
+      "lon": 92.7370518,
+      "tags": {
+        "name": "Office of the superintendent of police",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980284358,
+      "lat": 11.6740327,
+      "lon": 92.7378531,
+      "tags": {
+        "name": "Directorate of Shipping services",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980287359,
+      "lat": 11.6761543,
+      "lon": 92.7473731,
+      "tags": {
+        "name": "Indian Register of Shipping",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13980288240,
+      "lat": 11.6712255,
+      "lon": 92.743907,
+      "tags": {
+        "name": "Office of the executive engineer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13982109461,
+      "lat": 12.0343315,
+      "lon": 92.9924808,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13990483027,
+      "lat": 11.9852963,
+      "lon": 92.9533626,
+      "tags": {
+        "name": "Beach manager's office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13993991538,
+      "lat": 12.0308565,
+      "lon": 92.9975168,
+      "tags": {
+        "name": "Office of the divisional forest engineer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13994016831,
+      "lat": 12.0034938,
+      "lon": 92.9599804,
+      "tags": {
+        "name": "Department of telecommunications",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13996647198,
+      "lat": 12.0403157,
+      "lon": 92.9832189,
+      "tags": {
+        "name": "Office of the junior engineer of electricity department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13996677286,
+      "lat": 12.0410232,
+      "lon": 92.9828949,
+      "tags": {
+        "name": "Office of the assistant commissioner",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13996678234,
+      "lat": 12.0405112,
+      "lon": 92.9831381,
+      "tags": {
+        "name": "Emergency operation center",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13997737415,
+      "lat": 12.3643529,
+      "lon": 92.9236397,
+      "tags": {
+        "name": "Office of the Gram Panchayat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13998963034,
+      "lat": 12.3668285,
+      "lon": 92.923328,
+      "tags": {
+        "name": "Police Radio",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13998981793,
+      "lat": 12.3676603,
+      "lon": 92.9211073,
+      "tags": {
+        "name": "Department of telecommunications",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004437572,
+      "lat": 12.5054159,
+      "lon": 92.9089598,
+      "tags": {
+        "name": "Office of the Team Panchayat Rangat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004443380,
+      "lat": 12.5054287,
+      "lon": 92.9126161,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004449787,
+      "lat": 12.5053313,
+      "lon": 92.9152048,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004472327,
+      "lat": 12.5040615,
+      "lon": 92.943744,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004472328,
+      "lat": 12.5058459,
+      "lon": 92.9147989,
+      "tags": {
+        "name": "Office of the assistant commissioner",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004472835,
+      "lat": 12.5073771,
+      "lon": 92.9092221,
+      "tags": {
+        "name": "Office of the junior engineer",
+        "office": "government",
+        "operator": "Electricity department"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004477796,
+      "lat": 12.5057261,
+      "lon": 92.914403,
+      "tags": {
+        "name": "Office of the Pramukh Panchayat samiti rangat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004479807,
+      "lat": 12.5056156,
+      "lon": 92.9107322,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Gsnguly pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004479808,
+      "lat": 12.5071298,
+      "lon": 92.9087551,
+      "tags": {
+        "name": "Office of the executive engineer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004482756,
+      "lat": 12.5061992,
+      "lon": 92.9321498,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004486356,
+      "lat": 12.5059481,
+      "lon": 92.9116819,
+      "tags": {
+        "name": "Sweep Sakhi block level federation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14004823392,
+      "lat": 12.5056585,
+      "lon": 92.9128389,
+      "tags": {
+        "name": "Soil conservative centre",
+        "office": "government",
+        "operator": "Department of agriculture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14006213974,
+      "lat": 12.3168816,
+      "lon": 92.789827,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14006215484,
+      "lat": 12.5060771,
+      "lon": 92.9032844,
+      "tags": {
+        "name": "Office of forest researcher",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14006215710,
+      "lat": 12.5052727,
+      "lon": 92.9038213,
+      "tags": {
+        "name": "Residence of DFO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14006230128,
+      "lat": 12.5013275,
+      "lon": 92.8956243,
+      "tags": {
+        "name": "Police radio",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14008335944,
+      "lat": 11.6401678,
+      "lon": 92.7221788,
+      "tags": {
+        "name": "Naval gas agency",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14014535497,
+      "lat": 11.6047197,
+      "lon": 92.6949234,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14014560828,
+      "lat": 11.6560884,
+      "lon": 92.7344947,
+      "tags": {
+        "name": "Directorate of education",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14014571102,
+      "lat": 11.5916066,
+      "lon": 92.662298,
+      "tags": {
+        "name": "Office of the junior engineer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14018225775,
+      "lat": 11.6670604,
+      "lon": 92.7422198,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Sarika pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14018227454,
+      "lat": 11.6685475,
+      "lon": 92.7425738,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Apollo",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14019213388,
+      "lat": 11.6474335,
+      "lon": 92.735797,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26775725,
+      "center": {
+        "lat": 11.6407486,
+        "lon": 92.7293121
+      },
+      "nodes": [
+        293680496,
+        293680498,
+        11181721023,
+        11181721022,
+        293680499,
+        293680518,
+        4177788274,
+        11181721021,
+        11181721020,
+        11181721019,
+        11181721018,
+        11181721017,
+        4177787906,
+        11181721033,
+        11181721034,
+        11181721035,
+        293680554,
+        293680555,
+        11181720837,
+        11181721024,
+        11181721025,
+        293680556,
+        11181721030,
+        11181721029,
+        11181721028,
+        11181721027,
+        11181721026,
+        293680557,
+        11181721031,
+        11181721032,
+        293680561,
+        11181720838,
+        11181720839,
+        11181720840,
+        11181720841,
+        11181721112,
+        11181721111,
+        293680565,
+        293680567,
+        11181720844,
+        11181720843,
+        11181720842,
+        11181720845,
+        293680568,
+        293680569,
+        11181721174,
+        293680582,
+        11181721153,
+        11181721150,
+        11181721149,
+        11181721147,
+        11181721148,
+        11181721151,
+        11181721152,
+        293680601,
+        293680624,
+        293680629,
+        11181721146,
+        293680630,
+        11181721145,
+        293680634,
+        11181721144,
+        293680635,
+        293680638,
+        293680639,
+        11181721141,
+        293680724,
+        11181721142,
+        11181721143,
+        293680742,
+        293680761,
+        293680770,
+        293680771,
+        293680772,
+        293680773,
+        11181721140,
+        11181721139,
+        11181721138,
+        11181721137,
+        11181721136,
+        293680782,
+        293680783,
+        293680786,
+        11181721135,
+        11181721134,
+        11181721133,
+        11181721132,
+        11181721131,
+        11181721130,
+        11181721129,
+        11181721128,
+        293680787,
+        11181721127,
+        11181721126,
+        293680791,
+        11181721125,
+        293680795,
+        293680804,
+        293680809,
+        293680810,
+        293680811,
+        11181721124,
+        11181721123,
+        11181721122,
+        11181721121,
+        11181721120,
+        293680812,
+        11181721119,
+        293680816,
+        293680821,
+        293680822,
+        293680823,
+        293680829,
+        11181720849,
+        11181720847,
+        11181720846,
+        11181720848,
+        293680830,
+        293680832,
+        293680833,
+        11181721116,
+        11181721115,
+        11181721114,
+        11181721113,
+        293680834,
+        11181721118,
+        11181721117,
+        293680837,
+        293680838,
+        293680839,
+        293680845,
+        293680846,
+        11181720850,
+        11181720851,
+        293680847,
+        293680848,
+        11181720852,
+        293680849,
+        293680850,
+        11181720853,
+        293680851,
+        293680855,
+        4510909455,
+        11181720855,
+        11181720854,
+        4510909456,
+        4510909457,
+        4779992912,
+        293680856,
+        4510909458,
+        4510909459,
+        293680857,
+        4510909460,
+        4510909461,
+        293680858,
+        293680859,
+        293680860,
+        4510909462,
+        293703157,
+        11181720856,
+        293680864,
+        4510909463,
+        4510909472,
+        4510909471,
+        4510909464,
+        4510909465,
+        4510909466,
+        4510909467,
+        4510909468,
+        4510909469,
+        4510909470,
+        293680869,
+        4510909454,
+        4779982010,
+        293680870,
+        293680871,
+        293680876,
+        11181720930,
+        11181720931,
+        4510909453,
+        4510909448,
+        11181693632,
+        11181693630,
+        11181693631,
+        11181693628,
+        11181693629,
+        4510909449,
+        4510909450,
+        4510909451,
+        11181693633,
+        11181720986,
+        11181693634,
+        4510909452,
+        293680966,
+        11181693635,
+        11181720873,
+        11181693636,
+        293680496
+      ],
+      "tags": {
+        "addr:street": "Lambaline",
+        "aeroway": "aerodrome",
+        "iata": "IXZ",
+        "icao": "VOPB",
+        "is_in:country": "India",
+        "name": "Veer Savarkar International Airport",
+        "name:bn": "বীর সাভারকর আন্তর্জাতিক বিমানবন্দর",
+        "name:ceb": "Veer Savarkar International Airport",
+        "name:da": "Vir Savarkar lufthavn",
+        "name:de": "Flughafen Port Blair",
+        "name:en": "Veer Savarkar International Airport",
+        "name:etymology:wikidata": "Q471040",
+        "name:fa": "فرودگاه بین‌المللی ویر سوارکار",
+        "name:fr": "Aéroport de Port Blair",
+        "name:hi": "वीर सावरकर अन्तर्राष्ट्रीय विमानक्षेत्र",
+        "name:id": "Bandar Udara Internasional Veer Savarkar",
+        "name:ja": "ヴィール・サーヴァルカル国際空港",
+        "name:mr": "वीर सावरकर आंतरराष्ट्रीय विमानतळ",
+        "name:ms": "Lapangan Terbang Port Blair",
+        "name:nl": "Vir Savarkar Airport",
+        "name:no": "Vir Savarkar lufthavn",
+        "name:or": "ବୀର ସାଭରକର ଅନ୍ତର୍ଜାତିକ ବିମାନ ବନ୍ଦର",
+        "name:pl": "Port lotniczy Port Blair",
+        "name:ru": "Международный аэропорт имени Саваркар Винаяк Дамодар",
+        "name:sv": "Veer Savarkar International Airport",
+        "name:ta": "வீர் சாவர்க்கர் பன்னாட்டு வானூர்தி நிலையம்",
+        "name:tg": "Фурудгоҳи Байн‌алмиллалии Веер Саваркар",
+        "name:ur": "ویر ساورکر بین الاقوامی ہوائی اڈا",
+        "name:vi": "Sân bay Vir Savarkar",
+        "name:zh": "韋埃爾·薩瓦卡國際機場",
+        "operator": "Airport Authority of India",
+        "wikidata": "Q937462"
+      }
+    },
+    {
+      "type": "way",
+      "id": 403422075,
+      "center": {
+        "lat": 12.0308413,
+        "lon": 92.9943802
+      },
+      "nodes": [
+        4440825394,
+        4057714008,
+        4057714007,
+        4057714010,
+        4057714009,
+        4057714006,
+        4057714003,
+        4057714004,
+        4440825394
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Health Centre",
+        "name:en": "Health Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410524885,
+      "center": {
+        "lat": 11.6685396,
+        "lon": 92.7388162
+      },
+      "nodes": [
+        4774210728,
+        4123400730,
+        4123400727,
+        4123400719,
+        4774210728
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "layer": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410525049,
+      "center": {
+        "lat": 11.664364,
+        "lon": 92.7417967
+      },
+      "nodes": [
+        4123399548,
+        4123399692,
+        4123399578,
+        4123399561,
+        4123399539,
+        4123399505,
+        4123399548
+      ],
+      "tags": {
+        "addr:postcode": "744101",
+        "building": "yes",
+        "name": "Deputy Commissioner's Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 410525074,
+      "center": {
+        "lat": 11.663941,
+        "lon": 92.7423577
+      },
+      "nodes": [
+        4123399483,
+        4123399472,
+        4123399459,
+        4123399434,
+        4123399406,
+        4123399436,
+        4123399430,
+        4123399439,
+        4123399483
+      ],
+      "tags": {
+        "addr:postcode": "744101",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Tehsil Office, Port Blair",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454542244,
+      "center": {
+        "lat": 11.6716928,
+        "lon": 92.7391536
+      },
+      "nodes": [
+        4510905775,
+        4510905774,
+        4510905773,
+        4510905772,
+        4510905771,
+        4440824691,
+        4510905775
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus stand private buses",
+        "name:en": "Bus stand private buses",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454542245,
+      "center": {
+        "lat": 11.6698429,
+        "lon": 92.7398148
+      },
+      "nodes": [
+        4510905783,
+        4510905782,
+        293675321,
+        4510905781,
+        4510905780,
+        4510905779,
+        4510905778,
+        4510905777,
+        4510905776,
+        4510905783
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Central Bus Stand",
+        "name:mr": "केंद्रीय बस स्थानक",
+        "name:ur": "مرکزی بس اسٹینڈ",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454542247,
+      "center": {
+        "lat": 11.6752697,
+        "lon": 92.7473652
+      },
+      "nodes": [
+        4510909400,
+        4510909399,
+        4510909398,
+        4510909397,
+        4510909396,
+        4510909395,
+        4510909394,
+        4510909393,
+        293692100,
+        4510909392,
+        10077632615,
+        4510909391,
+        4510909390,
+        4510909389,
+        4510905788,
+        4510905787,
+        4510909400
+      ],
+      "tags": {
+        "addr:district": "South Andaman",
+        "addr:full": "GB Pant Road, City Centre, Port Blair",
+        "addr:postcode": "744103",
+        "addr:state": "Andaman and Nicobar Islands",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "G B Pant Hospital, Port Blair",
+        "name:etymology:wikidata": "Q2724411",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "http://www.and.nic.in/C_charter/health/dhs/index.html#gph"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661699999,
+      "center": {
+        "lat": 13.2360449,
+        "lon": 93.049488
+      },
+      "nodes": [
+        6194822989,
+        6194822990,
+        6194822991,
+        6194822992,
+        6194822993,
+        6194822994,
+        6194822995,
+        6194822996,
+        6194822997,
+        6194822998,
+        6194822999,
+        6194823000,
+        6194823001,
+        6194823002,
+        6194823003,
+        6194823004,
+        6194823005,
+        6194823006,
+        6194822989
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "icao": "VODX",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Diglipur INS Kohasa",
+        "operator": "Indian Navy",
+        "wikipedia": "en:INS Kohassa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 815847567,
+      "center": {
+        "lat": 11.8331292,
+        "lon": 93.0297843
+      },
+      "nodes": [
+        7619629024,
+        7619629021,
+        7619629019,
+        7619629020,
+        7619629022,
+        7619629023,
+        7619629024
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977080271,
+      "center": {
+        "lat": 7.0131738,
+        "lon": 93.9228292
+      },
+      "nodes": [
+        9041910634,
+        13586214509,
+        13586214510,
+        9041910635,
+        9041910636,
+        9041910637,
+        9041910638,
+        9041910639,
+        9041910640,
+        5726402257,
+        9041910641,
+        9041910642,
+        9041910663,
+        9041910664,
+        9041910643,
+        9041910644,
+        9041910645,
+        9041910646,
+        9041910647,
+        9041910648,
+        9041910649,
+        9041910667,
+        9041910650,
+        9041910651,
+        1911401921,
+        5726402249,
+        5726402248,
+        5726402258,
+        1911401904,
+        5726402253,
+        9041910672,
+        1911401981,
+        9041910652,
+        9041910653,
+        9041910654,
+        9041910655,
+        9041910656,
+        9041910657,
+        9041910658,
+        9041910659,
+        9041910660,
+        9041910661,
+        9041910662,
+        9041910634
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Campbell Bay Airstrip",
+        "icao": "VOBX",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "INS Baaz",
+        "wikidata": "Q5972472",
+        "wikipedia": "en:INS Baaz"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157152068,
+      "center": {
+        "lat": 13.2455559,
+        "lon": 92.975843
+      },
+      "nodes": [
+        10760868186,
+        10760868187,
+        10760868188,
+        10760868189,
+        10760868190,
+        10760868191,
+        10760868192,
+        10760868193,
+        10760868194,
+        10760868195,
+        10760868196,
+        10760868186
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Brigade Diglipur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157152072,
+      "center": {
+        "lat": 13.2459284,
+        "lon": 92.9786231
+      },
+      "nodes": [
+        10760868222,
+        10760868223,
+        10760868224,
+        10760868225,
+        10760868226,
+        10760868227,
+        10760868228,
+        10760868229,
+        10760868230,
+        10760868231,
+        10760868232,
+        10760868233,
+        10760868234,
+        10760868235,
+        10760868236,
+        10760868237,
+        10760868238,
+        10760868239,
+        10760868240,
+        10760868241,
+        10760868242,
+        10760868243,
+        10760868244,
+        10760868245,
+        10760868246,
+        10760868247,
+        10760868248,
+        10760868249,
+        10760868250,
+        10760868251,
+        10760868252,
+        10760868253,
+        10760868254,
+        10760868255,
+        10760868256,
+        10760868257,
+        10760868258,
+        10760868259,
+        10760868260,
+        10760868261,
+        10760868222
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Community Health Centre Diglipur"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 6194226,
+      "center": {
+        "lat": 11.6462837,
+        "lon": 92.7271477
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 416138925,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 416138931,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 416138927,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 416138928,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 416138926,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 416138930,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 416138929,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "Kendriya Sadan",
+        "office": "government",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

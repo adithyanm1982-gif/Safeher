@@ -1,0 +1,2504 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T15:23:22Z",
+    "timestamp_areas_base": "2026-10-14T11:20:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 266428015,
+      "lat": 30.7242666,
+      "lon": 76.7693364,
+      "tags": {
+        "government": "customs",
+        "name": "Regional Passport Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345195351,
+      "lat": 30.7021622,
+      "lon": 76.8214533,
+      "tags": {
+        "internet_access": "no",
+        "name": "Chandigarh Railway Station",
+        "name:ja": "チャンディーガル",
+        "network": "IR",
+        "operator": "NR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "CDG",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q16890175",
+        "wikipedia": "en:Chandigarh Junction railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 441046459,
+      "lat": 30.7611013,
+      "lon": 76.7762212,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:street": "Madhya Marg",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "emergency",
+        "name": "PGI Emergency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041037638,
+      "lat": 30.7245237,
+      "lon": 76.7689883,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "KD Cosmetic Surgery Centre,Sector 34-A"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041070552,
+      "lat": 30.7399523,
+      "lon": 76.7857039,
+      "tags": {
+        "government": "administrative",
+        "name": "Punjab Mandi Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1427179185,
+      "lat": 30.7228442,
+      "lon": 76.7381013,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-42",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1427203326,
+      "lat": 30.7169663,
+      "lon": 76.7524149,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428119386,
+      "lat": 30.6986811,
+      "lon": 76.7586117,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-46D",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428213662,
+      "lat": 30.7057016,
+      "lon": 76.7873933,
+      "tags": {
+        "amenity": "fuel",
+        "compressed_air": "yes",
+        "name": "Vishal Service Station",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428280408,
+      "lat": 30.7172004,
+      "lon": 76.7756381,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-33",
+        "addr:street": "Dakshin Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428312088,
+      "lat": 30.7187982,
+      "lon": 76.7683943,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-34B",
+        "addr:street": "Sarovar Path",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "operator": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428312429,
+      "lat": 30.7233441,
+      "lon": 76.7715732,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector -21C",
+        "addr:street": "Dakshin Marg",
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "brand:wikipedia": "en:Bharat Petroleum",
+        "name": "Bharat Petroleum",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1428312442,
+      "lat": 30.7241887,
+      "lon": 76.7708917,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "sector 21C",
+        "addr:street": "Dakshin Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "operator": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1429261621,
+      "lat": 30.7179511,
+      "lon": 76.7760213,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1429337326,
+      "lat": 30.7148784,
+      "lon": 76.8062269,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-28",
+        "addr:street": "Purv Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1429338127,
+      "lat": 30.7201313,
+      "lon": 76.8094575,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "compressed_air": "yes",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1429418807,
+      "lat": 30.7320627,
+      "lon": 76.7979272,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1431156030,
+      "lat": 30.750823,
+      "lon": 76.7903293,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum",
+        "operator": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1819737319,
+      "lat": 30.7367793,
+      "lon": 76.8000065,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-7",
+        "addr:street": "Sarovar Path",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1827564847,
+      "lat": 30.7304877,
+      "lon": 76.7739383,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1832737201,
+      "lat": 30.7614305,
+      "lon": 76.7749653,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:full": "Sector-12",
+        "addr:postcode": "160012",
+        "addr:state": "Chandigarh",
+        "addr:street": "Madhya Marg",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PGI Chandigarh",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2310504967,
+      "lat": 30.6969772,
+      "lon": 76.7583499,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-49",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2457764868,
+      "lat": 30.6775899,
+      "lon": 76.798432,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Dispesary"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2914440106,
+      "lat": 30.702824,
+      "lon": 76.8190972,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Chandigarh Railway Station",
+        "public_transport": "station",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3404982354,
+      "lat": 30.7478631,
+      "lon": 76.7489881,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:full": "# 846 Sector 38-A",
+        "addr:housenumber": "846",
+        "addr:postcode": "160014",
+        "addr:state": "Chandigarh",
+        "addr:street": "Site 846, Sector 38",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Santokh Hospital",
+        "operator": "Dr KS santokh",
+        "phone": "+918558866846",
+        "source": "OpenGovernmentData",
+        "website": "https://www.santokhhospital.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3618569507,
+      "lat": 30.6916007,
+      "lon": 76.7548766,
+      "tags": {
+        "name": "BSNL",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3810076820,
+      "lat": 30.739297,
+      "lon": 76.7801197,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3810076822,
+      "lat": 30.7381226,
+      "lon": 76.7811004,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-17",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4306307091,
+      "lat": 30.7148301,
+      "lon": 76.7429734,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4355006891,
+      "lat": 30.7491743,
+      "lon": 76.7740258,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "H.No. 2040, Sector 15-C",
+        "addr:postcode": "160015",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dharam Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4461143291,
+      "lat": 30.7395334,
+      "lon": 76.7241003,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian oil petrol pump",
+        "name:en": "CITCO Petrol Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4591976113,
+      "lat": 30.7005516,
+      "lon": 76.7879956,
+      "tags": {
+        "name": "Passport office",
+        "name:en": "Passport office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4631274982,
+      "lat": 30.747535,
+      "lon": 76.765978,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bharat Vikas Parishad Charitable Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682651490,
+      "lat": 30.7159942,
+      "lon": 76.7682816,
+      "tags": {
+        "name": "Municipal corporation",
+        "name:en": "Municipal corporation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682687189,
+      "lat": 30.7164777,
+      "lon": 76.7685606,
+      "tags": {
+        "name": "Bjp",
+        "name:en": "Bjp",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4701474502,
+      "lat": 30.7122719,
+      "lon": 76.7702748,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Site No: 1 & 2, Sec-33-C,Near Terrced Garden",
+        "addr:postcode": "160020",
+        "addr:state": "Chandigarh",
+        "addr:street": "33 sector",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Land Mark Hospital(Langol View Charitable Clinic and Maternity Home)",
+        "name:en": "Landmark Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4948021823,
+      "lat": 30.7639495,
+      "lon": 76.7800519,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology",
+        "name": "Advance Eye Center",
+        "name:en": "Advance Eye Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4950926423,
+      "lat": 30.7138893,
+      "lon": 76.7781364,
+      "tags": {
+        "name": "Survey of India",
+        "name:en": "Survey of India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952773522,
+      "lat": 30.7180893,
+      "lon": 76.7749697,
+      "tags": {
+        "name": "Vit te Yojna Bhawan",
+        "name:en": "Vit te Yojna Bhawan",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952773624,
+      "lat": 30.7192243,
+      "lon": 76.7736718,
+      "tags": {
+        "name": "Haryana Human Rights Commission",
+        "name:en": "Haryana Human Rights Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5770684148,
+      "lat": 30.7208464,
+      "lon": 76.8101251,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5994623431,
+      "lat": 30.7194757,
+      "lon": 76.8096396,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "6",
+        "addr:postcode": "160101",
+        "addr:street": "Madhya Marg",
+        "government": "public_service",
+        "name": "Himachal Bhawan",
+        "office": "government",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6164006347,
+      "lat": 30.7446585,
+      "lon": 76.7867343,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:short": "HP",
+        "brand:wikidata": "Q1619375",
+        "check_date": "2025-06-17",
+        "name": "HG Petro Care",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612985306,
+      "lat": 30.7344167,
+      "lon": 76.7701306,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Verma Medical Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612985317,
+      "lat": 30.7329698,
+      "lon": 76.7714736,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Pet Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6907693413,
+      "lat": 30.7583074,
+      "lon": 76.7843183,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "# 11, Sector-11A, Chandigarh",
+        "addr:postcode": "160011",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "fax": "2744397",
+        "healthcare": "hospital",
+        "name": "Rameshwara Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065242,
+      "lat": 30.7287476,
+      "lon": 76.7898551,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "3314, Near Gurudwara Sahib, Sec-19-D",
+        "addr:postcode": "160019",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Oxford Heart and Multispeciality Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065247,
+      "lat": 30.7228358,
+      "lon": 76.7703393,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sco No.47 - 49,Sector - 34A, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "fax": "2660689",
+        "healthcare": "hospital",
+        "name": "Mukat Hospital and Heart Institute",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065252,
+      "lat": 30.7218259,
+      "lon": 76.7669463,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sco-341-42, Sector-34A, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nins Brain and Spine Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065257,
+      "lat": 30.719376,
+      "lon": 76.7578912,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "No-90,Vazhuthavur Main Road,V.V.P Nagar",
+        "addr:postcode": "605009",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ashwini Maternity Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065262,
+      "lat": 30.723938,
+      "lon": 76.7656857,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sector: 34/A, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Inscol Tertiary Care Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065267,
+      "lat": 30.7635999,
+      "lon": 76.7483211,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "3026, Sec-21 D",
+        "addr:postcode": "160036",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Deep Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065272,
+      "lat": 30.7324319,
+      "lon": 76.7716616,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "CHC, Sector - 22",
+        "addr:landmark": "Opposite Nehru Park",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "addr:street": "Sector -22",
+        "amenity": "hospital",
+        "contact:phone": "1722773711",
+        "description": "Civil Hospital",
+        "healthcare": "hospital",
+        "name": "Civil Hospital-Sector 22",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065278,
+      "lat": 30.7107483,
+      "lon": 76.7541911,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Site No.1 and 2, Sector 44-C",
+        "addr:postcode": "160047",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "contact:phone": "9988808880",
+        "email": "info@chaitanyahospital.org",
+        "healthcare": "hospital",
+        "healthcare:speciality": "Obstetrics;Gynaecology",
+        "name": "Chaitanya Hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://www.chaitanyahospital.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065283,
+      "lat": 30.7420224,
+      "lon": 76.7909159,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "S C O 166-167-168-169, Madhya Marg, Sector-9-C",
+        "addr:postcode": "160009",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Grewal Eye Institute",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908090589,
+      "lat": 30.7128525,
+      "lon": 76.8424183,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Civil Hospital Manimajra",
+        "addr:landmark": "Near Fun Republic Manimajra",
+        "addr:postcode": "160101",
+        "addr:state": "Chandigarh",
+        "addr:street": "Old Ropar Road",
+        "amenity": "hospital",
+        "contact:phone": "1722751004",
+        "description": "civil hospital",
+        "healthcare": "hospital",
+        "locality": "Near Motor Market",
+        "name": "Civil hospital, Manimajra",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100816,
+      "lat": 30.7279522,
+      "lon": 76.7594992,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Koti No. 201, Sector 35 - A",
+        "addr:postcode": "160015",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Abhilasha Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111123,
+      "lat": 30.7174644,
+      "lon": 76.832989,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "801, Mani Majra",
+        "addr:postcode": "160101",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Arya Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111137,
+      "lat": 30.6999404,
+      "lon": 76.7671408,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "150, Sector 40B",
+        "addr:postcode": "160047",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Dabur Dhanwantry Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111148,
+      "lat": 30.716308,
+      "lon": 76.7777958,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "S.C.O. 66, Sector-20 C, Tribune Road",
+        "addr:postcode": "160020",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Arthoscopy and Spinal Endoscopy Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111153,
+      "lat": 30.7198176,
+      "lon": 76.7686281,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sco No. 226-227,Sector-34-A",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Virdi Eye Hospital(Virk Hospital)",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111159,
+      "lat": 30.7237708,
+      "lon": 76.7604969,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "#2103, Sector, 35-C, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "fax": "2661789",
+        "name": "Mangnum Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111164,
+      "lat": 30.7301782,
+      "lon": 76.7603199,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "# 140, Sector-35-A, Near Kisan Bhavan",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Grover Eye Laser and E.N.T Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111174,
+      "lat": 30.7176996,
+      "lon": 76.7693818,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "182, 33A, Sector 33, A, Chandigarh",
+        "addr:postcode": "160020",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bedi Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111185,
+      "lat": 30.7643681,
+      "lon": 76.7762778,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Postgraduate Institute of Medical Education andResearch, Sector-12",
+        "addr:landmark": "Opposite Panjab Universty",
+        "addr:postcode": "160012",
+        "addr:state": "Chandigarh",
+        "addr:street": "Sector-12",
+        "amenity": "hospital",
+        "contact:phone": "0172-2755220",
+        "description": "Medical Colleges Hospital",
+        "healthcare": "hospital",
+        "name": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "https://pgimer.edu.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111195,
+      "lat": 30.734221,
+      "lon": 76.7525804,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "S.C.O. 166, Sector-37-C, First Floor, Chandigarh",
+        "addr:postcode": "160036",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Neeraj Eye Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111200,
+      "lat": 30.7029628,
+      "lon": 76.7620003,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Site No.2,Sec-46D, Chandigarh",
+        "addr:postcode": "160047",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Kapoor's Kidney and Urostone Centre Pvt.Ltd.",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111214,
+      "lat": 30.7216968,
+      "lon": 76.7669718,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sco- 343 - 345, Sector 34- A, Opposite Gurudwara Sector 34",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Omni Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111219,
+      "lat": 30.7104462,
+      "lon": 76.8429682,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sco - 831, Nac, Manimajra",
+        "addr:postcode": "160101",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tricity Hospital Pvt. Ltd.",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7003235215,
+      "lat": 30.7158261,
+      "lon": 76.8389341,
+      "tags": {
+        "addr:district": "Panchkula",
+        "addr:full": "Nursing Home Site No.-1,Adjoining Gh-34, Sector-5, (Mansadevi Complex)",
+        "addr:postcode": "134109",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Happy Family Maternitys Children Hospital Pvt Ltd",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7053641550,
+      "lat": 30.722908,
+      "lon": 76.7447786,
+      "tags": {
+        "addr:district": "S.A.S Nagar",
+        "addr:full": "SCO-49,Sector 42-C,Near Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Punjab",
+        "amenity": "hospital",
+        "name": "Kaushal Hospital, Chandigarh",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100744651,
+      "lat": 30.740555,
+      "lon": 76.7553546,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-37",
+        "addr:street": "Dakshin Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100749958,
+      "lat": 30.7110745,
+      "lon": 76.7428448,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-52",
+        "addr:street": "Himalaya Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100750269,
+      "lat": 30.7264829,
+      "lon": 76.80484,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-26",
+        "addr:street": "Madhya Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100762176,
+      "lat": 30.7342885,
+      "lon": 76.7278229,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-55A",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100767920,
+      "lat": 30.7248816,
+      "lon": 76.7423472,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-42C",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100769683,
+      "lat": 30.7311123,
+      "lon": 76.8364419,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:street": "IT Park Rd,Kishangarh",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100831020,
+      "lat": 30.731516,
+      "lon": 76.8000361,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-7",
+        "addr:street": "Madhya Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100845806,
+      "lat": 30.730105,
+      "lon": 76.7995426,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Sector-19",
+        "addr:street": "Madhya Marg",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111403693,
+      "lat": 30.7232383,
+      "lon": 76.8122966,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:landmark": "Behind Sabji Mandi",
+        "addr:postcode": "160019",
+        "addr:state": "Chandigarh",
+        "addr:street": "Sector 26",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Police Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111403701,
+      "lat": 30.696743,
+      "lon": 76.787964,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:postcode": "160002",
+        "addr:state": "Chandigarh",
+        "addr:street": "Ramdarbar",
+        "amenity": "hospital",
+        "description": "General Hospital",
+        "healthcare": "hospital",
+        "locality": "Industrial Area",
+        "name": "ESIC Hospital Ramdarbar",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111403705,
+      "lat": 30.677988,
+      "lon": 76.807281,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:landmark": "Airport Chowk",
+        "addr:postcode": "160003",
+        "addr:state": "Chandigarh",
+        "addr:street": "Industrial Area Phase II",
+        "amenity": "hospital",
+        "contact:phone": "1722655752",
+        "name": "Composite Hospital I.T.B.P",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206523,
+      "lat": 30.7001359,
+      "lon": 76.7875764,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "48, Phase-2, Industrial Area Phase I, Chandigarh,",
+        "addr:postcode": "160002",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Cloudnine Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206527,
+      "lat": 30.724507,
+      "lon": 76.732464,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Plot No.6, Phase 3 A, Sector 53, Chandigarh",
+        "addr:postcode": "160059",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Babe Ke Hospital And IMT",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206529,
+      "lat": 30.7421389,
+      "lon": 76.7356685,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Sector 40A, Ground Floor, Chandigarh",
+        "addr:postcode": "160036",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nirmal Dr. Bhasin Jannee Fertility Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206532,
+      "lat": 30.7276054,
+      "lon": 76.7694571,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "SCO 2463-2464, 2nd Floor, JW Marriott Hotel Aroma Lane, 22C, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Ashok Sharma's Cornea Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206533,
+      "lat": 30.7127888,
+      "lon": 76.7774089,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "473, 32A, Sector 32, Chandigarh",
+        "addr:postcode": "160047",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Chandan Trikha Homeopathic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206534,
+      "lat": 30.7314168,
+      "lon": 76.7725,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "2413 c, sco, Sector 22, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206535,
+      "lat": 30.7266382,
+      "lon": 76.752325,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "1151, 36 C, Near Park, Sector 36, Chandigarh",
+        "addr:postcode": "160036",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Pandhi Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206543,
+      "lat": 30.735249,
+      "lon": 76.800628,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "1550, Sector 7-C, Chandigarh",
+        "addr:postcode": "160019",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Priyanka Sharma Gynaecologist",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206547,
+      "lat": 30.7417091,
+      "lon": 76.7942557,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "SCO 10, 11, Madhya Marg, Sector 8C, Sector 9, Chandigarh",
+        "addr:postcode": "160009",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Chd City Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206548,
+      "lat": 30.7255395,
+      "lon": 76.7622902,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Dr.P.N.Chhuttani Memorial IMA Complex, 35B, Sector 35, Chandigarh",
+        "addr:postcode": "160022",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Guru Nanak Multispeciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206560,
+      "lat": 30.7525838,
+      "lon": 76.7173534,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Near Dilshad confectionery, Maloya, Chandigarh",
+        "addr:postcode": "160025",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Kaushal Clinic & Clinical Lab",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206562,
+      "lat": 30.7606212,
+      "lon": 76.7820366,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "SCO 11, Sector 11D, Sector 11, Chandigarh",
+        "addr:postcode": "160011",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Fortis Medcentre Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206566,
+      "lat": 30.740194,
+      "lon": 76.782629,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "S.C.O 52 - 53 - 54, Bridge Market, 17C, Sector 17, Chandigarh",
+        "addr:postcode": "160017",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Chhuttani Medical Centre - Psychiatrist & De-addiction Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206571,
+      "lat": 30.7264061,
+      "lon": 76.7732467,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "House No- 2125, Near Tulasi Das Library, Sector 21C, Chandigarh",
+        "addr:postcode": "160002",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ARV Othopaedic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206572,
+      "lat": 30.7091481,
+      "lon": 76.8027108,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "Plot No-115, Near Hometel Hotel, Phase 1, Chandigarh",
+        "addr:postcode": "160002",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Eden Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206590,
+      "lat": 30.7313883,
+      "lon": 76.7849987,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "House No, 1204, Sector 18-C, Sector 18, Chandigarh",
+        "addr:postcode": "160018",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mamta Child Health Care Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7473206592,
+      "lat": 30.7134331,
+      "lon": 76.7687413,
+      "tags": {
+        "addr:district": "Chandigarh",
+        "addr:full": "SCO No. 23, Sector, 33D, Sector 33, Chandigarh",
+        "addr:postcode": "160047",
+        "addr:state": "Chandigarh",
+        "amenity": "hospital",
+        "name": "Sarhind Orthopaedic Multispeciality Medical Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9862648851,
+      "lat": 30.7127639,
+      "lon": 76.8463992,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9862648855,
+      "lat": 30.6877511,
+      "lon": 76.8250782,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10003350186,
+      "lat": 30.6927565,
+      "lon": 76.8022938,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10767528125,
+      "lat": 30.7375111,
+      "lon": 76.7950075,
+      "tags": {
+        "name": "Haryana Information Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11716123587,
+      "lat": 30.7290455,
+      "lon": 76.7334159,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12597175391,
+      "lat": 30.7205149,
+      "lon": 76.7821743,
+      "tags": {
+        "addr:city": "CHANDIGARH",
+        "addr:district": "Chandigarh",
+        "addr:housenumber": "Booth Number 15, Bay Shop 15, Sukhna Path, Sector 30A, 20C, Sector 20, Chandigarh, 160020",
+        "addr:postcode": "160020",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Shree Ram Medical Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12597187787,
+      "lat": 30.7033952,
+      "lon": 76.7775151,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "CHANDIGARH",
+        "addr:housenumber": "PQ3H+835, 31D, Sector 31, Chandigarh, 160030",
+        "addr:postcode": "160030",
+        "addr:street": "Chandi Path",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Air Force Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12597209820,
+      "lat": 30.7042318,
+      "lon": 76.7751977,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "CHANDIGARH",
+        "addr:housenumber": "32C, Sector 32, Chandigarh, 160047",
+        "addr:postcode": "160047",
+        "addr:street": "Chandi Path",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mental Health Institute"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13127518883,
+      "lat": 30.742032,
+      "lon": 76.7552755,
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:housenumber": "Plot No. 1037",
+        "addr:street": "Dakshin Marg",
+        "government": "yes",
+        "name": "Punjab State Consumer Disputes Redressal Commission",
+        "office": "government",
+        "website": "http://stateconsumercommission.punjab.gov.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13127533020,
+      "lat": 30.7426953,
+      "lon": 76.7547512,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28845205,
+      "center": {
+        "lat": 30.7171785,
+        "lon": 76.7433637
+      },
+      "nodes": [
+        317140053,
+        317140055,
+        317140056,
+        317140054,
+        317140053
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "name": "CTU Local Bus Station 43",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111984795,
+      "center": {
+        "lat": 30.7368454,
+        "lon": 76.776055
+      },
+      "nodes": [
+        1274181879,
+        1274181856,
+        1274182199,
+        1274181791,
+        1274181879
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "building": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111984846,
+      "center": {
+        "lat": 30.7294763,
+        "lon": 76.7665129
+      },
+      "nodes": [
+        1274181878,
+        1274182104,
+        1274181817,
+        1274182286,
+        1274181878
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113779330,
+      "center": {
+        "lat": 30.7652264,
+        "lon": 76.7755769
+      },
+      "nodes": [
+        1289912844,
+        1289913787,
+        1289913019,
+        1289913624,
+        1289913174,
+        1289913762,
+        1289913286,
+        1289913895,
+        1289913412,
+        1289914021,
+        1289913841,
+        1289913111,
+        1289912844
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Superintended Hospital Engineer Building"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129345444,
+      "center": {
+        "lat": 30.7163246,
+        "lon": 76.7446699
+      },
+      "nodes": [
+        1427203283,
+        4336761726,
+        1427203340,
+        1427203380,
+        1427203320,
+        1427203283
+      ],
+      "tags": {
+        "addr:postcode": "160047",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Chandigarh ISBT, Sector 43",
+        "name:en": "Chandigarh ISBT, Sector 43",
+        "name:hi": "चंडीगढ़ अई.एस.बी.टी., सेक्टर ४३",
+        "public_transport": "station",
+        "short_name": "ISBT 43",
+        "website": "https://chdctu.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129453616,
+      "center": {
+        "lat": 30.7091114,
+        "lon": 76.7806946
+      },
+      "nodes": [
+        1428254586,
+        1428254707,
+        1428254795,
+        1428254817,
+        1428254839,
+        1428254881,
+        1428254915,
+        1428254984,
+        1428255078,
+        1428254910,
+        1428254835,
+        1428254585,
+        1428254586
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:full": "Sector-32, Chandigarh",
+        "addr:landmark": "Opposite CSIO",
+        "addr:postcode": "160030",
+        "addr:state": "Chandigarh",
+        "addr:street": "Sector-32",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "email": "dpgmch-chd@gmch.gov.in",
+        "emergency": "yes",
+        "fax": "0172-2609360",
+        "healthcare": "hospital",
+        "name": "GMCH SECTOR 32",
+        "name:en": "Government Medical College Hospital",
+        "operator:type": "government",
+        "phone": "0172-2601023",
+        "source": "OpenGovernmentData",
+        "start_date": "1991",
+        "website": "https://gmch.gov.in/",
+        "wikidata": "Q5513730",
+        "wikipedia": "en:Government Medical College and Hospital, Chandigarh"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129453735,
+      "center": {
+        "lat": 30.7085336,
+        "lon": 76.777462
+      },
+      "nodes": [
+        1428254750,
+        1428254971,
+        1428254894,
+        1428254863,
+        1428254836,
+        1428254816,
+        1428254621,
+        1428254750
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129453737,
+      "center": {
+        "lat": 30.7064971,
+        "lon": 76.7785309
+      },
+      "nodes": [
+        1428254488,
+        1428254574,
+        1428254605,
+        1428254568,
+        1428254552,
+        1428254537,
+        1428254524,
+        1428254488
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129475678,
+      "center": {
+        "lat": 30.7416647,
+        "lon": 76.747102
+      },
+      "nodes": [
+        1428411801,
+        1428411837,
+        1428411830,
+        1428411784,
+        1428411767,
+        1428411801
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129774342,
+      "center": {
+        "lat": 30.7357269,
+        "lon": 76.7790727
+      },
+      "nodes": [
+        1431038881,
+        1431038883,
+        1431038892,
+        1431039167,
+        1431039265,
+        1431039124,
+        1431039093,
+        1431038903,
+        1431038881
+      ],
+      "tags": {
+        "addr:postcode": "160017",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Chandigarh ISBT, Sector 17",
+        "name:en": "Chandigarh ISBT, Sector 17",
+        "name:hi": "चंडीगढ़ आई.एस.बी.टी., सेक्टर १७",
+        "public_transport": "station",
+        "short_name": "ISBT 17"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129774350,
+      "center": {
+        "lat": 30.7358134,
+        "lon": 76.7805494
+      },
+      "nodes": [
+        1431038969,
+        1431039004,
+        1431039069,
+        1431039021,
+        1431038969
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Sector 17"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129774482,
+      "center": {
+        "lat": 30.738117,
+        "lon": 76.7810818
+      },
+      "nodes": [
+        1431039399,
+        1431039439,
+        1431039410,
+        1431039366,
+        1431039399
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129774503,
+      "center": {
+        "lat": 30.7392674,
+        "lon": 76.7800733
+      },
+      "nodes": [
+        1431039800,
+        1431039841,
+        1431039814,
+        1431039771,
+        1431039800
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129774520,
+      "center": {
+        "lat": 30.7422016,
+        "lon": 76.7888108
+      },
+      "nodes": [
+        1431041004,
+        1431041029,
+        1431041011,
+        1431040986,
+        1431041004
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129779703,
+      "center": {
+        "lat": 30.7572731,
+        "lon": 76.8066089
+      },
+      "nodes": [
+        1431105583,
+        1431105561,
+        1431105555,
+        1431105560,
+        1431105550,
+        1431105554,
+        1431105583
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "architect": "Le Corbusier",
+        "building": "yes",
+        "name": "Punjab and Haryana High Court",
+        "name:hi": "पंजाब और हरियाणा उच्च न्यायालय",
+        "tourism": "attraction",
+        "wikipedia": "en:Punjab and Haryana High Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129779710,
+      "center": {
+        "lat": 30.761021,
+        "lon": 76.8031982
+      },
+      "nodes": [
+        1431105694,
+        1431105712,
+        10586615496,
+        1431105898,
+        1431105922,
+        1431105889,
+        1431105882,
+        1431105747,
+        1431105718,
+        1431105694
+      ],
+      "tags": {
+        "addr:postcode": "160001",
+        "architect": "Le Corbusier",
+        "building": "yes",
+        "name": "Palace of Assembly",
+        "name:en": "Punjab & Haryana Vidhan Sabha",
+        "name:hi": "पंजाब और हरियाणा विधानसभा",
+        "office": "government",
+        "tourism": "attraction",
+        "website": "https://haryanaassembly.gov.in/",
+        "wikidata": "Q7126217",
+        "wikipedia": "en:Palace of Assembly (Chandigarh)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129782458,
+      "center": {
+        "lat": 30.7508141,
+        "lon": 76.7809469
+      },
+      "nodes": [
+        1431135635,
+        1431135624,
+        1431135628,
+        1431135613,
+        1431135627,
+        1431135640,
+        1431135642,
+        1431135635
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:landmark": "Near Rose Garden",
+        "addr:postcode": "160016",
+        "addr:state": "Chandigarh",
+        "addr:street": "GMSH-16",
+        "amenity": "hospital",
+        "contact:phone": "1722768119",
+        "description": "District Hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "GMSH Sector-16",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129790733,
+      "center": {
+        "lat": 30.7572323,
+        "lon": 76.7858112
+      },
+      "nodes": [
+        1431220385,
+        1431220343,
+        1431220284,
+        1431220348,
+        1431220385
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 152027373,
+      "center": {
+        "lat": 30.7551611,
+        "lon": 76.7781256
+      },
+      "nodes": [
+        1648587466,
+        1648587469,
+        1648587468,
+        1648587461,
+        1648587466
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "building": "yes",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155001233,
+      "center": {
+        "lat": 30.7633931,
+        "lon": 76.7810046
+      },
+      "nodes": [
+        1674486600,
+        1674486605,
+        1674486621,
+        1674486613,
+        1674486617,
+        1674486592,
+        1674486585,
+        1674486575,
+        1674486563,
+        1674486571,
+        1674486566,
+        1674486590,
+        1674486600
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Cancer Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 155001235,
+      "center": {
+        "lat": 30.7628956,
+        "lon": 76.7808619
+      },
+      "nodes": [
+        1674486518,
+        1674486553,
+        1674486597,
+        1674486546,
+        1674486541,
+        1674486533,
+        1674486556,
+        1674486552,
+        1674486532,
+        1674486540,
+        1674486544,
+        1674486569,
+        1674486525,
+        1674486501,
+        1674486529,
+        1674486517,
+        1674486512,
+        1674486475,
+        1674486476,
+        1674486463,
+        1674486468,
+        1674486480,
+        1674486484,
+        1674486528,
+        1674486524,
+        1674486537,
+        1674486518
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "New OPD"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156449842,
+      "center": {
+        "lat": 30.753205,
+        "lon": 76.7977488
+      },
+      "nodes": [
+        1687021421,
+        1687021425,
+        1687021440,
+        1687021435,
+        1687021431,
+        1687021416,
+        1687021414,
+        1687021424,
+        1687021421
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355486029,
+      "center": {
+        "lat": 30.7194419,
+        "lon": 76.7437329
+      },
+      "nodes": [
+        3610846849,
+        3610846850,
+        3610846851,
+        12754100087,
+        3610846852,
+        3610846849
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Judicial Court Complex Sector 43"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1100913939,
+      "center": {
+        "lat": 30.7100189,
+        "lon": 76.8288046
+      },
+      "nodes": [
+        10075645811,
+        10075645812,
+        10075645813,
+        10075645814,
+        10075645811
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "compressed_air": "yes",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1153423420,
+      "center": {
+        "lat": 30.7347446,
+        "lon": 76.7178481
+      },
+      "nodes": [
+        10727334768,
+        10727334769,
+        10727334770,
+        10727334771,
+        10727334772,
+        10727334768
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RHTC Palsora"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262542126,
+      "center": {
+        "lat": 30.7407005,
+        "lon": 76.7515901
+      },
+      "nodes": [
+        11730579337,
+        11730579338,
+        11730579339,
+        11730579340,
+        11730579337
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:postcode": "160036",
+        "addr:street": "V5 Road",
+        "building": "yes",
+        "government": "yes",
+        "name": "SDOs' Offices",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262542127,
+      "center": {
+        "lat": 30.7402163,
+        "lon": 76.7519008
+      },
+      "nodes": [
+        11730579341,
+        11730579342,
+        11730579343,
+        11730579344,
+        11730579341
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:postcode": "160036",
+        "addr:street": "V5 Road",
+        "building": "yes",
+        "government": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262556252,
+      "center": {
+        "lat": 30.7406139,
+        "lon": 76.7513582
+      },
+      "nodes": [
+        11730679074,
+        11730679075,
+        11730679076,
+        11730679077,
+        11730679074
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "Chandigarh",
+        "addr:postcode": "160036",
+        "addr:street": "V5 Road",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Muncipal Corporation Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360772601,
+      "center": {
+        "lat": 30.7042635,
+        "lon": 76.7751486
+      },
+      "nodes": [
+        12597198051,
+        12597198052,
+        12597198053,
+        12597198054,
+        12597198051
+      ],
+      "tags": {
+        "addr:city": "Chandigarh",
+        "addr:district": "CHANDIGARH",
+        "addr:housenumber": "32C, Sector 32, Chandigarh, 160047",
+        "addr:postcode": "160047",
+        "addr:street": "Chandi Path",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mental Health Institute"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1396595096,
+      "center": {
+        "lat": 30.7430725,
+        "lon": 76.7892262
+      },
+      "nodes": [
+        12925895187,
+        12925895168,
+        12925895181,
+        12925895172,
+        12925895187
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427916647,
+      "center": {
+        "lat": 30.7427025,
+        "lon": 76.7547677
+      },
+      "nodes": [
+        13127533016,
+        13127533017,
+        13127533018,
+        13127533019,
+        13127533016
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1750618,
+      "center": {
+        "lat": 30.7382713,
+        "lon": 76.7777468
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 129774458,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 129774463,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "building": "yes",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2082640,
+      "center": {
+        "lat": 30.7608716,
+        "lon": 76.776366
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 155001410,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 155001470,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 155001467,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 155001464,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 155001460,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Nehru Hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 12223608,
+      "center": {
+        "lat": 30.6742097,
+        "lon": 76.7895017
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 899090556,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 129888148,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 899090555,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 899090554,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "aerodrome:type": "international",
+        "aeroway": "aerodrome",
+        "iata": "IXC",
+        "icao": "VICG",
+        "is_in:country": "India",
+        "name": "Chandigarh International Airport",
+        "name:hi": "चण्डीगढ अंतर्राष्ट्रीय हवाई अड्डा",
+        "name:ml": "l ചണ്ഡിഗഢ് അന്താരാഷ്ട്രവിമാനത്താവളം",
+        "operator": "Airports Authority of India",
+        "type": "multipolygon",
+        "wikidata": "Q1835533",
+        "wikipedia": "en:Chandigarh Airport"
+      }
+    }
+  ]
+}

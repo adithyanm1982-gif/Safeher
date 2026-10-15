@@ -1,0 +1,2547 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T15:02:44Z",
+    "timestamp_areas_base": "2026-10-14T11:20:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 835160297,
+      "lat": 27.8080358,
+      "lon": 96.0706018,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1437223034,
+      "lat": 28.8337912,
+      "lon": 95.9605256,
+      "tags": {
+        "aeroway": "aerodrome",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Ahunli Airstrip",
+        "name:en": "Ahunli Airstrip",
+        "name:zh": "阿库林简易机场",
+        "name:zh-Hans": "阿库林简易机场",
+        "name:zh-Hant": "阿庫林簡易機場"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1498837932,
+      "lat": 28.1286766,
+      "lon": 97.0189209,
+      "tags": {
+        "aeroway": "aerodrome",
+        "disused": "yes",
+        "internet_access": "no",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Walong Advanced Landing Ground",
+        "name:en": "Walong Advanced Landing Ground",
+        "name:zh": "瓦弄机场",
+        "name:zh-Hans": "瓦弄机场",
+        "name:zh-Hant": "瓦弄機場",
+        "wikidata": "Q96414225",
+        "wikipedia": "en:Walong Advanced Landing Ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1676604026,
+      "lat": 27.1308555,
+      "lon": 93.709712,
+      "tags": {
+        "name": "Naharlagun",
+        "name:en": "Naharlagun",
+        "name:zh": "纳哈拉贡",
+        "name:zh-Hans": "纳哈拉贡",
+        "name:zh-Hant": "納哈拉貢",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "NHLN",
+        "wikidata": "Q16895661",
+        "wikimedia_commons": "Category:Naharlagun railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1690134377,
+      "lat": 27.1298566,
+      "lon": 93.7365723,
+      "tags": {
+        "amenity": "hospital",
+        "designation": "Primary Helthj Unit",
+        "emergency": "yes",
+        "name": "NERIST Medical Unit",
+        "source": "NERIST"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1692786559,
+      "lat": 27.1269895,
+      "lon": 93.7314841,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1739998743,
+      "lat": 27.7396748,
+      "lon": 95.9117097,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1740002011,
+      "lat": 27.666557,
+      "lon": 95.8744406,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1740009477,
+      "lat": 27.790625,
+      "lon": 96.1783564,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1740039316,
+      "lat": 28.0593486,
+      "lon": 95.3324434,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1740057055,
+      "lat": 27.8886247,
+      "lon": 95.5186116,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3224653102,
+      "lat": 27.1369868,
+      "lon": 93.791461,
+      "tags": {
+        "name": "Gumto",
+        "name:en": "Gumto",
+        "name:zh": "果托",
+        "name:zh-Hans": "果托",
+        "name:zh-Hant": "果托",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "GMTO",
+        "wikidata": "Q28196255",
+        "wikipedia": "en:Gumto railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3546878914,
+      "lat": 27.8444239,
+      "lon": 95.2275198,
+      "tags": {
+        "addr:city": "Ruksin",
+        "amenity": "fuel",
+        "name": "Ruksin Petrol Pump",
+        "operator": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736885117,
+      "lat": 27.3343522,
+      "lon": 96.0473861,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum",
+        "name:en": "Bharat Petroleum",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4474581844,
+      "lat": 28.266996,
+      "lon": 95.6136558,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Community Health Centre",
+        "name:en": "Community Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483832038,
+      "lat": 27.593026,
+      "lon": 93.8263992,
+      "tags": {
+        "addr:city": "Old Ziro",
+        "addr:postcode": "791120",
+        "description": "A government of Arunachal Pradesh administrative office.",
+        "ele": "5300 ft",
+        "name": "ADC Office",
+        "name:en": "ADC Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483877385,
+      "lat": 27.5378255,
+      "lon": 93.8141355,
+      "tags": {
+        "addr:city": "Hapoli",
+        "addr:postcode": "791120",
+        "description": "A district administrative office headed by Deputy Commisioner.",
+        "name": "Mini Secretariat, Ziro",
+        "name:en": "Mini Secretariat, Ziro",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483884014,
+      "lat": 27.5942488,
+      "lon": 93.8264146,
+      "tags": {
+        "addr:city": "Old Ziro",
+        "addr:postcode": "791120",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Community Health Center",
+        "name:en": "Community Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483895972,
+      "lat": 27.5409913,
+      "lon": 93.8123429,
+      "tags": {
+        "addr:postcode": "791120",
+        "amenity": "courthouse",
+        "name": "District court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4544421791,
+      "lat": 27.0888239,
+      "lon": 93.6172159,
+      "tags": {
+        "name": "Tourism Office, AP",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4544430044,
+      "lat": 27.0816216,
+      "lon": 93.6034293,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "NE Homeopathic College and Hospital",
+        "name:en": "NE Homeopathic College and Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4633620396,
+      "lat": 27.5999385,
+      "lon": 93.8257835,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "ele": "5183",
+        "name": "Sululya Bus Station",
+        "name:en": "Sululya Bus Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4662642449,
+      "lat": 28.0577338,
+      "lon": 95.3314763,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5064206603,
+      "lat": 27.0983738,
+      "lon": 93.6251945,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187591935,
+      "lat": 28.6081205,
+      "lon": 95.8716979,
+      "tags": {
+        "name": "ITBP DETT.",
+        "name:en": "ITBP DETT.",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187591937,
+      "lat": 28.6084444,
+      "lon": 95.8721149,
+      "tags": {
+        "name": "DETT ETALIN 327 SURF PL 62RCC 752TF UDK",
+        "name:en": "DETT ETALIN 327 SURF PL 62RCC 752TF UDK",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607434,
+      "lat": 28.7986302,
+      "lon": 95.9042746,
+      "tags": {
+        "government": "public_works",
+        "name": "PWD Assistant Engineer Office",
+        "name:en": "PWD Assistant Engineer Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607435,
+      "lat": 28.7956688,
+      "lon": 95.8983853,
+      "tags": {
+        "government": "culture",
+        "name": "Assistant director of textile and handicrafts",
+        "name:en": "Assistant director of textile and handicrafts",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607438,
+      "lat": 28.7929298,
+      "lon": 95.8958848,
+      "tags": {
+        "government": "public_works",
+        "name": "Assistant Engineer Rural Works Sub Diva.",
+        "name:en": "Assistant Engineer Rural Works Sub Diva.",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607441,
+      "lat": 28.6757552,
+      "lon": 96.1554767,
+      "tags": {
+        "name": "ITBP Malinye",
+        "name:en": "ITBP Malinye",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607442,
+      "lat": 28.6072003,
+      "lon": 95.8707952,
+      "tags": {
+        "name": "Circle Officer Etalin",
+        "name:en": "Circle Officer Etalin",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607832,
+      "lat": 28.7932538,
+      "lon": 95.8960902,
+      "tags": {
+        "government": "public_works",
+        "name": "Executive Engineer Department of Hydro Power Development",
+        "name:en": "Executive Engineer Department of Hydro Power Development",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187607837,
+      "lat": 28.7967948,
+      "lon": 95.910334,
+      "tags": {
+        "addr:district": "Dibang Valley",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Anini Circle",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital",
+        "name:en": "District hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5187608025,
+      "lat": 28.6075944,
+      "lon": 95.8712339,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Primary Health Center Etalin",
+        "name:en": "Primary Health Center Etalin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302057025,
+      "lat": 27.5948593,
+      "lon": 91.8726057,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Apsts Bus Stand",
+        "name:en": "Apsts Bus Stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5309554125,
+      "lat": 27.5769241,
+      "lon": 91.9870197,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Assam Oil",
+        "name:en": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5314360022,
+      "lat": 27.2639132,
+      "lon": 92.4228934,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Network Bus, Sumo Stand",
+        "name:en": "Network Bus, Sumo Stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318041422,
+      "lat": 27.8433216,
+      "lon": 95.2239458,
+      "tags": {
+        "name": "ADC Arunachal permit office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318116022,
+      "lat": 28.0576523,
+      "lon": 95.332144,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318172921,
+      "lat": 28.0590756,
+      "lon": 95.3324435,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Sumo stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5320174522,
+      "lat": 28.1750078,
+      "lon": 94.8013777,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5320288022,
+      "lat": 28.1688407,
+      "lon": 94.8010238,
+      "tags": {
+        "amenity": "hospital",
+        "name": "General hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5329144622,
+      "lat": 28.1758042,
+      "lon": 94.7821008,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5329206621,
+      "lat": 28.5989967,
+      "lon": 94.1332328,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Naksang Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5330896822,
+      "lat": 28.1696523,
+      "lon": 94.7967926,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "APSTS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5336146821,
+      "lat": 28.1354855,
+      "lon": 95.8430791,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5336488221,
+      "lat": 27.9248086,
+      "lon": 96.1639168,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "APSTS Counter",
+        "name:en": "APSTS Counter",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5346165121,
+      "lat": 27.4871254,
+      "lon": 96.2048684,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "APSTS",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5986801588,
+      "lat": 27.5420975,
+      "lon": 93.8126917,
+      "tags": {
+        "name": "ITBP Officers’ Mess",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6467317786,
+      "lat": 28.6423099,
+      "lon": 95.025431,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Yingkiong District Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6897144087,
+      "lat": 28.1698267,
+      "lon": 94.7982352,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908097600,
+      "lat": 27.5890458,
+      "lon": 91.8646409,
+      "tags": {
+        "addr:block": "HB Tawang",
+        "addr:district": "Tawang",
+        "addr:full": "District Medical officer",
+        "addr:postcode": "790104",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "TAWANG CIRCLE",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "fax": "3794223092",
+        "healthcare": "hospital",
+        "name": "District Hospital, Tawang",
+        "name:en": "District Hospital, Tawang",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "http://wikimapia.org/25721727/District-Hospital-Tawang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120446,
+      "lat": 27.0952799,
+      "lon": 93.6782125,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "Sapu Nalah",
+        "addr:postcode": "791110",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "contact:phone": "3602246257",
+        "name": "Boriatari Memorial Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120508,
+      "lat": 27.1281628,
+      "lon": 93.7454997,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "Nh 52 A",
+        "addr:postcode": "791109",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "contact:phone": "03602257183; 2258005",
+        "name": "Tara Memorial Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120513,
+      "lat": 27.0843407,
+      "lon": 93.6054642,
+      "tags": {
+        "addr:district": "Lower Subansiri",
+        "addr:full": "Rk Mission Road, Itanagar",
+        "addr:postcode": "791113",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "contact:phone": "3602217651",
+        "name": "Polo Hospital Pvt Ltd",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6912471590,
+      "lat": 28.599863,
+      "lon": 94.1338417,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Chukla Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6912471596,
+      "lat": 28.6000136,
+      "lon": 94.1346556,
+      "tags": {
+        "name": "Office of the Addl. Deputy Commissioner",
+        "name:en": "Office of the Addl. Deputy Commissioner",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6912526286,
+      "lat": 28.4163909,
+      "lon": 94.6777528,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "APSTS",
+        "name:en": "APSTS",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6912526287,
+      "lat": 28.4143369,
+      "lon": 94.6779278,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Sumo Stand",
+        "name:en": "Sumo Stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6912527086,
+      "lat": 28.530604,
+      "lon": 94.375382,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Sumo Stand",
+        "name:en": "Sumo Stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6917894485,
+      "lat": 27.9815616,
+      "lon": 94.6858624,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CHC Government Hospital",
+        "name:en": "CHC Government Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938944732,
+      "lat": 27.2655136,
+      "lon": 92.4201467,
+      "tags": {
+        "addr:district": "West Kameng",
+        "addr:postcode": "790001",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Nafra Circle",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital, Bomdila",
+        "name:en": "District Hospital, Bomdila",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7103971889,
+      "lat": 28.6417004,
+      "lon": 95.0250781,
+      "tags": {
+        "addr:district": "Upper Siang",
+        "addr:postcode": "791002",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Yingkiong Circle",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital, Yingkiong",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7103971893,
+      "lat": 27.292495,
+      "lon": 96.112927,
+      "tags": {
+        "addr:district": "Changlang",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Nampong Circle",
+        "amenity": "hospital",
+        "description": "government hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital, Nampong",
+        "name:en": "Government Hospital, Nampong",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7103971896,
+      "lat": 26.9922136,
+      "lon": 95.5008622,
+      "tags": {
+        "addr:district": "Tirap",
+        "addr:postcode": "792130",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Khonsa Circle",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital, Khonsa",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441763,
+      "lat": 27.10857,
+      "lon": 93.697428,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "A Sector, Papum Pare, NH-52A, Itanagar Road, Naharlagun",
+        "addr:postcode": "791110",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "name": "Samaritan Hormin Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441764,
+      "lat": 28.3214998,
+      "lon": 94.9541877,
+      "tags": {
+        "addr:district": "Siang",
+        "addr:full": "Medog, Boleng",
+        "addr:postcode": "791102",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Governmnet Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441765,
+      "lat": 27.353033,
+      "lon": 93.043222,
+      "tags": {
+        "addr:district": "East Kameng",
+        "addr:full": "Cona, Shannan",
+        "addr:postcode": "790102",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Seppa District Hospital",
+        "name:en": "Seppa District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441766,
+      "lat": 27.0973479,
+      "lon": 93.6770975,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "Niba hospital, Naharlagun Pappunalla, Itanagar",
+        "addr:postcode": "791110",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Niba Hospital",
+        "name:en": "Niba Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441767,
+      "lat": 28.141538,
+      "lon": 95.8405081,
+      "tags": {
+        "addr:district": "Lower Dibang Valley",
+        "addr:full": "Roing",
+        "addr:postcode": "792110",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441768,
+      "lat": 27.1301214,
+      "lon": 93.7474761,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "NH 52A, Cona, Nirjuli,",
+        "addr:postcode": "791109",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tago Memorial Hospital",
+        "name:en": "Tago Memorial Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441769,
+      "lat": 27.1008421,
+      "lon": 93.6281623,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "NH415, Cona County, Itanagar",
+        "addr:postcode": "791111",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "name": "Heema Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441770,
+      "lat": 27.9280499,
+      "lon": 96.1581662,
+      "tags": {
+        "addr:district": "Lohit",
+        "addr:full": "Tezu",
+        "addr:postcode": "792001",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital",
+        "name:en": "District Hospital",
+        "name:zh": "县医院",
+        "name:zh-Hans": "县医院",
+        "name:zh-Hant": "縣醫院",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441771,
+      "lat": 26.88521,
+      "lon": 95.321261,
+      "tags": {
+        "addr:district": "Longding",
+        "addr:full": "Niaunyu",
+        "addr:postcode": "792131",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "name": "Longing Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441773,
+      "lat": 27.1392719,
+      "lon": 95.7386846,
+      "tags": {
+        "addr:district": "Changlang",
+        "addr:full": "Town Road, Changlang",
+        "addr:postcode": "792120",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital",
+        "name:ur": "ضلعی ہسپتال",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441776,
+      "lat": 27.9116303,
+      "lon": 96.1287519,
+      "tags": {
+        "addr:district": "Lohit",
+        "addr:full": "Garage Road, Lama Camp, Tindolong",
+        "addr:postcode": "792001",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Men-Tsee-Khang Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441777,
+      "lat": 27.153219,
+      "lon": 93.7673813,
+      "tags": {
+        "addr:district": "Papum Pare",
+        "addr:full": "University Road, Cona County, Doimukh",
+        "addr:postcode": "791112",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "name": "RGU Health Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615441778,
+      "lat": 27.664404,
+      "lon": 95.868314,
+      "tags": {
+        "addr:district": "Namsai",
+        "addr:full": "Namsai",
+        "addr:postcode": "792103",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "name:en": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8348355956,
+      "lat": 28.1695731,
+      "lon": 94.7972535,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum Petrol Pump , AALO ENERGY POINT"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8348355979,
+      "lat": 28.1685172,
+      "lon": 94.8005212,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "M/S Life Line Medico's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8348359676,
+      "lat": 28.3239492,
+      "lon": 94.9522843,
+      "tags": {
+        "name": "ADDITIONAL DEPUTY COMMISSIONER OFFICE",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9140652038,
+      "lat": 28.0821116,
+      "lon": 96.5245627,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hayuliang Hospital",
+        "name:en": "Hayuliang Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9195671346,
+      "lat": 27.4246705,
+      "lon": 96.0280519,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9594379464,
+      "lat": 27.6596218,
+      "lon": 94.7045209,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil",
+        "name:en": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11283249169,
+      "lat": 27.0136044,
+      "lon": 92.6374595,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Ayub Medico's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11285580670,
+      "lat": 26.9655868,
+      "lon": 93.5951258,
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12472917168,
+      "lat": 27.9850487,
+      "lon": 94.2159275,
+      "tags": {
+        "name": "Mini Secretariat, Upper Subansiri District",
+        "name:en": "Mini Secretariat, Upper Subansiri District",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12508612974,
+      "lat": 27.7598665,
+      "lon": 96.348,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13447704396,
+      "lat": 28.793164,
+      "lon": 95.9038787,
+      "tags": {
+        "check_date": "2026-01-11",
+        "description": "National highway & infra development corporation ltd.",
+        "government": "register_office",
+        "name": "NHIDCL Site Office Anini",
+        "name:en": "NHIDCL Site Office Anini",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13449399994,
+      "lat": 28.7917672,
+      "lon": 95.8975713,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2026-01-12",
+        "name": "Indian Oil",
+        "name:en": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14183743312,
+      "lat": 27.937767,
+      "lon": 95.2987493,
+      "tags": {
+        "name": "Sille",
+        "name:hi": "सिल्ले",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "SILE",
+        "train": "yes",
+        "wikidata": "Q141469665"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14183743318,
+      "lat": 28.0273903,
+      "lon": 95.329855,
+      "tags": {
+        "name": "Pasighat",
+        "name:hi": "पासीघाट",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "PAGT",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 96583772,
+      "center": {
+        "lat": 27.9420551,
+        "lon": 96.1348375
+      },
+      "nodes": [
+        1118729461,
+        3807594261,
+        3807594260,
+        3807594259,
+        3807594258,
+        3807594257,
+        3807593356,
+        3807593355,
+        1118732327,
+        3807594263,
+        3807594262,
+        3807594266,
+        3807594275,
+        1118731297,
+        1118730084,
+        1118729461
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "183",
+        "iata": "TEI",
+        "icao": "VETJ",
+        "is_in:country": "India",
+        "military": "airfield",
+        "name": "Tezu",
+        "wikidata": "Q6588390"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129818618,
+      "center": {
+        "lat": 27.0859985,
+        "lon": 93.6091631
+      },
+      "nodes": [
+        1431589540,
+        1431589530,
+        5069151363,
+        1431589526,
+        1431589525,
+        1431589528,
+        1431589533,
+        1431589536,
+        1431589545,
+        1431589540
+      ],
+      "tags": {
+        "addr:district": "Lower Subansiri",
+        "addr:full": "P.O.- R.K.Mission, Itanagar",
+        "addr:postcode": "791113",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "fax": "360221276",
+        "name": "Ramakrishna Mission Hospital, Lower Subansiri",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "http://rkmh.org/hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157575688,
+      "center": {
+        "lat": 27.1113529,
+        "lon": 93.6962666
+      },
+      "nodes": [
+        1698136883,
+        1698136868,
+        1698136725,
+        1698136728,
+        1698136690,
+        1698136710,
+        1698136879,
+        1698136883
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "name": "Naharlagun Heliport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157708626,
+      "center": {
+        "lat": 28.0654923,
+        "lon": 95.3365116
+      },
+      "nodes": [
+        1699637886,
+        1699637843,
+        1699637988,
+        1699637985,
+        9342584650,
+        1699638009,
+        1699638006,
+        1699638014,
+        1699638018,
+        1699638050,
+        1699638053,
+        1699638038,
+        1699638043,
+        1699638041,
+        1699638037,
+        1699638033,
+        9342584653,
+        9342584654,
+        1699638027,
+        1699637992,
+        3807582029,
+        3807582026,
+        3807582024,
+        1699637886
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "iata": "IXT",
+        "icao": "VEPG",
+        "name": "Pasighat Airport",
+        "name:en": "Pasighat Airport",
+        "name:zh": "巴昔卡机场",
+        "name:zh-Hans": "巴昔卡机场",
+        "name:zh-Hant": "巴昔卡機場",
+        "wikidata": "Q7142134",
+        "wikipedia": "en:Pasighat Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 315155223,
+      "center": {
+        "lat": 27.5884223,
+        "lon": 93.8285737
+      },
+      "nodes": [
+        3212494913,
+        3212494914,
+        3212494908,
+        3212494907,
+        3212494905,
+        3212494906,
+        3212494902,
+        12647636259,
+        12647636258,
+        9240668446,
+        3212494903,
+        3212494910,
+        3212494909,
+        3212494912,
+        3212494911,
+        3212494913
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "iata": "ZER",
+        "icao": "VEZO",
+        "is_in:country": "India",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Ziro Airfield",
+        "name:en": "Ziro Airfield",
+        "name:zh": "济罗机场",
+        "wikidata": "Q8069497",
+        "wikipedia": "en:Zero Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357356352,
+      "center": {
+        "lat": 27.1034084,
+        "lon": 93.6915654
+      },
+      "nodes": [
+        3626431709,
+        3626431710,
+        3626431711,
+        3626431712,
+        3626431709
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Arunachal State Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357360406,
+      "center": {
+        "lat": 27.1048029,
+        "lon": 93.6941169
+      },
+      "nodes": [
+        3626444245,
+        3626444246,
+        3626444247,
+        3626444248,
+        3626444245
+      ],
+      "tags": {
+        "addr:city": "Naharlagun",
+        "addr:postcode": "791110",
+        "name": "PWD Naharlagun Division",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357361706,
+      "center": {
+        "lat": 27.1072681,
+        "lon": 93.6936703
+      },
+      "nodes": [
+        3626404012,
+        3626404013,
+        3626404014,
+        3626404015,
+        3626404012
+      ],
+      "tags": {
+        "addr:city": "Naharlagun",
+        "addr:postcode": "791110",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451566625,
+      "center": {
+        "lat": 27.5389505,
+        "lon": 93.8221821
+      },
+      "nodes": [
+        4483880642,
+        4483880643,
+        4483880644,
+        4483880645,
+        4483880642
+      ],
+      "tags": {
+        "addr:city": "Hapoli",
+        "addr:district": "Lower Subansiri",
+        "addr:postcode": "791120",
+        "addr:state": "Arunachal Pradesh",
+        "addr:subdistrict": "Old Ziro Circle",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Government Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454805109,
+      "center": {
+        "lat": 27.9858158,
+        "lon": 94.2232078
+      },
+      "nodes": [
+        4513147179,
+        4513147178,
+        4513147177,
+        746931718,
+        4513147176,
+        4513147175,
+        4513147174,
+        4513147173,
+        4513147172,
+        4513147179
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "is_in:country": "India",
+        "name": "Daporijo Airfield",
+        "name:en": "Daporijo Airfield"
+      }
+    },
+    {
+      "type": "way",
+      "id": 458429369,
+      "center": {
+        "lat": 27.0879857,
+        "lon": 93.6103202
+      },
+      "nodes": [
+        4544314972,
+        5081597833,
+        4544314973,
+        4544314974,
+        4544314975,
+        4544314972
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Arunachal pradesh State transport bus station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 458437418,
+      "center": {
+        "lat": 27.0870377,
+        "lon": 93.6087213
+      },
+      "nodes": [
+        4544389398,
+        4544389399,
+        4544389400,
+        4544389401,
+        4544389398
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Pharmacy line"
+      }
+    },
+    {
+      "type": "way",
+      "id": 458439224,
+      "center": {
+        "lat": 27.0900035,
+        "lon": 93.6147946
+      },
+      "nodes": [
+        4544402351,
+        4544402352,
+        4544402353,
+        13064063622,
+        4544402354,
+        13064043973,
+        13064043971,
+        4544402351
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Ganga Petrolpump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 472035462,
+      "center": {
+        "lat": 28.0712137,
+        "lon": 95.3247789
+      },
+      "nodes": [
+        4662254428,
+        4662254429,
+        4662254430,
+        4662254431,
+        4662254432,
+        4662254433,
+        4662254434,
+        4662254435,
+        4662254436,
+        4662254437,
+        4662254438,
+        4662254428
+      ],
+      "tags": {
+        "addr:district": "East Siang",
+        "addr:full": "Pasighat",
+        "addr:postcode": "791102",
+        "addr:state": "Arunachal Pradesh",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bakin Pertin Hospital, Pasighat",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 472037462,
+      "center": {
+        "lat": 28.0701619,
+        "lon": 95.3223352
+      },
+      "nodes": [
+        4662430965,
+        4662430966,
+        4662430967,
+        4662430968,
+        4662430965
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "APST Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 472040158,
+      "center": {
+        "lat": 28.0534885,
+        "lon": 95.3316057
+      },
+      "nodes": [
+        4662648729,
+        4662648730,
+        4662648731,
+        4662648732,
+        4662648729
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "NRL"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510456880,
+      "center": {
+        "lat": 27.1033822,
+        "lon": 93.6276768
+      },
+      "nodes": [
+        4994609558,
+        4994609555,
+        4994609556,
+        4994609557,
+        4994609558
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "public"
+      }
+    },
+    {
+      "type": "way",
+      "id": 510509991,
+      "center": {
+        "lat": 27.0844584,
+        "lon": 93.6097007
+      },
+      "nodes": [
+        4995080527,
+        4995080524,
+        4995080525,
+        4995080526,
+        4995080527
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Swami Vivekananda Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520531136,
+      "center": {
+        "lat": 27.0914299,
+        "lon": 93.6194627
+      },
+      "nodes": [
+        5073308584,
+        5073308583,
+        5073308582,
+        5073308581,
+        5073308584
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520531137,
+      "center": {
+        "lat": 27.0917989,
+        "lon": 93.619208
+      },
+      "nodes": [
+        5073308588,
+        5073308587,
+        5073308586,
+        5073308585,
+        5073308588
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520531138,
+      "center": {
+        "lat": 27.0924548,
+        "lon": 93.6193662
+      },
+      "nodes": [
+        5073308592,
+        5073308591,
+        5073308590,
+        5073308589,
+        5073308592
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 520531139,
+      "center": {
+        "lat": 27.091811,
+        "lon": 93.6184671
+      },
+      "nodes": [
+        5073308596,
+        5073308595,
+        5073308594,
+        5073308593,
+        5073308596
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Civil Secretariat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540412999,
+      "center": {
+        "lat": 28.1761541,
+        "lon": 94.8046423
+      },
+      "nodes": [
+        5228170540,
+        5228170539,
+        5228170538,
+        245764396,
+        5228170537,
+        5228170536,
+        5228170535,
+        9338516955,
+        9338516954,
+        9338516952,
+        9338516953,
+        9338516951,
+        5228170534,
+        9338516950,
+        9338516949,
+        9338516948,
+        9338516947,
+        9568899867,
+        9568899868,
+        5228170540
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "274",
+        "iata": "IXV",
+        "icao": "VEAN",
+        "landuse": "military",
+        "military": "airfield",
+        "military_service": "air_force",
+        "name": "Along Airport",
+        "name:en": "Along Airport",
+        "name:zh": "班喀木机场",
+        "name:zh-Hans": "班喀木机场",
+        "name:zh-Hant": "班喀木機場",
+        "operator": "Indian Air Force",
+        "operator:wikidata": "Q330658",
+        "wikipedia": "en:Along Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 590588277,
+      "center": {
+        "lat": 28.6025333,
+        "lon": 94.1257686
+      },
+      "nodes": [
+        5638386694,
+        5638386693,
+        798574571,
+        5638386692,
+        5638386691,
+        5638386690,
+        5638386689,
+        5638386688,
+        5638386687,
+        5638386694
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Menchukha Advanced Landing Ground",
+        "alt_name:en": "Menchukha Advanced Landing Ground",
+        "name": "Machuka Advanced Landing Ground",
+        "name:en": "Machuka Advanced Landing Ground",
+        "wikidata": "Q12693724",
+        "wikipedia": "en:Mechuka Advanced Landing Ground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 669562101,
+      "center": {
+        "lat": 27.0891301,
+        "lon": 93.6194949
+      },
+      "nodes": [
+        6270117974,
+        6270117975,
+        6270117976,
+        6270117977,
+        6270117978,
+        6270117979,
+        6270117980,
+        6270117981,
+        6270117982,
+        6270117983,
+        6270117984,
+        6270119785,
+        6270119786,
+        6270117974
+      ],
+      "tags": {
+        "addr:city": "Itanagar",
+        "addr:postcode": "791113",
+        "addr:street": "Itanagar",
+        "building": "yes",
+        "name": "Legislative Assembly",
+        "name:en": "Legislative Assembly",
+        "office": "government",
+        "operator": "Govt. of Arunachal pradesh"
+      }
+    },
+    {
+      "type": "way",
+      "id": 725954347,
+      "center": {
+        "lat": 27.1934604,
+        "lon": 97.0029928
+      },
+      "nodes": [
+        798360365,
+        6806344978,
+        9314954598,
+        9314954597,
+        9314954596,
+        9314954595,
+        9314954594,
+        9314954603,
+        6806344979,
+        9314958419,
+        6806344980,
+        9314958421,
+        6806437809,
+        6806344982,
+        9314954593,
+        6806429631,
+        9314954592,
+        6806344983,
+        6806344984,
+        6806388185,
+        6806388186,
+        6806388187,
+        6806388188,
+        6806388189,
+        6806388190,
+        6806388191,
+        6806388193,
+        9314958452,
+        9314954589,
+        9314954590,
+        9314954591,
+        9314954588,
+        6806429638,
+        9314958443,
+        6806388194,
+        798360365
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Vijaynagar Advanced Landing Ground",
+        "alt_name_1": "Chaukan Pass",
+        "ele": "1270",
+        "icao": "VE91",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Vijanagar ALG",
+        "source": "ourairports.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 889514248,
+      "center": {
+        "lat": 28.9886693,
+        "lon": 94.8989592
+      },
+      "nodes": [
+        8269732371,
+        8269732372,
+        8269732373,
+        8269732374,
+        8269732375,
+        8269732376,
+        8269732377,
+        12717869241,
+        12717869240,
+        7212624519,
+        7212624492,
+        7212624671,
+        8269732380,
+        8269732381,
+        12717901443,
+        12717901444,
+        8269732382,
+        8269732383,
+        8269732384,
+        12717909969,
+        8269732385,
+        8269732386,
+        8269736858,
+        8269732371
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Tuting Advanced Landing Ground",
+        "name:en": "Tuting Advanced Landing Ground",
+        "wikidata": "Q96411414",
+        "wikipedia": "en:Tuting Advanced Landing Ground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 898352745,
+      "center": {
+        "lat": 28.1711729,
+        "lon": 94.794162
+      },
+      "nodes": [
+        8348355932,
+        8348355933,
+        8348355934,
+        8348355935,
+        8348355932
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "LPG GAS REFILLER"
+      }
+    },
+    {
+      "type": "way",
+      "id": 898352753,
+      "center": {
+        "lat": 28.1778952,
+        "lon": 94.8052418
+      },
+      "nodes": [
+        8348355990,
+        8348355991,
+        8348355992,
+        8348355993,
+        8348355990
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Yomgo Automobile Services",
+        "phone": "+913783224266"
+      }
+    },
+    {
+      "type": "way",
+      "id": 899449797,
+      "center": {
+        "lat": 28.0577216,
+        "lon": 95.3313776
+      },
+      "nodes": [
+        8357172216,
+        8357172217,
+        8357172218,
+        8357172219,
+        8357172216
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 907518353,
+      "center": {
+        "lat": 27.1275815,
+        "lon": 93.7249499
+      },
+      "nodes": [
+        8426850170,
+        8426850169,
+        8426850168,
+        8426850167,
+        8426850166,
+        8426850165,
+        8426850164,
+        8426850163,
+        8426850162,
+        8426850132,
+        8426850161,
+        8426850160,
+        8426850159,
+        8426850158,
+        8426850157,
+        8426850170
+      ],
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 907600900,
+      "center": {
+        "lat": 27.0923417,
+        "lon": 93.6189477
+      },
+      "nodes": [
+        8427568567,
+        8519354066,
+        8427568566,
+        8427568565,
+        8427568564,
+        8427568563,
+        8427568562,
+        8427568561,
+        8427568560,
+        8427568559,
+        8427568558,
+        8427568557,
+        8427568556,
+        8427568555,
+        13064043977,
+        8427568554,
+        13064063612,
+        8427568567
+      ],
+      "tags": {
+        "government": "administrative",
+        "landuse": "commercial",
+        "name": "Civil Secretariat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 907600901,
+      "center": {
+        "lat": 27.0892051,
+        "lon": 93.6193688
+      },
+      "nodes": [
+        8427568578,
+        8427568577,
+        8427568576,
+        8427568575,
+        8427568573,
+        8427568572,
+        8427568571,
+        8427568570,
+        8427568569,
+        8427568568,
+        8427568578
+      ],
+      "tags": {
+        "government": "legislative",
+        "landuse": "commercial",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 917228582,
+      "center": {
+        "lat": 27.0895266,
+        "lon": 93.6146076
+      },
+      "nodes": [
+        8519354023,
+        13064044000,
+        13064043980,
+        13064043968,
+        13064063614,
+        13064063644,
+        13064063617,
+        13064063609,
+        8519354022,
+        13064063636,
+        13064043998,
+        13064063628,
+        13064063620,
+        8519354021,
+        13064043989,
+        13064043991,
+        13064043994,
+        13064043987,
+        8519354020,
+        13064063641,
+        13064043986,
+        13064043995,
+        8519354023
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "RG Congress Bhawan",
+        "townhall:type": "city"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988951817,
+      "center": {
+        "lat": 28.0737447,
+        "lon": 96.548895
+      },
+      "nodes": [
+        9140591209,
+        9140591208,
+        9140591207,
+        9140591206,
+        9140591205,
+        9140591204,
+        9140591203,
+        9140591202,
+        9140591201,
+        9140591200,
+        9140591199,
+        9140591198,
+        9140591197,
+        9140591196,
+        9140591195,
+        9140591194,
+        9140591193,
+        9140591192,
+        9140591191,
+        9140591190,
+        9140591189,
+        9140591188,
+        9140591209
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "name": "Hayuliang",
+        "name:zh": "前门里机场"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012203181,
+      "center": {
+        "lat": 28.1570672,
+        "lon": 94.7899687
+      },
+      "nodes": [
+        9338502111,
+        9338502110,
+        9338502109,
+        9338502108,
+        9338502111
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012203184,
+      "center": {
+        "lat": 28.1591719,
+        "lon": 94.7910858
+      },
+      "nodes": [
+        9338516924,
+        9338516923,
+        9338516922,
+        9338516921,
+        9338516920,
+        9338516924
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022171164,
+      "center": {
+        "lat": 26.9698153,
+        "lon": 93.6419255
+      },
+      "nodes": [
+        9427331716,
+        12466494515,
+        12466494337,
+        12466508012,
+        12466494336,
+        10158835813,
+        12466494335,
+        12466494334,
+        12466494333,
+        12466494332,
+        12466494331,
+        12466494330,
+        9427331715,
+        12466494298,
+        12466494312,
+        12466494311,
+        12466494310,
+        12466494309,
+        12466494308,
+        12466494307,
+        12466494306,
+        12466494305,
+        12466461882,
+        12466494281,
+        12466461869,
+        12466494280,
+        10158835780,
+        12466494278,
+        10158835781,
+        12466494277,
+        12466461839,
+        12466494276,
+        12466494275,
+        10158835783,
+        12466494258,
+        12466461785,
+        12466494257,
+        12466494256,
+        12466494255,
+        10158835784,
+        13704189161,
+        12466572316,
+        12466572317,
+        12466572851,
+        12466572852,
+        12466572853,
+        12466572854,
+        12466572855,
+        12466572856,
+        10158835785,
+        12466572857,
+        10158835790,
+        10158835791,
+        10158835792,
+        10158835793,
+        10158835794,
+        12466572858,
+        12466572859,
+        12466462100,
+        12466461615,
+        9427331714,
+        12466461988,
+        12466461987,
+        10158835797,
+        12466461986,
+        12466461980,
+        12466461985,
+        12466461989,
+        12466462101,
+        12466461982,
+        12466461981,
+        12466462109,
+        12466461979,
+        10158835800,
+        12466462121,
+        12466462151,
+        12466462120,
+        12466462117,
+        10158835799,
+        12466461938,
+        12466461961,
+        12466461517,
+        12466461974,
+        10158835802,
+        12466461937,
+        12466464093,
+        10158835804,
+        10158835798,
+        9427331713,
+        9427331712,
+        12466494519,
+        10158835807,
+        12466494518,
+        12466494517,
+        10158835809,
+        10158835810,
+        12466507992,
+        12466494516,
+        9427331716
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "100",
+        "iata": "HGI",
+        "icao": "VEHO",
+        "name": "Itanagar Holongi Airport",
+        "name:en": "Itanagar Holongi Airport",
+        "wikidata": "Q18126101"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1050448443,
+      "center": {
+        "lat": 28.0663049,
+        "lon": 96.4924331
+      },
+      "nodes": [
+        9653166798,
+        9653166797,
+        9653166796,
+        9653166795,
+        9653166794,
+        9653166798
+      ],
+      "tags": {
+        "government": "agriculture",
+        "name": "Krishi Vigyan Kendra",
+        "name:en": "Krishi Vigyan Kendra",
+        "office": "government",
+        "website": "https://kvkanjaw.nic.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1050448446,
+      "center": {
+        "lat": 28.0651422,
+        "lon": 96.4922339
+      },
+      "nodes": [
+        9653166810,
+        9653166809,
+        9653166808,
+        9653166807,
+        9653166810
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Khupa Petrol Bunk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054036244,
+      "center": {
+        "lat": 27.657964,
+        "lon": 94.7088437
+      },
+      "nodes": [
+        9686342821,
+        9686342818,
+        9686342819,
+        9686342820,
+        9686342821
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Likabali Power Department Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054036251,
+      "center": {
+        "lat": 27.6589172,
+        "lon": 94.7104734
+      },
+      "nodes": [
+        9686342847,
+        9686342844,
+        9686342845,
+        9686342846,
+        9686342840,
+        9686342847
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Likabali Sub-divisional Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324935883,
+      "center": {
+        "lat": 26.988031,
+        "lon": 95.5046759
+      },
+      "nodes": [
+        12260517303,
+        12260517304,
+        12260517305,
+        12260517306,
+        12260517307,
+        12260517308,
+        12260517303
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Khonsa Bus Stand",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324935895,
+      "center": {
+        "lat": 26.9901923,
+        "lon": 95.5014096
+      },
+      "nodes": [
+        12260517527,
+        12260517528,
+        12260517529,
+        12260517530,
+        12260517531,
+        12260517532,
+        12260517533,
+        12260517534,
+        12260517535,
+        12260517536,
+        12260517537,
+        12260517538,
+        12260517527
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "District Commisioner Office Khonsa",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324935896,
+      "center": {
+        "lat": 26.9901067,
+        "lon": 95.5023594
+      },
+      "nodes": [
+        12260517539,
+        12260517540,
+        12260517541,
+        12260517542,
+        12260517543,
+        12260517544,
+        12260517545,
+        12260517546,
+        12260517547,
+        12260517548,
+        12260517549,
+        12260517550,
+        12260517551,
+        12260517552,
+        12260517553,
+        12260517554,
+        12260517555,
+        12260517556,
+        12260517557,
+        12260517558,
+        12260517559,
+        12260517539
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Government Offices Khonsa",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324935902,
+      "center": {
+        "lat": 26.9918854,
+        "lon": 95.5091155
+      },
+      "nodes": [
+        12260517630,
+        12260517631,
+        12260517632,
+        12260517633,
+        12260517630
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil Khonsa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347725323,
+      "center": {
+        "lat": 26.9715313,
+        "lon": 93.6403846
+      },
+      "nodes": [
+        12466494106,
+        12466494107,
+        12466494108,
+        12466494109,
+        12466494106
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Donyi Polo Airport Fire Station",
+        "name:en": "Donyi Polo Airport Fire Station"
+      }
+    }
+  ]
+}
