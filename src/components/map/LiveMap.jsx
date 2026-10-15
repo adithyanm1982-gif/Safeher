@@ -15,7 +15,7 @@ const dot = (color, size = 16) =>
 
 const zoneIcon = dot('#16a34a');
 const reportIcon = dot('#f59e0b');
-const resultIcon = dot('#7c3aed', 20);
+const resultIcon = dot('#16a34a', 20);
 const destIcon = dot('#e11d48', 22);
 
 function userIcon(heading) {

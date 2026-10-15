@@ -1,6 +1,8 @@
-import { useCallback, useEffect, useState } from 'react';
-import { ChevronDown, ChevronUp, Download, Flag, LocateFixed, MapPinned, Search, Star, X } from 'lucide-react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
+import { ChevronDown, ChevronUp, Download, Flag, Globe, LocateFixed, MapPinned, Search, Star, X } from 'lucide-react';
 import LiveMap from '../components/map/LiveMap';
+import StatesSheet from '../components/map/StatesSheet';
 import { useApp } from '../context/AppContext';
 import { useSafety } from '../context/SafetyContext';
 import useCompass from '../hooks/useCompass';
@@ -10,6 +12,7 @@ import { CATEGORIES, buildRoute, searchAlongRoute } from '../services/routeSearc
 import { sendOrQueue } from '../services/sync';
 import { tap } from '../services/haptics';
 import { CAT_KEY, zoneName } from '../services/i18n';
+import { getMeta, listDownloaded, nearbyZones, setMeta } from '../services/zoneData';
 
 const CARDINALS = ['cN', 'cNE', 'cE', 'cSE', 'cS', 'cSW', 'cW', 'cNW'];
 
@@ -40,6 +43,7 @@ export default function MapPage() {
   const [flyKey, setFlyKey] = useState(0);
   const [focus, setFocus] = useState(null);
   const [zones, setZones] = useState([]);
+  const [offlineZones, setOfflineZones] = useState([]);
   const [reports, setReports] = useState([]);
   const [msg, setMsg] = useState('');
   const [busy, setBusy] = useState('');
@@ -52,6 +56,10 @@ export default function MapPage() {
   const [results, setResults] = useState([]);
   const [searching, setSearching] = useState(false);
   const [destination, setDestination] = useState(null);
+  const [statesOpen, setStatesOpen] = useState(false);
+  const [downloaded, setDownloaded] = useState(0);
+  const [zver, setZver] = useState(0);
+  const lastQ = useRef(null);
 
   const cardinal = (h) => (h == null ? '—' : t(CARDINALS[Math.round(h / 45) % 8]));
   const catLabel = (z) => t(CAT_KEY[z.category] || 'cat_other');
@@ -62,6 +70,22 @@ export default function MapPage() {
   }, []);
   useEffect(() => { reload(); }, [reload]);
 
+  // Open the state list once, the very first time the map is visited.
+  useEffect(() => {
+    (async () => {
+      setDownloaded((await listDownloaded()).length);
+      if (!(await getMeta('prompted'))) {
+        await setMeta('prompted', true);
+        setStatesOpen(true);
+      }
+    })().catch(() => {});
+  }, []);
+
+  const onStatesChanged = () => {
+    setZver((v) => v + 1);
+    listDownloaded().then((l) => setDownloaded(l.length)).catch(() => {});
+  };
+
   useEffect(() => {
     if (!msg) return undefined;
     const id = setTimeout(() => setMsg(''), 4000);
@@ -70,6 +94,29 @@ export default function MapPage() {
 
   const pos = geo.pos;
   const heading = compass.heading ?? (pos && !pos.cached && pos.speed > 1 ? pos.heading : null);
+
+  // Places from downloaded states, refreshed when you move about 300 m.
+  useEffect(() => {
+    if (!pos) return;
+    const l = lastQ.current;
+    if (l && l.v === zver && haversine(l, pos) < 300) return;
+    lastQ.current = { lat: pos.lat, lng: pos.lng, v: zver };
+    nearbyZones(pos, 6000, 150).then(setOfflineZones).catch(() => {});
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pos?.lat, pos?.lng, zver]);
+
+  const allZones = useMemo(() => {
+    const seen = new Set();
+    const out = [];
+    for (const z of [...zones, ...offlineZones]) {
+      const k = `${z.category}|${z.lat.toFixed(4)}|${z.lng.toFixed(4)}`;
+      if (!seen.has(k)) {
+        seen.add(k);
+        out.push(z);
+      }
+    }
+    return out;
+  }, [zones, offlineZones]);
 
   const recentre = async () => {
     tap();
@@ -116,10 +163,15 @@ export default function MapPage() {
     if (!pos) return setMsg(t('waitFix'));
     setSearching(true);
     const route = buildRoute(pos, geo.trail, destination);
-    const out = await searchAlongRoute({ pos, route, keys, online });
+    const out = await searchAlongRoute({ pos, route, keys });
     setResults(out.results);
-    await reload();
-    setMsg(out.error ? t('searchErr', { err: out.error }) : out.results.length ? '' : t('nothingFound'));
+    if (out.results.length) {
+      setSearchOpen(false);
+      setSheet(true);
+      setTab('nearby');
+    } else {
+      setMsg(t('nothingFound'));
+    }
     setSearching(false);
   };
 
@@ -137,14 +189,16 @@ export default function MapPage() {
     reload();
   };
 
-  const sorted = pos ? [...zones].sort((a, b) => haversine(pos, a) - haversine(pos, b)) : zones;
+  // While a search is active only its results are listed and drawn; otherwise everything nearby.
+  const base = results.length ? results : allZones;
+  const sorted = pos ? [...base].sort((a, b) => haversine(pos, a) - haversine(pos, b)) : base;
   const avg = reports.length ? (reports.reduce((s, r) => s + r.score, 0) / reports.length).toFixed(1) : null;
 
   return (
     <div className="relative h-full w-full overflow-hidden bg-bg">
       <div className="absolute inset-0">
         <LiveMap
-          pos={pos} heading={heading} trail={geo.trail} zones={zones} reports={reports} results={results}
+          pos={pos} heading={heading} trail={geo.trail} zones={results.length ? [] : allZones} reports={reports} results={results}
           destination={destination} following={following} flyKey={flyKey} focus={focus}
           onDrag={() => setFollowing(false)}
           onLongPress={(p) => { setDestination(p); setMsg(t('destSet')); }}
@@ -178,21 +232,6 @@ export default function MapPage() {
                 <button type="button" onClick={() => { setResults([]); setDestination(null); }} className="h-10 rounded-xl border border-line px-3 text-sm font-semibold text-fg">{t('clear')}</button>
               )}
             </div>
-            {results.length > 0 && (
-              <ul className="mt-2 max-h-[34vh] divide-y divide-line overflow-y-auto">
-                {results.map((z) => (
-                  <li key={z.id}>
-                    <button type="button" onClick={() => goTo(z)} className="flex min-h-[44px] w-full items-center justify-between gap-2 py-1.5 text-left">
-                      <span className="min-w-0">
-                        <span className="block truncate text-sm font-semibold">{zoneName(t, z)}</span>
-                        <span className="block text-[11px] text-muted">{t('offRoute', { cat: catLabel(z), dist: formatDistance(z.away) })}</span>
-                      </span>
-                      <span className="shrink-0 text-xs">{formatDistance(z.dist)}</span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            )}
           </div>
         ) : (
           <>
@@ -204,6 +243,11 @@ export default function MapPage() {
             <div className="no-scrollbar flex gap-2 overflow-x-auto">
               <button type="button" className={chip} disabled={!online || busy !== ''} onClick={loadZones}><MapPinned size={14} /> {t('safeZones')}</button>
               <button type="button" className={chip} disabled={!online || busy !== ''} onClick={cacheTiles}><Download size={14} /> {t('cacheMap')}</button>
+              {results.length > 0 && (
+                <button type="button" className={chip} onClick={() => setResults([])}>
+                  <X size={12} /> {t('clear')} ({results.length})
+                </button>
+              )}
               {destination && (
                 <button type="button" className={chip} onClick={() => setDestination(null)}>
                   <Flag size={14} className="text-accent" /> {pos ? formatDistance(haversine(pos, destination)) : t('destination')} <X size={12} />
@@ -217,24 +261,29 @@ export default function MapPage() {
 
       {/* bottom: controls + sheet */}
       <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 flex flex-col">
-        <div className="pointer-events-auto flex flex-col items-center gap-2 self-end pb-2 pr-3">
-          <button type="button" aria-label={t('compass')} onClick={onCompass} className={`${roundBtn} flex-col gap-0 !h-14 !w-12`}>
-            <svg viewBox="0 0 24 24" width="24" height="24" style={{ transform: `rotate(${-(heading || 0)}deg)`, transition: 'transform .15s linear' }}>
-              <polygon points="12,2 17.5,13 12,11 6.5,13" fill="#dc2626" />
-              <polygon points="12,22 17.5,13 12,11 6.5,13" fill="#ffffff" stroke="currentColor" strokeWidth="1" />
-            </svg>
-            <span className="text-[9px] font-bold leading-none">{cardinal(heading)}</span>
+        <div className="flex items-end justify-between px-3 pb-2">
+          <button type="button" onClick={() => { tap(); setStatesOpen(true); }} className={`${chip} pointer-events-auto`}>
+            <Globe size={14} /> {t('zStates')}{downloaded > 0 ? ` · ${downloaded}` : ''}
           </button>
-          <button type="button" aria-label={t('recentre')} onClick={recentre} className={`${roundBtn} ${following ? 'text-accent' : ''}`}>
-            <LocateFixed size={24} />
-          </button>
+          <div className="pointer-events-auto flex flex-col items-center gap-2">
+            <button type="button" aria-label={t('compass')} onClick={onCompass} className={`${roundBtn} flex-col gap-0 !h-14 !w-12`}>
+              <svg viewBox="0 0 24 24" width="24" height="24" style={{ transform: `rotate(${-(heading || 0)}deg)`, transition: 'transform .15s linear' }}>
+                <polygon points="12,2 17.5,13 12,11 6.5,13" fill="#dc2626" />
+                <polygon points="12,22 17.5,13 12,11 6.5,13" fill="#ffffff" stroke="currentColor" strokeWidth="1" />
+              </svg>
+              <span className="text-[9px] font-bold leading-none">{cardinal(heading)}</span>
+            </button>
+            <button type="button" aria-label={t('recentre')} onClick={recentre} className={`${roundBtn} ${following ? 'text-accent' : ''}`}>
+              <LocateFixed size={24} />
+            </button>
+          </div>
         </div>
 
         <div className="pointer-events-auto rounded-t-2xl border border-b-0 border-line bg-card text-fg shadow-[0_-4px_14px_rgba(0,0,0,.25)]">
           <button type="button" onClick={() => setSheet((s) => !s)} className="flex min-h-[44px] w-full items-center justify-between gap-2 px-4">
             <span className="flex items-center gap-2 text-sm font-bold">
               {sheet ? <ChevronDown size={18} /> : <ChevronUp size={18} />}
-              {tab === 'nearby' ? `${t('safeZones')} (${zones.length})` : t('reports')}
+              {tab === 'nearby' ? `${t('safeZones')} (${base.length})` : t('reports')}
             </span>
             <span className="text-[10px] text-muted">© OpenStreetMap contributors</span>
           </button>
@@ -251,7 +300,7 @@ export default function MapPage() {
                   <p className="text-xs text-muted">{t('zonesHint', { label: t('safeZones') })}</p>
                 ) : (
                   <ul className="divide-y divide-line">
-                    {sorted.slice(0, 15).map((z) => (
+                    {sorted.slice(0, 30).map((z) => (
                       <li key={z.id}>
                         <button type="button" onClick={() => goTo(z)} className="flex min-h-[40px] w-full items-center justify-between gap-2 py-1 text-left text-sm">
                           <span className="min-w-0"><b className="block truncate">{zoneName(t, z)}</b><span className="text-[11px] text-muted">{catLabel(z)}</span></span>
@@ -273,6 +322,11 @@ export default function MapPage() {
           )}
         </div>
       </div>
+
+      {createPortal(
+        <StatesSheet open={statesOpen} onClose={() => setStatesOpen(false)} onChanged={onStatesChanged} online={online} />,
+        document.body
+      )}
     </div>
   );
 }

@@ -1,0 +1,925 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T04:47:20Z",
+    "timestamp_areas_base": "2026-10-14T11:20:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 264480826,
+      "lat": 13.0637765,
+      "lon": 80.2356816,
+      "tags": {
+        "amenity": "fire_station",
+        "created_by": "JOSM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 302899362,
+      "lat": 13.0474469,
+      "lon": 80.249119,
+      "tags": {
+        "amenity": "fire_station",
+        "created_by": "Potlatch 0.10f",
+        "name": "Teynampet FS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 942754044,
+      "lat": 11.0391993,
+      "lon": 76.9975014,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Ganapathy FireStation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1473264367,
+      "lat": 11.293845,
+      "lon": 76.9512395,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Mettupalayam Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1623278706,
+      "lat": 8.2844146,
+      "lon": 77.1171714,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Kollencode Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1685476665,
+      "lat": 8.3371569,
+      "lon": 77.8530512,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Tisaiyanvillai Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1918542001,
+      "lat": 8.9708303,
+      "lon": 77.4201945,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Surandai Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2427727851,
+      "lat": 13.0351313,
+      "lon": 80.2306922,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3029313653,
+      "lat": 12.9436361,
+      "lon": 80.1335964,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Tamil Nadu Fire and Rescue Services",
+        "phone": "+91-44-22380206, 22382204"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4305461798,
+      "lat": 11.6539413,
+      "lon": 78.1511353,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4419269499,
+      "lat": 9.5934341,
+      "lon": 77.9539212,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2024-10-23",
+        "name": "Virudhunagar Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4693434964,
+      "lat": 12.9141234,
+      "lon": 79.1312446,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Vellore Fire station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5003290157,
+      "lat": 8.1778423,
+      "lon": 77.4259498,
+      "tags": {
+        "amenity": "fire_station",
+        "brand": "Tamilnadu Fire and Rescue Services",
+        "phone": "04652-226571"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304198425,
+      "lat": 12.8310173,
+      "lon": 80.2224311,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5354315736,
+      "lat": 12.9768528,
+      "lon": 80.2276341,
+      "tags": {
+        "addr:city": "chennai",
+        "addr:postcode": "600042",
+        "addr:street": "Thiruvallur Street",
+        "amenity": "fire_station",
+        "name": "Fire service station;Fire Force Service center",
+        "operator": "Government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6032167264,
+      "lat": 11.3939609,
+      "lon": 79.7027245,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Station Chidambaram"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6359499505,
+      "lat": 12.2959669,
+      "lon": 78.074067,
+      "tags": {
+        "amenity": "fire_station",
+        "name:en": "Palacode Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7348066258,
+      "lat": 10.7187756,
+      "lon": 79.5237309,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Koothanallur Fire  Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7903002235,
+      "lat": 12.5246575,
+      "lon": 78.2171432,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8541103819,
+      "lat": 10.2682088,
+      "lon": 78.5395993,
+      "tags": {
+        "amenity": "fire_station",
+        "survey:date": "2021-03-20"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10859732817,
+      "lat": 12.9297974,
+      "lon": 79.3291969,
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Tamil Nadu Fire And Rescue Services",
+        "operator:wikidata": "Q12983483",
+        "phone": "04172 226084"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11810827239,
+      "lat": 10.781329,
+      "lon": 79.6076376,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11846087225,
+      "lat": 11.8018489,
+      "lon": 77.8269114,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Mettur FIre and Rescue Dept."
+      }
+    },
+    {
+      "type": "node",
+      "id": 12181440340,
+      "lat": 13.1378247,
+      "lon": 79.907707,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Thiruvallur fire station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12280775271,
+      "lat": 9.5167506,
+      "lon": 77.6315958,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2024-10-22"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12290232366,
+      "lat": 10.3595441,
+      "lon": 77.9680778,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2024-10-26",
+        "name": "Fire And Rescue Services Station",
+        "name:ta": "தீயணைப்பு மற்றும் மீட்புப் பணிகள் நிலையம்"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12320021520,
+      "lat": 12.3328308,
+      "lon": 78.3489464,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2024-11-07",
+        "name": "Fire Station",
+        "operator": "Pochampalli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12395555373,
+      "lat": 11.3326366,
+      "lon": 77.7272532,
+      "tags": {
+        "addr:city": "Erode",
+        "addr:district": "Erode",
+        "addr:postcode": "638001",
+        "addr:street": "Gandhiji Road",
+        "amenity": "fire_station",
+        "name": "Erode District Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12621901264,
+      "lat": 8.8023125,
+      "lon": 78.1537646,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2025-02-26",
+        "name": "Fire And Rescue Service Station",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13621883557,
+      "lat": 11.671229,
+      "lon": 77.1297439,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13621972630,
+      "lat": 11.1875714,
+      "lon": 77.279229,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13621977252,
+      "lat": 11.1217686,
+      "lon": 77.3313084,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13673513631,
+      "lat": 10.9871744,
+      "lon": 76.8447442,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "fire_station",
+        "check_date": "2026-03-24",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14045983574,
+      "lat": 9.3622324,
+      "lon": 77.9167503,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Sattur Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211274291,
+      "center": {
+        "lat": 13.0429393,
+        "lon": 80.2777191
+      },
+      "nodes": [
+        311987290,
+        2212976276,
+        2212976273,
+        2212976265,
+        311987084,
+        311987082,
+        311987290
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 217731034,
+      "center": {
+        "lat": 13.0352121,
+        "lon": 80.2306257
+      },
+      "nodes": [
+        2270331471,
+        2270331461,
+        2270331458,
+        2270331456,
+        2270331454,
+        2270331453,
+        2270331467,
+        2270331468,
+        2270331455,
+        2270331457,
+        2270331460,
+        2270331463,
+        2270331469,
+        2270331471
+      ],
+      "tags": {
+        "addr:housename": "Fire and Rescue station",
+        "amenity": "fire_station",
+        "designation": "Fire and Rescue station",
+        "name": "Fire and Rescue station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454614813,
+      "center": {
+        "lat": 10.763592,
+        "lon": 78.7187088
+      },
+      "nodes": [
+        4511602209,
+        4511602207,
+        4511602206,
+        4511602208,
+        11579563809,
+        4511602209
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "fire_station:type": "airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485799116,
+      "center": {
+        "lat": 12.9461218,
+        "lon": 78.8738331
+      },
+      "nodes": [
+        4785647825,
+        4785647826,
+        4785647827,
+        4785647828,
+        4785647829,
+        4785647830,
+        4785647831,
+        4785647615,
+        4785647832,
+        4785647825
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Fire Station Gudiyattam"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594656061,
+      "center": {
+        "lat": 11.0440949,
+        "lon": 76.9485156
+      },
+      "nodes": [
+        5669866630,
+        5669866631,
+        5669866632,
+        5669866633,
+        5669866630
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Tamilnadu fire and rescue services",
+        "name:ta": "தமிழ்நாடு தீயணைப்பு மற்றும் மீட்புப்பணிகள் நிலையம்"
+      }
+    },
+    {
+      "type": "way",
+      "id": 620705901,
+      "center": {
+        "lat": 12.9925029,
+        "lon": 80.1660222
+      },
+      "nodes": [
+        5864233263,
+        5864233264,
+        5864233265,
+        5864233266,
+        5864233263
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "fire_station:type": "airport",
+        "name": "Chennai International Airport Fire Station 2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 663434710,
+      "center": {
+        "lat": 11.0080494,
+        "lon": 77.5613364
+      },
+      "nodes": [
+        6209809693,
+        6209809694,
+        6209809695,
+        6209809696,
+        6209809697,
+        6209809693
+      ],
+      "tags": {
+        "addr:city": "Kangeyam",
+        "addr:postcode": "638701",
+        "addr:street": "Chennimalai road",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Kangeyam Fire Station",
+        "name:ta": "தீயணைப்பு மற்றும் மீட்பு துறை"
+      }
+    },
+    {
+      "type": "way",
+      "id": 730818942,
+      "center": {
+        "lat": 10.0642718,
+        "lon": 78.7760158
+      },
+      "nodes": [
+        6845010030,
+        6845010031,
+        6845010032,
+        6845010033,
+        6845010030
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 836177898,
+      "center": {
+        "lat": 11.7394043,
+        "lon": 78.9481975
+      },
+      "nodes": [
+        7804549129,
+        7804549130,
+        7804549131,
+        7804549132,
+        7804549133,
+        7804549129
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Kallakurichi Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016623992,
+      "center": {
+        "lat": 11.0341728,
+        "lon": 77.0429357
+      },
+      "nodes": [
+        9376861745,
+        9376861746,
+        9376861747,
+        9376861748,
+        9376861745
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1074457140,
+      "center": {
+        "lat": 13.2512323,
+        "lon": 80.3272453
+      },
+      "nodes": [
+        9855224748,
+        9855224752,
+        9855224753,
+        9855224749,
+        9855224750,
+        9855224751,
+        9855224748
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "NCTPS Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075921840,
+      "center": {
+        "lat": 13.1133322,
+        "lon": 80.2963723
+      },
+      "nodes": [
+        9867138540,
+        9867138541,
+        9867138542,
+        9867138543,
+        9867138544,
+        9867138545,
+        9867138540
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1096512891,
+      "center": {
+        "lat": 12.9884768,
+        "lon": 80.1716794
+      },
+      "nodes": [
+        10041415035,
+        6299267085,
+        10041415034,
+        10041415033,
+        10041415032,
+        10041415031,
+        10041415030,
+        10041415029,
+        10041415028,
+        10041415027,
+        10041415035
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "fire_station:type": "airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1105131964,
+      "center": {
+        "lat": 9.8369999,
+        "lon": 78.0934343
+      },
+      "nodes": [
+        10113304347,
+        10113304351,
+        10113304354,
+        10113304353,
+        10113304352,
+        10113304348,
+        10113304349,
+        10113304350,
+        10113304347
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Madurai Airport Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1105414357,
+      "center": {
+        "lat": 13.1055078,
+        "lon": 80.2782141
+      },
+      "nodes": [
+        10115681438,
+        10115681439,
+        10115681440,
+        10115681441,
+        10115681438
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Moolakothalam Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1107911283,
+      "center": {
+        "lat": 13.0686327,
+        "lon": 80.2613334
+      },
+      "nodes": [
+        10137228371,
+        10137228372,
+        10137228373,
+        10137228374,
+        10137228376,
+        10137228375,
+        10137228371
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Egmore fire and Rescue station",
+        "operator": "Tamilnadu government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122111815,
+      "center": {
+        "lat": 13.0864782,
+        "lon": 80.2860635
+      },
+      "nodes": [
+        10263050649,
+        10263050653,
+        10263050651,
+        10263050650,
+        10263050649
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Esplanade Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1172399106,
+      "center": {
+        "lat": 13.1024404,
+        "lon": 80.2744007
+      },
+      "nodes": [
+        10893148834,
+        10893148835,
+        10893148836,
+        10893148837,
+        10893148834
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Washermanpet Fire & Rescue Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302295327,
+      "center": {
+        "lat": 11.0192506,
+        "lon": 77.1279315
+      },
+      "nodes": [
+        12061424941,
+        12061424942,
+        12061424943,
+        12061424944,
+        12061424941
+      ],
+      "tags": {
+        "addr:city": "Sulur",
+        "addr:district": "Coimbatore",
+        "addr:postcode": "641402",
+        "addr:street": "Kalangal Road",
+        "amenity": "fire_station",
+        "name": "Fire and Rescue Services Station",
+        "name:ta": "தீயணைப்பு மற்றும் மீட்பு பணிகள் நிலையம்",
+        "phone": "+91-0422-2689101"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1385752911,
+      "center": {
+        "lat": 10.9979554,
+        "lon": 76.9685119
+      },
+      "nodes": [
+        12830024793,
+        12830024794,
+        12830024795,
+        12830024796,
+        12830024793
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Coimbatore Fire Staion"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1428296785,
+      "center": {
+        "lat": 12.96857,
+        "lon": 79.1544075
+      },
+      "nodes": [
+        13131033545,
+        13131033546,
+        13131033547,
+        13131033548,
+        13131033545
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442919035,
+      "center": {
+        "lat": 8.7283762,
+        "lon": 78.0243562
+      },
+      "nodes": [
+        13239876176,
+        13239876175,
+        13239876174,
+        13239876167,
+        13239865244,
+        13239876177,
+        13239876176
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Airport Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1454237136,
+      "center": {
+        "lat": 11.943265,
+        "lon": 79.4873326
+      },
+      "nodes": [
+        13336742618,
+        13336742619,
+        13336742620,
+        13336742621,
+        13336742618
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Villupuram Fire Station",
+        "operator": "Tamilnadu Fire and Rescue Department"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1535747103,
+      "center": {
+        "lat": 10.767851,
+        "lon": 78.7894638
+      },
+      "nodes": [
+        13991660790,
+        13991660791,
+        13991660792,
+        13991660793,
+        13991660790
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "name": "BHEL Fire Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1552033919,
+      "center": {
+        "lat": 12.5432624,
+        "lon": 78.3650105
+      },
+      "nodes": [
+        14119552374,
+        14119552373,
+        14119552372,
+        14119552371,
+        14119552374
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1567899279,
+      "center": {
+        "lat": 12.7551532,
+        "lon": 77.8018242
+      },
+      "nodes": [
+        13097016990,
+        14279686201,
+        14279686202,
+        14279686203,
+        13097016990
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "check_date": "2025-08-26",
+        "name": "Fire and Rescue Service Station",
+        "operator": "Government of Tamil Nadu"
+      }
+    }
+  ]
+}

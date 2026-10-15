@@ -1,5 +1,6 @@
 import { guide } from './i18nGuide';
 import { more } from './i18nMore';
+import { zonesI18n } from './i18nZones';
 export const LANGS = [
   { code: 'en', label: 'EN', name: 'English', speech: 'en-IN' },
   { code: 'hi', label: 'HI', name: 'हिन्दी', speech: 'hi-IN' },
@@ -16,7 +17,16 @@ export const CAT_KEY = {
   Pharmacy: 'cat_pharmacy',
   'Fire Station': 'cat_fire',
   Shelter: 'cat_shelter',
-  'Safe place': 'cat_other'
+  'Safe place': 'cat_other',
+  'Petrol Bunk': 'cat_fuel',
+  'Tourist Spot': 'cat_tourist',
+  'Bus Stand': 'cat_bus',
+  'Railway Station': 'cat_rail',
+  Mall: 'cat_mall',
+  'Place of Worship': 'cat_worship',
+  'Government Office': 'cat_govt',
+  Airport: 'cat_airport',
+  Market: 'cat_market'
 };
 
 // OSM places without a name are saved with the category as the name, so translate those.
@@ -378,7 +388,7 @@ const dict = {
 };
 
 export function translate(lang, key, vars) {
-  let s = dict[lang]?.[key] ?? guide[lang]?.[key] ?? more[lang]?.[key] ?? dict.en[key] ?? guide.en[key] ?? more.en[key] ?? key;
+  let s = dict[lang]?.[key] ?? guide[lang]?.[key] ?? more[lang]?.[key] ?? zonesI18n[lang]?.[key] ?? dict.en[key] ?? guide.en[key] ?? more.en[key] ?? zonesI18n.en[key] ?? key;
   if (vars) s = s.replace(/\{(\w+)\}/g, (m, k) => (vars[k] !== undefined ? vars[k] : m));
   return s;
 }

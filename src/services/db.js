@@ -143,7 +143,7 @@ export async function wipeEverything() {
   try {
     if (indexedDB.databases) {
       const all = await indexedDB.databases();
-      all.forEach((d) => d.name && !names.includes(d.name) && names.push(d.name));
+      all.forEach((d) => d.name && d.name !== 'safeher-zones' && !names.includes(d.name) && names.push(d.name));
     }
   } catch {
     /* ignore */
