@@ -1,0 +1,1449 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T18:01:22Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 918556757,
+      "lat": 20.7123797,
+      "lon": 70.9889474,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2558169870,
+      "lat": 20.7145109,
+      "lon": 70.9497562,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2558169871,
+      "lat": 20.7141872,
+      "lon": 70.9672217,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Reliance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2875977025,
+      "lat": 20.2681738,
+      "lon": 73.0038671,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3177907725,
+      "lat": 20.7166347,
+      "lon": 70.8767575,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Vanakbara",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600626093,
+      "lat": 20.4168271,
+      "lon": 72.838144,
+      "tags": {
+        "addr:city": "Nani Daman",
+        "addr:district": "Daman",
+        "addr:postcode": "396210",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "name": "Nani Daman Bus Depot",
+        "public_transport": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600643186,
+      "lat": 20.405872,
+      "lon": 72.8342334,
+      "tags": {
+        "name": "Govt office Daman",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600643187,
+      "lat": 20.4062642,
+      "lon": 72.8346035,
+      "tags": {
+        "name": "Moti Daman",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600653812,
+      "lat": 20.3988279,
+      "lon": 72.8318033,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petrol Pump Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600653813,
+      "lat": 20.4175804,
+      "lon": 72.8378758,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e10": "yes",
+        "name": "CP Shah Petrol Pump",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600653814,
+      "lat": 20.4173417,
+      "lon": 72.8389981,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "compressed_air": "yes",
+        "fuel:Petrol": "yes",
+        "fuel:cng": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "E. Nasservanji Petrol Pump",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600653815,
+      "lat": 20.4204049,
+      "lon": 72.8372619,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e10": "yes",
+        "name": "Sagar Petroleum",
+        "official_name": "Hindustan Petroleum",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3600653817,
+      "lat": 20.4260861,
+      "lon": 72.8428689,
+      "tags": {
+        "name": "Driving Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3737037398,
+      "lat": 20.7145333,
+      "lon": 70.9512373,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3737049858,
+      "lat": 20.39805,
+      "lon": 72.831743,
+      "tags": {
+        "amenity": "fuel",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3737049861,
+      "lat": 20.4071681,
+      "lon": 72.8849001,
+      "tags": {
+        "amenity": "fuel",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093951,
+      "lat": 20.2712521,
+      "lon": 73.0014588,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Opposite Development Credit Bank, Naroli Road",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Vardhaman Hospital, Dadra and Nagar Haveli",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908097586,
+      "lat": 20.276227,
+      "lon": 73.0040934,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Behind Primary School, Zanda Chowk",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "contact:mobile": "2641393",
+        "name": "Mukta General Hospital and Maternity Home",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908097595,
+      "lat": 20.2790952,
+      "lon": 73.0046191,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Daffodil Building, Iti Road, Amli Junction, Near Sai Mandir, Amli",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Marigold Child Care Hospital and Nicu",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120520,
+      "lat": 20.4083876,
+      "lon": 72.8323187,
+      "tags": {
+        "addr:city": "Moti Daman",
+        "addr:district": "Daman",
+        "addr:full": "Fort Area, Community HealthCenter, Moti Daman",
+        "addr:postcode": "396220",
+        "addr:state": "Daman and Diu",
+        "addr:street": "Fort Area",
+        "addr:subdistrict": "Daman",
+        "amenity": "hospital",
+        "contact:phone": "2602230470",
+        "description": "Community Health Centre, commonly known as Government Hospital",
+        "emergency": "yes",
+        "fax": "2602230570",
+        "healthcare": "hospital",
+        "locality": "Moti Daman",
+        "name": "Government Hospital (CHC)",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120525,
+      "lat": 20.4238558,
+      "lon": 72.8436805,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Duntha road, damandaman union territory",
+        "addr:postcode": "369210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Atmaram Jog Memorial Hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120535,
+      "lat": 20.4089821,
+      "lon": 72.8824908,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Main road, Dabhel, Nani damandaman",
+        "addr:postcode": "396115",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "fax": "112242373",
+        "name": "Hansa clinic and hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120536,
+      "lat": 20.2794977,
+      "lon": 73.0080128,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Kilvani Road, Amli",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Yogi Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120537,
+      "lat": 20.2875913,
+      "lon": 73.0008298,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Daffodil Blg, Iti Road, Amli Juction, Near Sai Mandir",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Dr.Nikams Sri Sai Marigold Child Care Hospital and N I C U",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120550,
+      "lat": 20.2724089,
+      "lon": 73.0034114,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Solanki Complex Opp Town Hall",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Darshan Eye Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120555,
+      "lat": 20.2753075,
+      "lon": 73.0081457,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Kilvani Naka Umarkul Road",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Chaitanya Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120556,
+      "lat": 20.2715006,
+      "lon": 73.0084687,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "1st Floor, Shree Rangkrupa, Opposite English School, P.W.D.Road",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "contact:mobile": "2602642709",
+        "name": "Prayosha Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120557,
+      "lat": 20.2706703,
+      "lon": 73.0078961,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "contact:phone": "2642940",
+        "description": "Civil Hospital",
+        "email": "svbch.sil@gmail.com",
+        "fax": "2602642961",
+        "name": "Shri Vinoba Bhave Civil Hospital",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "http://www.vbch.dnh.nic.in/",
+        "wikidata": "Q60752217",
+        "wikipedia": "en:Shri Vinoba Bhave Civil Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120568,
+      "lat": 20.2737915,
+      "lon": 72.9404157,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Bhumika City Centre, M G Road, Near Jain Temple",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Shri Shreeji Hospital - Silvassa",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120573,
+      "lat": 20.2718252,
+      "lon": 73.0020931,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Naroli Road, Near D C Bank, Opposite Hotel Natraj",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Hari Om Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120574,
+      "lat": 20.2734505,
+      "lon": 73.0064718,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "1st Floor, Perin Complex, Opposite Bal Bhavan Kilvani Naka",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "contact:mobile": "9377243095",
+        "name": "Shree Sainath Hospital, Dadra and Nagar Haveli",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120579,
+      "lat": 20.2683278,
+      "lon": 73.0055813,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Opp Sbi, Near Adiwasi Bhavan, Tokarkhada",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Sai Krishhna Maternity Home",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100919308,
+      "lat": 20.7155234,
+      "lon": 70.9782197,
+      "tags": {
+        "addr:district": "Diu",
+        "addr:landmark": "Near Sports Complex",
+        "addr:postcode": "362520",
+        "addr:state": "Daman & Diu",
+        "addr:street": "Be Ottli",
+        "addr:subdistrict": "Diu",
+        "amenity": "hospital",
+        "contact:phone": "2875254651",
+        "description": "Government Hospital",
+        "healthcare": "hospital",
+        "locality": "Diu",
+        "name": "Government Hospital, Diu",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7150264726,
+      "lat": 20.3048491,
+      "lon": 73.1300979,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Randha Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7150264728,
+      "lat": 20.1282334,
+      "lon": 73.0741343,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Khanvel, Khutli Dudhani Road, Rudana",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Sub-District Hospital, Khanvel",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193592,
+      "lat": 20.420019,
+      "lon": 72.834404,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Dilip Nagar",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Ashok Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193594,
+      "lat": 20.4202291,
+      "lon": 72.8360459,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Dilip Nagar",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Ashwini Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193597,
+      "lat": 20.4236534,
+      "lon": 72.8445141,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Dunetha Road, Dunetha",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Care N Cure Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193599,
+      "lat": 20.4188733,
+      "lon": 72.8384599,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Dunetha",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Life Care Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193600,
+      "lat": 20.4221041,
+      "lon": 72.8414362,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Anuradha Complex, Mashal Chowk, Nani Daman",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Pooja Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622193605,
+      "lat": 20.416021,
+      "lon": 72.834721,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Wadi Falia, Nani Daman",
+        "addr:postcode": "396210",
+        "addr:state": "Daman and Diu",
+        "amenity": "hospital",
+        "name": "Sai Sarvoday Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195189,
+      "lat": 20.3233705,
+      "lon": 72.9726645,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Demni Road, Dadra",
+        "addr:postcode": "396193",
+        "addr:state": "Dadra and Nagar Haveli and Daman and Diu",
+        "amenity": "hospital",
+        "name": "J. K. Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195190,
+      "lat": 20.2733042,
+      "lon": 72.9955333,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Jas Luxuria, Naroli Road, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "True Care Multispeciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195192,
+      "lat": 20.2835473,
+      "lon": 72.9975725,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Soubhagya Inn, Silvassa - Vapi Road, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Shayona Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195193,
+      "lat": 20.2760129,
+      "lon": 73.0025144,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Krishna Complex, Silvassa - Vapi Road, Opposite Silvassa Police Station, Bavisa Faliya, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Shree Jalaramkrupa General & Maternity Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195194,
+      "lat": 20.2740171,
+      "lon": 73.0102375,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Umarkui Road, Kilvani Road, Naka, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Chaitanya Multispeciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195195,
+      "lat": 20.278684,
+      "lon": 73.001621,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Silvassa - Vapi Road, Amli Industrial Estate, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "City Heart Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195199,
+      "lat": 20.285759,
+      "lon": 72.996931,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Yogi Complex, Silvassa - Vapi Road, Silvassa",
+        "addr:postcode": "396230",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Sanskar Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7622195200,
+      "lat": 20.27656,
+      "lon": 72.9412477,
+      "tags": {
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:full": "Silvassa - Bhilad Road, Naroli",
+        "addr:postcode": "396235",
+        "addr:state": "Dadra and Nagar Haveli",
+        "amenity": "hospital",
+        "name": "Krishna Kunj Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7983839934,
+      "lat": 20.3918459,
+      "lon": 72.8338506,
+      "tags": {
+        "addr:district": "Daman",
+        "addr:full": "Dholar",
+        "addr:postcode": "396220",
+        "addr:state": "Daman & Diu",
+        "amenity": "hospital",
+        "name": "Government Hospital, Dholar",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13915057737,
+      "lat": 20.4180495,
+      "lon": 72.8376067,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology;general",
+        "name": "Shivam Hospital",
+        "operator": "Dr. Brijal Patel",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104640434,
+      "center": {
+        "lat": 20.4311283,
+        "lon": 72.8410071
+      },
+      "nodes": [
+        1207093133,
+        1207093199,
+        1207093153,
+        1207093137,
+        1207093177,
+        1207093157,
+        5617872390,
+        1207093126,
+        5617872391,
+        1207093119,
+        1207093202,
+        5617872397,
+        1207093163,
+        5617872415,
+        5617872414,
+        5617872402,
+        5617872401,
+        1207093139,
+        1207093124,
+        1207093104,
+        5617872388,
+        245688598,
+        1207093133
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "closest_town": "Daman, India",
+        "ele": "10",
+        "iata": "NMB",
+        "icao": "VADN",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Daman Airport",
+        "name:en": "Daman Airport",
+        "operator": "Indian Coast Guard",
+        "source": "wikipedia",
+        "wikidata": "Q1709224",
+        "wikipedia": "en:Daman Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140036316,
+      "center": {
+        "lat": 20.7145672,
+        "lon": 70.9220415
+      },
+      "nodes": [
+        1534367425,
+        1534367430,
+        1534367435,
+        1534367467,
+        1534367446,
+        1534367444,
+        1534367439,
+        1534367443,
+        1534367437,
+        1534367438,
+        1534367441,
+        1534367447,
+        1534367448,
+        1534367459,
+        1534367472,
+        1534367474,
+        1534367484,
+        1534367486,
+        1534367488,
+        1534367496,
+        1534367511,
+        1534367509,
+        1534367516,
+        1534367527,
+        8338568388,
+        8338568389,
+        8338568392,
+        8338568391,
+        8338568390,
+        1534367529,
+        1534367517,
+        1534367512,
+        1534367502,
+        1534367515,
+        1534367524,
+        1534367528,
+        1534367525,
+        1534367513,
+        1534367491,
+        1534367440,
+        1534367436,
+        1534367433,
+        1534367425
+      ],
+      "tags": {
+        "aerodrome:type": "public",
+        "aeroway": "aerodrome",
+        "ele": "9",
+        "iata": "DIU",
+        "icao": "VADU",
+        "name": "Diu Airport",
+        "name:zh": "第乌机场",
+        "ref": "05/23",
+        "source": "Yahoo",
+        "wikidata": "Q1657788",
+        "wikipedia": "en:Diu Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187839856,
+      "center": {
+        "lat": 20.718632,
+        "lon": 70.9810944
+      },
+      "nodes": [
+        1984822395,
+        1984822473,
+        1984822491,
+        1984822495,
+        1984822535,
+        1984822574,
+        1984822599,
+        1984822602,
+        1984822679,
+        1984822646,
+        1984822638,
+        1984822603,
+        1984822417,
+        1984822415,
+        1984822409,
+        1984822395
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Jethbai Bus Stand Diu",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 263321760,
+      "center": {
+        "lat": 20.1092996,
+        "lon": 73.028257
+      },
+      "nodes": [
+        2689465810,
+        2689465811,
+        2689465812,
+        2689465813,
+        2689465810
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petrol pamp Kheradi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265574911,
+      "center": {
+        "lat": 20.1142965,
+        "lon": 73.0375572
+      },
+      "nodes": [
+        2712225788,
+        2712225790,
+        2712225791,
+        2712225793,
+        2712225788
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322831415,
+      "center": {
+        "lat": 20.7181381,
+        "lon": 70.9812931
+      },
+      "nodes": [
+        1984822387,
+        1984822406,
+        1984822395
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Diu",
+        "name:ja": "ディーウ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481399251,
+      "center": {
+        "lat": 20.2717735,
+        "lon": 73.0078163
+      },
+      "nodes": [
+        4743381921,
+        4743381922,
+        4743381923,
+        4743381924,
+        4743381921
+      ],
+      "tags": {
+        "addr:city": "silvassa",
+        "addr:postcode": "396230",
+        "amenity": "hospital",
+        "name": "Prayosha Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481404863,
+      "center": {
+        "lat": 20.270639,
+        "lon": 73.0053376
+      },
+      "nodes": [
+        4743442563,
+        4743442564,
+        4743442565,
+        4743442566,
+        12071075699,
+        12071075700,
+        12071075701,
+        12071075702,
+        4743442563
+      ],
+      "tags": {
+        "addr:city": "Silvassa",
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:housenumber": "old building",
+        "addr:postcode": "396230",
+        "addr:street": "Sayli Road",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Collector's old office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481404864,
+      "center": {
+        "lat": 20.2723335,
+        "lon": 73.0042429
+      },
+      "nodes": [
+        4743442567,
+        4743442568,
+        4743442569,
+        4743442570,
+        4743442567
+      ],
+      "tags": {
+        "addr:city": "Silvassa",
+        "addr:postcode": "396230",
+        "building": "yes",
+        "name": "Muncipality Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 588364287,
+      "center": {
+        "lat": 20.4330358,
+        "lon": 72.8315319
+      },
+      "nodes": [
+        5619504362,
+        5619504363,
+        5619504364,
+        5619504365,
+        5619504362
+      ],
+      "tags": {
+        "addr:district": "Daman",
+        "addr:postcode": "396210",
+        "addr:state": "Daman & Diu",
+        "addr:street": "Marwad (Nani Daman), Devka Road",
+        "addr:subdistrict": "Daman",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 831255444,
+      "center": {
+        "lat": 20.285842,
+        "lon": 73.0001003
+      },
+      "nodes": [
+        7761530394,
+        7761530395,
+        7761530396,
+        7761530397,
+        7761530394
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 831255445,
+      "center": {
+        "lat": 20.2856718,
+        "lon": 73.0005489
+      },
+      "nodes": [
+        7761530398,
+        7761530399,
+        7761530400,
+        7761530401,
+        7761530402,
+        7761530403,
+        7761530404,
+        7761530405,
+        7761530406,
+        7761530407,
+        7761530408,
+        7761530409,
+        7761530410,
+        7761530411,
+        7761530412,
+        7761530413,
+        7761530398
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 831255446,
+      "center": {
+        "lat": 20.2850451,
+        "lon": 73.0013039
+      },
+      "nodes": [
+        7761530414,
+        7761530415,
+        7761530416,
+        7761530417,
+        7761530418,
+        7761530419,
+        7761530420,
+        7761530421,
+        7761530422,
+        7761530423,
+        7761530424,
+        7761530425,
+        7761530426,
+        7761530427,
+        7761530428,
+        7761530429,
+        7761530430,
+        7761530431,
+        7761530432,
+        7761530433,
+        7761530434,
+        7761530435,
+        7761530436,
+        7761530437,
+        7761530438,
+        7761530439,
+        7761530440,
+        7761530441,
+        7761530442,
+        7761530443,
+        7761530444,
+        7761530445,
+        7761530446,
+        7761530447,
+        7761530480,
+        7761530479,
+        7761530481,
+        7761530448,
+        7761530449,
+        7761530450,
+        7761530451,
+        7761530453,
+        7761530454,
+        7761530455,
+        7761530456,
+        7761530457,
+        7761530458,
+        7761530414
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 831255471,
+      "center": {
+        "lat": 20.2736727,
+        "lon": 73.0039664
+      },
+      "nodes": [
+        7761530692,
+        7761530693,
+        7761530694,
+        7761530695,
+        7761530696,
+        7761530697,
+        7761530698,
+        7761530699,
+        7761530700,
+        7761530702,
+        7761530703,
+        7761530704,
+        7761530705,
+        7761530706,
+        7761530707,
+        7761530708,
+        7761530709,
+        7761530710,
+        7761530711,
+        7761530712,
+        7761530713,
+        7761530714,
+        7761530715,
+        7761530692
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 834570846,
+      "center": {
+        "lat": 20.2711543,
+        "lon": 73.0104482
+      },
+      "nodes": [
+        7790600468,
+        7790600469,
+        7790600470,
+        7790600471,
+        7790600472,
+        7790600473,
+        7790600474,
+        7790600475,
+        7790600468
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 834570847,
+      "center": {
+        "lat": 20.2712617,
+        "lon": 73.0100346
+      },
+      "nodes": [
+        7790600476,
+        7790600477,
+        7790600478,
+        7790600479,
+        7790600480,
+        7790600481,
+        7790600482,
+        7790600483,
+        7790600476
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 834570848,
+      "center": {
+        "lat": 20.2710486,
+        "lon": 73.0101392
+      },
+      "nodes": [
+        7790600484,
+        7790600485,
+        7790600486,
+        7790600487,
+        7790600488,
+        7790600489,
+        7790600490,
+        7790600491,
+        7790600484
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 834570849,
+      "center": {
+        "lat": 20.2713466,
+        "lon": 73.0106906
+      },
+      "nodes": [
+        7790600492,
+        7790600493,
+        7790600494,
+        7790600495,
+        7790600492
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 835015480,
+      "center": {
+        "lat": 20.270062,
+        "lon": 73.0053099
+      },
+      "nodes": [
+        7794394531,
+        7794394532,
+        7794394533,
+        7794394534,
+        12071030600,
+        12071030599,
+        7794394535,
+        12071030598,
+        7794394536,
+        7794394547,
+        7794394537,
+        7794394549,
+        12071030597,
+        7794394548,
+        7794394538,
+        7794394539,
+        7794394540,
+        7794394541,
+        7794394542,
+        12071030596,
+        7794394543,
+        7794394544,
+        7794394545,
+        7794394546,
+        7794394531
+      ],
+      "tags": {
+        "addr:city": "Silvassa",
+        "addr:district": "Dadra and Nagar Haveli",
+        "addr:housenumber": "MAIN BUILDING",
+        "addr:postcode": "396230",
+        "addr:street": "Sayli Road",
+        "building": "office",
+        "government": "administrative",
+        "name": "COLLECTOR OFFICE NEW BUILDING",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1389541179,
+      "center": {
+        "lat": 20.4261682,
+        "lon": 72.8426865
+      },
+      "nodes": [
+        12862485543,
+        12862485544,
+        12862485545,
+        12862485546,
+        12862485543
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "transportation",
+        "name": "RTO Daman",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1396202787,
+      "center": {
+        "lat": 20.7161607,
+        "lon": 70.9924912
+      },
+      "nodes": [
+        12923115778,
+        12923115779,
+        12923115780,
+        12923115781,
+        12923115782,
+        12923115783,
+        12923115784,
+        12923115785,
+        12923115786,
+        12923115787,
+        12923115788,
+        12923115789,
+        12923115790,
+        12923115791,
+        12923115792,
+        12923115793,
+        12923115778
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "public_works",
+        "name": "Public Works Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1396202789,
+      "center": {
+        "lat": 20.715946,
+        "lon": 70.9929781
+      },
+      "nodes": [
+        12923115802,
+        12923115803,
+        12923115804,
+        12923115805,
+        12923115806,
+        12923115807,
+        12923115808,
+        12923115809,
+        12923115810,
+        12923115811,
+        12923115802
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19265382,
+      "center": {
+        "lat": 20.7155845,
+        "lon": 70.9927226
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1396202778,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1396202779,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}
