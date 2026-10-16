@@ -1,0 +1,2228 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:46:34Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 715178157,
+      "lat": 23.8269305,
+      "lon": 91.4309512,
+      "tags": {
+        "name": "Jirania",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "JRNA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 715178411,
+      "lat": 23.7929171,
+      "lon": 91.2785939,
+      "tags": {
+        "loc_name": "Badhar Ghat",
+        "loc_name:en": "Badhar Ghat",
+        "name": "Agartala",
+        "name:bn": "আগরতলা",
+        "name:hi": "अगरतला",
+        "name:ja": "アガルタラ",
+        "name:pa": "ਅਗਰਤਲਾ",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "AGTL",
+        "start_date": "2008",
+        "wikidata": "Q15178297",
+        "wikipedia": "en:Agartala railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1118546131,
+      "lat": 24.2745283,
+      "lon": 92.1502149,
+      "tags": {
+        "name": "Panisagar",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PASG",
+        "wikidata": "Q85792040",
+        "wikipedia": "en:Panisagar railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1210735250,
+      "lat": 24.1511427,
+      "lon": 92.035408,
+      "tags": {
+        "name": "Kumarghat",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "KUGT",
+        "wikidata": "Q29026048",
+        "wikipedia": "en:Kumarghat railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1210735993,
+      "lat": 23.9311541,
+      "lon": 91.8611485,
+      "tags": {
+        "name": "Ambassa",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "ABSA",
+        "wikidata": "Q24948164",
+        "wikipedia": "en:Ambassa railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1210736286,
+      "lat": 23.8849008,
+      "lon": 91.7120232,
+      "tags": {
+        "name": "Mungiakami",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MGKM",
+        "wikidata": "Q63356665"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1858241659,
+      "lat": 23.5105401,
+      "lon": 91.4798796,
+      "tags": {
+        "disused": "yes",
+        "name": "Udaipur",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "UDPU",
+        "wikidata": "Q24907744",
+        "wikipedia": "en:Udaipur railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665437088,
+      "lat": 23.6766774,
+      "lon": 91.2728164,
+      "tags": {
+        "name": "Bishalgarh",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BLGH",
+        "wikidata": "Q29026217",
+        "wikipedia": "en:Bishalgarh railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2681745519,
+      "lat": 23.8324366,
+      "lon": 91.2693858,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2683038548,
+      "lat": 23.8451237,
+      "lon": 91.2837501,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2689538357,
+      "lat": 23.8114171,
+      "lon": 91.3074081,
+      "tags": {
+        "name": "Jogendranagar",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "JGNR",
+        "wikidata": "Q63356352"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2740812749,
+      "lat": 23.8341208,
+      "lon": 91.2820291,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Nabarun Petrol Pump",
+        "operator": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3281638676,
+      "lat": 23.7436934,
+      "lon": 91.2773921,
+      "tags": {
+        "name": "Sekerkote",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "SKKE",
+        "wikidata": "Q29026215",
+        "wikipedia": "en:Sekerkote railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3884240472,
+      "lat": 23.3082713,
+      "lon": 91.5646413,
+      "tags": {
+        "addr:city": "santirbazar",
+        "addr:postcode": "799144",
+        "addr:street": "agartala sabrum road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4885599919,
+      "lat": 23.8615463,
+      "lon": 91.6183175,
+      "tags": {
+        "name": "Teliamura",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "TLMR",
+        "wikidata": "Q28172955"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5463769106,
+      "lat": 23.430471,
+      "lon": 91.4967565,
+      "tags": {
+        "name": "Garjee",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "JRJE",
+        "wikidata": "Q29026223"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586128,
+      "lat": 24.1959036,
+      "lon": 92.1090201,
+      "tags": {
+        "name": "Pencharthal",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "PEC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586154,
+      "lat": 24.0627242,
+      "lon": 92.0007953,
+      "tags": {
+        "name": "Nalkata",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "NLKT"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586172,
+      "lat": 23.9878937,
+      "lon": 91.9990031,
+      "tags": {
+        "name": "Manu",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MANU",
+        "wikidata": "Q66742033"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586177,
+      "lat": 23.976048,
+      "lon": 91.9692832,
+      "tags": {
+        "name": "SK Para",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "SKAP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586446,
+      "lat": 23.5984072,
+      "lon": 91.3591951,
+      "tags": {
+        "name": "Bishramganj",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "BHRM",
+        "wikidata": "Q29026220",
+        "wikipedia": "en:Bishramganj railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152588047,
+      "lat": 23.1901429,
+      "lon": 91.5967894,
+      "tags": {
+        "name": "Jolaibari",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "JIBI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152588816,
+      "lat": 23.2479453,
+      "lon": 91.4844914,
+      "tags": {
+        "name": "Belonia",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "BENA",
+        "wikidata": "Q66741993"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6268608185,
+      "lat": 24.4838806,
+      "lon": 92.1588775,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Brijondernagar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6746947176,
+      "lat": 23.8289581,
+      "lon": 91.3759635,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Ranirbazar fire service station",
+        "operator": "tripura govt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6754560852,
+      "lat": 23.8581267,
+      "lon": 91.2906149,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6905030116,
+      "lat": 23.5545804,
+      "lon": 91.4556831,
+      "tags": {
+        "addr:city": "Udaipur",
+        "addr:district": "Gomati",
+        "addr:full": "District Hospital, Near Tepania Eco Park, Udaipur Gomati",
+        "addr:postcode": "799114",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "contact:mobile": "9436131338",
+        "email": "bloodbankdhg@gmail.com",
+        "fax": "03821 222410",
+        "healthcare": "hospital",
+        "name": "Gomati District Hospital",
+        "opening_hours": "24/7",
+        "operator": "state govt.",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083719,
+      "lat": 24.0396985,
+      "lon": 92.1985665,
+      "tags": {
+        "addr:district": "North",
+        "addr:full": "Kanchanpur ADC Village",
+        "addr:postcode": "799270",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Dasda",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Kanchanpur Sub-divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083736,
+      "lat": 23.0668626,
+      "lon": 91.6445223,
+      "tags": {
+        "addr:district": "South",
+        "addr:full": "Near South manubazar High School, Manu Bazar, Manu Bazar",
+        "addr:postcode": "799143",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Satchand",
+        "amenity": "hospital",
+        "healthcare": "centre",
+        "name": "Manubazar Rural Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083760,
+      "lat": 24.3180247,
+      "lon": 92.0025198,
+      "tags": {
+        "addr:block": "Kailashahar",
+        "addr:district": "Unakoti",
+        "addr:full": "Opposite of District Jail, Kailashahar, Ward No. 11",
+        "addr:postcode": "799277",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Rajib Gandhi Memorial Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083765,
+      "lat": 23.5363433,
+      "lon": 91.4974934,
+      "tags": {
+        "addr:district": "Gomati",
+        "addr:full": "Near DM Office, Dak Bunglow Rd",
+        "addr:postcode": "799120",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Matarbari",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Tripura Sundari Sub divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083775,
+      "lat": 23.2505139,
+      "lon": 91.4676967,
+      "tags": {
+        "addr:block": "Belonia",
+        "addr:district": "South",
+        "addr:full": "Near 1 No Tilla Bazar, Belonia MC, 1 No Tilla Bazar",
+        "addr:postcode": "799155",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "contact:phone": "3823222204",
+        "description": "Sub-District Hospital",
+        "name": "Belonia Sub-divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908094337,
+      "lat": 24.3900466,
+      "lon": 92.160176,
+      "tags": {
+        "addr:district": "North Tripura",
+        "addr:full": "Hospital Road Dharmanagar Dharmanagar",
+        "addr:postcode": "799250",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Mahanam Seva Sadan",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100786,
+      "lat": 23.8303051,
+      "lon": 91.2784789,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "9A, PO: Chowmuhani, 67 Mantribari Road Agartala",
+        "addr:postcode": "799001",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Agartala Hospital And Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100806,
+      "lat": 23.6828067,
+      "lon": 91.2794593,
+      "tags": {
+        "addr:district": "South Tripura",
+        "addr:full": "Near Agartala Bishalgarh Road, Bishalgarh Sub Division, Bishalgarh",
+        "addr:postcode": "799102",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Bishalgarh",
+        "amenity": "hospital",
+        "name": "Bishalghar S.D. Hospital, West Tripura",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100827,
+      "lat": 23.5166478,
+      "lon": 91.6502009,
+      "tags": {
+        "addr:district": "Gomati",
+        "addr:full": "East Bank of Fatik Sagar, Sukumar Colony, Hospital Road, Amarpur Nagar Panchayet",
+        "addr:postcode": "799101",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Amarpur",
+        "amenity": "hospital",
+        "contact:phone": "03821 263557",
+        "description": "Sub-District Hospital",
+        "name": "Amarpur Sub divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100832,
+      "lat": 24.3903666,
+      "lon": 92.1590334,
+      "tags": {
+        "addr:district": "North",
+        "addr:full": "Dharmanagar",
+        "addr:postcode": "799251",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Kadamtala",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Dharmanagar Sub-divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908108234,
+      "lat": 23.9511506,
+      "lon": 92.0077421,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "NEAR CHAILENGTA H/S SCHOOL, Chailengta LONGTHORAI VALLEY SUB DIVISION, CHAILENGTA",
+        "addr:postcode": "799273",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Manu",
+        "amenity": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Chailengta Sub Divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908108239,
+      "lat": 24.1973668,
+      "lon": 91.8280891,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "English Midium School, Kamalpur NP Kamalpur Sub Division, Baligaon Noagaon Road",
+        "addr:postcode": "799285",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Durga Choumuhani",
+        "amenity": "hospital",
+        "contact:phone": "3826262232",
+        "description": "Sub-District Hospital",
+        "name": "Bimal Sinha Memorial S.D. Hospital, Dhalai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908108252,
+      "lat": 24.0715915,
+      "lon": 91.6025823,
+      "tags": {
+        "addr:district": "Khowai",
+        "addr:full": "Lalchara, Khowai Sub division, Nripen Chakraborty Avenue",
+        "addr:postcode": "799201",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Khowai",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Khowai District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908108263,
+      "lat": 23.8596535,
+      "lon": 91.2916915,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Kunjaban, Agartala",
+        "addr:postcode": "799006",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Govinda Ballav Panth Hospital, West Tripura",
+        "name:etymology:wikidata": "Q2724411",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111085,
+      "lat": 23.8410733,
+      "lon": 91.282737,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Regd No: F.Cmo(W) 9(217), Cle/2011 24 Dimsagar, Opposite Astable Ground, Vip Road, Agartala",
+        "addr:postcode": "799001",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Devlok Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111090,
+      "lat": 23.8608346,
+      "lon": 91.294603,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Kunjaban",
+        "addr:postcode": "799006",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Cancer Hospital,West Tripura",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908111111,
+      "lat": 23.8602986,
+      "lon": 91.2928221,
+      "tags": {
+        "addr:district": "West",
+        "addr:full": "Govt Medical College Street, GB Baazar, Govt Medical College Street",
+        "addr:postcode": "799006",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "contact:phone": "0381 235 7130",
+        "description": "Medical Colleges Hospital",
+        "email": "agmc@rediffmail.com",
+        "health_facility:type": "MRI, CT Scan, EEG, TMT, Endoscopy, Ultra Sonography, 500 mA X-ray, with IITV Echo",
+        "healthcare:speciality": "multispecialty",
+        "name": "Agartala Govt Medical College and GBP Hospital",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "www.agmc.nic.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6936877960,
+      "lat": 23.0618468,
+      "lon": 91.6458607,
+      "tags": {
+        "name": "Manu Bazar",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MUBR",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657819,
+      "lat": 23.4848604,
+      "lon": 91.4983684,
+      "tags": {
+        "addr:district": "Gomati",
+        "addr:full": "Near Tepania Block, Tepania",
+        "addr:postcode": "799114",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Matarbari",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Integrated AYUSH Hospital, Gomati",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657820,
+      "lat": 23.310504,
+      "lon": 91.5575974,
+      "tags": {
+        "addr:district": "South",
+        "addr:full": "Santirbazar, Santirbazar",
+        "addr:postcode": "799144",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Jolaibari",
+        "amenity": "hospital",
+        "name": "Sub-Divsional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657824,
+      "lat": 23.6050187,
+      "lon": 91.8177781,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Near Govt Revenue Duck Bunglow, 60 Card Gandachra Sub Division, Hospital Road",
+        "addr:postcode": "799284",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Dumburnagar",
+        "amenity": "hospital",
+        "contact:phone": "3826265233",
+        "description": "Sub-District Hospital",
+        "name": "Gandacherra Sub Divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657825,
+      "lat": 24.1903303,
+      "lon": 92.1042451,
+      "tags": {
+        "addr:district": "Unakoti",
+        "addr:full": "Near NH 44 Road, Pecharthal, Pecharthal",
+        "addr:postcode": "799263",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Pencharthal",
+        "amenity": "hospital",
+        "contact:phone": "3822265206",
+        "name": "Pecharthal Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657835,
+      "lat": 24.304628,
+      "lon": 92.033346,
+      "tags": {
+        "addr:district": "Unakoti",
+        "addr:full": "Near Radio Center, Bhagabannagar, Gournagar",
+        "addr:postcode": "799279",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Gournagar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital, Unakoti",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657836,
+      "lat": 23.5641251,
+      "lon": 91.291481,
+      "tags": {
+        "addr:district": "Sepahijala",
+        "addr:full": "Bishramganj Taxapara Road., Sonamura Sub Division, Taxapara GP",
+        "addr:postcode": "799103",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Taksapara hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657874,
+      "lat": 23.48445,
+      "lon": 91.263053,
+      "tags": {
+        "addr:district": "Sepahijala",
+        "addr:full": "Hospital Road, Sonamura NP, Sonamura Town",
+        "addr:postcode": "799131",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Sonamura Gramin Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657886,
+      "lat": 23.316526,
+      "lon": 91.555177,
+      "tags": {
+        "addr:district": "South",
+        "addr:full": "Opps Divisional PWD Office, Santirbazar, Santirbazar, Santirbazar Trijunction",
+        "addr:postcode": "799144",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Bokafa",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital South",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127657901,
+      "lat": 23.9551603,
+      "lon": 91.8252174,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Basudebpara GP, Kulai Basudebpara Ambasa Sub Division, Ambassa Kamalpur Road",
+        "addr:postcode": "799278",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Ambassa",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Dhalai District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7210907225,
+      "lat": 23.4931778,
+      "lon": 91.3323109,
+      "tags": {
+        "addr:district": "South Tripura",
+        "addr:full": "Melaghar, Sonamura",
+        "addr:postcode": "799115",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Melaghar hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7216783185,
+      "lat": 24.2366538,
+      "lon": 92.2853553,
+      "tags": {
+        "addr:postcode": "799001",
+        "addr:street": "Damchera, North Tripura",
+        "amenity": "fuel",
+        "name": "Biswakarma Pet. Agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605909,
+      "lat": 23.9965273,
+      "lon": 91.8281359,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Purba Daluchhara",
+        "addr:postcode": "799278",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Daluchara Ayorvedik Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605910,
+      "lat": 23.8263332,
+      "lon": 91.2819867,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Dhaleswar",
+        "addr:postcode": "799001",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ASR Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605911,
+      "lat": 23.8303963,
+      "lon": 91.2864718,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "CR Road, Santipara, Dhaleswar, Agartala",
+        "addr:postcode": "799001",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Venkataeswara Hospitals",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605912,
+      "lat": 24.3650387,
+      "lon": 92.0209683,
+      "tags": {
+        "addr:district": "Unokoti",
+        "addr:full": "Dhaliarkandi",
+        "addr:postcode": "799281",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Irani Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605914,
+      "lat": 23.9224905,
+      "lon": 91.8535273,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Ambassa",
+        "addr:postcode": "799289",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Ambassa Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605916,
+      "lat": 23.878826,
+      "lon": 91.254702,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Usha Bazar, Agartala",
+        "addr:postcode": "799009",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "VHAT Eye Hospital",
+        "operator": "Voluntary Health Association of Tripura",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605917,
+      "lat": 24.168476,
+      "lon": 91.958401,
+      "tags": {
+        "addr:district": "Unokoti",
+        "addr:full": "Ganganagar",
+        "addr:postcode": "799290",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Rajkandi Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605918,
+      "lat": 24.259235,
+      "lon": 92.181908,
+      "tags": {
+        "addr:district": "North Tripura",
+        "addr:full": "Jalabasa, Pekuchhara",
+        "addr:postcode": "799260",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Jalabasa Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605923,
+      "lat": 23.9149437,
+      "lon": 91.8331377,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Kamacherra, Ambassa",
+        "addr:postcode": "799289",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Makunda Christian Missionary Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605925,
+      "lat": 23.8077381,
+      "lon": 91.2981913,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Sadhu Tilla, Subhash Nagar, Jogendra Nagar, Agartala",
+        "addr:postcode": "799004",
+        "addr:state": "Tripura",
+        "addr:street": "Agartala Bypass",
+        "amenity": "hospital",
+        "name": "Homoeopathic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605927,
+      "lat": 23.7761829,
+      "lon": 91.8458544,
+      "tags": {
+        "addr:district": "Dhalai",
+        "addr:full": "Khowaipara",
+        "addr:postcode": "799289",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Ganganagar Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605931,
+      "lat": 23.7848589,
+      "lon": 91.2591853,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Master Para, Hapania, Agartala",
+        "addr:postcode": "799014",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Hapania Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605933,
+      "lat": 24.3717301,
+      "lon": 92.1516952,
+      "tags": {
+        "addr:district": "North Tripura",
+        "addr:full": "Algapur, Dharmanagar",
+        "addr:postcode": "799253",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Eye Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605934,
+      "lat": 23.7902884,
+      "lon": 91.4424673,
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Radhapur",
+        "addr:postcode": "799035",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kherengbar Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621605936,
+      "lat": 24.087221,
+      "lon": 92.11378,
+      "tags": {
+        "addr:district": "Unokoti",
+        "addr:full": "Dakshin Machmara",
+        "addr:postcode": "799264",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Krishnatilla Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9231655517,
+      "lat": 23.8254488,
+      "lon": 91.2850605,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Maharajgang",
+        "name:en": "Maharajganj bazar fire station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10223064287,
+      "lat": 23.3224074,
+      "lon": 91.5322665,
+      "tags": {
+        "name": "Shantirbazar Railway Station",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "STRB",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10236153518,
+      "lat": 23.555555,
+      "lon": 91.4214589,
+      "tags": {
+        "name": "Bagma",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "BAGMA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10236180792,
+      "lat": 23.1245846,
+      "lon": 91.6140138,
+      "tags": {
+        "name": "Thailik Twisa",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "halt",
+        "railway": "halt",
+        "ref": "THTW",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10264371996,
+      "lat": 23.8456648,
+      "lon": 91.2827254,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10538924174,
+      "lat": 23.6129722,
+      "lon": 91.8199465,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Gandacherra Fire Service"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10542465750,
+      "lat": 23.6086715,
+      "lon": 91.8233343,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11369371470,
+      "lat": 24.1920687,
+      "lon": 91.8296291,
+      "tags": {
+        "addr:postcode": "799285",
+        "addr:street": "Noagaon Chowmuhani",
+        "amenity": "pharmacy",
+        "name": "Khan Medi Shop",
+        "opening_hours": "Mo-Su 10:00-20:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11542181369,
+      "lat": 24.3736679,
+      "lon": 92.1685242,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12288998618,
+      "lat": 23.7990985,
+      "lon": 91.240755,
+      "tags": {
+        "name": "Nischintapur",
+        "name:bn": "নিশ্চিন্তপুর",
+        "name:en": "Nischintapur",
+        "name:hi": "निश्चिंतपुर",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "NCTPA",
+        "start_date": "2023-11-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12307928802,
+      "lat": 23.013792,
+      "lon": 91.7011609,
+      "tags": {
+        "name": "Sabroom",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SBRM",
+        "train": "yes",
+        "wikidata": "Q29026228"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12451813140,
+      "lat": 24.4337328,
+      "lon": 92.2414357,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "name": "Churaibari",
+        "name:bn": "চুড়াইবাড়ী",
+        "name:en": "Churaibari",
+        "name:hi": "चुड़ाईबाड़ी",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "CBZ",
+        "wikidata": "Q63369320",
+        "wikipedia": "en:Churaibari railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12451844203,
+      "lat": 24.369978,
+      "lon": 92.1699319,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "name": "Dharmanagar",
+        "name:bn": "ধর্মনগর",
+        "name:en": "Dharmanagar",
+        "name:hi": "धर्मनगर",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:en": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "DMR",
+        "wikidata": "Q31293490"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13362930362,
+      "lat": 23.9198349,
+      "lon": 91.9017652,
+      "tags": {
+        "name": "Jawaharnagar",
+        "network": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "JWNR",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14238816191,
+      "lat": 23.9308931,
+      "lon": 91.8611424,
+      "tags": {
+        "addr:city": "Dhalai Tripura",
+        "addr:district": "Dhalai",
+        "addr:housenumber": "Ambassa",
+        "addr:postcode": "799289",
+        "addr:street": "Ambassa to Railstation Road",
+        "name": "Ambassa Railway Station",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129773755,
+      "center": {
+        "lat": 23.8880752,
+        "lon": 91.238755
+      },
+      "nodes": [
+        1431034448,
+        1431034441,
+        1431034440,
+        12068482172,
+        1431034463,
+        1431034461,
+        1431034457,
+        1431034452,
+        7021034906,
+        7021034907,
+        1431034436,
+        1431034430,
+        7021034909,
+        7021034908,
+        1431034428,
+        1431034419,
+        1431034421,
+        1431034403,
+        1431034401,
+        1431034395,
+        1431034389,
+        1431034381,
+        1431034379,
+        1431034377,
+        1431034380,
+        1431034386,
+        1431034385,
+        1431034392,
+        7021034905,
+        7021034904,
+        7021034914,
+        11016498552,
+        7021034903,
+        11016498551,
+        7021034902,
+        11016498550,
+        11016498549,
+        7021034901,
+        11016498548,
+        11016498547,
+        11016498546,
+        11016498545,
+        7021034900,
+        11016498544,
+        7021034913,
+        7021034912,
+        11016498543,
+        11016498542,
+        7021034911,
+        11016498553,
+        11016498554,
+        11016498555,
+        7021034910,
+        11016498541,
+        7021034915,
+        7021034916,
+        1431034456,
+        1431034455,
+        1431034464,
+        1431034462,
+        1431034465,
+        11016510813,
+        11016510814,
+        1431034466,
+        1431034469,
+        1431034468,
+        1431034483,
+        11016510823,
+        1431034487,
+        11016510824,
+        11016510825,
+        11016510826,
+        11016510827,
+        11016510828,
+        1431034526,
+        11016510829,
+        1431034539,
+        11016510830,
+        1431034540,
+        11016510831,
+        1431034548,
+        1431034545,
+        1431034553,
+        1431034563,
+        1431034566,
+        1431034579,
+        1431034581,
+        1431034564,
+        1431034568,
+        1431034531,
+        1431034448
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Agartala Airport",
+        "iata": "IXA",
+        "icao": "VEAT",
+        "name": "Maharaja Bir Bikram Airport",
+        "name:ar": "مطار ماهاراجا بير بيكرام",
+        "name:etymology:wikidata": "Q4915530",
+        "name:fa": "فرودگاه مهاراجه بیر بیکرام",
+        "name:hi": "महाराजा बीर बिक्रम हवाई अड्डा",
+        "old_name": "Singerbhil Airport",
+        "operator": "NAAI",
+        "wikidata": "Q3498094",
+        "wikimedia_commons": "Category:Agartala Airport",
+        "wikipedia": "en:Maharaja Bir Bikram Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138303288,
+      "center": {
+        "lat": 24.0610921,
+        "lon": 91.6040456
+      },
+      "nodes": [
+        1516328133,
+        1516328134,
+        1516328068,
+        1516328066,
+        1516328113,
+        1516328115,
+        1516328133
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "29",
+        "iata": "IXN",
+        "icao": "VEKW",
+        "is_in:country": "India",
+        "name": "Khowai Airstrip",
+        "wikidata": "Q6402680"
+      }
+    },
+    {
+      "type": "way",
+      "id": 138303290,
+      "center": {
+        "lat": 24.1359452,
+        "lon": 91.8108936
+      },
+      "nodes": [
+        1516328449,
+        1516328448,
+        1516328447,
+        1516328431,
+        1516328430,
+        1516328420,
+        1516328421,
+        1516328410,
+        1516328411,
+        1516328449
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "40",
+        "iata": "IXQ",
+        "icao": "VEKM",
+        "is_in:country": "India",
+        "name": "Kamalpur Airfield",
+        "wikidata": "Q6355765"
+      }
+    },
+    {
+      "type": "way",
+      "id": 361004663,
+      "center": {
+        "lat": 23.8308032,
+        "lon": 91.2759815
+      },
+      "nodes": [
+        3655362541,
+        3655362540,
+        3655362422,
+        3655362396,
+        3655362399,
+        3655362386,
+        3655362389,
+        3655362541
+      ],
+      "tags": {
+        "addr:district": "West",
+        "addr:full": "Umakanta Academy School, Hospital Road,Dhaleswar, Agartala",
+        "addr:postcode": "799001",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "contact:phone": "0381 2323331,3812325606",
+        "description": "Hospital",
+        "name": "IGM Civil Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 361021029,
+      "center": {
+        "lat": 23.8250527,
+        "lon": 91.2679438
+      },
+      "nodes": [
+        3655508270,
+        4324774696,
+        4324774699,
+        4324774701,
+        4324774698,
+        4324774697,
+        3655509045,
+        3655498160,
+        4324774700,
+        3655509547,
+        3655509556,
+        3655508309,
+        3655376650,
+        3655509100,
+        3655509226,
+        3655508844,
+        3655508858,
+        3655508881,
+        3655508271,
+        3655508830,
+        3655509384,
+        3655509550,
+        3655508846,
+        3655508882,
+        3655508923,
+        3655509235,
+        3655508281,
+        3655509530,
+        3655509310,
+        3655508270
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Nagerjala Bus Stand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 361104815,
+      "center": {
+        "lat": 23.83711,
+        "lon": 91.2841156
+      },
+      "nodes": [
+        3656240947,
+        3656240949,
+        3656240945,
+        3656240944,
+        3656240941,
+        3656240939,
+        3656240936,
+        3656240938,
+        3656240937,
+        3656240943,
+        3656240947
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Town Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362012314,
+      "center": {
+        "lat": 23.8392723,
+        "lon": 91.3067483
+      },
+      "nodes": [
+        4324774745,
+        6757797370,
+        6757797369,
+        9157498834,
+        9700044270,
+        11731380548,
+        9157498832,
+        9700044269,
+        9691272781,
+        9691731642,
+        9691731634,
+        3664063672,
+        3664063671,
+        3664063665,
+        3664063664,
+        4324774745
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 429594115,
+      "center": {
+        "lat": 23.8425867,
+        "lon": 91.2764391
+      },
+      "nodes": [
+        4287538698,
+        4287538699,
+        4287538700,
+        4287538701,
+        4287538698
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Soil Testing Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 434319076,
+      "center": {
+        "lat": 23.8450979,
+        "lon": 91.2823011
+      },
+      "nodes": [
+        4324774777,
+        4324774783,
+        2680177178,
+        4324774793,
+        4324774792,
+        4324774786,
+        4324774773,
+        4324774769,
+        4324774768,
+        4324774774,
+        4324774776,
+        4324774777
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Radhanagar Bus Terminus"
+      }
+    },
+    {
+      "type": "way",
+      "id": 496910386,
+      "center": {
+        "lat": 24.3088328,
+        "lon": 92.0073545
+      },
+      "nodes": [
+        4885600794,
+        4885600793,
+        407553796,
+        4885600792,
+        4885600791,
+        4885600790,
+        4885600789,
+        4885600788,
+        4885600787,
+        4885600786,
+        4885600785,
+        4885600784,
+        4885600794
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "closest_town": "Kailashahar",
+        "ele": "24",
+        "iata": "IXH",
+        "icao": "VEKR",
+        "is_in:country": "India",
+        "name": "Kailashahar Airport",
+        "operator": "Airports Authority of India",
+        "type": "public",
+        "wikipedia:en": "Kailashahar_Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541015466,
+      "center": {
+        "lat": 23.9183632,
+        "lon": 91.8490854
+      },
+      "nodes": [
+        5232510285,
+        1516327655,
+        5232510292,
+        5232510291,
+        5232510290,
+        5232510289,
+        5232510288,
+        5232510287,
+        5232510286,
+        5232510285
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "operator": "TRTC",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 559396903,
+      "center": {
+        "lat": 23.7780419,
+        "lon": 91.2791069
+      },
+      "nodes": [
+        5395420963,
+        5395420931,
+        5395421008,
+        5395421142,
+        5395420963
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Paribahan Bhavan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 564101688,
+      "center": {
+        "lat": 23.8333226,
+        "lon": 91.2811539
+      },
+      "nodes": [
+        5435713025,
+        5435712510,
+        5435712515,
+        5435713021,
+        5435713027,
+        5435712518,
+        5435713032,
+        5435712504,
+        5435713028,
+        5435713029,
+        5435712519,
+        5435713025
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Sukanta Academy Auditorium"
+      }
+    },
+    {
+      "type": "way",
+      "id": 564101690,
+      "center": {
+        "lat": 23.8336591,
+        "lon": 91.281323
+      },
+      "nodes": [
+        5435713023,
+        5435713024,
+        5435712508,
+        5435712505,
+        5435713030,
+        5435712507,
+        5435712520,
+        5435712511,
+        5435712513,
+        5435712503,
+        5435712509,
+        5435712514,
+        5435712512,
+        5435712506,
+        5435712516,
+        5435712517,
+        5435713023
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Sukanta Academy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630026165,
+      "center": {
+        "lat": 23.8115109,
+        "lon": 91.2713215
+      },
+      "nodes": [
+        5949731911,
+        5949731910,
+        5949731909,
+        5949731908,
+        5949731911
+      ],
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "Doordarshan Kendra Premises",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 718462920,
+      "center": {
+        "lat": 23.8288515,
+        "lon": 91.375941
+      },
+      "nodes": [
+        6746971623,
+        6746971624,
+        6746971625,
+        6746971626,
+        6746971627,
+        6746971628,
+        6746971629,
+        6746971630,
+        6746971631,
+        6746971632,
+        6746971623
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "ranirbazar fire station",
+        "operator": "tripira govt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 718462927,
+      "center": {
+        "lat": 23.8308473,
+        "lon": 91.373528
+      },
+      "nodes": [
+        6746975487,
+        6746975488,
+        6746975489,
+        6746975490,
+        6746975491,
+        6746975492,
+        6746975493,
+        6746975494,
+        6746975487
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 719992590,
+      "center": {
+        "lat": 23.8370086,
+        "lon": 91.3661854
+      },
+      "nodes": [
+        6757737517,
+        6757737518,
+        6757737519,
+        6757737520,
+        6757737521,
+        6757737517
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "rbz townhall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750987104,
+      "center": {
+        "lat": 23.8674648,
+        "lon": 91.2890509
+      },
+      "nodes": [
+        7021110575,
+        7021110574,
+        7021110573,
+        6908094361,
+        7021110572,
+        7021110571,
+        7021110570,
+        7021110569,
+        7021110568,
+        7021110567,
+        7021110575
+      ],
+      "tags": {
+        "addr:district": "West Tripura",
+        "addr:full": "Kunjaban, Near Kendriya Vidyalay, Capital Complex Extension",
+        "addr:postcode": "799006",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "health_facility:type": "Laboratory, Pharmacy, Radiology, Ambulance, Ultrasound and Colour Doppler, Echocardiography, 16-slice CT, Digital X-Rays, Operating Theatre, Blood Bank",
+        "healthcare:speciality": "multispecialty",
+        "name": "ILS Hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://www.ilshospitals.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750987112,
+      "center": {
+        "lat": 23.8685223,
+        "lon": 91.2856379
+      },
+      "nodes": [
+        7021145626,
+        7021145625,
+        7021145624,
+        7021145623,
+        7021145622,
+        7021145621,
+        7021145620,
+        7021145619,
+        7021145618,
+        7021145617,
+        7021145616,
+        3656630283,
+        7021145615,
+        3656630235,
+        7021145614,
+        7021145626
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Tripura High Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750987115,
+      "center": {
+        "lat": 23.8634739,
+        "lon": 91.2892681
+      },
+      "nodes": [
+        7021145670,
+        7021145669,
+        7021145668,
+        7021145667,
+        7021145666,
+        7021145665,
+        7021145664,
+        7021145663,
+        7021145662,
+        7021145661,
+        7021145660,
+        7021145659,
+        7021145658,
+        7021145591,
+        7021145657,
+        7021145656,
+        7021145655,
+        7021145654,
+        7021145653,
+        7021145652,
+        7021145651,
+        7021145650,
+        7021145629,
+        7021145649,
+        7021145648,
+        7021145670
+      ],
+      "tags": {
+        "landuse": "commercial",
+        "name": "New Capital Complex",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819658949,
+      "center": {
+        "lat": 23.2475616,
+        "lon": 91.4569625
+      },
+      "nodes": [
+        7654162512,
+        7654162511,
+        7654162510,
+        7654162509,
+        7654162508,
+        2671616286,
+        7654162512
+      ],
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819658989,
+      "center": {
+        "lat": 23.2516882,
+        "lon": 91.4575003
+      },
+      "nodes": [
+        7654163176,
+        7654163175,
+        7654163174,
+        7654163173,
+        7654163172,
+        7654163171,
+        7654163170,
+        7621605913,
+        7654163169,
+        7654163176
+      ],
+      "tags": {
+        "addr:district": "South Tripura",
+        "addr:full": "Belonia",
+        "addr:postcode": "799155",
+        "addr:state": "Tripura",
+        "amenity": "hospital",
+        "name": "Sub-Divisional Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063540299,
+      "center": {
+        "lat": 23.0037033,
+        "lon": 91.7276884
+      },
+      "nodes": [
+        9769189736,
+        9769189156,
+        9769192486,
+        9769190444,
+        6908065222,
+        9769192282,
+        9769188148,
+        9769189818,
+        9769191027,
+        9769193835,
+        9769192862,
+        9769187919,
+        9769186185,
+        9769188600,
+        9769188521,
+        9769193626,
+        9769186697,
+        9769193003,
+        9769194120,
+        9769186897,
+        9769187241,
+        9769191615,
+        9769166226,
+        9769189736
+      ],
+      "tags": {
+        "addr:district": "South Tripura",
+        "addr:full": "Near Sabroom Motor Stand, Sabroom NP, Sabroom",
+        "addr:postcode": "799145",
+        "addr:state": "Tripura",
+        "addr:subdistrict": "Satchand",
+        "amenity": "hospital",
+        "building": "hospital",
+        "description": "Sub-District Hospital",
+        "name": "Sabroom Sub-divisional Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1137211166,
+      "center": {
+        "lat": 23.8249958,
+        "lon": 91.2850629
+      },
+      "nodes": [
+        10600956187,
+        10600956188,
+        10600956189,
+        10600956190,
+        10600956191,
+        10600956192,
+        10600956187
+      ],
+      "tags": {
+        "addr:city": "Agartala",
+        "addr:postcode": "799004",
+        "addr:street": "Ramthakur Sangha, Opposite to V2 Mall",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "Maharaj Ganj Bazar Fire Station",
+        "operator": "fire station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1186047961,
+      "center": {
+        "lat": 23.8900958,
+        "lon": 91.2434096
+      },
+      "nodes": [
+        11016510832,
+        11016510833,
+        11016510834,
+        11016510835,
+        11016510832
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436112159,
+      "center": {
+        "lat": 23.8116192,
+        "lon": 91.2716949
+      },
+      "nodes": [
+        13200113851,
+        13200113857,
+        13200113852,
+        13200113853,
+        13200113854,
+        13200113851
+      ],
+      "tags": {
+        "addr:city": "A.D. Nagar",
+        "addr:district": "Tripura West",
+        "addr:postcode": "7999003",
+        "addr:street": "Doordashan Kendra Premises",
+        "building": "yes",
+        "government": "public_service",
+        "name": "Press Information Bureau",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "website": "https://www.pib.gov.in/Allrel.aspx?lang=37&reg=32"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436112160,
+      "center": {
+        "lat": 23.811774,
+        "lon": 91.2716506
+      },
+      "nodes": [
+        13200113855,
+        13200113856,
+        13200113857,
+        13200113851,
+        13200113855
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "public_service",
+        "name": "Central Bureau of Communication",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "website": "https://cbcindia.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1436112161,
+      "center": {
+        "lat": 23.811473,
+        "lon": 91.2712524
+      },
+      "nodes": [
+        13200113858,
+        13200113859,
+        13200113864,
+        13200113866,
+        13200113867,
+        13200113868,
+        13200113869,
+        13200113860,
+        13200113865,
+        13200113861,
+        13200113862,
+        13200113863,
+        13200113858
+      ],
+      "tags": {
+        "addr:city": "A.D. Nagar",
+        "addr:district": "Tripura West",
+        "addr:postcode": "7999003",
+        "addr:street": "Doordarshan Kendra Premises",
+        "building": "yes",
+        "government": "public_service",
+        "name": "Doordarshan Kendra",
+        "office": "government",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "website": "https://prasarbharati.gov.in/doordarshan/"
+      }
+    }
+  ]
+}

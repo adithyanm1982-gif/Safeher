@@ -1,0 +1,1712 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T05:25:18Z",
+    "timestamp_areas_base": "2026-10-15T06:58:54Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 299707352,
+      "lat": 34.1522812,
+      "lon": 77.5770345,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 299707818,
+      "lat": 34.1170591,
+      "lon": 77.5888307,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "operator": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 299764782,
+      "lat": 34.5415563,
+      "lon": 76.1509754,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "name": "Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 485594432,
+      "lat": 34.5491569,
+      "lon": 77.5529759,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Community Health Center Nubra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 485594460,
+      "lat": 34.5493777,
+      "lon": 77.5454675,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 485617329,
+      "lat": 34.0329113,
+      "lon": 78.1680282,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Primary Health Center Tangtse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 747078123,
+      "lat": 35.392416,
+      "lon": 77.9290339,
+      "tags": {
+        "aeroway": "aerodrome",
+        "is_in:country": "India",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Daulat Beg Oldi Advanced Landing Ground",
+        "name:zh": "斗拉特别奥里地先进着陆机场",
+        "source": "ourairports.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 926607497,
+      "lat": 33.4669637,
+      "lon": 76.8784847,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Zanskar Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2027805349,
+      "lat": 34.2355862,
+      "lon": 77.3999574,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Sub Center (Hospital)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2074165548,
+      "lat": 34.2045297,
+      "lon": 77.4281983,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Panchayat Ghar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2074191081,
+      "lat": 34.2003657,
+      "lon": 77.4299339,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Duphuk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2380473311,
+      "lat": 34.3713779,
+      "lon": 76.3885541,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2418775356,
+      "lat": 34.1617147,
+      "lon": 77.588342,
+      "tags": {
+        "name": "DC Office & Inner Line Permit issuing Authority.",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2575443627,
+      "lat": 34.1506546,
+      "lon": 77.5787795,
+      "tags": {
+        "amenity": "townhall",
+        "name": "LAHDC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2575443630,
+      "lat": 34.1502386,
+      "lon": 77.5786663,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Assembly Building"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2575443636,
+      "lat": 34.1497957,
+      "lon": 77.5804988,
+      "tags": {
+        "name": "SECMOL Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2575449267,
+      "lat": 34.1531534,
+      "lon": 77.5829117,
+      "tags": {
+        "name": "All India Radio Leh",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2592335292,
+      "lat": 34.1551747,
+      "lon": 77.5720704,
+      "tags": {
+        "addr:city": "Leh",
+        "addr:city:ks": "لیہہ",
+        "addr:city:ur": "لیہہ",
+        "name": "Indian Institute of Astrophysics",
+        "name:ks": "انڈین انسٹی ٹیوٹ آف ایسٹرو فزکس",
+        "name:ur": "انڈین انسٹی ٹیوٹ آف ایسٹرو فزکس",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2592452175,
+      "lat": 34.1084243,
+      "lon": 77.5912051,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Tibetian Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2592468854,
+      "lat": 34.100893,
+      "lon": 77.6132432,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Mahabodhi Community Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2963931497,
+      "lat": 34.1624884,
+      "lon": 77.585442,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2963931498,
+      "lat": 34.164485,
+      "lon": 77.5854236,
+      "tags": {
+        "addr:state": "LA",
+        "addr:street": "Main Bazaar",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Het Ram Vinay Kumar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2973877903,
+      "lat": 34.8480733,
+      "lon": 76.8317834,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ayushman Arogya Mandir - Public Health Center Turtuk",
+        "operator": "Department of Public Health Service",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2973880789,
+      "lat": 34.5777687,
+      "lon": 77.4764945,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3699683117,
+      "lat": 34.1463228,
+      "lon": 77.5523998,
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3699683316,
+      "lat": 34.5514359,
+      "lon": 77.536993,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3699684025,
+      "lat": 34.1346938,
+      "lon": 77.5293868,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3699684026,
+      "lat": 34.1528875,
+      "lon": 77.4582141,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3702776638,
+      "lat": 34.1418121,
+      "lon": 77.5853044,
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3912531349,
+      "lat": 34.3201049,
+      "lon": 76.9002688,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4317930491,
+      "lat": 34.1616554,
+      "lon": 77.5837484,
+      "tags": {
+        "name": "BSNL customer service",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4369053859,
+      "lat": 34.4302684,
+      "lon": 75.754385,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Community Health Center Drass",
+        "note": "This is a large hospital, and seems to contain many buildings, I'm not sure what buildings are part of the hospital, and what not so I added it as a single node. Please improve."
+      }
+    },
+    {
+      "type": "node",
+      "id": 4369053883,
+      "lat": 34.4305305,
+      "lon": 75.7543882,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4386658789,
+      "lat": 34.1362316,
+      "lon": 77.6098908,
+      "tags": {
+        "name": "Saboo Panchayat",
+        "name:en": "Saboo Panchayat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5147935514,
+      "lat": 34.5520643,
+      "lon": 76.1286097,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Kargil bus station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5537610024,
+      "lat": 34.1676719,
+      "lon": 77.5804244,
+      "tags": {
+        "amenity": "fuel",
+        "name": "KH Garden, 한식당"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936063633,
+      "lat": 34.153069,
+      "lon": 77.4584377,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936063635,
+      "lat": 34.5752033,
+      "lon": 76.1243939,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936063636,
+      "lat": 34.5618862,
+      "lon": 76.1254932,
+      "tags": {
+        "addr:city": "Kargil",
+        "addr:city:ur": "کارگل",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936064822,
+      "lat": 34.3221138,
+      "lon": 76.895916,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6551979785,
+      "lat": 34.1433322,
+      "lon": 77.5861119,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "New share taxi stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6681344468,
+      "lat": 34.3196477,
+      "lon": 76.8848079,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Primary Health Centre Khaltsi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6686008587,
+      "lat": 34.6505701,
+      "lon": 76.3481217,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6917575490,
+      "lat": 34.1526558,
+      "lon": 77.5751622,
+      "tags": {
+        "addr:street": "Zorawar Fort road",
+        "amenity": "pharmacy",
+        "name": "Leh Chemist",
+        "phone": "01982255774"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9360975134,
+      "lat": 33.8385806,
+      "lon": 78.324187,
+      "tags": {
+        "aeroway": "aerodrome",
+        "description": "Advanced Landing Ground",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Parma Valley ALG",
+        "wikidata": "Q110247961"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9781314888,
+      "lat": 34.3006042,
+      "lon": 75.9607989,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Sankoo Petrol Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880707193,
+      "lat": 34.3168761,
+      "lon": 77.085454,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880708641,
+      "lat": 34.1838756,
+      "lon": 77.3619717,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9888799401,
+      "lat": 33.4806546,
+      "lon": 76.8572208,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9888840329,
+      "lat": 33.5020773,
+      "lon": 76.9337577,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11877038420,
+      "lat": 33.2007672,
+      "lon": 78.6422208,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465666209,
+      "lat": 34.5403078,
+      "lon": 76.151197,
+      "tags": {
+        "government": "transportation",
+        "name": "ARTO Kargil",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465666210,
+      "lat": 34.5404956,
+      "lon": 76.1514759,
+      "tags": {
+        "name": "District Industries Centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465666524,
+      "lat": 34.574858,
+      "lon": 76.1242783,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465667973,
+      "lat": 34.5191102,
+      "lon": 76.1355731,
+      "tags": {
+        "name": "R&D",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465668030,
+      "lat": 34.5181621,
+      "lon": 76.1405271,
+      "tags": {
+        "name": "Horticulture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465668130,
+      "lat": 34.5050768,
+      "lon": 76.1252828,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465668386,
+      "lat": 34.5540558,
+      "lon": 76.1318099,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Army hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465668700,
+      "lat": 34.5395499,
+      "lon": 76.1401141,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465669706,
+      "lat": 34.5438472,
+      "lon": 76.1410448,
+      "tags": {
+        "amenity": "courthouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465669883,
+      "lat": 34.5506693,
+      "lon": 76.1370322,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12958326960,
+      "lat": 34.1630016,
+      "lon": 77.5835083,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Aatha"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13020894957,
+      "lat": 33.1904466,
+      "lon": 78.6503117,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Nyoma Fuel Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14263444693,
+      "lat": 34.5547611,
+      "lon": 76.1365799,
+      "tags": {
+        "addr:city": "Kargil",
+        "addr:district": "Kargil",
+        "addr:postcode": "194103",
+        "government": "office",
+        "name": "Employment Office",
+        "office": "government",
+        "opening_hours": "9:00-4:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14271316325,
+      "lat": 34.5460381,
+      "lon": 76.140431,
+      "tags": {
+        "government": "government",
+        "name": "Circuit House",
+        "office": "government",
+        "website": "kargil.nic.in"
+      }
+    },
+    {
+      "type": "way",
+      "id": 27761109,
+      "center": {
+        "lat": 34.1539449,
+        "lon": 77.5804754
+      },
+      "nodes": [
+        1705643291,
+        2284300754,
+        1705643293,
+        304834432,
+        1705643289,
+        1705643280,
+        1705643278,
+        304834434,
+        2284300753,
+        3717461824,
+        3717462425,
+        3717461823,
+        2284300752,
+        304834436,
+        1705643253,
+        1705643271,
+        1705643291
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Sonam Norboo Memorial Hospital Leh",
+        "name:etymology:wikidata": "Q56220353",
+        "phone": "01982252014"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104798732,
+      "center": {
+        "lat": 34.1352705,
+        "lon": 77.5462267
+      },
+      "nodes": [
+        1208782981,
+        1789657580,
+        1789657556,
+        13770655376,
+        1789657563,
+        1789657546,
+        1208783513,
+        1789657592,
+        1789657594,
+        1789657595,
+        1789657597,
+        1789657602,
+        1789657605,
+        1789657607,
+        1789657610,
+        1208783384,
+        1789657568,
+        1789657573,
+        1789657561,
+        1789657586,
+        1789657598,
+        1789657612,
+        1789657554,
+        1789657558,
+        1208783048,
+        1789657567,
+        1789657588,
+        1789657600,
+        1789657557,
+        1789657559,
+        1789657560,
+        1789657562,
+        1789657565,
+        1789657566,
+        1789657569,
+        1789657564,
+        1789657571,
+        1789657572,
+        1789657574,
+        1208782940,
+        1789657570,
+        1789657548,
+        1789657577,
+        1789657576,
+        1208783370,
+        1789657578,
+        1208783175,
+        1208783466,
+        1208783309,
+        3717462536,
+        3717462535,
+        1208784097,
+        1789657575,
+        1789657579,
+        1789657583,
+        1789657587,
+        1789657552,
+        1789657584,
+        1789657589,
+        1789657582,
+        1789657581,
+        1208783601,
+        1789657590,
+        1789657591,
+        1789657593,
+        1789657603,
+        1789657609,
+        1789657585,
+        1208783005,
+        1789657549,
+        1789657613,
+        1789657550,
+        1789657547,
+        1789657553,
+        1789657551,
+        1789657545,
+        1789657555,
+        1208782881,
+        1208782981
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Leh Airport",
+        "ele": "3256",
+        "iata": "IXL",
+        "icao": "VILH",
+        "is_in:country": "India",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Leh Kushok Bakula Rimpochee Airport",
+        "name:en": "Leh Kushok Bakula Rimpochee Airport",
+        "name:etymology:wikidata": "Q1861686",
+        "name:hi": "कुशोक बकुला रिंपोचे विमानपत्तन",
+        "name:ml": "ലേ കുശോക് ബകുല റിംപോചെ വിമാനത്താവളം",
+        "name:ru": "Аэропорт Лех Кушок Бакула Римпочи",
+        "name:zh": "列城巴库拉仁波切机场",
+        "operator": "Airports Authority of India",
+        "phone": "01982251783",
+        "wall": "concrete",
+        "wikidata": "Q1431870",
+        "wikipedia": "en:Kushok Bakula Rimpochee Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 113610811,
+      "center": {
+        "lat": 34.5520663,
+        "lon": 76.1293235
+      },
+      "nodes": [
+        1288165067,
+        1288165650,
+        1288165690,
+        1288165607,
+        1288165531,
+        1288165441,
+        1288165493,
+        12465671836,
+        12465668363,
+        1288165395,
+        13009727407,
+        12465671835,
+        12465668364,
+        1288165296,
+        1288165067
+      ],
+      "tags": {
+        "addr:city": "Kargil",
+        "addr:city:ur": "کارگل",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158343131,
+      "center": {
+        "lat": 34.1614283,
+        "lon": 77.566456
+      },
+      "nodes": [
+        1868755909,
+        1705643488,
+        1705643479,
+        1705643464,
+        2299950054,
+        2299950056,
+        2299950058,
+        1705643407,
+        1705643422,
+        2299950060,
+        1705643439,
+        1868755900,
+        1868755906,
+        1868755909
+      ],
+      "tags": {
+        "addr:city": "Leh",
+        "addr:city:ks": "لیہہ",
+        "addr:city:ur": "لیہہ",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "Army Hospital Leh",
+        "name:ur": "آرمی ہسپتال لیہہ",
+        "name:zh": "列城陆军医院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182860453,
+      "center": {
+        "lat": 34.1296758,
+        "lon": 77.5542363
+      },
+      "nodes": [
+        1932254443,
+        1932254445,
+        1932254447,
+        1932254449,
+        13774803179,
+        1932254450,
+        13774803180,
+        13774803181,
+        13774803182,
+        1932254451,
+        1932254452,
+        13774803183,
+        1932254453,
+        13774803184,
+        13774803185,
+        13774951906,
+        13774803186,
+        13774803187,
+        1932254455,
+        13774803188,
+        13774803189,
+        13774951907,
+        13774951908,
+        13774951909,
+        13774803190,
+        13774803191,
+        1932254456,
+        13774803192,
+        13774803193,
+        13774803194,
+        1932254457,
+        1932254459,
+        13774803196,
+        13774803198,
+        13774803197,
+        1932254460,
+        1932254458,
+        13774803195,
+        13774803199,
+        13774803200,
+        1932254454,
+        13774951902,
+        13774951901,
+        1932254448,
+        1932254446,
+        1932254444,
+        13774951903,
+        13774951904,
+        1932254442,
+        1932254441,
+        13774951905,
+        1932254439,
+        1932254440,
+        1932254443
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "landuse": "military",
+        "military_service": "air_force",
+        "name": "IAF helicopter base",
+        "name:zh": "印度空军直升机基地",
+        "operator": "Indian Air Force",
+        "operator:wikidata": "Q330658"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233526495,
+      "center": {
+        "lat": 33.9460295,
+        "lon": 77.7271753
+      },
+      "nodes": [
+        2419013357,
+        2419013359,
+        2419013361,
+        2419013363,
+        2419013357
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "area": "yes",
+        "brand": "Indian Oil",
+        "building": "yes",
+        "name": "Karu Fuel Station.",
+        "operator": "Indian Oil... Last Fuel Station before Tandi in Himachal Pradesh."
+      }
+    },
+    {
+      "type": "way",
+      "id": 240378120,
+      "center": {
+        "lat": 34.6523459,
+        "lon": 77.3799996
+      },
+      "nodes": [
+        2481205108,
+        2481205111,
+        2481205121,
+        2481205133,
+        2481205155,
+        2481205169,
+        2481205179,
+        2481205188,
+        2481205201,
+        2481205222,
+        2481205216,
+        2481205211,
+        2481205209,
+        2481205206,
+        2481205202,
+        2481205203,
+        2481205204,
+        2481205208,
+        2481205213,
+        2481205217,
+        2481205227,
+        2481205236,
+        2481205259,
+        2481205301,
+        2481205314,
+        2481205354,
+        2481205385,
+        2481205410,
+        2481205458,
+        2481205488,
+        2481205503,
+        2481205513,
+        2481205520,
+        2481205523,
+        2481205528,
+        2481205533,
+        2481205534,
+        2481205535,
+        2481205539,
+        2481205545,
+        2481205553,
+        2481205549,
+        2481205546,
+        2481205542,
+        2481205538,
+        2481205531,
+        2481205526,
+        2481205516,
+        2481205510,
+        2481205505,
+        2481205486,
+        2481205487,
+        2481205483,
+        2481205482,
+        2481205497,
+        2481205502,
+        2481205506,
+        2481205489,
+        2481205465,
+        2481205436,
+        2481205399,
+        2481205383,
+        2481205378,
+        2481205374,
+        2481205376,
+        2481205388,
+        2481205400,
+        2481205412,
+        2481205467,
+        2481205473,
+        2481205472,
+        2481205462,
+        2481205452,
+        2481205440,
+        2481205420,
+        2481205381,
+        2481205364,
+        2481205335,
+        2481205242,
+        2481205212,
+        2481205195,
+        2481205190,
+        2481205170,
+        2481205153,
+        2481205141,
+        2481205136,
+        2481205126,
+        2481205112,
+        2481205109,
+        2481205101,
+        2481205099,
+        2481205073,
+        2481205066,
+        2481205037,
+        2481205040,
+        2481205042,
+        2481205044,
+        2481205046,
+        2481205054,
+        2481205055,
+        2481205049,
+        2481205047,
+        2481205056,
+        2481205061,
+        2481205069,
+        2481205070,
+        2481205074,
+        2481205079,
+        2481205082,
+        2481205087,
+        2481205093,
+        2481205098,
+        2481205103,
+        2481205108
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "barrier": "fence",
+        "ele": "3062",
+        "icao": "VITE",
+        "is_in:country": "India",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Thoise airfleld",
+        "operator": "Indian Air Force"
+      }
+    },
+    {
+      "type": "way",
+      "id": 253298994,
+      "center": {
+        "lat": 34.1049202,
+        "lon": 77.6123908
+      },
+      "nodes": [
+        2592468861,
+        2592468862,
+        2592468863,
+        2592468864,
+        2592468865,
+        2592468861
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Mahabodhi Charitable Hospital Devachan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 419057045,
+      "center": {
+        "lat": 34.5220748,
+        "lon": 76.1538436
+      },
+      "nodes": [
+        4192314175,
+        12465666839,
+        4192315216,
+        4192315244,
+        4192315261,
+        4192315262,
+        12465666840,
+        4192315270,
+        4192315285,
+        12465666841,
+        4192315286,
+        12465666842,
+        4192315287,
+        12465666843,
+        4192315288,
+        4192315291,
+        4192315293,
+        12465666844,
+        4192315294,
+        4192315295,
+        12465666826,
+        4192315296,
+        4192315297,
+        12465666825,
+        4192315298,
+        4192315300,
+        12465666824,
+        4192315303,
+        4192315304,
+        12465666823,
+        12465666822,
+        4192315306,
+        4192315305,
+        12465666821,
+        12465666820,
+        12465666819,
+        4192315307,
+        12465666818,
+        12465666817,
+        12465666816,
+        4192315312,
+        4192315322,
+        12465666815,
+        4192315326,
+        4192315324,
+        4192315320,
+        12465667696,
+        12465667697,
+        12465667698,
+        4192315313,
+        12465666814,
+        4192315311,
+        12465666813,
+        12465666812,
+        12465666811,
+        4192315310,
+        12465666810,
+        4192315309,
+        12465666807,
+        12465666809,
+        12465666808,
+        4192315308,
+        12465666806,
+        12465666805,
+        4192315302,
+        12465666804,
+        12465666803,
+        4192315301,
+        12465666802,
+        4192315299,
+        12465666801,
+        12465666800,
+        12465667737,
+        4192315292,
+        4192315289,
+        12465666799,
+        4192315284,
+        4192315283,
+        12465666798,
+        4192315259,
+        12465666797,
+        12465666796,
+        4192315251,
+        4192315238,
+        4192315237,
+        4192315233,
+        4192315191,
+        12465666827,
+        12465666795,
+        4192314184,
+        4192314179,
+        12465666828,
+        4192314176,
+        12465666829,
+        12465666832,
+        4192314173,
+        12465666830,
+        12465666831,
+        12465666833,
+        4192314170,
+        12465666834,
+        4192314171,
+        4192314172,
+        12465666835,
+        12465666836,
+        4192314174,
+        12465666837,
+        12465666838,
+        4192314175
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "icao": "VIKL",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Kargil Airport",
+        "name:fa": "فرودگاه کارگیل",
+        "name:ur": "کارگل ہوائی اڈہ",
+        "wikidata": "Q3629936",
+        "wikipedia": "en:Kargil Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 423190955,
+      "center": {
+        "lat": 34.1088626,
+        "lon": 77.593606
+      },
+      "nodes": [
+        4228710868,
+        4228710869,
+        4228710870,
+        4228710871,
+        4228710868
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Dispensary",
+        "operator": "Tibetan Children's Village"
+      }
+    },
+    {
+      "type": "way",
+      "id": 423191172,
+      "center": {
+        "lat": 34.1091981,
+        "lon": 77.5938833
+      },
+      "nodes": [
+        4228713384,
+        4228713385,
+        4228713386,
+        4228713387,
+        4228713384
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Optical clinic",
+        "operator": "Tibetan Children's Village"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026395851,
+      "center": {
+        "lat": 34.1339251,
+        "lon": 77.5442698
+      },
+      "nodes": [
+        9463131860,
+        9463131859,
+        9463131858,
+        9463131857,
+        9463131860
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086524215,
+      "center": {
+        "lat": 34.1561297,
+        "lon": 77.5834402
+      },
+      "nodes": [
+        9955651464,
+        9955651452,
+        1789130799,
+        9955651463,
+        9955651462,
+        9955651461,
+        9955651460,
+        9955651459,
+        9955651464
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Local Bus Stand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086524216,
+      "center": {
+        "lat": 34.1568617,
+        "lon": 77.5831145
+      },
+      "nodes": [
+        9955651448,
+        9955592198,
+        9955592206,
+        9955592205,
+        9955592204,
+        9955592203,
+        475510188,
+        3829563406,
+        3829563430,
+        9955592202,
+        9955592201,
+        9955592200,
+        9955592199,
+        9955651451,
+        9955651450,
+        9955651449,
+        9955651448
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "New Bus Stand"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086530835,
+      "center": {
+        "lat": 34.8034284,
+        "lon": 77.0341775
+      },
+      "nodes": [
+        9955651605,
+        9955651604,
+        9955651603,
+        9955651602,
+        9955651605
+      ],
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1116132420,
+      "center": {
+        "lat": 33.4703165,
+        "lon": 76.8771636
+      },
+      "nodes": [
+        10208522724,
+        10208522725,
+        10208522726,
+        10208522727,
+        10208522724
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Community Health Center Padum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210566272,
+      "center": {
+        "lat": 34.1823269,
+        "lon": 77.5952852
+      },
+      "nodes": [
+        11215770313,
+        11215770314,
+        11215770315,
+        11215770316,
+        11215770313
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "HPCL Siachen Filling Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1212069710,
+      "center": {
+        "lat": 34.1693949,
+        "lon": 77.5893338
+      },
+      "nodes": [
+        11229108991,
+        11229108990,
+        11229108989,
+        11229108988,
+        11229108991
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP Chubi Filling Station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1334492669,
+      "center": {
+        "lat": 34.5211421,
+        "lon": 76.1404251
+      },
+      "nodes": [
+        12345826408,
+        12465646341,
+        12345826410,
+        12345826411,
+        12345826412,
+        12345826408
+      ],
+      "tags": {
+        "addr:district": "Kargil",
+        "addr:postcode": "194103",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Qamar Ali Akhoon Memorial Hospital Kargil",
+        "opening_hours": "24/7",
+        "operator:type": "government",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347614808,
+      "center": {
+        "lat": 34.5449183,
+        "lon": 76.1416601
+      },
+      "nodes": [
+        12465666959,
+        12465666958,
+        12465666957,
+        12465666956,
+        12465666959
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Conference Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347614861,
+      "center": {
+        "lat": 34.5214895,
+        "lon": 76.1420191
+      },
+      "nodes": [
+        12465668166,
+        12465668165,
+        12465668164,
+        12465668163,
+        12465668166
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "SKUAST",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347614863,
+      "center": {
+        "lat": 34.519975,
+        "lon": 76.140474
+      },
+      "nodes": [
+        12465668180,
+        12465668179,
+        12465668178,
+        12465668177,
+        12465668180
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "KREDA",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347614961,
+      "center": {
+        "lat": 34.5198047,
+        "lon": 76.1387396
+      },
+      "nodes": [
+        12465669730,
+        12465669725,
+        12465669724,
+        12465669723,
+        12465669729,
+        12465668176,
+        12465668174,
+        12465668167,
+        12465668175,
+        12465669721,
+        12465669727,
+        12465669726,
+        12465669728,
+        12465669722,
+        12465669730
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "LAHDC Council Secretriat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1368996920,
+      "center": {
+        "lat": 34.0832983,
+        "lon": 77.6114563
+      },
+      "nodes": [
+        12679481996,
+        12679481997,
+        12679481998,
+        12679481999,
+        12679482000,
+        12679538401,
+        12679538402,
+        12679538403,
+        12679538404,
+        12679485666,
+        12679538405,
+        12679538406,
+        12679538407,
+        12679538408,
+        12679538409,
+        12679481996
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "name": "Sindhu Ghat Heliport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1412272096,
+      "center": {
+        "lat": 34.5593439,
+        "lon": 76.1246854
+      },
+      "nodes": [
+        12977972021,
+        12977968469,
+        12465670012,
+        12977968471,
+        12465670013,
+        13009727412,
+        13009727411,
+        13009727410,
+        13009727409,
+        12465670017,
+        12977972162,
+        12977968463,
+        12977972092,
+        12977972005,
+        12977972185,
+        12977972075,
+        12977968499,
+        12977972144,
+        12977972002,
+        12977972119,
+        12977972022,
+        12465670007,
+        12465670008,
+        12465670009,
+        12977972076,
+        12977972137,
+        12465670010,
+        12465670011,
+        12977972084,
+        12977972021
+      ],
+      "tags": {
+        "addr:district": "KARGIL",
+        "addr:full": "District Hospital, Kargil Ladakh",
+        "addr:postcode": "194103",
+        "amenity": "hospital",
+        "contact:mobile": "9419888523",
+        "contact:phone": "1985232213",
+        "healthcare": "hospital",
+        "name": "Old Kargil District Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1420734388,
+      "center": {
+        "lat": 32.9376941,
+        "lon": 79.2135764
+      },
+      "nodes": [
+        13056088649,
+        13056088650,
+        13056088651,
+        13056088652,
+        13056088653,
+        13056088654,
+        13056088655,
+        13056088656,
+        13056088649
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Fukche Advanced Landing Ground",
+        "name:hi": "पुकेजी हवाईअड्डा",
+        "name:zh": "埔克齐机场"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2191 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T08:36:51Z",
+    "timestamp_areas_base": "2026-10-15T06:58:54Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 830243313,
+      "lat": 24.8023996,
+      "lon": 93.1165145,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "name": "Jiribam",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "JRBM",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q19892224",
+        "wikipedia": "en:Jiribam railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1420700033,
+      "lat": 24.7423346,
+      "lon": 93.2370957,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "alt_name": "Kaimai Road station",
+        "fixme": "rough alignment",
+        "name": "Rani Gaidinliu station",
+        "name:hi": "रानी गाइदिन्ल्यू",
+        "name:mni": "ꯔꯥꯅꯤ ꯒꯥꯢꯗꯤꯟꯂꯤꯎ",
+        "network": "IR",
+        "old_ref": "KMIRD",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RGBP",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025907",
+        "wikipedia": "en:Rani Gaidinliu railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1420700233,
+      "lat": 24.8048991,
+      "lon": 93.6747553,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Tupul",
+        "name:hi": "टुपूल",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "TUPUL",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025914",
+        "wikipedia": "en:Tupul railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1420700805,
+      "lat": 24.8358361,
+      "lon": 93.4882544,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "alt_ref": "KGBP",
+        "ele": "330",
+        "name": "Khongsang",
+        "name:hi": "खोंगसांग",
+        "name:mni": "ꯈꯣꯡꯁꯥꯡ",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KSANG",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025911",
+        "wikipedia": "en:Khongsang railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985336560,
+      "lat": 24.7358566,
+      "lon": 93.3061318,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "alt_name": "Kambirom",
+        "name": "Haipo Jadonang",
+        "network": "IR",
+        "official_name": "Haipo Jadonang",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KBBP",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q96380224",
+        "wikipedia": "en:Haipou Jadonang Kambiron railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985336561,
+      "lat": 24.8086961,
+      "lon": 93.405236,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "alt_ref": "TGBP",
+        "name": "Thingu",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "TNGUU",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025909",
+        "wikipedia": "en:Thingu railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4227926189,
+      "lat": 24.8451395,
+      "lon": 93.9386627,
+      "tags": {
+        "name": "69 Bn CRPF Mantripukhri",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5025635929,
+      "lat": 25.0001851,
+      "lon": 94.0180588,
+      "tags": {
+        "addr:city": "Saikul",
+        "addr:housenumber": "Khokon Road",
+        "addr:postcode": "795114",
+        "addr:street": "Khokon Street",
+        "amenity": "pharmacy",
+        "description": "Drug Store",
+        "drive_through": "yes",
+        "name": "Letthang Haokip's Pharmacy",
+        "operator": "Pu Letthang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5025650757,
+      "lat": 24.9612467,
+      "lon": 94.0224994,
+      "tags": {
+        "addr:city": "Sagolmang",
+        "addr:district": "Imphal East",
+        "addr:landmark": "Near Assam Rifle Camp",
+        "addr:postcode": "795114",
+        "addr:state": "Manipur",
+        "addr:street": "Imphal-Saikul Road",
+        "addr:subdistrict": "Sawombung",
+        "amenity": "hospital",
+        "description": "Community Health Centre",
+        "healthcare": "centre",
+        "locality": "Sagolmang Khewa Company",
+        "name": "Community Health Centre, Sagolmang",
+        "operator": "Manipur Health Service",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5269826123,
+      "lat": 24.8160794,
+      "lon": 93.9434382,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "North A.O.C",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Raj Medicity",
+        "source": "OpenGovernmentData",
+        "website": "https://www.rajmedicity.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5283289823,
+      "lat": 24.7987581,
+      "lon": 93.9343991,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus to Churachandpur",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5283500422,
+      "lat": 24.3414536,
+      "lon": 93.6973282,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5315126846,
+      "lat": 24.5003289,
+      "lon": 93.7755451,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Vans towards Imphal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6152586017,
+      "lat": 24.757964,
+      "lon": 93.1797527,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "disused:railway": "station",
+        "is_in:county": "Tamenglong district",
+        "is_in:village": "Vangaichungpao",
+        "name": "Vangaichungpao",
+        "name:mni": "ꯚꯡꯒꯥꯢꯆꯨꯡꯄꯥꯎ",
+        "network": "IR",
+        "old_name": "Dholakhal",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "VNGP",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025906",
+        "wikipedia": "en:Vangaichungpao railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6162693187,
+      "lat": 24.2449579,
+      "lon": 94.3044052,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Bus Station to Imphal 130¥",
+        "name:hi": "Bus to Imphal (130₹, 1 PM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6165158185,
+      "lat": 24.8160923,
+      "lon": 93.9435413,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Ticket counter bus for everywhere",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6202698985,
+      "lat": 24.7952381,
+      "lon": 93.9408259,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Moreh shared taxi",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6269219041,
+      "lat": 25.2614658,
+      "lon": 94.0156854,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285730585,
+      "lat": 24.8109358,
+      "lon": 93.9369616,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus and Winger to Dimapur (600₹) and other cities",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285730586,
+      "lat": 24.2390319,
+      "lon": 94.2984072,
+      "tags": {
+        "name": "Indian immigration for foreigners",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285730685,
+      "lat": 24.2479249,
+      "lon": 94.3037521,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Shared taxis to Imphal (500₹)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285730785,
+      "lat": 24.2376145,
+      "lon": 94.3001932,
+      "tags": {
+        "name": "Myanmar immigration for foreigners",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6287513085,
+      "lat": 24.8108778,
+      "lon": 93.9366991,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Winger to Dimapur",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313187185,
+      "lat": 24.2390894,
+      "lon": 94.2968039,
+      "tags": {
+        "addr:postcode": "795131",
+        "addr:street": "Moreh Ward No. 1",
+        "name": "ICP India",
+        "name:en": "Immigration ICP India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313194785,
+      "lat": 24.247753,
+      "lon": 94.3038974,
+      "tags": {
+        "addr:housenumber": "Unit 6",
+        "addr:postcode": "795131",
+        "addr:street": "Moreh Ward No. 3",
+        "name": "Police Station",
+        "office": "government",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313194885,
+      "lat": 24.2469246,
+      "lon": 94.3029945,
+      "tags": {
+        "addr:postcode": "795131",
+        "addr:street": "Moreh Ward No 8",
+        "name": "Immigration Office",
+        "office": "government",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313194985,
+      "lat": 24.2479875,
+      "lon": 94.3038224,
+      "tags": {
+        "addr:postcode": "795131",
+        "addr:street": "Moreh Ward No.6",
+        "government": "customs",
+        "name": "Custom Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6364525586,
+      "lat": 24.8212784,
+      "lon": 93.6386836,
+      "tags": {
+        "amenity": "fuel",
+        "name": "indian oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6387635521,
+      "lat": 24.6319847,
+      "lon": 93.7619193,
+      "tags": {
+        "addr:district": "Bishnupur",
+        "addr:full": "Bishnupur District Hospital, Ward No.1",
+        "addr:postcode": "795126",
+        "addr:state": "Manipur",
+        "addr:street": "Tiddim Road, NH-152",
+        "addr:subdistrict": "Bishnupur",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital, Bishnupur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6387635524,
+      "lat": 24.722635,
+      "lon": 93.8439904,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6387635526,
+      "lat": 24.7565621,
+      "lon": 93.8850785,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6387635529,
+      "lat": 24.7804101,
+      "lon": 93.9135683,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6387635530,
+      "lat": 24.8073834,
+      "lon": 93.9343752,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mahabir Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579152,
+      "lat": 24.8276317,
+      "lon": 93.9447847,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579160,
+      "lat": 24.8261744,
+      "lon": 93.9442178,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579163,
+      "lat": 24.8256555,
+      "lon": 93.94564,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Unique Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579166,
+      "lat": 24.8333671,
+      "lon": 93.9447635,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579170,
+      "lat": 24.8077156,
+      "lon": 93.9362039,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Apolo Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579175,
+      "lat": 24.8099733,
+      "lon": 93.9341373,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mahavir Medicos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6516579176,
+      "lat": 24.8094725,
+      "lon": 93.9343086,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Najivan Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6550861285,
+      "lat": 24.8065339,
+      "lon": 93.9332922,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus to Moirang (Loktak)",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6559128285,
+      "lat": 24.7955653,
+      "lon": 93.9403237,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Manipur State Transport - Bus to Moreh",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6562425686,
+      "lat": 24.7953623,
+      "lon": 93.9404566,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6842759285,
+      "lat": 24.8189794,
+      "lon": 93.9455017,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "buses for everywhere",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6842759385,
+      "lat": 24.8247134,
+      "lon": 93.9487188,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "buses for everywhere"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6846290087,
+      "lat": 24.7781476,
+      "lon": 93.143353,
+      "tags": {
+        "amenity": "hospital",
+        "name": "50 bed Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6856784108,
+      "lat": 24.8156521,
+      "lon": 93.9405877,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Nagaland State Transportation",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6877465085,
+      "lat": 24.7472902,
+      "lon": 93.4206289,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093887,
+      "lat": 24.8035935,
+      "lon": 93.9266829,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Sagolband Moirang Leirak",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Mothers Care Children Hospital and Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093894,
+      "lat": 24.4961834,
+      "lon": 94.0034947,
+      "tags": {
+        "addr:district": "Thoubal",
+        "addr:full": "Near Ar Camp",
+        "addr:postcode": "795103",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Jivan Hospital, Kakching",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093911,
+      "lat": 24.8126913,
+      "lon": 93.9252124,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Kombirei Keithel, Rims South Gate",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Suba Hospital and Assisted Reproductive Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093918,
+      "lat": 24.8353055,
+      "lon": 93.9139169,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Langol",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "email": "contact@shijahospitals.com",
+        "name": "Shija Hospitals and Research Institute, Langol",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://www.shijahospitals.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093923,
+      "lat": 24.824927,
+      "lon": 93.9453457,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "P O Box-52",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Christian Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908093934,
+      "lat": 24.8118836,
+      "lon": 93.9504654,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Hatta Minuthong",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Public Hospital and Research Institute",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908098039,
+      "lat": 24.8115897,
+      "lon": 93.9619821,
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Porompat",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "J.N. Hospital Management Society",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120436,
+      "lat": 24.3306179,
+      "lon": 93.6886463,
+      "tags": {
+        "addr:district": "Churachandpur",
+        "addr:full": "Gangpimual, Lamka South",
+        "addr:postcode": "795128",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Peoples Health Foundation Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120441,
+      "lat": 24.349423,
+      "lon": 93.7014189,
+      "tags": {
+        "addr:district": "Churachandpur",
+        "addr:full": "Maniour",
+        "addr:postcode": "795128",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sielmat Christian Hospital and Research Center",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155800,
+      "lat": 24.7463548,
+      "lon": 93.4250735,
+      "tags": {
+        "addr:district": "Tamenglong",
+        "addr:landmark": "Near Nungba Bazar Shed",
+        "addr:postcode": "795147",
+        "addr:state": "Manipur",
+        "addr:subdistrict": "Nungba",
+        "amenity": "hospital",
+        "description": "Community Health Centre",
+        "fixme": "landmark,locality tags are not correct for healthcare",
+        "healthcare": "centre",
+        "locality": "Nungba HQ, Nungba Block",
+        "name": "CHC Nungba",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155806,
+      "lat": 25.0981451,
+      "lon": 94.3651788,
+      "tags": {
+        "addr:district": "Ukhrul",
+        "addr:postcode": "795142",
+        "addr:state": "Manipur",
+        "addr:subdistrict": "Ukhurl Central",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Ukhrul",
+        "name": "Ukhrul District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155813,
+      "lat": 24.3429852,
+      "lon": 93.6928709,
+      "tags": {
+        "addr:block": "Samulamlan",
+        "addr:district": "Churachandpur",
+        "addr:postcode": "795128",
+        "addr:state": "Manipur",
+        "addr:street": "IB Road",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "name": "Churachandpur District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155828,
+      "lat": 24.9855683,
+      "lon": 93.5025164,
+      "tags": {
+        "addr:district": "Tamenglong",
+        "addr:landmark": "Medical Gate",
+        "addr:postcode": "795141",
+        "addr:state": "Manipur",
+        "addr:subdistrict": "Tamenglong",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Tamenglong W/N IV, PO/PS Tamenglong",
+        "name": "District Hospital, Tamenglong",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155876,
+      "lat": 24.8072194,
+      "lon": 93.1142523,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:landmark": "Opposite Jiribam Police Station",
+        "addr:postcode": "795116",
+        "addr:state": "Manipur",
+        "addr:subdistrict": "Jiribam",
+        "amenity": "hospital",
+        "description": "Community Health Centre",
+        "healthcare": "centre",
+        "name": "Jiribam CHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095155881,
+      "lat": 24.2571178,
+      "lon": 93.1066775,
+      "tags": {
+        "addr:district": "Churachandpur",
+        "addr:full": "Parbung Village,Churachandpur,Manipur",
+        "addr:postcode": "795143",
+        "addr:state": "Manipur",
+        "addr:subdistrict": "Tipaimukh",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Parbung",
+        "name": "Parbung district Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138519881,
+      "lat": 24.2605613,
+      "lon": 94.2863846,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138539068,
+      "lat": 24.7952164,
+      "lon": 93.8888476,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138560197,
+      "lat": 24.7473284,
+      "lon": 93.4205384,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138560607,
+      "lat": 24.8072466,
+      "lon": 93.1136459,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7281924285,
+      "lat": 24.8067525,
+      "lon": 93.9327504,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Jeeps to Silchar",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7485259761,
+      "lat": 24.0866545,
+      "lon": 93.4819185,
+      "tags": {
+        "addr:city": "Suangdoh",
+        "addr:postcode": "795139",
+        "amenity": "hospital",
+        "description": "Primary Health Sub-Centre & Health and Wellness Centre",
+        "healthcare": "hospital",
+        "healthcare:speciality": "clinic",
+        "name": "PHSC & HWC Suangdoh",
+        "operator": "Health Department",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090619,
+      "lat": 24.802966,
+      "lon": 93.9475392,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Nityaiband Chuthek - Konung Mamang Road, Angom Colony, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Remedy Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090626,
+      "lat": 24.705028,
+      "lon": 93.946242,
+      "tags": {
+        "addr:district": "Thoubal",
+        "addr:full": "Lilong Khunou, Loumanbi",
+        "addr:postcode": "795130",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Noor Hospital And Research Institute",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090634,
+      "lat": 24.8103168,
+      "lon": 93.9641929,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Khomidok",
+        "addr:postcode": "795010",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Incinerator Plant Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090635,
+      "lat": 24.8049777,
+      "lon": 93.9473355,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Kyamgei, Nongpok Inkhol, Imphal",
+        "addr:postcode": "795005",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Care Foundation Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090640,
+      "lat": 24.8270906,
+      "lon": 93.9332964,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Thangmeiband Sinam Leikai, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Hillside Charitable Hospital & Research Institute",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090643,
+      "lat": 24.6486497,
+      "lon": 93.9773152,
+      "tags": {
+        "addr:district": "Thoubal",
+        "addr:full": "Sabantongba, Thoubal",
+        "addr:postcode": "795138",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Piles Clinic & Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090647,
+      "lat": 24.7782009,
+      "lon": 93.9277701,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Haobam Marak Keisham Leikai, Kwakeithel",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Apex Hospital & Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090651,
+      "lat": 24.7982563,
+      "lon": 93.9460854,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Wangkhei, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Advanced Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090658,
+      "lat": 24.8120518,
+      "lon": 93.932019,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Porompat, Thangjam Leirak, Pangal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Peace Hospital And Research Institute",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090661,
+      "lat": 24.625182,
+      "lon": 94.012785,
+      "tags": {
+        "addr:district": "Thoubal",
+        "addr:full": "Khangabok Hospital Road, Mamang Leikai, Khangabok",
+        "addr:postcode": "795138",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090663,
+      "lat": 24.831337,
+      "lon": 93.925439,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Lamphelpat, Imphal",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Ayush Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090665,
+      "lat": 24.7794408,
+      "lon": 93.9448822,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Singjamei, Imphal",
+        "addr:postcode": "795008",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Robins Lisa Hack Hospitals",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090672,
+      "lat": 24.787954,
+      "lon": 93.9224072,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Kwakeithel Makha, Lourembam Leikai, Imphal",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Asian Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090675,
+      "lat": 24.821748,
+      "lon": 93.934591,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Thangmeiband, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "City Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090677,
+      "lat": 24.8133317,
+      "lon": 93.9267238,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Uripok, Imphal",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Vision Plus Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090678,
+      "lat": 24.825042,
+      "lon": 93.944864,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Khongnang Ani Karak, Kabo Leika, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "City Hospital & Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090679,
+      "lat": 24.7843453,
+      "lon": 93.9388357,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Singjamei, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Iboyaima Hospital & Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090683,
+      "lat": 24.8155071,
+      "lon": 93.9427306,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Indo Mayanmar Road, Near Classic Hostel, Imphal",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Maipakpi Maternity and Child Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090685,
+      "lat": 24.809745,
+      "lon": 93.936582,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Manipur",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Chamber Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090686,
+      "lat": 24.8250246,
+      "lon": 93.93191,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Lamphel Road, Thangmeiband, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Shija ENT Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090687,
+      "lat": 24.813033,
+      "lon": 93.928092,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Lalambung Makhong, Thangmeiband, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Sky Hospital & Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090695,
+      "lat": 24.8147178,
+      "lon": 93.9483091,
+      "tags": {
+        "addr:district": "Imphal East",
+        "addr:full": "Zomi Villa, Ragailong, Imphal",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mangal Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580090698,
+      "lat": 24.790429,
+      "lon": 93.925032,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Imphal, Kwakeithel Thokchom Leikai, Imphal",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Igastrocare Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412939,
+      "lat": 24.315521,
+      "lon": 93.984819,
+      "tags": {
+        "addr:district": "Chandel",
+        "addr:full": "Chandel",
+        "addr:postcode": "795127",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412940,
+      "lat": 24.6497008,
+      "lon": 93.8989569,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Yumnam Huidrom",
+        "addr:postcode": "795009",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Ayurvedic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412944,
+      "lat": 25.107044,
+      "lon": 94.36126,
+      "tags": {
+        "addr:district": "Ukhrul",
+        "addr:full": "Near Church",
+        "addr:postcode": "795142",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Women Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412945,
+      "lat": 24.6356578,
+      "lon": 93.7650877,
+      "tags": {
+        "addr:district": "Bishnupur",
+        "addr:full": "Ngaikhong Khunou",
+        "addr:postcode": "795126",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Tuberculosis Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412948,
+      "lat": 24.3427925,
+      "lon": 93.695123,
+      "tags": {
+        "addr:district": "Churachandpur",
+        "addr:full": "Hiangtam Lamka, Churachandpur",
+        "addr:postcode": "795128",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Nazaret Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412952,
+      "lat": 24.5194473,
+      "lon": 93.9426554,
+      "tags": {
+        "addr:district": "Kakching",
+        "addr:full": "Chandel - Chakpikarong Road, Wabagai",
+        "addr:postcode": "795103",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Sun Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412954,
+      "lat": 25.285501,
+      "lon": 94.030172,
+      "tags": {
+        "addr:district": "Senapati",
+        "addr:full": "Senapati",
+        "addr:postcode": "795007",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412958,
+      "lat": 24.645764,
+      "lon": 93.8976452,
+      "tags": {
+        "addr:district": "Impal West",
+        "addr:full": "Yumnam Huidrom",
+        "addr:postcode": "795009",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Rangini Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412962,
+      "lat": 24.719028,
+      "lon": 93.846725,
+      "tags": {
+        "addr:district": "Bishnupur",
+        "addr:full": "Nambol Laitonjam",
+        "addr:postcode": "795134",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Nambol Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412964,
+      "lat": 25.088019,
+      "lon": 94.3627241,
+      "tags": {
+        "addr:district": "Ukhrul",
+        "addr:full": "Dungrei, Imphal - Jessami Road, Ukhrul",
+        "addr:postcode": "795142",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "CHSRC Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412965,
+      "lat": 24.5063272,
+      "lon": 93.9654142,
+      "tags": {
+        "addr:district": "Kakching",
+        "addr:full": "Kakching",
+        "addr:postcode": "795103",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Nature Cure Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412967,
+      "lat": 24.497729,
+      "lon": 93.982997,
+      "tags": {
+        "addr:district": "Kakching",
+        "addr:full": "Lic Pareng, Kakching",
+        "addr:postcode": "795103",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "EMA Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412969,
+      "lat": 24.7170462,
+      "lon": 93.8328903,
+      "tags": {
+        "addr:district": "Bishnupur",
+        "addr:full": "Nambol Mongjing Leikai, Heigrujam",
+        "addr:postcode": "795134",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "ACS Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412970,
+      "lat": 25.146992,
+      "lon": 93.967622,
+      "tags": {
+        "addr:district": "Kangpokpi",
+        "addr:full": "Kangpokpi - Tuilang Road, Kangpokpi",
+        "addr:postcode": "795129",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Dam Dam Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412973,
+      "lat": 25.160697,
+      "lon": 93.96399,
+      "tags": {
+        "addr:district": "Kangpokpi",
+        "addr:full": "Kangpokpi",
+        "addr:postcode": "795129",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Kangpoki Mission Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412974,
+      "lat": 24.975133,
+      "lon": 93.497247,
+      "tags": {
+        "addr:district": "Tamenglong",
+        "addr:full": "Tamenglong",
+        "addr:postcode": "795141",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412975,
+      "lat": 24.9859138,
+      "lon": 93.4994811,
+      "tags": {
+        "addr:district": "Tamenglong",
+        "addr:full": "Tamenglong",
+        "addr:postcode": "795141",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Atipu Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412976,
+      "lat": 24.806942,
+      "lon": 93.1158562,
+      "tags": {
+        "addr:district": "Jiribam",
+        "addr:full": "Near Sub-Post Office, Jiribam",
+        "addr:postcode": "795116",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "description": "Community Health Centre",
+        "healthcare": "centre",
+        "name": "CHC, Jiribam",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412977,
+      "lat": 24.7793336,
+      "lon": 93.1396322,
+      "tags": {
+        "addr:district": "Jiribam",
+        "addr:full": "Ningsingkhun, Jiribam",
+        "addr:postcode": "795115",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7588412978,
+      "lat": 24.778685,
+      "lon": 93.1387555,
+      "tags": {
+        "addr:district": "Jiribam",
+        "addr:full": "Aglapur Road, Kadamtala, Jiribam",
+        "addr:postcode": "795116",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Jiribam Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996308175,
+      "lat": 24.7472708,
+      "lon": 93.4209512,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8778584651,
+      "lat": 24.3306719,
+      "lon": 93.6953183,
+      "tags": {
+        "addr:city": "New Lamka",
+        "addr:postcode": "795006",
+        "addr:street": "Awnsuak Road",
+        "amenity": "townhall",
+        "name": "YPA Hall, College Veng",
+        "townhall:type": "town"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8778588406,
+      "lat": 24.3301777,
+      "lon": 93.6935138,
+      "tags": {
+        "addr:city": "LAMKA",
+        "addr:postcode": "795006",
+        "addr:street": "New Lamka",
+        "amenity": "fuel",
+        "name": "New Lamka Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9837266184,
+      "lat": 24.8317856,
+      "lon": 93.5630089,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Awangkhal",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "AWGKL",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9839806385,
+      "lat": 24.8591099,
+      "lon": 93.6325027,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "ele": "499",
+        "name": "Noney",
+        "name:hi": "नोनी",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "NONEY",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025913",
+        "wikipedia": "en:Noney railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9839806388,
+      "lat": 24.8383213,
+      "lon": 93.7178287,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "fixme": "rough alignment",
+        "name": "Haochong",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "HACHN",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9839806399,
+      "lat": 24.8195117,
+      "lon": 93.8205385,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Phayeng",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PHYNG",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025915",
+        "wikipedia": "en:Phayeng railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9839807719,
+      "lat": 24.7639447,
+      "lon": 93.8654977,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Imphal",
+        "name:hi": "station",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "IMPAL",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q29025917",
+        "wikipedia": "en:Imphal railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10947433057,
+      "lat": 24.7952366,
+      "lon": 93.9298095,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10947433060,
+      "lat": 24.8032793,
+      "lon": 93.9365998,
+      "tags": {
+        "addr:city": "Imphal",
+        "addr:postcode": "795001",
+        "addr:street": "Kangla",
+        "government": "administrative",
+        "name": "Raj Bhavan",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10947433061,
+      "lat": 24.8052087,
+      "lon": 93.9367636,
+      "tags": {
+        "name": "Manipur Fire Service HeadQuarters",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10947499222,
+      "lat": 24.8052603,
+      "lon": 93.9379485,
+      "tags": {
+        "government": "tax",
+        "name": "Treasury Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10947499224,
+      "lat": 24.8049422,
+      "lon": 93.9353772,
+      "tags": {
+        "addr:city": "Imphal",
+        "addr:postcode": "795001",
+        "addr:street": "Governor Rd",
+        "amenity": "fire_station",
+        "name": "Imphal Fire Station",
+        "operator": "Government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11069895045,
+      "lat": 24.3635233,
+      "lon": 93.7062578,
+      "tags": {
+        "name": "Churachandpur Deputy Commissioner",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356662423,
+      "lat": 24.6128202,
+      "lon": 93.7617957,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q2007561",
+        "name": "M/S Bitej Gasoline Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11526669769,
+      "lat": 24.8066509,
+      "lon": 93.9324152,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Jeeps to Nungba"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823567101,
+      "lat": 24.8397558,
+      "lon": 93.9232091,
+      "tags": {
+        "addr:postcode": "795004",
+        "addr:street": "Langol Rd, Meitei Langol, Tarung, Imphal,",
+        "amenity": "hospital",
+        "name": "Trevi Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 96566387,
+      "center": {
+        "lat": 24.7581677,
+        "lon": 93.8964682
+      },
+      "nodes": [
+        1118584938,
+        1118584622,
+        1118585030,
+        1118585627,
+        1118584766,
+        1118585328,
+        1118584540,
+        1118584973,
+        7376563776,
+        7376563692,
+        7376563775,
+        10542378631,
+        10542378630,
+        7376563751,
+        3927939821,
+        1118585299,
+        1118584517,
+        1118584925,
+        1118585394,
+        1118584938
+      ],
+      "tags": {
+        "aerodrome:type": "public/military",
+        "aeroway": "aerodrome",
+        "alt_name": "Imphal Airport",
+        "barrier": "wall",
+        "ele": "774",
+        "iata": "IMF",
+        "icao": "VEIM",
+        "landuse": "military",
+        "military": "airfield",
+        "name": "Bir Tikendrajit International Airport",
+        "name:etymology:wikidata": "Q7801899",
+        "old_name": "Imphal Tulihal Airport",
+        "wikidata": "Q2247550",
+        "wikipedia": "en:Imphal Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 311490967,
+      "center": {
+        "lat": 24.6251822,
+        "lon": 94.0128892
+      },
+      "nodes": [
+        3171591017,
+        3171591018,
+        3171591019,
+        3171591020,
+        3171591017
+      ],
+      "tags": {
+        "addr:city": "Khangabok",
+        "addr:district": "Thoubal",
+        "addr:postcode": "795138",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Thoubal District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 311529375,
+      "center": {
+        "lat": 24.6254344,
+        "lon": 94.015105
+      },
+      "nodes": [
+        3172020716,
+        3172020717,
+        3172020718,
+        3172020719,
+        3172020720,
+        3172020716
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "building": "yes",
+        "name": "District & Session Court Khangabok"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366028703,
+      "center": {
+        "lat": 24.807547,
+        "lon": 93.9567158
+      },
+      "nodes": [
+        3700211514,
+        3700211515,
+        3702088491,
+        3700211517,
+        3700211518,
+        3700211514
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "name": "Porompat Petrol Pump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366040096,
+      "center": {
+        "lat": 24.8030361,
+        "lon": 93.9508255
+      },
+      "nodes": [
+        3700330611,
+        3700330612,
+        3700330613,
+        3700330614,
+        3700330611
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "name": "Kusum Petrol Pump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 366223365,
+      "center": {
+        "lat": 24.8173739,
+        "lon": 93.9559407
+      },
+      "nodes": [
+        3702089263,
+        3702089265,
+        3702089266,
+        3702089264,
+        3702089263
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "name": "NRL Petrol Pump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 662494891,
+      "center": {
+        "lat": 24.8167388,
+        "lon": 93.9226851
+      },
+      "nodes": [
+        6202148208,
+        6202148207,
+        6202148206,
+        6202148205,
+        6202148208
+      ],
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Lamphelpat",
+        "addr:postcode": "795004",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Regional Institute of Medical Sciences",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "https://www.rims.edu.in/",
+        "wikidata": "Q7309081"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665435578,
+      "center": {
+        "lat": 24.8246349,
+        "lon": 93.9480239
+      },
+      "nodes": [
+        6228259366,
+        6228259365,
+        6228259364,
+        6165158085,
+        6228259366
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Bus Terminal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665563432,
+      "center": {
+        "lat": 24.8122249,
+        "lon": 93.9291365
+      },
+      "nodes": [
+        6229508704,
+        6229508703,
+        6229508702,
+        6229508701,
+        6229508704
+      ],
+      "tags": {
+        "addr:district": "Imphal West",
+        "addr:full": "Rims Road, Lalambung, Malhong",
+        "addr:postcode": "795001",
+        "addr:state": "Manipur",
+        "amenity": "hospital",
+        "name": "Imphal Hospital and Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 688229385,
+      "center": {
+        "lat": 24.8070799,
+        "lon": 93.9319754
+      },
+      "nodes": [
+        6453010350,
+        6453010351,
+        6453010352,
+        6453010353,
+        6453010350
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 688237290,
+      "center": {
+        "lat": 24.8013382,
+        "lon": 93.9128305
+      },
+      "nodes": [
+        6453076458,
+        6453076459,
+        6453076460,
+        6453076461,
+        6453076462,
+        6453076463,
+        6453076464,
+        6453076465,
+        6453076466,
+        6453076467,
+        6453076468,
+        6453076469,
+        6453076458
+      ],
+      "tags": {
+        "addr:city": "Imphal",
+        "addr:postcode": "795001",
+        "addr:street": "Khuraijam Leikai",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "SAI Administrative Block",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 788999102,
+      "center": {
+        "lat": 24.7600377,
+        "lon": 93.8933375
+      },
+      "nodes": [
+        7376563766,
+        7376563763,
+        7376563764,
+        7376563765,
+        7376563766
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1486888104,
+      "center": {
+        "lat": 24.4438582,
+        "lon": 93.7082881
+      },
+      "nodes": [
+        13630150636,
+        13630150637,
+        13630150638,
+        13630150639,
+        13630150640,
+        13630150641,
+        13630150642,
+        13630150643,
+        13630150644,
+        13630150645,
+        13630150636
+      ],
+      "tags": {
+        "addr:district": "Churachandpur",
+        "addr:postcode": "795128",
+        "addr:subdistrict": "Kangvai",
+        "alt_name": "Office of the Sub-Divisional Officer, Kangvai Sub-Division",
+        "building": "subdistrict_office",
+        "name": "SDO Office, Kangvai",
+        "office": "government"
+      }
+    }
+  ]
+}

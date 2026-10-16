@@ -1,0 +1,2032 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:17:04Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 856701915,
+      "lat": 23.7458436,
+      "lon": 92.8030161,
+      "tags": {
+        "aeroway": "aerodrome",
+        "name": "Turial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2018024820,
+      "lat": 23.7938982,
+      "lon": 92.6690931,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petrol pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3011847711,
+      "lat": 23.7981904,
+      "lon": 92.6512294,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Sairang",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SRANG",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3281652396,
+      "lat": 24.1960499,
+      "lon": 92.5412872,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "date:converted": "2021-03-16",
+        "ele": "48",
+        "name": "Bairabi",
+        "name:hi": "बइरबी",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "BHRB",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "wikidata": "Q24948263",
+        "wikipedia": "en:Bairabi railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4367480939,
+      "lat": 22.5316618,
+      "lon": 92.8939581,
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "DC Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "name": "Office of the Deputy Commissioner (DC), Lawngtlai",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936560185,
+      "lat": 23.7214411,
+      "lon": 92.7074247,
+      "tags": {
+        "name": "CID Complex (Foreigner Registration)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6089210485,
+      "lat": 23.7211265,
+      "lon": 92.7069764,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo Stand (To Reiek)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6433556155,
+      "lat": 23.881729,
+      "lon": 93.2118337,
+      "tags": {
+        "addr:district": "Champhai",
+        "addr:full": "Ngopa",
+        "addr:postcode": "796290",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CHC Ngopa",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6795399890,
+      "lat": 23.7187131,
+      "lon": 92.7192345,
+      "tags": {
+        "addr:postcode": "796001",
+        "addr:street": "Tuikhuahtlang",
+        "name": "PHE Office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6817893786,
+      "lat": 23.727682,
+      "lon": 92.7325225,
+      "tags": {
+        "addr:postcode": "796008",
+        "addr:street": "Bethlehem Vengthlang",
+        "name": "Forest Training School",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-16:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859202,
+      "lat": 24.2334996,
+      "lon": 92.6740779,
+      "tags": {
+        "addr:district": "Kolasib",
+        "addr:full": "Diakkawn",
+        "addr:postcode": "796081",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Nazareth Hospital, Kolasib",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859216,
+      "lat": 24.5079987,
+      "lon": 92.7664854,
+      "tags": {
+        "addr:district": "Kolasib",
+        "addr:full": "Vairengte Road,Near Police Station,Vairengte",
+        "addr:postcode": "788114",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Bilkhawthlir (New Rd)",
+        "amenity": "hospital",
+        "healthcare": "centre",
+        "name": "CHC, Vairengte",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859217,
+      "lat": 24.2314023,
+      "lon": 92.6766193,
+      "tags": {
+        "addr:district": "Kolasib",
+        "addr:full": "Venglai Main Road,Opp. State Bank Of India,Kolasib",
+        "addr:postcode": "796081",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Bilkhawthlir (New Rd)",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital,Kolasib",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859223,
+      "lat": 23.7841698,
+      "lon": 92.5601256,
+      "tags": {
+        "addr:district": "Mamit",
+        "addr:full": "Aizawl-Kumarghat Road,Near Mizoram Rural Bank,Rawpuichhip",
+        "addr:postcode": "796410",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Reiek",
+        "amenity": "hospital",
+        "name": "PHC, Rawpuichhip",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859294,
+      "lat": 23.7555439,
+      "lon": 92.7310816,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang-Leitan Road,Beside Shiv Mandir,Bawngkawn",
+        "addr:postcode": "796014",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Greenwood Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859305,
+      "lat": 23.6821385,
+      "lon": 92.9630148,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Saitual Road,Bethel Presbyterian Church,Saitual",
+        "addr:postcode": "796261",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Thingsulthliah (Part)",
+        "amenity": "hospital",
+        "name": "Sub-District Hospital,Saitual",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859395,
+      "lat": 23.3078982,
+      "lon": 92.8556728,
+      "tags": {
+        "addr:district": "Serchhip",
+        "addr:full": "Silchar Road,Near Serchhip Bazar,Serchhip",
+        "addr:postcode": "796181",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Serchhip",
+        "amenity": "hospital",
+        "name": "District Hospital, Serchhip",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859417,
+      "lat": 22.5356749,
+      "lon": 92.8981758,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "Vengpui, L-I",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Christian Hospital, Lawngtlai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859429,
+      "lat": 22.4883875,
+      "lon": 92.9828605,
+      "tags": {
+        "addr:city": "Siaha",
+        "addr:district": "Siaha",
+        "addr:full": "Traffic Point-Circuit House Road,Near Police Station,Siaha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "addr:street": "New Siaha West",
+        "addr:subdistrict": "Siaha (New Rd)",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital, Siaha",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859499,
+      "lat": 23.909285,
+      "lon": 92.4947387,
+      "tags": {
+        "addr:district": "Mamit",
+        "addr:full": "Aizwal-Kumarghat Road,Near CMO Office,Mamit",
+        "addr:postcode": "796441",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Zawlnuam",
+        "amenity": "hospital",
+        "name": "District Hospital, Mamit",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859505,
+      "lat": 24.2261924,
+      "lon": 92.9522659,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "NH306A,Near ICI Church,Sakawrdai",
+        "addr:postcode": "796111",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Darlawn",
+        "amenity": "hospital",
+        "description": "Community Health Center",
+        "healthcare": "centre",
+        "name": "CHC, Sakawrdai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859524,
+      "lat": 23.7093053,
+      "lon": 92.7195313,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Kulikawn",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Alpha Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859549,
+      "lat": 23.7489767,
+      "lon": 92.7224247,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Chaltlang Road,Opp. Union Bank Of India,Chaltlang",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Nazareth Hospitals",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909859597,
+      "lat": 23.6242176,
+      "lon": 92.7281633,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Near Falkawn Chawhmeh Bazar,Falkawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "State Referral Hospital,Falkawn",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911254756,
+      "lat": 22.4890083,
+      "lon": 92.9796365,
+      "tags": {
+        "addr:district": "Saiha",
+        "addr:full": "Saiha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Maraland Gospel Centenary Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911271597,
+      "lat": 22.5394646,
+      "lon": 92.8858672,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "Bazar Veng",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Lcmc Hospital, Lawngtlai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911271636,
+      "lat": 23.7504614,
+      "lon": 92.726619,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Bawngkawn-Chhimneng Road,Near Transport Office,Aizawl",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Bethesda Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911271641,
+      "lat": 23.687823,
+      "lon": 92.8594648,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Presbyterian Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6926325085,
+      "lat": 23.7187208,
+      "lon": 92.7191977,
+      "tags": {
+        "addr:postcode": "796001",
+        "addr:street": "Tuikhuahtlang",
+        "name": "PHE Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7007512785,
+      "lat": 23.7350313,
+      "lon": 92.8392225,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376529,
+      "lat": 22.332288,
+      "lon": 92.71235,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "Vathuampui Road,Near Presbyterian Church,M Kawnpui",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "Christian Hospital,M Kawnpui",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376531,
+      "lat": 22.536451,
+      "lon": 92.8886349,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "Electric Veng,Near Circuit House,Lawngtai",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "District Hospital,Lawngtai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376539,
+      "lat": 23.7334106,
+      "lon": 92.7159388,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Jail Veng,Opp.Aizawl Police Station,Dawrpui",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Vaivenga Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376542,
+      "lat": 23.7189081,
+      "lon": 92.7175467,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Peter Street,Beside Axis Bank,Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Aizawl Hospital & Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376544,
+      "lat": 23.7085438,
+      "lon": 92.7154669,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "description": "Government Hospital",
+        "name": "Kulikawn Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376546,
+      "lat": 22.9063694,
+      "lon": 92.4698014,
+      "tags": {
+        "addr:district": "Lunglei",
+        "addr:full": "TH Lewin Road,Near Post Office,Tlabung",
+        "addr:postcode": "796751",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lungsen",
+        "amenity": "hospital",
+        "name": "Civil Hospital,Tlabung",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376547,
+      "lat": 22.7066754,
+      "lon": 92.5292909,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "Near Police Station,Borapansury II",
+        "addr:postcode": "796770",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Chawngte",
+        "amenity": "hospital",
+        "name": "Borapansury Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376550,
+      "lat": 22.8863179,
+      "lon": 92.744237,
+      "tags": {
+        "addr:district": "Lunglei",
+        "addr:full": "Lunglei-Thenzawl Road,Near HPC Office,Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lunglei",
+        "amenity": "hospital",
+        "name": "Civil Hospital,Lunglei",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376552,
+      "lat": 23.7110935,
+      "lon": 92.7193766,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Kulikawn Road,Near Police Station,Kulikawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "B.N. Hospital,Kulikawn",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376559,
+      "lat": 22.511206,
+      "lon": 92.889175,
+      "tags": {
+        "addr:district": "Lawngtlai",
+        "addr:full": "NH 2,Opp. Likbk Christian Millansangati,Lawngtlai",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "Lairam Christian Medical Centre & Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7127376561,
+      "lat": 23.481,
+      "lon": 93.309599,
+      "tags": {
+        "addr:district": "Champhai",
+        "addr:full": "Hospital Road,Near BSNL Office,Vengsang,Champhai",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Champhai ( New Rd)",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital,Champhai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733287,
+      "lat": 23.335851,
+      "lon": 92.85481,
+      "tags": {
+        "addr:district": "Serchhip",
+        "addr:full": "College Peng, New Serchhip",
+        "addr:postcode": "796181",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Mercy Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733288,
+      "lat": 23.744316,
+      "lon": 92.723445,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Chanmari - Ramhlun Rd, Ramhlun Venglai, Chaltlang",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "LRM Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733290,
+      "lat": 23.4775412,
+      "lon": 93.3256866,
+      "tags": {
+        "addr:district": "Champhai",
+        "addr:full": "Vengthlang",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "DM Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733291,
+      "lat": 22.882938,
+      "lon": 92.748073,
+      "tags": {
+        "addr:district": "Lunglei",
+        "addr:full": "Chanmari, Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "John Williams Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733292,
+      "lat": 23.3868791,
+      "lon": 93.1267303,
+      "tags": {
+        "addr:district": "Champhai",
+        "addr:full": "Khawhai",
+        "addr:postcode": "796310",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Khawhai Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733294,
+      "lat": 23.4726288,
+      "lon": 93.3343849,
+      "tags": {
+        "addr:district": "Champhai",
+        "addr:full": "East Zotlang",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Med Aim Adventist Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733296,
+      "lat": 22.8869856,
+      "lon": 92.744105,
+      "tags": {
+        "addr:district": "Lunglei",
+        "addr:full": "Chanmari, Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Hope Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733298,
+      "lat": 23.7311693,
+      "lon": 92.717955,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Saron Veng - Bungkawn Road",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rosewood Hospital",
+        "name:pa": "ਰੋਜ਼ਵੁੱਡ ਹਸਪਤਾਲ",
+        "name:ur": "روز ووڈ ہسپتال"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733299,
+      "lat": 23.68029,
+      "lon": 92.7249518,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Silaimual, Melthum Kawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Zotres Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733300,
+      "lat": 22.4895876,
+      "lon": 92.9791567,
+      "tags": {
+        "addr:district": "Saiha",
+        "addr:full": "Siaha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "District Hospital , Siaha",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7621733301,
+      "lat": 23.716618,
+      "lon": 92.7164176,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Rev Chhuahkhama Road",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "City Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7638517587,
+      "lat": 24.1331197,
+      "lon": 92.331995,
+      "tags": {
+        "addr:postcode": "796471",
+        "addr:street": "Vengpui",
+        "amenity": "hospital",
+        "name": "Zawlnuam Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8195862931,
+      "lat": 23.7923544,
+      "lon": 92.7295691,
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang North",
+        "addr:postcode": "796025",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Government Hospital, Durtlang North",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8319695441,
+      "lat": 23.7436892,
+      "lon": 92.7381843,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Aizawl Municipal Corporation",
+        "townhall:type": "city"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8439990161,
+      "lat": 23.7261601,
+      "lon": 92.7185668,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9846000357,
+      "lat": 23.9012663,
+      "lon": 92.6640593,
+      "tags": {
+        "construction": "yes",
+        "name": "Mualkhang",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MLKNG",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9846000395,
+      "lat": 23.9951904,
+      "lon": 92.6453589,
+      "tags": {
+        "construction": "yes",
+        "name": "Kawnpui",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KWNPI",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9846000396,
+      "lat": 24.0778717,
+      "lon": 92.6282269,
+      "tags": {
+        "alt_name": "Hartoki",
+        "name": "Hortoki",
+        "name:en": "Hortoki",
+        "name:hi": "हरतकी",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "HRTK",
+        "source:operator": "see India Railways tagging sheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "start_date": "2024-09-07"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11378893230,
+      "lat": 23.7311933,
+      "lon": 92.7078441,
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796009",
+        "addr:street": "Tuikual Bridge",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ebenezar Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11378909561,
+      "lat": 23.724632,
+      "lon": 92.7194578,
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "Aizawl South Treasury",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11378909562,
+      "lat": 23.7245307,
+      "lon": 92.7194747,
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "Aizawl North Treasury",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11378909563,
+      "lat": 23.7245446,
+      "lon": 92.7195548,
+      "tags": {
+        "name": "Directorate of Election",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11378959226,
+      "lat": 23.7246487,
+      "lon": 92.7195342,
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "ICT Dept",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13073458651,
+      "lat": 23.4746567,
+      "lon": 93.3157812,
+      "tags": {
+        "amenity": "fuel",
+        "name": "IndianOil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156047357,
+      "center": {
+        "lat": 23.8409482,
+        "lon": 92.6212317
+      },
+      "nodes": [
+        1683573583,
+        1683573585,
+        1683573575,
+        1683573573,
+        1683573561,
+        7378105434,
+        7378105431,
+        7378105433,
+        7378105430,
+        7378105429,
+        7378105428,
+        7378105427,
+        2656243493,
+        2656243495,
+        2656243497,
+        1683573523,
+        1683573519,
+        7378139380,
+        1683573499,
+        1683573496,
+        1683573583
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "ele": "405",
+        "iata": "AJL",
+        "icao": "VELP",
+        "name": "Aizawl Lengpui Airport",
+        "name:lus": "Lengpui Ṭumhmun",
+        "operator": "AAI",
+        "ref": "AJL",
+        "wikidata": "Q3504954"
+      }
+    },
+    {
+      "type": "way",
+      "id": 429819591,
+      "center": {
+        "lat": 22.5327252,
+        "lon": 92.9018679
+      },
+      "nodes": [
+        4290194812,
+        4290194813,
+        4290194815,
+        4290194816,
+        4290194817,
+        4290194819,
+        4290194820,
+        4290194821,
+        4290194812
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "PHE Complex",
+        "addr:postcode": "796891",
+        "addr:street": "Vengpui, Lawngtlai-1",
+        "building": "yes",
+        "name": "PHE Office, Lawngtlai Vengpui",
+        "office": "government",
+        "opening_hours": "09:00-17:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113612,
+      "center": {
+        "lat": 22.5323996,
+        "lon": 92.8926958
+      },
+      "nodes": [
+        4367480905,
+        4367480906,
+        4367480908,
+        4367480909,
+        4367480905
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Electric Veng",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Fire Department Building"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113619,
+      "center": {
+        "lat": 22.5318367,
+        "lon": 92.8934541
+      },
+      "nodes": [
+        4367480921,
+        4367480922,
+        4367480923,
+        4367480924,
+        4367480925,
+        4367480926,
+        4367480927,
+        4367480928,
+        4367480921
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "DC Office Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "building": "yes",
+        "name": "DRDA Office Building",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113623,
+      "center": {
+        "lat": 22.5317003,
+        "lon": 92.8935654
+      },
+      "nodes": [
+        4367480929,
+        4367480930,
+        4367480931,
+        4367480932,
+        4367480929
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Near DC Office",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "amenity": "courthouse",
+        "building": "yes",
+        "name": "Lawngtlai District Court",
+        "operator": "Government of Mizoram"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113629,
+      "center": {
+        "lat": 22.5317799,
+        "lon": 92.8940214
+      },
+      "nodes": [
+        4367480944,
+        4367480945,
+        4367480946,
+        4367480947,
+        4367480944
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "DC Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "building": "yes",
+        "name": "Election Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113636,
+      "center": {
+        "lat": 22.5318075,
+        "lon": 92.8942018
+      },
+      "nodes": [
+        4367480952,
+        4367480953,
+        4367480954,
+        4367480955,
+        4367480952
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "DC Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "building": "yes",
+        "name": "Taxation Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439113640,
+      "center": {
+        "lat": 22.5320542,
+        "lon": 92.8942271
+      },
+      "nodes": [
+        4367480956,
+        4367480957,
+        4367480958,
+        4367480959,
+        4367480960,
+        4367480961,
+        4367480962,
+        4367480963,
+        4367480956
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Near DC Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "building": "yes",
+        "name": "Block Development Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439120183,
+      "center": {
+        "lat": 22.5314639,
+        "lon": 92.8971774
+      },
+      "nodes": [
+        4367532296,
+        4367532297,
+        4367532299,
+        4367532300,
+        4367532296
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Near DC Bangla",
+        "addr:postcode": "796891",
+        "addr:street": "Lawngtlai Bazar Veng",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Dokulha Hall",
+        "operator": "Lai Autonomous District Council, Lawngftlai"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439120191,
+      "center": {
+        "lat": 22.5311465,
+        "lon": 92.8969929
+      },
+      "nodes": [
+        4367532370,
+        4367532371,
+        4367532372,
+        4367532373,
+        4367532370
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Bazar Veng",
+        "addr:postcode": "796891",
+        "addr:street": "Lawngtlai-II",
+        "building": "yes",
+        "name": "Public Work Department (PWD) Office Annexe-1",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439120192,
+      "center": {
+        "lat": 22.5305269,
+        "lon": 92.8971624
+      },
+      "nodes": [
+        4367532374,
+        4367532375,
+        4367532376,
+        4367532377,
+        4367532374
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Bazar Veng",
+        "addr:postcode": "796891",
+        "addr:street": "Lawngtlai-II",
+        "building": "yes",
+        "name": "Public Work Department (PWD) Office, Annex-2",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439650761,
+      "center": {
+        "lat": 22.5350275,
+        "lon": 92.8914656
+      },
+      "nodes": [
+        4373241402,
+        4373241403,
+        4373241404,
+        4373241405,
+        4373241402
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Electric Veng",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Electric Veng Hall",
+        "operator": "Association"
+      }
+    },
+    {
+      "type": "way",
+      "id": 487812363,
+      "center": {
+        "lat": 23.7319153,
+        "lon": 92.7166346
+      },
+      "nodes": [
+        4802253268,
+        4802253274,
+        4802253276,
+        4802253277,
+        4802253278,
+        4802253279,
+        4802253280,
+        12109664708,
+        12109664709,
+        4802253281,
+        4802253282,
+        12109664710,
+        4802253283,
+        12175177183,
+        12110687506,
+        4802253268
+      ],
+      "tags": {
+        "addr:district": "Aizawl",
+        "addr:full": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Aizawl Civil Hospital",
+        "operator": "State Governement",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 641625290,
+      "center": {
+        "lat": 23.7313308,
+        "lon": 92.7078652
+      },
+      "nodes": [
+        6042083267,
+        6042083268,
+        6042083269,
+        6042083270,
+        6042083271,
+        6042083272,
+        6042083273,
+        6042083274,
+        6042083275,
+        13088652615,
+        6042083276,
+        6042083277,
+        6042083279,
+        6042083280,
+        6042083281,
+        6042083282,
+        6042083267
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ebenezar Hospital Area"
+      }
+    },
+    {
+      "type": "way",
+      "id": 662506631,
+      "center": {
+        "lat": 23.7366289,
+        "lon": 92.7093596
+      },
+      "nodes": [
+        6202256422,
+        6202256421,
+        12115248974,
+        6202256420,
+        6202256419,
+        6202256418,
+        6202256422
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Aizawl Adventist Hospital",
+        "source": "GRID",
+        "wikidata": "Q4699417"
+      }
+    },
+    {
+      "type": "way",
+      "id": 662521134,
+      "center": {
+        "lat": 22.9068121,
+        "lon": 92.7586158
+      },
+      "nodes": [
+        6202382270,
+        13018944700,
+        6202382269,
+        13018944699,
+        13018944698,
+        13018944697,
+        6202382268,
+        13018944696,
+        13018944695,
+        13018944694,
+        6202382267,
+        6202382189,
+        6202382270
+      ],
+      "tags": {
+        "addr:district": "Lunglei",
+        "addr:full": "Lunglei-Thenzawl Road,Near SBI ATM,Serkawn",
+        "addr:postcode": "796691",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lunglei",
+        "amenity": "hospital",
+        "name": "Christian Hospital, Serkawn",
+        "source": "OpenGovernmentData",
+        "wikidata": "Q5109740"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746891058,
+      "center": {
+        "lat": 22.5261619,
+        "lon": 92.8981877
+      },
+      "nodes": [
+        6989155665,
+        6989155666,
+        6989155667,
+        6989155668,
+        6989155665
+      ],
+      "tags": {
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "Below Transport Department",
+        "addr:postcode": "796891",
+        "addr:street": "Chandmary , Lawngtlai-IV",
+        "amenity": "townhall",
+        "building": "yes",
+        "description": "Badminton court and TT Table is installed here.",
+        "name": "Chandmary Inpui",
+        "operator": "Young Lai Association, Lawngtlai Chandmary Branch"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971993275,
+      "center": {
+        "lat": 22.6192873,
+        "lon": 93.0100204
+      },
+      "nodes": [
+        8996196735,
+        8996196738,
+        8996196736,
+        8996196737,
+        8996196735
+      ],
+      "tags": {
+        "addr:city": "Lungpher South",
+        "addr:housename": "Public Hall",
+        "addr:postcode": "796901",
+        "addr:street": "Venglai",
+        "amenity": "townhall",
+        "name": "Indoor Stadium"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1123805611,
+      "center": {
+        "lat": 23.7268886,
+        "lon": 92.7060093
+      },
+      "nodes": [
+        10277254538,
+        10277254539,
+        10277254540,
+        10277254541,
+        13539992451,
+        10277254542,
+        10277254543,
+        10277254544,
+        10277254556,
+        13539992452,
+        10277254545,
+        13539992453,
+        10277254546,
+        10277254547,
+        10277254548,
+        10277254549,
+        10277254550,
+        10277254551,
+        10277254552,
+        13539992450,
+        10277254553,
+        10277254554,
+        10277254555,
+        10277254538
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Guwahati High Court Aizawl Bench"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1123805612,
+      "center": {
+        "lat": 23.7277288,
+        "lon": 92.7080054
+      },
+      "nodes": [
+        10277254557,
+        12147243293,
+        12147243292,
+        10277254558,
+        12147243294,
+        10277254559,
+        10277254560,
+        10277254561,
+        10277254562,
+        10277254563,
+        10277254564,
+        10277254565,
+        12147244097,
+        10277254566,
+        10277254567,
+        10277254568,
+        10277254569,
+        10277254570,
+        10277254571,
+        10277254572,
+        10277254573,
+        10277254557
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "government": "yes",
+        "name": "Mizoram Secretariat",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "website": "https://sad.mizoram.gov.in/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188878378,
+      "center": {
+        "lat": 23.6805339,
+        "lon": 92.7252086
+      },
+      "nodes": [
+        11039329703,
+        11039329704,
+        11039353605,
+        12052476721,
+        11039353606,
+        11039353607,
+        11039353608,
+        12070027607,
+        11039353609,
+        11039353610,
+        11039353611,
+        11039329703
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Trinity Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227084163,
+      "center": {
+        "lat": 23.7245806,
+        "lon": 92.7194964
+      },
+      "nodes": [
+        11378948504,
+        11378948505,
+        11378948506,
+        12151327961,
+        12151327960,
+        12151327959,
+        12151327958,
+        12151327962,
+        12151327963,
+        11378948507,
+        11378948504
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "building": "office",
+        "building:levels": "4",
+        "name": "Old Secretariat Annex - II",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302435160,
+      "center": {
+        "lat": 23.7229355,
+        "lon": 92.7095402
+      },
+      "nodes": [
+        12062673774,
+        12062673775,
+        12265594811,
+        12265594810,
+        12265594809,
+        12265594808,
+        12062673776,
+        12265594807,
+        12265594806,
+        12265594805,
+        12062673774
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "name": "Office of the Superintendent of Police (Security)",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "0389-2334026",
+        "website": "https://police.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302435162,
+      "center": {
+        "lat": 23.7224084,
+        "lon": 92.710307
+      },
+      "nodes": [
+        12062673782,
+        13527685928,
+        13527685929,
+        13527685931,
+        13527685930,
+        12062673783,
+        12062673784,
+        12062673785,
+        12062673782
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "mizoram.tourism@gmail.com",
+        "instagram": "www.instagram.com/mizoram_tourism/",
+        "name": "Directorate of Tourism",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "0389-2333475",
+        "website": "https://tourism.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302435163,
+      "center": {
+        "lat": 23.7218844,
+        "lon": 92.711946
+      },
+      "nodes": [
+        12062673786,
+        12265594894,
+        12265594892,
+        12062673787,
+        13527667718,
+        12265594891,
+        13527667717,
+        12062673788,
+        12062673789,
+        13527667716,
+        12265594893,
+        13527667715,
+        12062673786
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "name": "Directorate of Economics and Statistics",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "0389-2335095",
+        "website": "https://des.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1303273168,
+      "center": {
+        "lat": 23.7273316,
+        "lon": 92.7067612
+      },
+      "nodes": [
+        12069825933,
+        12069825930,
+        12069825931,
+        12069825932,
+        12069825933
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "name": "Directorate of Science and Technology",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "Government of Mizoram",
+        "phone": "0389-2333240;0389-2336159",
+        "website": "https://dst.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256163,
+      "center": {
+        "lat": 23.7238397,
+        "lon": 92.7077306
+      },
+      "nodes": [
+        12273494939,
+        13527520993,
+        12273494940,
+        12273494941,
+        13527520995,
+        13527520997,
+        13527520996,
+        12089049146,
+        12273494944,
+        12273494943,
+        13527520994,
+        12273494942,
+        12273494939
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "dsysmizoram@gmail.com",
+        "fax": "+91 389 232 6103",
+        "name": "Directorate of Sports and Youth Services",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "+91 389 232 5263",
+        "website": "https://sys.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256165,
+      "center": {
+        "lat": 23.7239588,
+        "lon": 92.7059543
+      },
+      "nodes": [
+        12089049153,
+        12089049154,
+        12089049155,
+        12273494783,
+        12273494784,
+        12273494785,
+        12273494786,
+        12089049156,
+        12089049153
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "name": "Office of the Settlement Officer & Sub-Registration Officer",
+        "office": "government",
+        "operator": "Land Revenue & Settlement Department, Government of Mizoram"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256166,
+      "center": {
+        "lat": 23.7238947,
+        "lon": 92.7069483
+      },
+      "nodes": [
+        12089049157,
+        12089049158,
+        13527690413,
+        13527690403,
+        13527690404,
+        13527690412,
+        12089049159,
+        12089049160,
+        13527690402,
+        13527690407,
+        13527690406,
+        13527690410,
+        13527690411,
+        13527690409,
+        13527690405,
+        13527690408,
+        12089049162,
+        12089049157
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "name": "MPSC Main Examination Hall",
+        "office": "government",
+        "operator": "Mizoram Public Service Commission, Government of Mizoram"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256168,
+      "center": {
+        "lat": 23.7232529,
+        "lon": 92.7092106
+      },
+      "nodes": [
+        12089049168,
+        12089049869,
+        12273494853,
+        12273494855,
+        12273494856,
+        12273494854,
+        12273494852,
+        12089049871,
+        12089049168
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "dirfsl@mizoram.gov.in",
+        "fax": "0389-2336131",
+        "name": "Directorate of Forensic Science Laboratory",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "0389-2336131;0389-2333312",
+        "website": "https://forensic.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256169,
+      "center": {
+        "lat": 23.7234265,
+        "lon": 92.7089062
+      },
+      "nodes": [
+        12089049872,
+        12089049873,
+        13527685925,
+        13527685927,
+        13527685926,
+        13527685924,
+        12089049874,
+        12089049875,
+        12089049872
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "bdotlangnuam53@gmail.com",
+        "name": "BDO Tlangnuam RD Block Office",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "+91 389 233 6497",
+        "website": "https://bdotlangnuam.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305256170,
+      "center": {
+        "lat": 23.7235658,
+        "lon": 92.7087383
+      },
+      "nodes": [
+        12089049876,
+        12089049877,
+        12089049878,
+        12089049879,
+        12089049876
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "drdaaizawl14@gmail.com",
+        "fax": "+91 398 233 5526",
+        "name": "Office of the Project Director, District Rural Development Office",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "+91 398 233 5527",
+        "website": "https://drdoaizawl.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1326514967,
+      "center": {
+        "lat": 23.7241481,
+        "lon": 92.7070109
+      },
+      "nodes": [
+        12273494930,
+        12273494929,
+        13527690424,
+        12273494928,
+        13527690425,
+        12273494927,
+        12273494926,
+        13527690433,
+        12273494925,
+        13527690432,
+        12273494924,
+        12273494923,
+        13527690426,
+        13527690414,
+        13527690427,
+        12273494922,
+        13527690415,
+        13527690416,
+        12273494921,
+        13527690429,
+        13527690422,
+        13527690428,
+        13527690419,
+        13527690421,
+        13527690420,
+        13527690418,
+        13527690431,
+        13527690423,
+        13527690430,
+        13527690417,
+        12273494917,
+        12273494930
+      ],
+      "tags": {
+        "addr:city": "Aizawl",
+        "addr:country": "IN",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "addr:street": "Mizoram New Capital Complex",
+        "building": "government",
+        "email": "mizopsc@gmail.com",
+        "fax": "+91 389 233 5823;+91 389 233 5817",
+        "name": "Mizoram Public Service Commission",
+        "office": "government",
+        "operator": "Government of Mizoram",
+        "phone": "+91 389 233 5810;+91 389 233 5811",
+        "website": "https://mpsc.mizoram.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1530688651,
+      "center": {
+        "lat": 22.6162633,
+        "lon": 92.6382712
+      },
+      "nodes": [
+        13950712735,
+        13950712742,
+        13950712741,
+        13950712740,
+        13950712739,
+        13950712738,
+        13950712737,
+        13950712736,
+        13950712735
+      ],
+      "tags": {
+        "amenity": "hospital"
+      }
+    }
+  ]
+}

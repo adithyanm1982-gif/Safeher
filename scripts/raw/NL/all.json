@@ -1,0 +1,4199 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:21:06Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 715070829,
+      "lat": 25.9068705,
+      "lon": 93.7284592,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "name": "Dimapur",
+        "name:bn": "ডিমাপুৰ",
+        "name:hi": "डिमापुर",
+        "network": "IR",
+        "old_name": "Manipur Road",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "DMV",
+        "source:old_name": "geonames.nga.mil(GNS)(GNS:id:-2103869)",
+        "source:operator": "acc. to Indian Railways tagging scheme: wiki.openstreetmap.org/wiki/India/Tags/Railway",
+        "train": "yes",
+        "wikidata": "Q15214022",
+        "wikipedia": "en:Dimapur railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2286315964,
+      "lat": 25.6718196,
+      "lon": 94.1070801,
+      "tags": {
+        "alt_name": "NST",
+        "amenity": "bus_station",
+        "name": "Nagaland State Transportation",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665466254,
+      "lat": 26.3223688,
+      "lon": 94.5188686,
+      "tags": {
+        "addr:housename": "Town Hall",
+        "addr:postcode": "798601",
+        "addr:street": "Sangtemla Ward Road",
+        "amenity": "townhall",
+        "name": "Town Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665517423,
+      "lat": 26.3249507,
+      "lon": 94.519566,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Old Town Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665528108,
+      "lat": 26.3241814,
+      "lon": 94.5213309,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "NST Bus Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665548160,
+      "lat": 26.3287058,
+      "lon": 94.5080754,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "name": "IOC",
+        "operator": "IOC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2665555851,
+      "lat": 26.3316915,
+      "lon": 94.5308903,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "fuel:octane_91": "yes",
+        "name": "BOC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2682271112,
+      "lat": 26.3357679,
+      "lon": 94.4984995,
+      "tags": {
+        "amenity": "fuel",
+        "name": "NRL",
+        "operator": "NRL"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2683533449,
+      "lat": 26.3135062,
+      "lon": 94.5103708,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "ESSAR",
+        "name": "ESSAR",
+        "operator": "ESSAR"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2683661036,
+      "lat": 26.3313494,
+      "lon": 94.5538789,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Dispensary"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2686418422,
+      "lat": 26.3188126,
+      "lon": 94.5213413,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2686563541,
+      "lat": 26.3240761,
+      "lon": 94.5217855,
+      "tags": {
+        "amenity": "hospital",
+        "designation": "Private Clinic",
+        "emergency": "no",
+        "name": "Modern Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2689917278,
+      "lat": 26.3243522,
+      "lon": 94.5177439,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Doctor's Clinic & Mediciner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2689917376,
+      "lat": 26.3237225,
+      "lon": 94.5215202,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Bio-Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2696256995,
+      "lat": 26.3253666,
+      "lon": 94.5224108,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Impur Mission Hospital Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2715014408,
+      "lat": 26.3807233,
+      "lon": 94.4372479,
+      "tags": {
+        "alt_name": "Community Hall",
+        "amenity": "townhall",
+        "name": "Panchayat Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2717151882,
+      "lat": 26.3297468,
+      "lon": 94.5315681,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2719492926,
+      "lat": 26.5029652,
+      "lon": 94.4105894,
+      "tags": {
+        "amenity": "townhall",
+        "designation": "Panchayat Hall",
+        "name": "Community Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4101022014,
+      "lat": 26.5068894,
+      "lon": 94.4130927,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Govt Dispensary"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4943978326,
+      "lat": 25.9043978,
+      "lon": 93.6999,
+      "tags": {
+        "addr:housenumber": "00",
+        "addr:street": "DC Courts",
+        "name": "High Commissioner Dimapur",
+        "name:hi": "High Commissioner Dimapur",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5074262121,
+      "lat": 26.3933509,
+      "lon": 94.5331556,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Community Health Centre",
+        "name:en": "Community Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255099044,
+      "lat": 25.7318914,
+      "lon": 94.0262547,
+      "tags": {
+        "amenity": "fuel",
+        "vending": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255099045,
+      "lat": 25.7269243,
+      "lon": 94.0296454,
+      "tags": {
+        "amenity": "fuel",
+        "vending": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118162,
+      "lat": 25.6756987,
+      "lon": 94.0862058,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118163,
+      "lat": 25.666421,
+      "lon": 94.088328,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118164,
+      "lat": 25.6681227,
+      "lon": 94.0913586,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118165,
+      "lat": 25.6652465,
+      "lon": 94.1011496,
+      "tags": {
+        "amenity": "fuel",
+        "name": "SKV Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118166,
+      "lat": 25.6539314,
+      "lon": 94.0994329,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118351,
+      "lat": 25.6706126,
+      "lon": 94.1042877,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118352,
+      "lat": 25.6875924,
+      "lon": 94.0996678,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118353,
+      "lat": 25.6913843,
+      "lon": 94.1028514,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255118354,
+      "lat": 25.6151076,
+      "lon": 94.1164048,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128222,
+      "lat": 25.6883699,
+      "lon": 94.0557658,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128224,
+      "lat": 25.7576441,
+      "lon": 93.8478083,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128225,
+      "lat": 25.7598661,
+      "lon": 93.8355478,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128232,
+      "lat": 25.8130429,
+      "lon": 93.7855499,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128233,
+      "lat": 25.8178957,
+      "lon": 93.7825252,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128236,
+      "lat": 25.8447406,
+      "lon": 93.7732619,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128237,
+      "lat": 25.854998,
+      "lon": 93.7694952,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128239,
+      "lat": 25.860236,
+      "lon": 93.7804314,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "4Th Mile, Dimapur, P.O. Artc, Post Box - 31",
+        "addr:postcode": "797115",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "CHIS (referal hospital)",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128240,
+      "lat": 25.8898619,
+      "lon": 93.7578963,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128241,
+      "lat": 25.893512,
+      "lon": 93.7563108,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128242,
+      "lat": 25.9070067,
+      "lon": 93.747757,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128243,
+      "lat": 25.9140026,
+      "lon": 93.7279144,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128244,
+      "lat": 25.9173228,
+      "lon": 93.72963,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128245,
+      "lat": 25.9118006,
+      "lon": 93.7202548,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128246,
+      "lat": 25.9151951,
+      "lon": 93.711696,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255128247,
+      "lat": 25.9027127,
+      "lon": 93.6997341,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255130905,
+      "lat": 25.9070868,
+      "lon": 93.7027002,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255130919,
+      "lat": 25.9040701,
+      "lon": 93.7271717,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255130920,
+      "lat": 25.8898549,
+      "lon": 93.7349492,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255151462,
+      "lat": 25.9062621,
+      "lon": 93.7411105,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255151466,
+      "lat": 25.8999432,
+      "lon": 93.7007122,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Eden Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255151467,
+      "lat": 25.9050795,
+      "lon": 93.6975235,
+      "tags": {
+        "name": "Deputy Commissioner (DC), Dimapur",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255280368,
+      "lat": 25.6586882,
+      "lon": 94.086069,
+      "tags": {
+        "name": "PCCF Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255280378,
+      "lat": 25.661153,
+      "lon": 94.1028365,
+      "tags": {
+        "name": "PWD Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255303391,
+      "lat": 25.6694195,
+      "lon": 94.0960672,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Naga Hospital Authority, Hospital Colony, NH - 29",
+        "addr:postcode": "797001",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "email": "info@vision-studio.com",
+        "healthcare": "hospital",
+        "name": "Naga Hospital",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "http://www.nhos.symbios.co.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255303395,
+      "lat": 25.6684015,
+      "lon": 94.1059213,
+      "tags": {
+        "amenity": "townhall",
+        "name": "APO Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324397,
+      "lat": 25.669952,
+      "lon": 94.1089396,
+      "tags": {
+        "government": "administrative",
+        "name": "Deputy Commissioner (DC)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324398,
+      "lat": 25.6705834,
+      "lon": 94.1084773,
+      "tags": {
+        "government": "administrative",
+        "name": "Commissioner Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324400,
+      "lat": 25.670394,
+      "lon": 94.1071277,
+      "tags": {
+        "name": "PHE (Urban)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324404,
+      "lat": 25.6833735,
+      "lon": 94.1068903,
+      "tags": {
+        "government": "register_office",
+        "name": "Census of India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324405,
+      "lat": 25.684671,
+      "lon": 94.104791,
+      "tags": {
+        "name": "Dte Art & Culture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324407,
+      "lat": 25.6860207,
+      "lon": 94.105595,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:housenumber": "147",
+        "addr:postcode": "797001",
+        "addr:street": "National Highway 54",
+        "air_conditioning": "yes",
+        "government": "public_service",
+        "name": "Directorate of school education",
+        "office": "government",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324408,
+      "lat": 25.6885787,
+      "lon": 94.0998544,
+      "tags": {
+        "name": "ITI",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324411,
+      "lat": 25.707092,
+      "lon": 94.1084311,
+      "tags": {
+        "name": "Social Welfare Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324412,
+      "lat": 25.7075427,
+      "lon": 94.1082644,
+      "tags": {
+        "name": "Water Resources",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324413,
+      "lat": 25.7079261,
+      "lon": 94.1082529,
+      "tags": {
+        "name": "Horticulture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324414,
+      "lat": 25.707408,
+      "lon": 94.1077527,
+      "tags": {
+        "name": "IPR",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324415,
+      "lat": 25.7078484,
+      "lon": 94.1077182,
+      "tags": {
+        "name": "Treasuries & Accounts",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324416,
+      "lat": 25.708584,
+      "lon": 94.1092648,
+      "tags": {
+        "name": "Health & Family Welfare",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324417,
+      "lat": 25.7069093,
+      "lon": 94.1095393,
+      "tags": {
+        "name": "Science & Techology",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324418,
+      "lat": 25.7083104,
+      "lon": 94.1084232,
+      "tags": {
+        "name": "Land Resources",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324419,
+      "lat": 25.7082852,
+      "lon": 94.1076666,
+      "tags": {
+        "name": "Technical Eduction'",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324420,
+      "lat": 25.7086513,
+      "lon": 94.1078254,
+      "tags": {
+        "name": "Vigilance Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324421,
+      "lat": 25.7098589,
+      "lon": 94.1069194,
+      "tags": {
+        "name": "Higher Education",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324422,
+      "lat": 25.7106205,
+      "lon": 94.107167,
+      "tags": {
+        "name": "Rural Development",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324423,
+      "lat": 25.7110623,
+      "lon": 94.1067793,
+      "tags": {
+        "name": "SIRD",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324424,
+      "lat": 25.7110088,
+      "lon": 94.105399,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "Near Secretariat Complex",
+        "government": "public_service",
+        "name": "Urban Development",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324425,
+      "lat": 25.7105405,
+      "lon": 94.1046778,
+      "tags": {
+        "name": "PHED",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324426,
+      "lat": 25.7097958,
+      "lon": 94.1043556,
+      "tags": {
+        "name": "IT & C",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255324427,
+      "lat": 25.7099388,
+      "lon": 94.1042622,
+      "tags": {
+        "government": "public_service",
+        "name": "NGISRSC, Planning & Coordination Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255329358,
+      "lat": 25.6970365,
+      "lon": 94.097315,
+      "tags": {
+        "name": "Industries & Commerce",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255329359,
+      "lat": 25.6985062,
+      "lon": 94.0962144,
+      "tags": {
+        "name": "Fisheries & Equatics",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255335872,
+      "lat": 25.7135089,
+      "lon": 94.1040787,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Brigade"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402116,
+      "lat": 25.6562357,
+      "lon": 94.109549,
+      "tags": {
+        "government": "register_office",
+        "name": "Municipal Affairs",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402117,
+      "lat": 25.6564581,
+      "lon": 94.1094149,
+      "tags": {
+        "government": "yes",
+        "name": "NSMDC",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402118,
+      "lat": 25.6562308,
+      "lon": 94.1098708,
+      "tags": {
+        "name": "Economics & Statistics",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402119,
+      "lat": 25.6557908,
+      "lon": 94.1096241,
+      "tags": {
+        "name": "Legal Metrology",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402120,
+      "lat": 25.6572608,
+      "lon": 94.108637,
+      "tags": {
+        "name": "Soi & Water Conservation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402121,
+      "lat": 25.6574639,
+      "lon": 94.1101766,
+      "tags": {
+        "name": "Power Deparment",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402122,
+      "lat": 25.6562325,
+      "lon": 94.1091125,
+      "tags": {
+        "name": "Accountant General",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402123,
+      "lat": 25.6583681,
+      "lon": 94.1052735,
+      "tags": {
+        "name": "Printing & Stationery",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402124,
+      "lat": 25.6585827,
+      "lon": 94.1034926,
+      "tags": {
+        "name": "EE Power",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402125,
+      "lat": 25.6596196,
+      "lon": 94.1020678,
+      "tags": {
+        "name": "DIC Kohima",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255402513,
+      "lat": 25.659268,
+      "lon": 94.1003829,
+      "tags": {
+        "government": "administrative",
+        "name": "Poloce Headquarters",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255405454,
+      "lat": 25.670461,
+      "lon": 94.1091198,
+      "tags": {
+        "name": "Economics & Statistics",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255405455,
+      "lat": 25.6706918,
+      "lon": 94.1091401,
+      "tags": {
+        "name": "Chief Electoral Officer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255405459,
+      "lat": 25.6800036,
+      "lon": 94.1230897,
+      "tags": {
+        "name": "Administrative Tranining Institute",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255405460,
+      "lat": 25.6874624,
+      "lon": 94.1155859,
+      "tags": {
+        "name": "Youth Resources & Sports",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421238,
+      "lat": 25.6568852,
+      "lon": 94.1104148,
+      "tags": {
+        "name": "Agriculture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421239,
+      "lat": 25.6565151,
+      "lon": 94.109806,
+      "tags": {
+        "name": "PWD (South Div)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421240,
+      "lat": 25.6555389,
+      "lon": 94.1087655,
+      "tags": {
+        "name": "Cooperation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421241,
+      "lat": 25.6542482,
+      "lon": 94.1008553,
+      "tags": {
+        "name": "Sr Treasury (South)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421243,
+      "lat": 25.6571564,
+      "lon": 94.0983015,
+      "tags": {
+        "name": "Al India Radio",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421246,
+      "lat": 25.666545,
+      "lon": 94.0917675,
+      "tags": {
+        "name": "CMO, Kohima",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421247,
+      "lat": 25.6570087,
+      "lon": 94.0929831,
+      "tags": {
+        "name": "DAO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255421250,
+      "lat": 25.6875975,
+      "lon": 94.1030197,
+      "tags": {
+        "name": "NBSE",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255447603,
+      "lat": 25.7227896,
+      "lon": 94.0897184,
+      "tags": {
+        "name": "Women Development",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6265884537,
+      "lat": 25.6881068,
+      "lon": 94.0555515,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6487970788,
+      "lat": 26.7213894,
+      "lon": 95.0268732,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Nagaland State Transport"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763128578,
+      "lat": 25.7089045,
+      "lon": 94.1044379,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New secretariat",
+        "government": "public_service",
+        "name": "Department of Labour",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763128580,
+      "lat": 25.7155321,
+      "lon": 94.1065124,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New Secretariat",
+        "government": "education",
+        "name": "District Education Office (DEO)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763128581,
+      "lat": 25.7121969,
+      "lon": 94.1055908,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New Secretariat",
+        "government": "transportation",
+        "name": "Regional Transport Office (RTO)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763128582,
+      "lat": 25.7094989,
+      "lon": 94.1077124,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New Secretariat",
+        "government": "office",
+        "name": "Directorate Of Sericulture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763128584,
+      "lat": 25.7089439,
+      "lon": 94.1100148,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New Secretariat",
+        "government": "office",
+        "name": "HOME DEPARTMENT",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763141490,
+      "lat": 25.7101776,
+      "lon": 94.107456,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "UD Road",
+        "government": "office",
+        "name": "MGNREGA COMMISIONARATE",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763141491,
+      "lat": 25.7094192,
+      "lon": 94.1033507,
+      "tags": {
+        "government": "transportation",
+        "name": "Transport Special Pool Workshop-Garage",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763141492,
+      "lat": 25.7094455,
+      "lon": 94.1040656,
+      "tags": {
+        "government": "office",
+        "name": "Evaluation Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763157410,
+      "lat": 25.7245945,
+      "lon": 94.108689,
+      "tags": {
+        "government": "office",
+        "name": "Department of IT & C",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763157411,
+      "lat": 25.7100958,
+      "lon": 94.1041713,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "UD Road",
+        "name": "Nagaland GIS & Remote Sensing Centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6763195716,
+      "lat": 25.6688782,
+      "lon": 94.1056576,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Phool Bari",
+        "addr:postcode": "797001",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Oking Hospital And Research Clinic Pvt Ltd",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120471,
+      "lat": 25.9051075,
+      "lon": 93.7196231,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Old Sewak Road",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Faith Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120476,
+      "lat": 25.9161945,
+      "lon": 93.7476133,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Purana Bazar",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Zion Hospital and Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120485,
+      "lat": 26.2371121,
+      "lon": 94.8134185,
+      "tags": {
+        "addr:district": "Tuensang",
+        "addr:full": "Eleutheros Christian Society, Post Box No. 51",
+        "addr:postcode": "798612",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Eleutheros Christian Society Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120490,
+      "lat": 26.0149631,
+      "lon": 94.5262223,
+      "tags": {
+        "addr:district": "Zunheboto",
+        "addr:full": "Project Colony",
+        "addr:postcode": "798620",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Y. Rochill Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120501,
+      "lat": 25.9086408,
+      "lon": 93.715467,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "P W D Road, Midland",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Nikos Hospital And Research Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908445869,
+      "lat": 25.9140329,
+      "lon": 93.716442,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Circular Road",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Metro Hospital, Dimapur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6936260093,
+      "lat": 25.670878,
+      "lon": 94.1075643,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "name": "General Post Officec",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938527252,
+      "lat": 25.7167068,
+      "lon": 94.1090906,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "name": "NPSC",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938547040,
+      "lat": 25.7087155,
+      "lon": 94.1090764,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "name": "Health & Famili Welfare",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938555904,
+      "lat": 25.7087851,
+      "lon": 94.1046211,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "name": "Department of Labour",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938557225,
+      "lat": 25.7101775,
+      "lon": 94.1073553,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "Secretariat Area",
+        "name": "MGNREGA Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6940398119,
+      "lat": 25.6582413,
+      "lon": 94.1051539,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "Printing & Stationery",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6940415765,
+      "lat": 25.6611232,
+      "lon": 94.1025367,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "air_conditioning": "no",
+        "name": "Public Works Department",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986493399,
+      "lat": 25.6781186,
+      "lon": 94.1136728,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "Post Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986506393,
+      "lat": 25.6725054,
+      "lon": 94.1178356,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "L.P School",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986513818,
+      "lat": 25.681365,
+      "lon": 94.1082279,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "NCC Girls Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986518099,
+      "lat": 25.6869444,
+      "lon": 94.1040531,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "Scout Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986521863,
+      "lat": 25.688634,
+      "lon": 94.0974233,
+      "tags": {
+        "name": "15 BRTF",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986524262,
+      "lat": 25.7002221,
+      "lon": 94.1030862,
+      "tags": {
+        "name": "KRIPA",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986540231,
+      "lat": 25.6813738,
+      "lon": 94.1062308,
+      "tags": {
+        "addr:city": "Kohima",
+        "name": "Vety Farm",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986546006,
+      "lat": 25.6940249,
+      "lon": 94.0986898,
+      "tags": {
+        "name": "DUDA Guest House",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882236,
+      "lat": 26.7238973,
+      "lon": 95.0287876,
+      "tags": {
+        "addr:block": "Mon",
+        "addr:district": "Mon",
+        "addr:postcode": "798621",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Mon Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Mon Town",
+        "name": "Mon, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882241,
+      "lat": 26.2529567,
+      "lon": 94.8178952,
+      "tags": {
+        "addr:district": "Tuensang",
+        "addr:landmark": "Near Chuchem Lashong (Church)",
+        "addr:postcode": "798612",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Tuensang Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Tuensang Town",
+        "name": "Tuensang, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882248,
+      "lat": 25.8826359,
+      "lon": 94.781588,
+      "tags": {
+        "addr:block": "Kiphire",
+        "addr:district": "Kiphire",
+        "addr:landmark": "Rural",
+        "addr:postcode": "798611",
+        "addr:state": "Nagaland",
+        "addr:street": "Medical Colony",
+        "addr:subdistrict": "Kiphire Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Medical Colony",
+        "name": "Kiphire, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882252,
+      "lat": 26.4929778,
+      "lon": 94.8042633,
+      "tags": {
+        "addr:block": "Longleng",
+        "addr:district": "Longleng",
+        "addr:postcode": "798625",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Longleng",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Longleng Town",
+        "name": "Longleng, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882264,
+      "lat": 25.904959,
+      "lon": 93.731523,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:landmark": "Behind SBI main branch",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Dimapur Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Medical Colony",
+        "name": "District Hospital, Dimapur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882272,
+      "lat": 26.0030617,
+      "lon": 94.5236166,
+      "tags": {
+        "addr:block": "Zunheboto",
+        "addr:district": "Zunheboto",
+        "addr:postcode": "798620",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Zunheboto Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Medical colony",
+        "name": "Zunheboto, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882279,
+      "lat": 25.76274,
+      "lon": 93.884455,
+      "tags": {
+        "addr:block": "Medziphema",
+        "addr:district": "Dimapur",
+        "addr:landmark": "Near NH-29",
+        "addr:postcode": "797106",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Medziphema",
+        "amenity": "hospital",
+        "contact:phone": "+91-3862289639",
+        "description": "Community Health Centre",
+        "healthcare": "centre",
+        "locality": "Ward-1, Medziphema Town",
+        "name": "CHC, Medziphema",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882283,
+      "lat": 25.5354667,
+      "lon": 93.7352403,
+      "tags": {
+        "addr:block": "Peren",
+        "addr:district": "Peren",
+        "addr:landmark": "Near Government High School, Peren",
+        "addr:postcode": "797101",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Peren",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Peren Town",
+        "name": "Peren, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100882296,
+      "lat": 26.2004719,
+      "lon": 95.0251042,
+      "tags": {
+        "addr:block": "Noklak",
+        "addr:district": "Tuensang",
+        "addr:landmark": "Nokhu Road",
+        "addr:postcode": "798626",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Noklak",
+        "amenity": "hospital",
+        "locality": "New Medical Sector",
+        "name": "Govt. Hospital, Noklak",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502531,
+      "lat": 26.330963,
+      "lon": 94.530994,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "addr:full": "Mokokchung-Amguri Road, Sungkomen,",
+        "addr:postcode": "798601",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Lenjem Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502538,
+      "lat": 25.5734942,
+      "lon": 94.3047665,
+      "tags": {
+        "addr:district": "Phek",
+        "addr:full": "Pfutsero",
+        "addr:postcode": "797107",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502539,
+      "lat": 25.906627,
+      "lon": 93.731253,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Civil Hospital Colony",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "City Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502541,
+      "lat": 26.2704552,
+      "lon": 94.4469613,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "addr:full": "2nd NAP Battalion, Alichen",
+        "addr:postcode": "798601",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Unit Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502542,
+      "lat": 26.2057603,
+      "lon": 94.2004138,
+      "tags": {
+        "addr:district": "Wokha",
+        "addr:full": "Sanis",
+        "addr:postcode": "797100",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Sanis Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502546,
+      "lat": 25.5242888,
+      "lon": 94.1308005,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Khuzama",
+        "addr:postcode": "797005",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Khuzama T.B. Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502552,
+      "lat": 26.3176018,
+      "lon": 94.5094781,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "addr:full": "Mokokchung",
+        "addr:postcode": "798601",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Assamrifle Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502553,
+      "lat": 25.8820969,
+      "lon": 94.7815154,
+      "tags": {
+        "addr:district": "Kiphire",
+        "addr:full": "Kiphire",
+        "addr:postcode": "798611",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502559,
+      "lat": 25.9055101,
+      "lon": 93.7500946,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Purana Baza",
+        "addr:postcode": "797116",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Dimapur Hospital and Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502562,
+      "lat": 26.091946,
+      "lon": 94.257752,
+      "tags": {
+        "addr:district": "Wokha",
+        "addr:full": "Wokha",
+        "addr:postcode": "797111",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "N.Ezung Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502565,
+      "lat": 25.692885,
+      "lon": 94.4557927,
+      "tags": {
+        "addr:district": "Phek",
+        "addr:full": "Phek",
+        "addr:postcode": "797108",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Assamrifle Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502568,
+      "lat": 25.9142282,
+      "lon": 93.7096698,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Fellowship Road, Fellowship Colony",
+        "addr:postcode": "797113",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Fellowship Nursing Home",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502569,
+      "lat": 25.701927,
+      "lon": 93.886305,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Nagaland",
+        "addr:postcode": "797106",
+        "addr:state": "Nagaland",
+        "amenity": "pharmacy",
+        "health_facility:type": "dispensary",
+        "healthcare": "centre",
+        "name": "Zhuikhu Dispensary",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502572,
+      "lat": 25.5381468,
+      "lon": 94.228953,
+      "tags": {
+        "addr:district": "Phek",
+        "addr:full": "Zuketsa",
+        "addr:postcode": "797107",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Zuketsa Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502573,
+      "lat": 25.908579,
+      "lon": 93.716553,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "PWD Road, Midland",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Nagaland Multispeciality Hospital & Research Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502575,
+      "lat": 25.592514,
+      "lon": 94.189416,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Kohima",
+        "addr:postcode": "797005",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Kezocha Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502576,
+      "lat": 26.070246,
+      "lon": 94.875934,
+      "tags": {
+        "addr:district": "Tuensang",
+        "addr:full": "Sampurre",
+        "addr:postcode": "798612",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Shamator Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502578,
+      "lat": 25.732764,
+      "lon": 94.108014,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Thizama",
+        "addr:postcode": "797004",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Regimental Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502587,
+      "lat": 25.7227121,
+      "lon": 94.3242418,
+      "tags": {
+        "addr:district": "Phek",
+        "addr:full": "Chozuba",
+        "addr:postcode": "797104",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "General Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502588,
+      "lat": 25.8872853,
+      "lon": 93.7556933,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Darogapathar",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Olive Christian Hospital and Reserch Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502589,
+      "lat": 26.7219386,
+      "lon": 95.0289195,
+      "tags": {
+        "addr:district": "Mon",
+        "addr:full": "Near Ao Baptist Church",
+        "addr:postcode": "798621",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Rapha Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502593,
+      "lat": 25.909739,
+      "lon": 93.712297,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Landmark Colony",
+        "addr:postcode": "797113",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "JK Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502598,
+      "lat": 25.4816237,
+      "lon": 93.7887183,
+      "tags": {
+        "addr:district": "Peren",
+        "addr:full": "Nagaland",
+        "addr:postcode": "797101",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "New Puilwa Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502599,
+      "lat": 25.6448895,
+      "lon": 94.1032895,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Tekhuba",
+        "addr:postcode": "797005",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Kohima Mental Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502600,
+      "lat": 26.8972914,
+      "lon": 95.0894333,
+      "tags": {
+        "addr:district": "Mon",
+        "addr:full": "Mon",
+        "addr:postcode": "798602",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Unit Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502604,
+      "lat": 25.801377,
+      "lon": 93.784951,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Chumukeidma",
+        "addr:postcode": "797103",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Referral Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502613,
+      "lat": 26.7142848,
+      "lon": 94.6351003,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "addr:full": "Tzudikong",
+        "addr:postcode": "798623",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "NPPC Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502615,
+      "lat": 25.8103371,
+      "lon": 94.845178,
+      "tags": {
+        "addr:district": "Kiphire",
+        "addr:full": "Pungro Town",
+        "addr:postcode": "798611",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7614502620,
+      "lat": 25.9083545,
+      "lon": 93.7035979,
+      "tags": {
+        "addr:district": "Dimapur",
+        "addr:full": "Dobhinalla Road, Near State Bank, Duncan Basti",
+        "addr:postcode": "797112",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Shamrock Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7972633986,
+      "lat": 26.0737982,
+      "lon": 94.2599743,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7980121746,
+      "lat": 26.1044731,
+      "lon": 94.2576778,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "NST Station",
+        "operator": "Nagaland State Transport",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7998410961,
+      "lat": 26.1042833,
+      "lon": 94.2575655,
+      "tags": {
+        "addr:city": "Wokha Town",
+        "name": "RTO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7998431303,
+      "lat": 25.7061731,
+      "lon": 94.4611132,
+      "tags": {
+        "government": "administrative",
+        "name": "Deputy Commissioner Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7998431304,
+      "lat": 25.705276,
+      "lon": 94.460646,
+      "tags": {
+        "government": "yes",
+        "name": "UDO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8205237694,
+      "lat": 25.6036868,
+      "lon": 94.1225184,
+      "tags": {
+        "addr:district": "Kohima",
+        "addr:full": "Zakhama",
+        "addr:postcode": "797005",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Government Hospital, Zakhama",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8484893016,
+      "lat": 25.6650025,
+      "lon": 94.0923588,
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:street": "Para Medical Colony",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9848396241,
+      "lat": 25.7602149,
+      "lon": 93.7125172,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "alt_name": "Shokhuvi",
+        "name": "Sukhovi",
+        "name:hi": "शोखुवि",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SKHV",
+        "wikidata": "Q108809307"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9848396304,
+      "lat": 25.7821432,
+      "lon": 93.6354232,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "name": "Dhansiripar",
+        "name:hi": "धनसिरीपार",
+        "network": "IR",
+        "operator": "NFR",
+        "operator:short": "IR",
+        "railway": "station",
+        "ref": "DSPR",
+        "source:operator": "acc. to Indian Railways tagging scheme: wiki.openstreetmap.org/wiki/India/Tags/Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9848477377,
+      "lat": 25.7427091,
+      "lon": 93.8501834,
+      "tags": {
+        "IR:zone": "NFR:LMG",
+        "construction": "yes",
+        "name": "Molvom",
+        "name:hi": "मोलवोम",
+        "network": "IR",
+        "operator": "NFR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MLVOM",
+        "wikidata": "Q108809273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10248431748,
+      "lat": 25.5981408,
+      "lon": 94.124628,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10248459009,
+      "lat": 25.6556899,
+      "lon": 94.0990558,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kohima Diagnostic Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11314074395,
+      "lat": 25.6949123,
+      "lon": 94.1037912,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11323131069,
+      "lat": 25.6292059,
+      "lon": 93.9757806,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11351136765,
+      "lat": 26.326575,
+      "lon": 94.5230084,
+      "tags": {
+        "addr:city": "Mokokchung",
+        "addr:district": "Mokokchung",
+        "addr:postcode": "798601",
+        "addr:street": "Kohima Road",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Mopungchucket, Impur station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598211,
+      "lat": 26.4144624,
+      "lon": 94.5367477,
+      "tags": {
+        "addr:district": "mokokchung",
+        "name": "CDPO Office Kubolong",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598212,
+      "lat": 26.4168681,
+      "lon": 94.5319614,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "name": "EAC Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598214,
+      "lat": 26.4130296,
+      "lon": 94.5331223,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "government": "yes",
+        "name": "Central Silk Board Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598239,
+      "lat": 26.4555109,
+      "lon": 94.5520485,
+      "tags": {
+        "addr:district": "Mokokchung",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598240,
+      "lat": 26.4544737,
+      "lon": 94.550657,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "NST counter",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11356598277,
+      "lat": 26.491486,
+      "lon": 94.8047989,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11577200069,
+      "lat": 25.6949558,
+      "lon": 94.1232645,
+      "tags": {
+        "amenity": "hospital",
+        "email": "nimsrkohima@gmail.com",
+        "name": "Nagaland Institute of Medical Sciences and  Research (NIMSR)",
+        "opening_hours": "Mo-Su 09:00-16:00",
+        "operator": "Government of Nagaland",
+        "website": "https://nimsr.nagaland.gov.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11581269963,
+      "lat": 25.7157799,
+      "lon": 94.1092669,
+      "tags": {
+        "addr:street": "New Secretariat Road, Thizama",
+        "description": "Office in 2nd floor",
+        "name": "Nagaland Staff Selection Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11875743569,
+      "lat": 25.7084643,
+      "lon": 94.1092866,
+      "tags": {
+        "name": "Directorate of Health and Family Welfare",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12101782301,
+      "lat": 25.6790791,
+      "lon": 94.1127965,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Kohima Village Council Hall, KVC building"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12135734603,
+      "lat": 26.299031,
+      "lon": 94.0992442,
+      "tags": {
+        "amenity": "fuel",
+        "source": "Esri world imagery (retreived 08/2024)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12543070001,
+      "lat": 25.8967145,
+      "lon": 93.7341438,
+      "tags": {
+        "name": "Directorate General GST intelligence office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12543070002,
+      "lat": 25.8886432,
+      "lon": 93.7349674,
+      "tags": {
+        "name": "Nagaland Khadi and Village Industries Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13917128302,
+      "lat": 25.6616317,
+      "lon": 94.1028123,
+      "tags": {
+        "name": "Staff Quality Selection Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129815379,
+      "center": {
+        "lat": 25.7210445,
+        "lon": 94.1069904
+      },
+      "nodes": [
+        1431560019,
+        6286331535,
+        1431558981,
+        1431558966,
+        1431558977,
+        1431558968,
+        1431560017,
+        1431560036,
+        1431560042,
+        1431560050,
+        1431560070,
+        1431560074,
+        1431560093,
+        1431560102,
+        6286331540,
+        1431560111,
+        1431560109,
+        6286331539,
+        10807362374,
+        10807330729,
+        10807362375,
+        1431560076,
+        10807330734,
+        1431560096,
+        1431560055,
+        6286331538,
+        6286331537,
+        6286331536,
+        1431560047,
+        1431560019
+      ],
+      "tags": {
+        "government": "legislative",
+        "name": "Nagaland Legislative Assembly complex",
+        "office": "government",
+        "wikidata": "Q16056691"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129815380,
+      "center": {
+        "lat": 25.7076556,
+        "lon": 94.1058596
+      },
+      "nodes": [
+        1431558830,
+        1431558793,
+        1431558760,
+        6286190548,
+        6286190549,
+        1431558738,
+        1431558736,
+        8002076357,
+        1431558728,
+        1431558727,
+        1431558731,
+        1431558734,
+        1431558751,
+        1431558799,
+        1431558823,
+        1431558839,
+        1431558849,
+        6286190547,
+        1431558830
+      ],
+      "tags": {
+        "landuse": "commercial",
+        "name": "Nagaland Secretariat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 198347397,
+      "center": {
+        "lat": 25.8841406,
+        "lon": 93.77126
+      },
+      "nodes": [
+        2084877496,
+        9991019231,
+        2084877505,
+        9991019232,
+        2084877494,
+        9991019234,
+        9991019235,
+        9991019233,
+        9991019236,
+        9991019237,
+        9991019238,
+        9991019239,
+        9991013266,
+        9991013267,
+        9991013268,
+        9991013269,
+        9991013270,
+        9991013271,
+        9991013272,
+        9991013273,
+        9991013274,
+        9991013275,
+        9991013276,
+        9991013277,
+        9991013278,
+        9991013279,
+        9991013283,
+        9991013284,
+        9991013282,
+        9991013281,
+        9991013280,
+        9991013285,
+        9991013287,
+        9991013286,
+        2084877306,
+        9991013288,
+        9991013289,
+        9991013290,
+        9991013291,
+        2084877308,
+        9991013292,
+        2084877300,
+        9991013293,
+        9991013294,
+        9991015785,
+        9991015784,
+        9991015783,
+        9673380267,
+        9991015782,
+        9991015781,
+        9991015780,
+        9991015779,
+        2084877313,
+        2084877444,
+        9991013295,
+        9991013296,
+        9991013297,
+        9991013298,
+        9991013299,
+        9991013300,
+        9991013301,
+        9991019227,
+        9991019228,
+        9991019229,
+        2084877481,
+        9991019230,
+        2084877496
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "iata": "DMU",
+        "icao": "VEMR",
+        "is_in:country": "India",
+        "name": "Dimapur Airport",
+        "operator": "Airports Authority of India",
+        "operator:type": "government",
+        "wikipedia": "en:Dimapur Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 248275380,
+      "center": {
+        "lat": 25.9067327,
+        "lon": 93.7295941
+      },
+      "nodes": [
+        2550840099,
+        7905955764,
+        2550840101,
+        2084877730,
+        7905955759,
+        2550840104,
+        2550840103,
+        2550840099
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Nagaland State Transport Bus Station (NST)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266142081,
+      "center": {
+        "lat": 26.3892027,
+        "lon": 94.5447714
+      },
+      "nodes": [
+        2717210926,
+        2717210892,
+        2717210916,
+        2717217391,
+        2717210920,
+        2717210924,
+        2717210896,
+        2717210927,
+        2717210914,
+        2717210906,
+        2717210912,
+        2717210926
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "name": "Impur Christian Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666622185,
+      "center": {
+        "lat": 25.8700433,
+        "lon": 93.7598616
+      },
+      "nodes": [
+        6241411218,
+        6241411217,
+        6241411216,
+        6241411215,
+        6241411214,
+        6241411213,
+        6241411212,
+        6241410637,
+        6241411211,
+        6241411218
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "fixme": "extent",
+        "name": "Christian Institute of Health Sciences and Research Hospital",
+        "source": "GRID"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720768434,
+      "center": {
+        "lat": 25.7098202,
+        "lon": 94.1042288
+      },
+      "nodes": [
+        6763157411,
+        6763157412,
+        6763157413,
+        6763157414,
+        6763157415,
+        6763157416,
+        6763157417,
+        6763157418,
+        6763157419,
+        6763157420,
+        6763157421,
+        6763157422,
+        6763157423,
+        6763157424,
+        6763157425,
+        6763157426,
+        6763157427,
+        6763157428,
+        6763157429,
+        6763157430,
+        6763157431,
+        6763157432,
+        6763157433,
+        6763157434,
+        6763157435,
+        6763157436,
+        6763157437,
+        6763157438,
+        6763157439,
+        6763157440,
+        6763157441,
+        6763157442,
+        6763157443,
+        6763157444,
+        6763157445,
+        6763157446,
+        6763157447,
+        6763157448,
+        6763157449,
+        6763157450,
+        6763157451,
+        6763157452,
+        6763157411
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "UD Road",
+        "building": "yes",
+        "government": "public_service",
+        "name": "Nagaland GIS & Remote Sensing Centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 740864283,
+      "center": {
+        "lat": 25.6699406,
+        "lon": 94.1089306
+      },
+      "nodes": [
+        6936178092,
+        6936178093,
+        6936178094,
+        6936178095,
+        6936178092
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "government": "District_Administratin",
+        "name": "Deputy Commissioner",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 740864284,
+      "center": {
+        "lat": 25.6705436,
+        "lon": 94.1084814
+      },
+      "nodes": [
+        6936178096,
+        6936178097,
+        6936178098,
+        6936178099,
+        6936178100,
+        6936178096
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "name": "Commissioner Officer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 740875019,
+      "center": {
+        "lat": 25.6531539,
+        "lon": 94.1017036
+      },
+      "nodes": [
+        6936260307,
+        6936260308,
+        6936260309,
+        6936260310,
+        6936260311,
+        6936260312,
+        6936260307
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "government": "Nagaland_Police",
+        "name": "South Police Station",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741141571,
+      "center": {
+        "lat": 25.7113166,
+        "lon": 94.106949
+      },
+      "nodes": [
+        6938545682,
+        6938545683,
+        6938545684,
+        6938546985,
+        6938546986,
+        6938546987,
+        6938545682
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "SIRD Hall",
+        "operator": "SIRD Government of Nagaland",
+        "townhall:type": "city"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741141572,
+      "center": {
+        "lat": 25.7110188,
+        "lon": 94.1068285
+      },
+      "nodes": [
+        12288198338,
+        6938546990,
+        6938546989,
+        6938546988,
+        6938546991,
+        12288198339,
+        12288198341,
+        12288198340,
+        12288198338
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "Near Secretariat Complex",
+        "building": "yes",
+        "government": "public_service",
+        "name": "State Institute of Rural Development",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741141573,
+      "center": {
+        "lat": 25.7106037,
+        "lon": 94.1071546
+      },
+      "nodes": [
+        6938546992,
+        6938546993,
+        6938546994,
+        6938546995,
+        6938546996,
+        6938546997,
+        6938546998,
+        6938546999,
+        6938547000,
+        6938547001,
+        6938547002,
+        6938547003,
+        6938547004,
+        6938547005,
+        6938547006,
+        6938547007,
+        6938547008,
+        6938547009,
+        6938547010,
+        6938547011,
+        6938546992
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "government": "public_service",
+        "name": "Rural Development Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741141747,
+      "center": {
+        "lat": 25.7086574,
+        "lon": 94.107835
+      },
+      "nodes": [
+        6938547698,
+        6938547699,
+        6938547700,
+        6938547701,
+        6938547702,
+        6938547703,
+        6938547704,
+        6938547705,
+        6938547706,
+        6938547707,
+        6938547708,
+        6938547709,
+        6938547710,
+        6938547711,
+        6938547712,
+        6938547713,
+        6938547714,
+        6938547715,
+        6938547698
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "Secretariat Area",
+        "building": "yes",
+        "name": "State Vigilanc Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741141992,
+      "center": {
+        "lat": 25.7082892,
+        "lon": 94.1076365
+      },
+      "nodes": [
+        6938519929,
+        6938519930,
+        6938519931,
+        6938519932,
+        6938519933,
+        6938519934,
+        6938519935,
+        6938519936,
+        6938519937,
+        6938519938,
+        6938519929
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "Technical Education",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741142206,
+      "center": {
+        "lat": 25.707839,
+        "lon": 94.1076476
+      },
+      "nodes": [
+        6938550265,
+        6938550266,
+        6938550267,
+        6938550268,
+        6938550269,
+        6938550270,
+        6938550271,
+        6938550272,
+        6938550273,
+        6938550274,
+        6938550275,
+        6938550276,
+        6938550265
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "Secretatiat Area",
+        "building": "yes",
+        "government": "public_service",
+        "name": "Directorate of Treeasuries & Accounts",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741142258,
+      "center": {
+        "lat": 25.7073842,
+        "lon": 94.1077112
+      },
+      "nodes": [
+        6938548691,
+        6938548692,
+        6938548693,
+        6938548694,
+        6938548695,
+        6938548696,
+        6938548697,
+        6938548698,
+        6938548699,
+        6938548700,
+        6938548691
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "Directorate of Information & Public Relations",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741142902,
+      "center": {
+        "lat": 25.7095259,
+        "lon": 94.1076809
+      },
+      "nodes": [
+        6938550844,
+        6938550845,
+        6938550846,
+        6938550847,
+        6938550848,
+        6938550849,
+        6938550850,
+        6938550851,
+        6938550852,
+        6938550853,
+        6938550854,
+        6938550855,
+        6938550856,
+        6938550857,
+        6938550858,
+        6938550844
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "Directorate of Sericulture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741143135,
+      "center": {
+        "lat": 25.7069245,
+        "lon": 94.1095748
+      },
+      "nodes": [
+        6938551221,
+        6938551222,
+        6938551223,
+        6938551224,
+        6938551225,
+        6938551226,
+        6938551227,
+        6938551228,
+        6938551229,
+        6938551230,
+        6938551231,
+        6938551232,
+        6938551233,
+        6938551234,
+        6938551235,
+        6938551236,
+        6938551237,
+        6938551238,
+        6938551239,
+        6938551240,
+        6938551241,
+        6938551242,
+        6938551243,
+        6938551244,
+        6938551245,
+        6938551246,
+        6938551247,
+        6938551248,
+        6938551249,
+        6938551250,
+        6938551251,
+        6938551252,
+        6938551253,
+        6938551254,
+        6938551255,
+        6938551221
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "Science & Technology",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741145146,
+      "center": {
+        "lat": 25.7155698,
+        "lon": 94.1064014
+      },
+      "nodes": [
+        6938567444,
+        6938567445,
+        6938567446,
+        6938567447,
+        6938567448,
+        6938567449,
+        6938567450,
+        6938567451,
+        6938567452,
+        6938567453,
+        6938567454,
+        6938567455,
+        6938567456,
+        6938567457,
+        6938567458,
+        6938567459,
+        6938567460,
+        6938567461,
+        6938567462,
+        6938567463,
+        6938567444
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "District Education Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741145347,
+      "center": {
+        "lat": 25.7101451,
+        "lon": 94.10749
+      },
+      "nodes": [
+        6938557221,
+        6938557222,
+        6938557223,
+        6938557224,
+        6938557225,
+        6938557226,
+        6938557227,
+        6938557228,
+        6938557221
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "government": "public_service",
+        "name": "MGNREGA Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741145779,
+      "center": {
+        "lat": 25.7042336,
+        "lon": 94.1069647
+      },
+      "nodes": [
+        6938539478,
+        6938539479,
+        6938539480,
+        6938539481,
+        6938539482,
+        6938539483,
+        6938539484,
+        6938576685,
+        6938576686,
+        6938576687,
+        6938576688,
+        6938576689,
+        7965908523,
+        6938576690,
+        6938576691,
+        6938576692,
+        6938539478
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "addr:street": "New Secretariat Road",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Capital Convention Centre",
+        "operator": "KMC",
+        "townhall:type": "municipality"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741146058,
+      "center": {
+        "lat": 25.70827,
+        "lon": 94.1083446
+      },
+      "nodes": [
+        6938560278,
+        6938560279,
+        6938560280,
+        6938560281,
+        6938560282,
+        6938560283,
+        6938560284,
+        6938590985,
+        6938590986,
+        6938590987,
+        6938590988,
+        6938590989,
+        6938590990,
+        6938590991,
+        6938590992,
+        6938560278
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Land Resources",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741146301,
+      "center": {
+        "lat": 25.6860733,
+        "lon": 94.1056797
+      },
+      "nodes": [
+        6938573755,
+        6938573756,
+        6938573757,
+        6938573758,
+        6938573759,
+        6938573760,
+        6938573761,
+        6938573762,
+        6938573763,
+        6938573764,
+        6938573765,
+        6938573766,
+        6938573767,
+        6938573768,
+        6938573769,
+        6938573770,
+        6938573771,
+        6938573772,
+        6938573773,
+        6938573774,
+        6938573775,
+        6938573776,
+        6938573777,
+        6938573778,
+        6938573779,
+        6938573780,
+        6938573781,
+        6938573782,
+        6938573783,
+        6938573784,
+        6938573755
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "government": "education",
+        "name": "Directorate of School Education",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741146789,
+      "center": {
+        "lat": 25.6832334,
+        "lon": 94.1069466
+      },
+      "nodes": [
+        6938592786,
+        6938592787,
+        6938592788,
+        6938592789,
+        6938592790,
+        6938592791,
+        6938592792,
+        6938592793,
+        6938592786
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:street": "Pezielietsie",
+        "building": "yes",
+        "name": "Census of India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741146980,
+      "center": {
+        "lat": 25.6789541,
+        "lon": 94.1104538
+      },
+      "nodes": [
+        6938575487,
+        6938575488,
+        6938575489,
+        6938575490,
+        6938575487
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Ura Academy Hall",
+        "operator": "Ura Academy",
+        "townhall:type": "town"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741350277,
+      "center": {
+        "lat": 25.6684334,
+        "lon": 94.1059174
+      },
+      "nodes": [
+        6940404200,
+        6940404201,
+        6940404202,
+        6940404203,
+        6940404204,
+        6940404205,
+        6940404206,
+        6940404207,
+        6940404200
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "addr:street": "Phoolbari",
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Angami Public Organisation (APO) Hall",
+        "operator": "APO",
+        "townhall:type": "town"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741351033,
+      "center": {
+        "lat": 25.6610877,
+        "lon": 94.1028245
+      },
+      "nodes": [
+        6940415752,
+        6940415753,
+        6940415754,
+        6940415755,
+        6940415756,
+        6940415757,
+        6940415758,
+        6940415759,
+        6940415760,
+        6940415761,
+        6940415762,
+        6940415763,
+        6940415764,
+        6940415765,
+        6940415752
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "addr:street": "PWD Colony",
+        "building": "yes",
+        "name": "PWD",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741352822,
+      "center": {
+        "lat": 25.6547375,
+        "lon": 94.098466
+      },
+      "nodes": [
+        6940432286,
+        6940432287,
+        6940432288,
+        6940432289,
+        6940432290,
+        6940432291,
+        6940432292,
+        6940432293,
+        6940432294,
+        6940432295,
+        6940432296,
+        6940432297,
+        6940432298,
+        6940432299,
+        6940432286
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "amenity": "courthouse",
+        "building": "yes",
+        "name": "Kohima bench, Guwahati High Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741352823,
+      "center": {
+        "lat": 25.6546093,
+        "lon": 94.0986548
+      },
+      "nodes": [
+        6940432300,
+        6940432301,
+        6940432302,
+        6940432303,
+        6940432304,
+        6940432305,
+        6940432306,
+        6940432307,
+        6940432308,
+        6940432309,
+        6940432300
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "amenity": "courthouse",
+        "building": "yes",
+        "name": "Guwahati High Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355014,
+      "center": {
+        "lat": 25.6561823,
+        "lon": 94.1095859
+      },
+      "nodes": [
+        6940451650,
+        6940451651,
+        6940451652,
+        8597856614,
+        6940451653,
+        6940451654,
+        6940451655,
+        6940451650
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "name": "Municipal Affairs Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355015,
+      "center": {
+        "lat": 25.6564504,
+        "lon": 94.1093114
+      },
+      "nodes": [
+        6940451656,
+        6940451657,
+        6940451658,
+        6940451659,
+        6940451660,
+        6940451661,
+        6940451656
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "building": "yes",
+        "name": "NSMDC",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355016,
+      "center": {
+        "lat": 25.6561977,
+        "lon": 94.1098321
+      },
+      "nodes": [
+        6940451662,
+        6940451663,
+        6940451664,
+        6940451665,
+        6940451662
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "building": "yes",
+        "name": "Evaluation Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355017,
+      "center": {
+        "lat": 25.6564793,
+        "lon": 94.1098364
+      },
+      "nodes": [
+        6940451666,
+        6940451667,
+        6940451668,
+        6940451669,
+        6940451666
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "name": "PWD (Douth Div)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355018,
+      "center": {
+        "lat": 25.6569138,
+        "lon": 94.1104775
+      },
+      "nodes": [
+        6940451670,
+        6940451671,
+        6940451672,
+        6940451673,
+        6940451670
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Agriculture Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355019,
+      "center": {
+        "lat": 25.6574331,
+        "lon": 94.1102432
+      },
+      "nodes": [
+        6940451674,
+        6940451675,
+        6940451676,
+        6940451677,
+        6940451678,
+        6940451674
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Power Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355020,
+      "center": {
+        "lat": 25.6572606,
+        "lon": 94.1085681
+      },
+      "nodes": [
+        6940451679,
+        6940451680,
+        6940451681,
+        6940451682,
+        6940451683,
+        6940451684,
+        6940461685,
+        6940461686,
+        6940461687,
+        6940461688,
+        6940451679
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Soil & Water Conservation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741355191,
+      "center": {
+        "lat": 25.6582909,
+        "lon": 94.1051691
+      },
+      "nodes": [
+        6940398110,
+        6940398111,
+        6940398112,
+        6940398113,
+        6940398114,
+        6940398115,
+        6940398116,
+        6940398117,
+        6940398118,
+        6940398119,
+        6940398110
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Printing & Stationery",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741583829,
+      "center": {
+        "lat": 25.8100689,
+        "lon": 93.7597597
+      },
+      "nodes": [
+        6942399668,
+        6942399669,
+        6942399670,
+        6942399671,
+        6942399672,
+        6942399673,
+        6942399674,
+        6942399675,
+        6942399676,
+        6942399677,
+        6942399678,
+        6942399679,
+        6942399680,
+        6942399681,
+        9669996890,
+        6942399683,
+        6942399684,
+        6942423685,
+        6942423686,
+        6942423687,
+        6942423688,
+        6942423689,
+        6942423690,
+        6942423691,
+        6942423692,
+        6942423693,
+        6942423694,
+        6942423695,
+        6942423696,
+        6942423697,
+        6942423698,
+        6942423699,
+        6942423700,
+        6942423701,
+        6942423702,
+        6942423703,
+        6942423704,
+        6942423705,
+        6942423706,
+        6942423707,
+        6942423708,
+        6942423709,
+        6942423710,
+        6942423711,
+        6942399668
+      ],
+      "tags": {
+        "addr:city": "Chumoukedima",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Dimapur New DC Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741584047,
+      "center": {
+        "lat": 25.9054366,
+        "lon": 93.6974877
+      },
+      "nodes": [
+        6942397154,
+        6942397155,
+        6942397156,
+        6942397157,
+        6942397158,
+        6942397159,
+        6942397160,
+        6942397161,
+        6942397154
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "DC Office Dimapur",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746051215,
+      "center": {
+        "lat": 25.6917286,
+        "lon": 94.0978881
+      },
+      "nodes": [
+        6982013939,
+        6982013940,
+        8570359434,
+        8570359433,
+        8570359432,
+        7965980401,
+        7965980402,
+        6982013942,
+        7965980405,
+        7965980406,
+        6982013943,
+        6982013944,
+        6982013945,
+        6982013946,
+        6982013939
+      ],
+      "tags": {
+        "building": "yes",
+        "layer": "-1",
+        "name": "SCERT",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 755846101,
+      "center": {
+        "lat": 25.6567168,
+        "lon": 94.0938618
+      },
+      "nodes": [
+        7059594321,
+        7059594322,
+        7059594323,
+        7059594324,
+        7059594325,
+        7059594326,
+        7059594327,
+        7059594328,
+        7059594329,
+        7059594330,
+        7059594331,
+        7059594332,
+        7059594333,
+        7059594334,
+        7059594321
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 847247091,
+      "center": {
+        "lat": 25.9046286,
+        "lon": 93.7254743
+      },
+      "nodes": [
+        7905957367,
+        7905957366,
+        7905957365,
+        6255151468,
+        7905957367
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "name": "Dimapur Municipal Council",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 854173758,
+      "center": {
+        "lat": 25.6663217,
+        "lon": 94.088368
+      },
+      "nodes": [
+        7965962968,
+        7965962969,
+        7965962970,
+        7965962971,
+        7965962968
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 854833346,
+      "center": {
+        "lat": 26.0951514,
+        "lon": 94.2514525
+      },
+      "nodes": [
+        7972620070,
+        7972620071,
+        7972620072,
+        7972620073,
+        7972620070
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 857949597,
+      "center": {
+        "lat": 26.1042024,
+        "lon": 94.2575313
+      },
+      "nodes": [
+        7998410957,
+        7998410958,
+        7998410959,
+        7998410960,
+        7998410957
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 873120205,
+      "center": {
+        "lat": 25.7100201,
+        "lon": 94.4643706
+      },
+      "nodes": [
+        8130413699,
+        8130413698,
+        8130413697,
+        8130413696,
+        8130413695,
+        8130413694,
+        8130413693,
+        8130413692,
+        8130413691,
+        8130413690,
+        8130413689,
+        8130413688,
+        8130413687,
+        8130413686,
+        7100882268,
+        8130413685,
+        8130413684,
+        8130413683,
+        8130413682,
+        8130413699
+      ],
+      "tags": {
+        "addr:block": "Phek",
+        "addr:district": "Phek",
+        "addr:landmark": "Near Phek Town Baptist Church",
+        "addr:postcode": "797108",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Phek Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Phek Town",
+        "name": "Phek, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 873120206,
+      "center": {
+        "lat": 25.6860685,
+        "lon": 94.6267998
+      },
+      "nodes": [
+        8130413710,
+        8130413709,
+        7614502605,
+        8130413708,
+        8130413707,
+        8130413706,
+        8130413705,
+        8130413704,
+        8130413703,
+        8130413702,
+        8130413701,
+        8130413710
+      ],
+      "tags": {
+        "addr:district": "Phek",
+        "addr:full": "Meluri",
+        "addr:postcode": "797114",
+        "addr:state": "Nagaland",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 912283982,
+      "center": {
+        "lat": 26.322334,
+        "lon": 94.5188491
+      },
+      "nodes": [
+        8474758128,
+        8474758129,
+        8474758130,
+        8474758131,
+        8474758132,
+        8474758128
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Mokokchung Town Hall",
+        "townhall:type": "municipality"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1040372335,
+      "center": {
+        "lat": 25.6774365,
+        "lon": 94.0817749
+      },
+      "nodes": [
+        9579391353,
+        6255118138,
+        9579391352,
+        9579391351,
+        9579391353
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "name": "ISBT"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1040416058,
+      "center": {
+        "lat": 25.6603834,
+        "lon": 94.1009138
+      },
+      "nodes": [
+        9579716886,
+        9579716885,
+        9579716884,
+        9579716883,
+        9579716882,
+        9579716881,
+        9579716880,
+        9579716879,
+        9579716878,
+        9579716877,
+        9579716886
+      ],
+      "tags": {
+        "amenity": "townhall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1090894532,
+      "center": {
+        "lat": 26.0790996,
+        "lon": 94.2591204
+      },
+      "nodes": [
+        9991959220,
+        9991959219,
+        9991959218,
+        9991959217,
+        9991955516,
+        9991955515,
+        9991955514,
+        7100882297,
+        9991955513,
+        9991955512,
+        9991955511,
+        9991955510,
+        9991959220
+      ],
+      "tags": {
+        "addr:district": "Wokha",
+        "addr:full": "Dr.Motsou Memorial District Hospital",
+        "addr:postcode": "797111",
+        "addr:state": "Nagaland",
+        "addr:subdistrict": "Wokha Sadar",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "hospital colony",
+        "name": "Wokha, District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10247612,
+      "center": {
+        "lat": 25.707539,
+        "lon": 94.1082525
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 741142663,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 741142664,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797004",
+        "building": "yes",
+        "name": "Water Resources",
+        "office": "government",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10250782,
+      "center": {
+        "lat": 25.6561205,
+        "lon": 94.1091092
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 741354031,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 741354032,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Kohima",
+        "addr:postcode": "797001",
+        "building": "yes",
+        "name": "Accountant General (AG)",
+        "office": "government",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}   

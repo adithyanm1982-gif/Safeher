@@ -1,0 +1,217 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T05:29:31Z",
+    "timestamp_areas_base": "2026-10-15T06:58:54Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1603833215,
+      "lat": 10.8663508,
+      "lon": 72.1942038,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7184090398,
+      "lat": 8.2825373,
+      "lon": 73.0569309,
+      "tags": {
+        "addr:state": "Lakshadweep",
+        "addr:subdistrict": "Minicoy",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7627822165,
+      "lat": 8.2883938,
+      "lon": 73.0627044,
+      "tags": {
+        "addr:full": "Minicoy",
+        "addr:postcode": "682559",
+        "addr:state": "Lakshadweep",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35382008,
+      "center": {
+        "lat": 10.8232714,
+        "lon": 72.1754801
+      },
+      "nodes": [
+        414940525,
+        3926179961,
+        3926179959,
+        2572411324,
+        3926179958,
+        3926179556,
+        414940526,
+        6018377684,
+        6018378385,
+        6018378386,
+        3560286730,
+        3560286731,
+        3560286732,
+        3560286733,
+        9101372279,
+        3926179555,
+        3560286734,
+        3926179957,
+        3560286735,
+        3926179960,
+        3560286736,
+        3560286737,
+        3560286738,
+        3560286740,
+        3560286739,
+        3560286741,
+        414940525
+      ],
+      "tags": {
+        "aerodrome:type": "public",
+        "aeroway": "aerodrome",
+        "city_served": "Agatti",
+        "ele": "4",
+        "iata": "AGX",
+        "icao": "VOAT",
+        "name": "Agatti Airport",
+        "name:ar": "مطار أغاتي",
+        "name:ml": "അഗത്തി വിമാനത്താവളം",
+        "operator": "Airports Authority of India",
+        "source": "wikipedia",
+        "wikidata": "Q892248",
+        "wikipedia": "en:Agatti Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 638573755,
+      "center": {
+        "lat": 10.8656501,
+        "lon": 72.1934894
+      },
+      "nodes": [
+        6018172791,
+        6018172792,
+        6018172793,
+        6018172794,
+        6018172791
+      ],
+      "tags": {
+        "addr:state": "Lakshadweep",
+        "addr:subdistrict": "Agatti",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rajiv Gandhi Speciality Hospital",
+        "name:etymology:wikidata": "Q4593",
+        "name:ml": "രാജീവ് ഗാന്ധി സ്പെഷ്യാലിറ്റി ആശുപത്രി",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 638704816,
+      "center": {
+        "lat": 10.5613886,
+        "lon": 72.6376708
+      },
+      "nodes": [
+        6019173543,
+        6083406799,
+        6019173541,
+        6019173540,
+        6019173542,
+        6019173543
+      ],
+      "tags": {
+        "addr:district": "Lakshadweep",
+        "addr:full": "Indira Gandhi Hospital, Kavaratti",
+        "addr:postcode": "262240",
+        "addr:state": "Lakshadweep",
+        "amenity": "hospital",
+        "fax": "4896262794",
+        "healthcare": "hospital",
+        "name": "IG Hospital, Kavaratti",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "http://lakshadweep.nic.in/ISLAND_web/kavaratti/MedicalHealth.html"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824925516,
+      "center": {
+        "lat": 8.2839511,
+        "lon": 73.0570228
+      },
+      "nodes": [
+        7702849686,
+        7702849687,
+        7702849688,
+        7702849689,
+        7702849686
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "public_service",
+        "name": "port (old building)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 828923506,
+      "center": {
+        "lat": 8.2832199,
+        "lon": 73.0572807
+      },
+      "nodes": [
+        7737873416,
+        7737873417,
+        7737873418,
+        7737873419,
+        7737873416
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "local",
+        "name": "Village Dweep Panchayath",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 828938531,
+      "center": {
+        "lat": 8.2812642,
+        "lon": 73.054563
+      },
+      "nodes": [
+        7737971919,
+        7737971920,
+        7737971921,
+        7737971922,
+        7737971919
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes",
+        "name": "Fire Station Minicoy"
+      }
+    }
+  ]
+}

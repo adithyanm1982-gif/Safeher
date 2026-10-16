@@ -1,0 +1,1637 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:38:26Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2110924659,
+      "lat": 27.2807487,
+      "lon": 88.3098944,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3702040893,
+      "lat": 27.3247674,
+      "lon": 88.2869891,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4156655003,
+      "lat": 27.2876143,
+      "lon": 88.2554533,
+      "tags": {
+        "addr:street": "NH510",
+        "amenity": "fuel",
+        "name": "Geyzing Oil Depot",
+        "operator": "Bharat Petroleum (BPCL)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4156655289,
+      "lat": 27.2875555,
+      "lon": 88.2555857,
+      "tags": {
+        "addr:street": "NH510",
+        "amenity": "fuel",
+        "name": "Dzongri Petrol Pump",
+        "operator": "Hindustan Petroleum (HPCL)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4608058314,
+      "lat": 27.1771863,
+      "lon": 88.5235559,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4868280221,
+      "lat": 27.3339366,
+      "lon": 88.614527,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "SNT - Sikkim Nationalised Transport",
+        "name:en": "SNT - Sikkim Nationalised Transport",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4875356122,
+      "lat": 27.3065795,
+      "lon": 88.1859922,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian oil",
+        "name:en": "Indian oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4918595629,
+      "lat": 27.1797918,
+      "lon": 88.6346772,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4918595630,
+      "lat": 27.1828403,
+      "lon": 88.6336122,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330124,
+      "lat": 27.3428304,
+      "lon": 88.6131673,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Vajra stand",
+        "name:en": "Vajra stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330128,
+      "lat": 27.3313407,
+      "lon": 88.6135864,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330129,
+      "lat": 27.329669,
+      "lon": 88.6115871,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Southwest jeep stand",
+        "name:en": "Southwest jeep stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330149,
+      "lat": 27.1660672,
+      "lon": 88.3632526,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "SNT Bus Station (ground floor)",
+        "name:en": "SNT Bus Station GF",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330228,
+      "lat": 27.4140919,
+      "lon": 88.6278508,
+      "tags": {
+        "name": "Kabi Outpost",
+        "name:en": "Kabi Outpost",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330237,
+      "lat": 27.3297012,
+      "lon": 88.6116472,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Advanced ticket to Darjeeling namchi ravangla south&west sikkim",
+        "name:en": "Advanced ticket to Darjeeling namchi ravangla south&west sikkim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330238,
+      "lat": 27.3340463,
+      "lon": 88.6146237,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Namchi Bus 7am",
+        "name:en": "Namchi Bus 7am",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330240,
+      "lat": 27.2330317,
+      "lon": 88.4989469,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Singtam firestation",
+        "name:en": "Singtam firestation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330242,
+      "lat": 27.2319089,
+      "lon": 88.4966053,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Himalayan medical hall",
+        "name:en": "Himalayan medical hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330423,
+      "lat": 27.3429469,
+      "lon": 88.6132804,
+      "tags": {
+        "government": "public_service",
+        "name": "Election Commission",
+        "name:en": "Election Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330433,
+      "lat": 27.4643858,
+      "lon": 88.5252598,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat",
+        "name:en": "Bharat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925330523,
+      "lat": 27.231422,
+      "lon": 88.495537,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Bengal traders",
+        "name:en": "Bengal traders"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4925338221,
+      "lat": 27.1660523,
+      "lon": 88.3630227,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Prepaid taxi (1st floor)",
+        "name:en": "Prepaid taxi",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5169243924,
+      "lat": 27.0867118,
+      "lon": 88.4520471,
+      "tags": {
+        "addr:street": "Melli Bridge",
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6340945586,
+      "lat": 27.1471742,
+      "lon": 88.2882569,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6493516285,
+      "lat": 27.3708529,
+      "lon": 88.2252546,
+      "tags": {
+        "addr:district": "West Sikkim",
+        "addr:postcode": "737113",
+        "addr:state": "Sikkim",
+        "addr:subdistrict": "Gyalshing",
+        "amenity": "hospital",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "locality": "Yuksam",
+        "name": "Yuksam, PHC",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6902545405,
+      "lat": 27.1655039,
+      "lon": 88.360583,
+      "tags": {
+        "addr:city": "Namchi",
+        "addr:district": "South Sikkim",
+        "addr:full": "Namchi District Hospital, Hospital Road, Namchi",
+        "addr:postcode": "737126",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "contact:mobile": "7797895320",
+        "contact:phone": "3595264544",
+        "email": "anjurai100@gmail.com",
+        "healthcare": "hospital",
+        "name": "Government General Hospital Blood Bank - Namchi",
+        "opening_hours": "24/7",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120518,
+      "lat": 27.3163644,
+      "lon": 88.5975829,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:full": "5Th Mile Tadong, Gangtok",
+        "addr:postcode": "737101",
+        "addr:state": "Sikkim",
+        "ambulance": "yes",
+        "amenity": "hospital",
+        "beds": "550",
+        "description": "Multi-specialty, NABH-accredited hospital with 24/7 emergency, advanced ICUs (ICU, SICU, NICU, PICU, CCU, NSICU, ITU), world-class diagnostics, and digital imaging (first in Sikkim with PACS), attached to Sikkim Manipal University",
+        "emergency": "yes",
+        "fax": "231162",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;surgery;cardiology;neurosurgery;gastroenterology;blood_donation;maternity;pediatric;radiology;intensive_care",
+        "internet_access": "yes",
+        "laboratory": "yes",
+        "language:en": "yes",
+        "language:hi": "yes",
+        "name": "Central Referral Hospital",
+        "official_name": "Central Referral Hospital (A Constituent Unit Of Sikkim Manipal University)",
+        "opening_hours": "24/7",
+        "operator": "Sikkim Manipal University",
+        "operator:type": "private",
+        "parking": "yes",
+        "pharmacy": "yes",
+        "phone": "18001202114",
+        "staff_count:doctors": "76",
+        "website": "https://smu.edu.in/crh/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908120519,
+      "lat": 27.3174225,
+      "lon": 88.5975802,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:full": "SMIMS, 5th Mile, Tadong,East Sikkim",
+        "addr:postcode": "737102",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sikkim Manipal Institute of Medical Sciences",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "www.smims.smu.edu.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911257928,
+      "lat": 27.328743,
+      "lon": 88.6028366,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927198012,
+      "lat": 27.3601396,
+      "lon": 88.6222712,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927201663,
+      "lat": 27.3271854,
+      "lon": 88.6112694,
+      "tags": {
+        "government": "social_welfare",
+        "name": "Sikkim state commission for women",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927201664,
+      "lat": 27.3180553,
+      "lon": 88.6026306,
+      "tags": {
+        "name": "Deugs and cosmetics cs cell",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927204458,
+      "lat": 27.3272431,
+      "lon": 88.6113106,
+      "tags": {
+        "government": "social_welfare",
+        "name": "Commission for protection if child rights",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927205021,
+      "lat": 27.3180616,
+      "lon": 88.6025115,
+      "tags": {
+        "government": "healthcare",
+        "name": "National leprosy educational program",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927212602,
+      "lat": 27.3181189,
+      "lon": 88.6027584,
+      "tags": {
+        "government": "healthcare",
+        "name": "Health care and family dept",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927214606,
+      "lat": 27.3240596,
+      "lon": 88.607484,
+      "tags": {
+        "name": "Water security department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927219830,
+      "lat": 27.3179567,
+      "lon": 88.6024505,
+      "tags": {
+        "name": "State information education and communication bereau",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6942264747,
+      "lat": 27.2968628,
+      "lon": 88.5876984,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Essar Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7071787085,
+      "lat": 27.1303217,
+      "lon": 88.2862587,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "sig,daj,pelling etc."
+      }
+    },
+    {
+      "type": "node",
+      "id": 7113638925,
+      "lat": 27.301198,
+      "lon": 88.5728486,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7118826339,
+      "lat": 27.291121,
+      "lon": 88.256922,
+      "tags": {
+        "addr:district": "West Sikkim",
+        "addr:postcode": "737111",
+        "addr:state": "Sikkim",
+        "addr:subdistrict": "Geyzing",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Geyzing",
+        "name": "Geyzing District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7118826340,
+      "lat": 27.2298217,
+      "lon": 88.4950137,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:postcode": "737134",
+        "addr:state": "Sikkim",
+        "addr:street": "Singtam District Hospital",
+        "addr:subdistrict": "Gangtok",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "locality": "Singtam",
+        "name": "Singtam District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7278612359,
+      "lat": 27.3097851,
+      "lon": 88.5949129,
+      "tags": {
+        "addr:street": "NH10",
+        "description": "Indo Tibetian Border Police headquarters is located here.\n",
+        "name": "ITBP headquarters",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097179,
+      "lat": 27.327142,
+      "lon": 88.286698,
+      "tags": {
+        "addr:district": "West Sikkim",
+        "addr:full": "Tashiding",
+        "addr:postcode": "737111",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "Tashiding Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097183,
+      "lat": 27.1712753,
+      "lon": 88.3750115,
+      "tags": {
+        "addr:district": "South Sikkim",
+        "addr:full": "Namchi",
+        "addr:postcode": "737126",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "District Hospital",
+        "name:ne": "जिल्ला अस्पताल",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097189,
+      "lat": 27.7296019,
+      "lon": 88.5508921,
+      "tags": {
+        "addr:district": "North Sikkim",
+        "addr:full": "Gurudongmar Road",
+        "addr:postcode": "737120",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "Lachen Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097191,
+      "lat": 27.2276025,
+      "lon": 88.495588,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:full": "Sikkim",
+        "addr:postcode": "737134",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "Baidhya Ayurvedic Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097197,
+      "lat": 27.490878,
+      "lon": 88.531877,
+      "tags": {
+        "addr:district": "North Sikkim",
+        "addr:full": "Mangan",
+        "addr:postcode": "737116",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "Mangan District Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097198,
+      "lat": 27.314817,
+      "lon": 88.597016,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:full": "Tadong, Gangtok",
+        "addr:postcode": "737102",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097203,
+      "lat": 27.2436348,
+      "lon": 88.5987252,
+      "tags": {
+        "addr:district": "East Sikkim",
+        "addr:full": "Pakyong",
+        "addr:postcode": "737106",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "STNM Multispeciality Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615097209,
+      "lat": 27.289573,
+      "lon": 88.245448,
+      "tags": {
+        "addr:district": "West Sikkim",
+        "addr:full": "Geyzing",
+        "addr:postcode": "737111",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "name": "50 Bedded Ayush Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996208058,
+      "lat": 27.324045,
+      "lon": 88.6134689,
+      "tags": {
+        "check_date": "2025-10-05",
+        "name": "Geology and Mines department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996308176,
+      "lat": 27.3239148,
+      "lon": 88.61343,
+      "tags": {
+        "name": "NIC",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996308944,
+      "lat": 27.3192952,
+      "lon": 88.6067777,
+      "tags": {
+        "government": "administrative",
+        "name": "Gangtok Municipal Corporation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996325714,
+      "lat": 27.3242974,
+      "lon": 88.6129391,
+      "tags": {
+        "name": "Science and technology department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996330092,
+      "lat": 27.321538,
+      "lon": 88.6067424,
+      "tags": {
+        "government": "election",
+        "name": "Sikkim State Election Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996331830,
+      "lat": 27.3241361,
+      "lon": 88.613553,
+      "tags": {
+        "name": "NIC",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996332358,
+      "lat": 27.3253234,
+      "lon": 88.6144437,
+      "tags": {
+        "government": "education",
+        "name": "Education department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8058855486,
+      "lat": 27.332104,
+      "lon": 88.6139867,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Gangtok fire station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8058855812,
+      "lat": 27.3193417,
+      "lon": 88.6040808,
+      "tags": {
+        "name": "Department of Animal Husbandry",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8178607669,
+      "lat": 27.3338349,
+      "lon": 88.614658,
+      "tags": {
+        "government": "transportation",
+        "name": "RTO Office, East District",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8196909798,
+      "lat": 27.4923499,
+      "lon": 88.5283128,
+      "tags": {
+        "addr:full": "Sikkim",
+        "addr:state": "Sikkim",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8196909803,
+      "lat": 27.334519,
+      "lon": 88.614261,
+      "tags": {
+        "addr:full": "Arithang, East District, NH-31A, Gangtok, Upper Sichey, Arithang, Gangtok, Sikkim",
+        "addr:state": "Sikkim",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8196909806,
+      "lat": 27.317967,
+      "lon": 88.606214,
+      "tags": {
+        "addr:full": "Deorali Bazar, East District, NH-31A, Deorali Road, Gangtok, Deorali Bazar, Gangtok, Sikkim",
+        "addr:state": "Sikkim",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8196909812,
+      "lat": 27.308052,
+      "lon": 88.59433,
+      "tags": {
+        "addr:full": "NH10, Tadong, Gangtok, Sikkim",
+        "addr:state": "Sikkim",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8221551095,
+      "lat": 27.3377796,
+      "lon": 88.6232448,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8221577853,
+      "lat": 27.3263227,
+      "lon": 88.6078845,
+      "tags": {
+        "addr:street": "Ministry of Micro, Small and Medium enterprises",
+        "government": "ministry",
+        "name": "Khadi and Village Industries Commission",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9184222592,
+      "lat": 27.2935608,
+      "lon": 88.4194023,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9184264720,
+      "lat": 27.2930313,
+      "lon": 88.4197263,
+      "tags": {
+        "name": "BDO yangang",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9534187148,
+      "lat": 27.4556647,
+      "lon": 88.5063353,
+      "tags": {
+        "addr:postcode": "737116",
+        "government": "administrative",
+        "name": "Gnon-Sangdong Orange Horticulture Farm",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9775571001,
+      "lat": 27.345938,
+      "lon": 88.6055294,
+      "tags": {
+        "addr:city": "Gangtok",
+        "addr:street": "Upper Sichey",
+        "amenity": "courthouse",
+        "name": "Dist. & Session Court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9775591536,
+      "lat": 27.3453863,
+      "lon": 88.6057582,
+      "tags": {
+        "addr:street": "Upper Sichey",
+        "name": "Off. Dist collectorate, HQ Traffic, Panchyat",
+        "office": "government",
+        "opening_hours": "Mo-Su 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10831428906,
+      "lat": 27.1321154,
+      "lon": 88.2826972,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Shared jeeps in this parking garage"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11372492580,
+      "lat": 27.1214024,
+      "lon": 88.3204165,
+      "tags": {
+        "amenity": "fuel",
+        "operator": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11387330569,
+      "lat": 27.3710925,
+      "lon": 88.7171118,
+      "tags": {
+        "amenity": "townhall",
+        "name": "15-mile settlement"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11900363311,
+      "lat": 27.2280855,
+      "lon": 88.4935044,
+      "tags": {
+        "name": "Car Pollution cernter",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11939893832,
+      "lat": 27.3282532,
+      "lon": 88.6123433,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Ridhkaran Madangopal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11940078231,
+      "lat": 27.3296744,
+      "lon": 88.6126246,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Chiranjilal Lalchand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11940091195,
+      "lat": 27.3290902,
+      "lon": 88.6124899,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Jagriti Medical Stores"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12875748157,
+      "lat": 27.3177895,
+      "lon": 88.6049602,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13190682064,
+      "lat": 27.3283817,
+      "lon": 88.6124956,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13190688179,
+      "lat": 27.3282952,
+      "lon": 88.6125074,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13190693154,
+      "lat": 27.3283335,
+      "lon": 88.6124997,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13196993725,
+      "lat": 27.3657334,
+      "lon": 88.6214896,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14228233001,
+      "lat": 27.3278389,
+      "lon": 88.6126543,
+      "tags": {
+        "addr:street": "Mahatma Gandhi Marg",
+        "email": "excise.dept@sikkim.gov.in",
+        "name": "Excise Department, Government of Sikkim",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:30",
+        "phone": "03592203963",
+        "website": "http://excise.sikkim.gov.in"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129678914,
+      "center": {
+        "lat": 27.3246082,
+        "lon": 88.6131566
+      },
+      "nodes": [
+        1430261665,
+        1430261667,
+        1430261682,
+        1430261681,
+        1430261665
+      ],
+      "tags": {
+        "building": "yes",
+        "fixme": "add government key",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129678919,
+      "center": {
+        "lat": 27.3249047,
+        "lon": 88.6141348
+      },
+      "nodes": [
+        1430261699,
+        1430261690,
+        1430261669,
+        1430261670,
+        1430261699
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "Secretariat",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 129678931,
+      "center": {
+        "lat": 27.3229829,
+        "lon": 88.6118714
+      },
+      "nodes": [
+        1430261593,
+        1430261605,
+        1430261607,
+        1430261596,
+        1430261574,
+        1430261555,
+        1430261549,
+        1430261569,
+        1430261593
+      ],
+      "tags": {
+        "building": "yes",
+        "check_date": "2025-10-01",
+        "government": "legislative",
+        "name": "Sikkim Legislative Assembly",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349556187,
+      "center": {
+        "lat": 27.3466714,
+        "lon": 88.6026462
+      },
+      "nodes": [
+        3554050125,
+        3554050121,
+        3554050115,
+        3554050103,
+        3554050097,
+        3554050108,
+        3554050117,
+        3554050135,
+        3554050138,
+        3554050144,
+        3554050143,
+        3554050137,
+        3554050128,
+        3554050125
+      ],
+      "tags": {
+        "addr:full": "NH-31A, Sochaygang, Gangtok, Sikkim, 737101, India",
+        "ambulance": "yes",
+        "amenity": "hospital",
+        "beds": "1002",
+        "description": "Major government hospital in northeast India, NABH accredited, advanced ICUs, operation theaters, round-the-clock emergency, spacious wards, diagnostics, and modern pharmacy. Tele-consultation available.",
+        "emergency": "yes",
+        "fax": "09845562399",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;surgery;cardiology;pediatrics;urology;nephrology;radiology;pediatry;maternity;intensive_care;blood_donation",
+        "image": "https://stnmhospital.com/static/images/hospital-exterior.jpg",
+        "internet_access": "yes",
+        "laboratory": "yes",
+        "language:en": "yes",
+        "language:hi": "yes",
+        "language:ne": "yes",
+        "name": "STNM Hospital",
+        "official_name": "Sir Thutob Namgyal Memorial Hospital",
+        "opening_hours": "24/7",
+        "operator": "Government of Sikkim",
+        "operator:type": "government",
+        "parking": "yes",
+        "pharmacy": "yes",
+        "phone": "+919845562399;+913592-202944",
+        "staff_count": "398",
+        "website": "http://sikkimhealth.gov.in/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352734705,
+      "center": {
+        "lat": 27.1322946,
+        "lon": 88.2825129
+      },
+      "nodes": [
+        3585098729,
+        3585098730,
+        3585098731,
+        3585098732,
+        3585098733,
+        3585098734,
+        3585098735,
+        3585098736,
+        3585098737,
+        3585098738,
+        3585098739,
+        3585098740,
+        3585098741,
+        3585098742,
+        3585098743,
+        3585098744,
+        3585098745,
+        3585098746,
+        3585098747,
+        3585098748,
+        3585098749,
+        3585098750,
+        3585098751,
+        3585098752,
+        3585098753,
+        3585098754,
+        3585098755,
+        3585098756,
+        3585098757,
+        3585098758,
+        3585098759,
+        3585098760,
+        3585098761,
+        3585098762,
+        3585098729
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "PWD",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 546123464,
+      "center": {
+        "lat": 27.3018089,
+        "lon": 88.237466
+      },
+      "nodes": [
+        5277737548,
+        5277737549,
+        5277737550,
+        5277737551,
+        5277737548
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 761693123,
+      "center": {
+        "lat": 27.3252985,
+        "lon": 88.6146874
+      },
+      "nodes": [
+        7116549158,
+        7116549159,
+        7116549160,
+        7116549161,
+        7116549162,
+        7116549163,
+        7116549158
+      ],
+      "tags": {
+        "building": "yes",
+        "fixme": "add government key",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 761693124,
+      "center": {
+        "lat": 27.3250227,
+        "lon": 88.6144174
+      },
+      "nodes": [
+        7116549164,
+        7116549165,
+        7116549166,
+        7116549167,
+        7116549164
+      ],
+      "tags": {
+        "building": "yes",
+        "fixme": "add government key",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 815289057,
+      "center": {
+        "lat": 27.3237393,
+        "lon": 88.3215659
+      },
+      "nodes": [
+        7615088365,
+        7615088362,
+        7615088363,
+        7615088364,
+        7615088365
+      ],
+      "tags": {
+        "addr:district": "South Sikkim",
+        "addr:full": "Sikkim",
+        "addr:postcode": "737139",
+        "addr:state": "Sikkim",
+        "amenity": "hospital",
+        "building": "yes",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "name": "Primary Health Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 880965330,
+      "center": {
+        "lat": 27.1327591,
+        "lon": 88.121596
+      },
+      "nodes": [
+        8193787086,
+        8193787085,
+        8193787084,
+        8193787083,
+        8193787086
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229236232,
+      "center": {
+        "lat": 27.3313882,
+        "lon": 88.6135632
+      },
+      "nodes": [
+        11399717713,
+        11399717714,
+        13190097092,
+        11399717715,
+        11399717716,
+        11399717717,
+        11399717713
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260676192,
+      "center": {
+        "lat": 27.166378,
+        "lon": 88.3642405
+      },
+      "nodes": [
+        11717319716,
+        11717319717,
+        11717319718,
+        11717319719,
+        11717319716
+      ],
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260676196,
+      "center": {
+        "lat": 27.1666769,
+        "lon": 88.3642739
+      },
+      "nodes": [
+        11717319732,
+        11717319733,
+        11717319734,
+        11717319735,
+        11717319732
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "NAMCHI SMART CITY LIMITED",
+        "townhall:type": "town"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1261894920,
+      "center": {
+        "lat": 27.1655318,
+        "lon": 88.3615089
+      },
+      "nodes": [
+        11767230857,
+        11767230858,
+        11724930239,
+        11737062356,
+        11767230857
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1265651908,
+      "center": {
+        "lat": 27.3088197,
+        "lon": 88.3649865
+      },
+      "nodes": [
+        11756711383,
+        11756711382,
+        11756711381,
+        11756711380,
+        11756711379,
+        11756711378,
+        11756711377,
+        11756711376,
+        11756711375,
+        11756711374,
+        11756711373,
+        11756711372,
+        11756711371,
+        11756711370,
+        11756711369,
+        11756711268,
+        11756711383
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "yes",
+        "name": "Health & Wellness Center",
+        "operator": "gouvernement"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266769103,
+      "center": {
+        "lat": 27.1877424,
+        "lon": 88.5000674
+      },
+      "nodes": [
+        11766066712,
+        11766066709,
+        11766066710,
+        11766066711,
+        11766066712
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "building": "yes",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266769105,
+      "center": {
+        "lat": 27.186748,
+        "lon": 88.4992506
+      },
+      "nodes": [
+        11766066722,
+        11766066721,
+        11766066720,
+        11766066719,
+        11766066722
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1333442739,
+      "center": {
+        "lat": 27.2327182,
+        "lon": 88.5884979
+      },
+      "nodes": [
+        5924813305,
+        5924813306,
+        12336809851,
+        12336809852,
+        12336809853,
+        5924813307,
+        12336809854,
+        5924813308,
+        5924813309,
+        5924813310,
+        12336809855,
+        5924813312,
+        12336809856,
+        5924813314,
+        12336809857,
+        5924813315,
+        5924813316,
+        12336809858,
+        12336809859,
+        12336809860,
+        1477923521,
+        6536306885,
+        6536306886,
+        6536306887,
+        12336806593,
+        12336809825,
+        6536306888,
+        5924813317,
+        12336809826,
+        1477923519,
+        12336809824,
+        12336809827,
+        12336809828,
+        12336809829,
+        12336806589,
+        12336809830,
+        3550708015,
+        12336809831,
+        12336809832,
+        3550708014,
+        3550708013,
+        3550708012,
+        12336809834,
+        12336809835,
+        3550708010,
+        12336809836,
+        12336809837,
+        12336809838,
+        12336809839,
+        3550708005,
+        12336809840,
+        12336809841,
+        3295104377,
+        3550708003,
+        3550707999,
+        12336806590,
+        5924813295,
+        5924813340,
+        5924813296,
+        12336806591,
+        3295104376,
+        12336806592,
+        3550707890,
+        3295104375,
+        3295104373,
+        5924813297,
+        5924813298,
+        3295104371,
+        12336809813,
+        12336809816,
+        12336809812,
+        12336809811,
+        6536297071,
+        5924813331,
+        5924813329,
+        5924813327,
+        5924813326,
+        5924813328,
+        5924813330,
+        12356931134,
+        12336809844,
+        12336809818,
+        12336809817,
+        12336809814,
+        6536297077,
+        12336809810,
+        12336809809,
+        12336809808,
+        12336809807,
+        12336809806,
+        12336809805,
+        12336809804,
+        12336809803,
+        5924813299,
+        5924813300,
+        1477923512,
+        12336809845,
+        12336809802,
+        12336809801,
+        12336809846,
+        12336806600,
+        5924813301,
+        5924813302,
+        12336806599,
+        12336806598,
+        12336806597,
+        12336806596,
+        12336806595,
+        12336806594,
+        12336809847,
+        1477923517,
+        5924813303,
+        12336809848,
+        5924813304,
+        12336809849,
+        3295104372,
+        12336809850,
+        3295104374,
+        5924813305
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "closest_town": "Gangtok",
+        "ele": "1399",
+        "iata": "PYG",
+        "icao": "VEPY",
+        "name": "Pakyong Airport",
+        "name:hi": "पाक्योंग हवाई अड्डा",
+        "name:ml": "പക്യോങ്ങ് വിമാനത്താവളം",
+        "name:ne": "पाक्योङ विमानस्थल",
+        "operator": "Airports Authority of India",
+        "wikidata": "Q7126092",
+        "wikipedia": "en:Pakyong Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1437009582,
+      "center": {
+        "lat": 27.1867798,
+        "lon": 88.4992138
+      },
+      "nodes": [
+        13207589177,
+        13207589178,
+        13207589179,
+        13207589180,
+        13207589177
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    }
+  ]
+}

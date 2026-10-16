@@ -1,0 +1,7107 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:29:21Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 325781393,
+      "lat": 12.0143543,
+      "lon": 79.8583103,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil",
+        "operator": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 325781398,
+      "lat": 12.026085,
+      "lon": 79.8617063,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum",
+        "operator": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 415737342,
+      "lat": 11.9499033,
+      "lon": 79.8142629,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:petrol": "yes",
+        "name": "Amudhasurabi - Pondicherry Cooperative Petrol Bunk",
+        "name:ta": "அமுதசுரபி கூட்டுறவு பெட்ரோல் பங்க்",
+        "opening_hours": "PH,Mo-Su 00:00-24:00",
+        "operator": "Indian oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1397071045,
+      "lat": 11.9404008,
+      "lon": 79.7962236,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:landmark": "Near Employment Office",
+        "addr:postcode": "605009",
+        "addr:state": "Puducherry",
+        "addr:street": "Vazhuthavur Road",
+        "addr:subdistrict": "Puducherry",
+        "alt_name": "Kathirkamam Govt. Hospital",
+        "alt_name:ta": "கதிர்காமம் அரசு மருத்துவமனை",
+        "amenity": "hospital",
+        "contact:phone": "0413-2277291",
+        "description": "Medical College Hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "locality": "Kadirkamam",
+        "name": "Indira Gandhi Medical College and Research Institute",
+        "name:etymology:wikidata": "Q1149",
+        "name:ta": "இந்திரா காந்தி மருத்துவக் கல்லூரி மற்றும் ஆராய்ச்சி நிறுவனம்",
+        "operator": "Directorate of Health & Family Welfare Services",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "https://igmcri.edu.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1463853118,
+      "lat": 11.9297481,
+      "lon": 79.8239961,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Old Bus Stand",
+        "name:fr": "Arrêt de bus local",
+        "name:ta": "பழைய பேருந்து நிலையம்",
+        "public_transport": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1690253736,
+      "lat": 12.0183586,
+      "lon": 79.7987228,
+      "tags": {
+        "amenity": "fuel",
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1841354844,
+      "lat": 11.9212608,
+      "lon": 79.6282086,
+      "tags": {
+        "addr:city": "Madhagadipet",
+        "addr:district": "Puducherry",
+        "addr:full": "Kalitheerthalkuppam, Madagadipet",
+        "addr:housename": "Manakula Vinayakar Institute of Technology",
+        "addr:postcode": "605107",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "Sri Manakula Vinayagar Hospital",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "https://smvmch.ac.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2019361980,
+      "lat": 10.9177996,
+      "lon": 79.8354962,
+      "tags": {
+        "amenity": "townhall",
+        "name": "Municipality Office",
+        "name:fr": "Bureau municipal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2019366437,
+      "lat": 10.9321316,
+      "lon": 79.836038,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "name": "HP Fuel Station",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2022611653,
+      "lat": 11.9499119,
+      "lon": 79.8336187,
+      "tags": {
+        "addr:street": "Perumal koil street",
+        "amenity": "place_of_worship",
+        "name": "Holy Rosary Church;MLA Office",
+        "office": "government",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2022611744,
+      "lat": 11.9519441,
+      "lon": 79.8303769,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2430066428,
+      "lat": 11.9376335,
+      "lon": 79.8262095,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:country": "IN",
+        "addr:housename": "Bliss Inn",
+        "addr:housenumber": "#30",
+        "addr:postcode": "605001",
+        "addr:street": "Rue Chinna Subraya Pillai",
+        "amenity": "townhall",
+        "name": "Bliss In"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2648200351,
+      "lat": 11.9184173,
+      "lon": 79.662987,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "ponni",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2648202223,
+      "lat": 11.9188136,
+      "lon": 79.6624425,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "iyyapan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2648209950,
+      "lat": 11.9188031,
+      "lon": 79.6623969,
+      "tags": {
+        "amenity": "hospital",
+        "name": "iyyapan hospitel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2648211400,
+      "lat": 11.9181024,
+      "lon": 79.6619704,
+      "tags": {
+        "amenity": "fuel",
+        "name": "BHARAT",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2981578233,
+      "lat": 11.9299638,
+      "lon": 79.7794327,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "East Coast Hospitals",
+        "name:ta": "ஈஸ்ட் கோஸ்ட் மருத்துவமனை"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3313356181,
+      "lat": 11.9362077,
+      "lon": 79.8313251,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "149",
+        "addr:postcode": "605001",
+        "addr:street": "Mission Street",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Vethagiri",
+        "payment:credit_cards": "yes",
+        "phone": "0413-2335564",
+        "phone2": "94420 32339",
+        "start_date": "1976"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3345923131,
+      "lat": 11.9301341,
+      "lon": 79.830255,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Netra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3349924453,
+      "lat": 11.9412876,
+      "lon": 79.831875,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Sri Vijaya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3406731009,
+      "lat": 11.9300984,
+      "lon": 79.8339487,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "16",
+        "addr:postcode": "605001",
+        "addr:street": "Romain Rolland Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hôpital Saint-Joseph",
+        "phone": "0413-2339513; 0413-2331041 \"Medical\"; 0413-2223006 \"Pharmacy\"",
+        "phone:description": "Maternity & Surgical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3408570984,
+      "lat": 11.9293496,
+      "lon": 79.8282726,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3408638859,
+      "lat": 11.9296498,
+      "lon": 79.8268923,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Bussy Pharmacy",
+        "name:fr": "Pharmacie Bussy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3408643722,
+      "lat": 11.9296647,
+      "lon": 79.8268308,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Meghala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3410847105,
+      "lat": 11.9391006,
+      "lon": 79.829783,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2026-05-05",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Sembaruthi",
+        "name:ta": "செம்பருத்தி மருந்தகம்",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:upi": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3415443436,
+      "lat": 11.9262329,
+      "lon": 79.8328978,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "60",
+        "addr:postcode": "605001",
+        "addr:street": "Rue Romain Rolland",
+        "name": "Promotion industrielle et investissement de Pondichéry SA",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3514103755,
+      "lat": 11.9436376,
+      "lon": 79.8045072,
+      "tags": {
+        "name": "District Industries Centre",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3514135150,
+      "lat": 11.9279473,
+      "lon": 79.8345714,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Vieille Cour de Justice de Pondichéry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3517118279,
+      "lat": 11.9390076,
+      "lon": 79.8364374,
+      "tags": {
+        "name": "Bureau Taluk",
+        "office": "government",
+        "opening_hours": "Mo-Sa 08:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3517284156,
+      "lat": 11.9397719,
+      "lon": 79.7879897,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:landmark": "Opposite to Petrol Bunk",
+        "addr:postcode": "605009",
+        "addr:state": "Puducherry",
+        "addr:street": "Vazhudhavur Main Road",
+        "addr:subdistrict": "Ozhukarai",
+        "amenity": "hospital",
+        "contact:phone": "2271213",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "locality": "Mettupalayam",
+        "name": "PHC, Mettupalayam",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3517289768,
+      "lat": 11.9423682,
+      "lon": 79.785985,
+      "tags": {
+        "name": "BSNL Branch",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3596879689,
+      "lat": 11.9545461,
+      "lon": 79.8187021,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:landmark": "Near Iyyanar Koil",
+        "addr:postcode": "605008",
+        "addr:state": "Puducherry",
+        "addr:street": "Lawspet Main Road",
+        "addr:subdistrict": "Ozhukarai",
+        "amenity": "hospital",
+        "contact:phone": "2254247",
+        "description": "Primary Health Centre",
+        "emergency": "yes",
+        "healthcare": "centre",
+        "locality": "Lawspet",
+        "name": "Government Primary Health Centre, Lawspet",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3596927979,
+      "lat": 11.9552252,
+      "lon": 79.8188052,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Abirami Pharmacy",
+        "opening_hours": "PH,Mo-Su 06:30-11:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3596929506,
+      "lat": 11.9550546,
+      "lon": 79.8192692,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Anbu Medicals",
+        "opening_hours": "PH,Mo-Su 06:00-18:00+"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3596930233,
+      "lat": 11.9556607,
+      "lon": 79.8184163,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kumaran Pharmacy",
+        "opening_hours": "PH,Mo-Su 06:00-18:00+"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3596971553,
+      "lat": 11.9526221,
+      "lon": 79.819052,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Bharat Petroleum",
+        "name:ta": "ரஞ்சித் ஜென்சி",
+        "opening_hours": "PH,Mo-Su 06:00-18:00+",
+        "operator": "Bharat petroleum - Ranjith Agencies",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3639684259,
+      "lat": 11.8694344,
+      "lon": 79.6059489,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3674964442,
+      "lat": 11.9371563,
+      "lon": 79.8294098,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3674964443,
+      "lat": 11.9371754,
+      "lon": 79.8294469,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "178/180",
+        "addr:postcode": "605001",
+        "addr:street": "Rue Mahatma Gandhi",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie Sri Amudha",
+        "opening_hours": "Mo-Su 10:00-10:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3942854933,
+      "lat": 11.9274554,
+      "lon": 79.8332785,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605001",
+        "addr:street": "Rue du Bazar Saint-Laurent",
+        "name": "Puducherry Municipality Revenue Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3979120143,
+      "lat": 11.9200257,
+      "lon": 79.7583485,
+      "tags": {
+        "addr:city": "puducherry",
+        "addr:postcode": "605110",
+        "addr:street": "NH45A, sulthan pet, villianur",
+        "internet_access": "no",
+        "name": "Villiyanur",
+        "network": "IR",
+        "operator": "SR",
+        "railway": "halt",
+        "ref": "VI",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4316621642,
+      "lat": 11.9250769,
+      "lon": 79.8316359,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "name": "HP Petrol Pump",
+        "name:fr": "Station d'essence HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4316621643,
+      "lat": 11.9260593,
+      "lon": 79.8319857,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "50G",
+        "addr:postcode": "605001",
+        "addr:street": "Rue Labourtonnais",
+        "amenity": "fire_station",
+        "name": "Pondicherry Fire Department;Villa Labourdonna's Guest House",
+        "name:fr": "Caserne des pompiers Pondichéry",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4370588396,
+      "lat": 12.0186557,
+      "lon": 79.7986433,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4442276756,
+      "lat": 10.9740601,
+      "lon": 79.7664826,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4530560188,
+      "lat": 16.7335804,
+      "lon": 82.20288,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4577035289,
+      "lat": 11.9410775,
+      "lon": 79.8046498,
+      "tags": {
+        "name:de": "Regierung für längeren Aufenthalt in Indien",
+        "name:en": "Immigration Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4586798414,
+      "lat": 11.9464304,
+      "lon": 79.7997092,
+      "tags": {
+        "name": "O/o Executive Engineer, PCD, CPWD",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4586798415,
+      "lat": 11.9463672,
+      "lon": 79.7997477,
+      "tags": {
+        "name": "O/o Executive Engineer(E), PCED, CPWD",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4735226876,
+      "lat": 12.0204742,
+      "lon": 79.7985578,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4947078339,
+      "lat": 10.9170705,
+      "lon": 79.8389621,
+      "tags": {
+        "internet_access": "no",
+        "name": "Karaikal",
+        "name:ta": "காரைக்கால்",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KIK",
+        "wikidata": "Q16893133"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5131021309,
+      "lat": 12.019608,
+      "lon": 79.7919523,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5132856884,
+      "lat": 11.9313378,
+      "lon": 79.8279134,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "81",
+        "addr:postcode": "605001",
+        "addr:street": "Laporte Street",
+        "check_date:opening_hours": "2021-02-10",
+        "name": "Child Helpline",
+        "office": "government",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "1098"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5234452184,
+      "lat": 11.9219192,
+      "lon": 79.6323416,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "Hindustan Petroleum",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5234930846,
+      "lat": 11.9277117,
+      "lon": 79.8103143,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sri Vinnarasi Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5235150646,
+      "lat": 11.9408229,
+      "lon": 79.8127892,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "#491, Kamaraj Salai, Adjacent To Hotel Annamalai International",
+        "addr:postcode": "605013",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "S.S. Remedy Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5250702702,
+      "lat": 11.8125325,
+      "lon": 79.7790424,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mahatma Gandhi Medical College and Hospital",
+        "name:en": "Mahatma Gandhi Medical College & Research Institute MGMCRI",
+        "name:etymology:wikidata": "Q1001"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5257186114,
+      "lat": 11.9383849,
+      "lon": 79.801666,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:postcode": "605009",
+        "addr:street": "4th Cross, Ambal Nagar",
+        "description": "Under the Department of Women and Child Welfare, Puducherry Government. Integrated Children Welfare Scheme - V.",
+        "government": "social_security",
+        "name": "Anganwadi Center",
+        "name:ta": "அங்கன்வாடி மையம்",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5262095165,
+      "lat": 11.9418778,
+      "lon": 79.7985601,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "4/1K",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road, Thilaspet",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "Sri Maruti Medicals",
+        "name:ta": "ஶ்ரீ மாருதி மருந்தகம்"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5262111163,
+      "lat": 11.9417221,
+      "lon": 79.7971137,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Nova Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5262249147,
+      "lat": 11.9142524,
+      "lon": 79.8128978,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5263135515,
+      "lat": 11.9329424,
+      "lon": 79.8357171,
+      "tags": {
+        "name": "Customs & Excise",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5263214965,
+      "lat": 11.9411532,
+      "lon": 79.8179364,
+      "tags": {
+        "name": "Fair Price Shop",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5267653490,
+      "lat": 11.9394553,
+      "lon": 79.8340883,
+      "tags": {
+        "name": "Directorate of Information and Publicity",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5267660754,
+      "lat": 11.9360382,
+      "lon": 79.8354,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Saint-Louis Street",
+        "government": "yes",
+        "name": "Council house",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5267714830,
+      "lat": 11.9332365,
+      "lon": 79.8333486,
+      "tags": {
+        "name": "Legislative Assembly",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5272217931,
+      "lat": 11.9418776,
+      "lon": 79.8036126,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sri Saravana Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5272218703,
+      "lat": 11.9416979,
+      "lon": 79.8054119,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Anjana Medicals",
+        "opening_hours": "PH,Mo-Su 09:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5272219055,
+      "lat": 11.9416924,
+      "lon": 79.8059013,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "New Bharathi Medicals",
+        "opening_hours": "Mo-Sa 08:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5294919476,
+      "lat": 11.9376505,
+      "lon": 79.8193888,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5294938292,
+      "lat": 11.9528883,
+      "lon": 79.7960825,
+      "tags": {
+        "addr:city": "Pondichery",
+        "addr:postcode": "605006",
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Albert Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5296843691,
+      "lat": 11.9254399,
+      "lon": 79.824414,
+      "tags": {
+        "name": "Food Corporation of India Godown",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301762168,
+      "lat": 11.92503,
+      "lon": 79.8281565,
+      "tags": {
+        "internet_access": "no",
+        "name": "Puducherry",
+        "name:ar": "بودوتشيري",
+        "name:fa": "پودوچری",
+        "name:ta": "புதுச்சேரி ரயில் நிலையம்",
+        "name:ur": "پدوچیری",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PDY",
+        "wikidata": "Q16898659",
+        "wikipedia": "en:Puducherry railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301916247,
+      "lat": 11.919477,
+      "lon": 79.8142256,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301919518,
+      "lat": 11.9201927,
+      "lon": 79.8146857,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Selvam medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301919550,
+      "lat": 11.9202291,
+      "lon": 79.8146615,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Velan medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301919563,
+      "lat": 11.9211647,
+      "lon": 79.8154258,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Apolo pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301919756,
+      "lat": 11.9203272,
+      "lon": 79.814803,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Prakash medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301922899,
+      "lat": 11.9176002,
+      "lon": 79.812522,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "compressed_air": "yes",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301940217,
+      "lat": 11.9286062,
+      "lon": 79.8197065,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sai kiruba hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5303083165,
+      "lat": 11.9322596,
+      "lon": 79.8285492,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "378-386",
+        "addr:postcode": "605001",
+        "addr:street": "M.G. Road",
+        "check_date": "2024-12-22",
+        "description": "2nd & 3rd floor",
+        "name": "Income Tax Office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5303104784,
+      "lat": 10.8765804,
+      "lon": 79.8399291,
+      "tags": {
+        "internet_access": "no",
+        "name": "Tirumalairayanpattinam",
+        "network": "IR",
+        "operator": "SR",
+        "railway": "halt",
+        "ref": "TMPT",
+        "wikidata": "Q25712386"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304237006,
+      "lat": 11.9348715,
+      "lon": 79.8310591,
+      "tags": {
+        "check_date": "2026-05-21",
+        "government": "register_office",
+        "name": "ஸ்டாக் ஹோல்டங் கார்ப்பொரேஷன் ஆஃப் இந்தியா லிமிடெட்",
+        "name:en": "Stock Holding Corporation Of India Limited",
+        "office": "government",
+        "opening_hours": "Mo-Fr 08:00-19:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304538784,
+      "lat": 11.9148205,
+      "lon": 79.8077659,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305124848,
+      "lat": 11.9288305,
+      "lon": 79.8322185,
+      "tags": {
+        "name": "Public Works Dept.",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311572350,
+      "lat": 11.9436647,
+      "lon": 79.8042909,
+      "tags": {
+        "name": "Directorate of Industries and Commerce",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311577968,
+      "lat": 11.943937,
+      "lon": 79.8044755,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "register_office",
+        "name": "National Small Industries Corp.",
+        "office": "government",
+        "website": "https://nsic.co.in/",
+        "wikidata": "Q6978468",
+        "wikipedia": "en:National Small Industries Corporation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311577970,
+      "lat": 11.9439259,
+      "lon": 79.804552,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "social_services",
+        "name": "National SC ST Hub",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610057,
+      "lat": 11.9453086,
+      "lon": 79.8073279,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "description": "State ground water unit and soil conservation",
+        "government": "statistics",
+        "name": "Office of Hydrogeologist",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610145,
+      "lat": 11.945114,
+      "lon": 79.8077724,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "administrative",
+        "name": "Controller of weights and measures",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610151,
+      "lat": 11.9450718,
+      "lon": 79.8078011,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "tax",
+        "name": "Deputy collector excise",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610198,
+      "lat": 11.9438899,
+      "lon": 79.8084655,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "supplies",
+        "name": "Directorate of stationary & printing",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610274,
+      "lat": 11.9450331,
+      "lon": 79.807852,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "administrative",
+        "name": "Civil supplies and consumer affairs",
+        "office": "government",
+        "opening_hours": "Mo-Sa 10:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5311610406,
+      "lat": 11.9445004,
+      "lon": 79.8081953,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "press",
+        "name": "Government central press",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5314541151,
+      "lat": 11.9065652,
+      "lon": 79.8075781,
+      "tags": {
+        "name": "Electricity department",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5314701540,
+      "lat": 11.9323163,
+      "lon": 79.8147181,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Apolo pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5317645636,
+      "lat": 11.9225046,
+      "lon": 79.8280204,
+      "tags": {
+        "government": "yes",
+        "name": "BSNL office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5321336986,
+      "lat": 11.9304361,
+      "lon": 79.8240328,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605001",
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "brand:wikipedia": "en:Bharat Petroleum",
+        "check_date": "2023-02-06",
+        "compressed_air": "yes",
+        "name": "Bharat Petroleum",
+        "operator": "Bharat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323713980,
+      "lat": 11.9182054,
+      "lon": 79.8129893,
+      "tags": {
+        "name": "Bsnl",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323997391,
+      "lat": 11.9392855,
+      "lon": 79.8314112,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605001",
+        "addr:street": "Eswaran Koil Street",
+        "name": "Advocate",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323999277,
+      "lat": 11.9388638,
+      "lon": 79.8296643,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Puducherry pharmacy",
+        "phone": "9786029737"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323999522,
+      "lat": 11.9398438,
+      "lon": 79.8300701,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kuga pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323999831,
+      "lat": 11.9393549,
+      "lon": 79.829921,
+      "tags": {
+        "addr:housenumber": "121",
+        "addr:postcode": "605001",
+        "addr:street": "Mahatma Gandhi Road",
+        "amenity": "pharmacy",
+        "check_date": "2026-05-09",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "internet_access": "no",
+        "name": "Tamiz pharmacy",
+        "name:ta": "தமிழ் மருந்தகம்",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:upi": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5323999959,
+      "lat": 11.9391672,
+      "lon": 79.8298158,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "check_date": "2026-05-01",
+        "healthcare": "pharmacy",
+        "internet_access": "no",
+        "name": "Apollo Pharmacy",
+        "name:ta": "அப்போலோ மருந்தகம்",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5326776209,
+      "lat": 11.9506505,
+      "lon": 79.8097492,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Airport Road",
+        "addr:suburb": "Lawspet",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sree Dhanvanthri Pharmacy",
+        "opening_hours": "Mo-Fr 10:00-22:00",
+        "phone": "04132254755"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327838410,
+      "lat": 11.9563099,
+      "lon": 79.8346537,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "51",
+        "addr:street": "Perumal Naidu Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "33",
+        "opening_hours": "Mo-Fr 10:00-13:00, 16:00-20:00",
+        "phone": "+914132236655",
+        "short_name": "CHRIST"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5332201375,
+      "lat": 11.9415461,
+      "lon": 79.8055115,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Rani Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5353072337,
+      "lat": 11.9506779,
+      "lon": 79.8070814,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "7th Cross, Tagore Nagar",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Jyothi Ayurveda Vaidyasala Panchakarma Centre",
+        "opening_hours": "Mo-Fr 18:00-21:00",
+        "phone": "+919791725449"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5353072357,
+      "lat": 11.9527563,
+      "lon": 79.8096852,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "28/2",
+        "addr:postcode": "605008",
+        "addr:street": "Airport Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kurinji Medicals",
+        "phone": "+914132252922"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5353072561,
+      "lat": 11.9517944,
+      "lon": 79.8056473,
+      "tags": {
+        "government": "archives",
+        "name": "National Archives of India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5353072945,
+      "lat": 11.9592424,
+      "lon": 79.8061591,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "35",
+        "addr:postcode": "605008",
+        "addr:street": "5th cross Kurinji nagar",
+        "government": "social_services",
+        "name": "Directorate of Backward Classes & Minorities Welfare",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361838980,
+      "lat": 11.947625,
+      "lon": 79.8296191,
+      "tags": {
+        "addr:postcode": "605003",
+        "name": "Ration shop №177",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839013,
+      "lat": 11.9463431,
+      "lon": 79.8113374,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839144,
+      "lat": 11.9434077,
+      "lon": 79.8289777,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605003",
+        "addr:street": "Bharathi street",
+        "government": "tax",
+        "name": "Income tax office",
+        "office": "government",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839148,
+      "lat": 11.9476057,
+      "lon": 79.8296165,
+      "tags": {
+        "addr:postcode": "605003",
+        "name": "Ration shop №358",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839149,
+      "lat": 11.9529574,
+      "lon": 79.8293268,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "operator": "Indian oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839695,
+      "lat": 11.9542137,
+      "lon": 79.8213969,
+      "tags": {
+        "amenity": "hospital",
+        "description": "Ex-serviceman contributory health scheme",
+        "healthcare": "hospital",
+        "name": "ECHS Polyclinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839701,
+      "lat": 11.9464488,
+      "lon": 79.811299,
+      "tags": {
+        "addr:housenumber": "12 & 14",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PIMS city centre",
+        "phone": "+914132251142"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361839702,
+      "lat": 11.9457816,
+      "lon": 79.8118303,
+      "tags": {
+        "amenity": "pharmacy",
+        "description": "siddha",
+        "healthcare": "pharmacy",
+        "name": "Mira medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361840018,
+      "lat": 11.9481932,
+      "lon": 79.8125982,
+      "tags": {
+        "name": "State emergency operation centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5361840020,
+      "lat": 11.9467658,
+      "lon": 79.8112371,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "brand:wikipedia": "en:Bharat Petroleum",
+        "compressed_air": "yes",
+        "name": "Bharat Petroleum",
+        "operator": "Bharat petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5372753257,
+      "lat": 11.9332296,
+      "lon": 79.8287259,
+      "tags": {
+        "addr:housenumber": "324",
+        "addr:street": "Mahatma Gandhi Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "V.B. Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5420569663,
+      "lat": 11.937456,
+      "lon": 79.8293572,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sun pharrmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5477481090,
+      "lat": 11.9297587,
+      "lon": 79.8263815,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Ambigai Medical shop",
+        "opening_hours": "PH,Mo-Su 09:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5530565312,
+      "lat": 11.9408847,
+      "lon": 79.8132441,
+      "tags": {
+        "addr:city": "Puducherry",
+        "name": "Ration Shop",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5557290279,
+      "lat": 11.9509088,
+      "lon": 79.8077534,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605008",
+        "addr:street": "2nd Main road Tagore nagar",
+        "name": "Renewable Energy Agency Pondicherry - Education Park",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5557290603,
+      "lat": 11.9507612,
+      "lon": 79.8060207,
+      "tags": {
+        "government": "ration_shop",
+        "name": "Ration Shop 198",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5557291877,
+      "lat": 11.94674,
+      "lon": 79.8092643,
+      "tags": {
+        "government": "common_services_centre",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5561252791,
+      "lat": 11.95181,
+      "lon": 79.8302089,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "government": "registration",
+        "name": "Registrar of Firms, Companies, Partnerships",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5561259010,
+      "lat": 11.9359994,
+      "lon": 79.819166,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605013",
+        "addr:street": "Elango Nagar 3rd Cross",
+        "government": "ration",
+        "name": "Ration Shop",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5561270898,
+      "lat": 11.9351371,
+      "lon": 79.8230833,
+      "tags": {
+        "name": "Anganwadi",
+        "name:pa": "ਆਂਗਣਵਾੜੀ",
+        "name:ur": "آنگن واڑی",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5562043498,
+      "lat": 11.9373218,
+      "lon": 79.8292434,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605001",
+        "addr:street": "Chetty Street",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Aditya Siddha Pharmacy",
+        "operator": "Sun Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5575428192,
+      "lat": 11.9367749,
+      "lon": 79.8328442,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "18",
+        "addr:postcode": "605001",
+        "addr:street": "Ambour Road",
+        "government": "yes",
+        "name": "Sri Aurobindo Udyog Service Station",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5614785855,
+      "lat": 11.9352011,
+      "lon": 79.8160171,
+      "tags": {
+        "name": "Anganwadi",
+        "name:pa": "ਆਂਗਣਵਾੜੀ",
+        "name:ur": "آنگن واڑی",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5614853539,
+      "lat": 11.9405837,
+      "lon": 79.8216096,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Amudha Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5638773031,
+      "lat": 11.9412679,
+      "lon": 79.795117,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Vazhuthavur road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Sree Jai Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5638773033,
+      "lat": 11.9406187,
+      "lon": 79.7926888,
+      "tags": {
+        "addr:housenumber": "323/A",
+        "addr:street": "Vazhuthavur road, Sokkanathanpet",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Manikandan Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5638773454,
+      "lat": 11.9408532,
+      "lon": 79.7931318,
+      "tags": {
+        "addr:housenumber": "312",
+        "addr:street": "Vazhuthavur road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Dhanvanthari Pharmacy",
+        "phone": "8489610068"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5641888510,
+      "lat": 11.9526178,
+      "lon": 79.8389574,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Govt Sub Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5646029381,
+      "lat": 11.9418592,
+      "lon": 79.8258546,
+      "tags": {
+        "addr:housenumber": "22/B",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Sri Sivasakthi Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5647992744,
+      "lat": 11.9298461,
+      "lon": 79.8266057,
+      "tags": {
+        "addr:street": "Bussy Street, Pondicherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "East Coast Hospital",
+        "phone": "04132228890"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5651688433,
+      "lat": 11.9430982,
+      "lon": 79.8045249,
+      "tags": {
+        "addr:street": "J-Lane, V.V.P. Nagar, Thattanchavady, Pondicherry.",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kalki Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5651830968,
+      "lat": 11.9340612,
+      "lon": 79.8092116,
+      "tags": {
+        "addr:street": "Anna Nagar Main Road, Ellaipillaichavady, Pondicherry.",
+        "name": "Nellithoppe MLA Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5653853309,
+      "lat": 11.9417777,
+      "lon": 79.8047001,
+      "tags": {
+        "addr:housenumber": "72",
+        "addr:street": "Vazhuthavur Road, Pondicherry",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Eva Pharmacy",
+        "opening_hours": "PH,Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5670012541,
+      "lat": 11.9412213,
+      "lon": 79.7951734,
+      "tags": {
+        "addr:street": "Vazhuthavur Road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Medplus Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5670013434,
+      "lat": 11.9414305,
+      "lon": 79.795934,
+      "tags": {
+        "addr:housenumber": "252",
+        "addr:street": "Vazhuthavur Road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Sri Sai Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5702494859,
+      "lat": 11.9415063,
+      "lon": 79.7967015,
+      "tags": {
+        "addr:street": "Vazhuthavur Road, Thilaspet",
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5702494861,
+      "lat": 11.9415993,
+      "lon": 79.7965788,
+      "tags": {
+        "addr:housenumber": "226",
+        "addr:street": "Vazhuthavur Road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Eva Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5702495157,
+      "lat": 11.9414173,
+      "lon": 79.7963685,
+      "tags": {
+        "addr:housenumber": "231",
+        "addr:street": "Vazhuthavur Road, Kathirkamam",
+        "amenity": "pharmacy",
+        "name": "Atlas Pharmacy",
+        "opening_hours": "Mo-Sa 09:00-22:30",
+        "phone": "04132276670"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5703847217,
+      "lat": 11.9488701,
+      "lon": 79.8118771,
+      "tags": {
+        "addr:street": "Airport Road, Jeevananthapuram, Lawspet",
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy",
+        "opening_hours": "PH,Mo-Su 08:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5716532862,
+      "lat": 11.9429962,
+      "lon": 79.8032442,
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605009",
+        "addr:street": "Subbaiya street, VVP Nagar",
+        "government": "tax",
+        "name": "House Tax Collection Center",
+        "name:ta": "வீட்டு வரி வசூல் மையம்",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5717694808,
+      "lat": 11.9426472,
+      "lon": 79.8045125,
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605009",
+        "addr:street": "VVP Nagar",
+        "government": "register_office",
+        "name": "Registrar of Cooperative Services (RCS)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729554725,
+      "lat": 11.9416148,
+      "lon": 79.8015211,
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:housenumber": "17",
+        "addr:postcode": "605009",
+        "addr:street": "Puthu Street, Kavundanpalayam",
+        "government": "social_services",
+        "name": "District Differently Abled Rehabilitation Center",
+        "office": "government",
+        "phone": "04132203155"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5740506716,
+      "lat": 11.9310443,
+      "lon": 79.8069827,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "2nd main road, Natesan Nagar",
+        "name": "Puducherry Corporation for Development of Women & Differently Abled Persons",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5762150700,
+      "lat": 11.9257779,
+      "lon": 79.8328525,
+      "tags": {
+        "addr:housenumber": "60",
+        "addr:street": "romain Rolland street",
+        "description": "government corporation",
+        "name": "Pondicherry industrial promotion development and investment corporation limited",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057890560,
+      "lat": 11.9419023,
+      "lon": 79.8018756,
+      "tags": {
+        "addr:street": "Vazhuthavur road, Kasturibai Nagar",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "SI Medicals and Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057897726,
+      "lat": 11.9414261,
+      "lon": 79.8092479,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kaushik Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057927326,
+      "lat": 11.9372138,
+      "lon": 79.8213914,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Esskay Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6072444039,
+      "lat": 11.9505623,
+      "lon": 79.8203675,
+      "tags": {
+        "name": "Govt Home for Aged & Infirm",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6087018279,
+      "lat": 11.9315435,
+      "lon": 79.8012728,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6115986418,
+      "lat": 11.9286326,
+      "lon": 79.814228,
+      "tags": {
+        "addr:street": "Mullai Nagar, Pondicherry",
+        "government": "yes",
+        "name": "Puducherry Government Employees Federation",
+        "office": "government",
+        "short_name": "CPGEA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6139747623,
+      "lat": 10.9264019,
+      "lon": 79.7886444,
+      "tags": {
+        "amenity:ta": "அரசு",
+        "name": "Thirunallaru commune panchayat office",
+        "name:ta": "திருநள்ளாறு கொம்யூன் பஞ்சாயத்து அலுவலகம்",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6210178627,
+      "lat": 11.9184619,
+      "lon": 79.6526425,
+      "tags": {
+        "addr:street": "Villianur Taluk, Thirubuvanai, Puducherry",
+        "government": "transportation",
+        "name": "Regional Transport Unit Office",
+        "name:ta": "வட்டார போக்குவரத்து கிளை அலுவலகம்",
+        "office": "government",
+        "ref": "PY05V"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6307598045,
+      "lat": 11.9409571,
+      "lon": 79.8324178,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6485835443,
+      "lat": 11.9519146,
+      "lon": 79.8001124,
+      "tags": {
+        "amenity": "fire_station",
+        "name": "Fire Control Room",
+        "operator": "JIPMER"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6907555259,
+      "lat": 10.9277108,
+      "lon": 79.8377296,
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:full": "Prabhu Nagar, Kamarajar Salai",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sugam Priya Hospital, Karaikal",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6907555278,
+      "lat": 10.9162822,
+      "lon": 79.8258622,
+      "tags": {
+        "addr:city": "Karaikal",
+        "addr:district": "Karaikal",
+        "addr:full": "Puduthurai",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "addr:street": "Puthuthurai road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "St. Rock`S Cluny Hospital",
+        "source": "OpenGovernmentData;local knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6907567985,
+      "lat": 11.9304352,
+      "lon": 79.8343085,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "16, Roman Rolland Street",
+        "addr:postcode": "605001",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "St. Josephs Hospital, Puducherry",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065227,
+      "lat": 11.9541325,
+      "lon": 79.7978945,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Dhanvantari Nagar, Puducherry, 605006",
+        "addr:postcode": "605006",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "JIPMER Hospital",
+        "name:ta": "ஜிப்மர்‌ மருத்துவமனை",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "https://www.jipmer.edu.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908065228,
+      "lat": 11.9224495,
+      "lon": 79.8308337,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "181, Gingee Salai, Dubrayapet",
+        "addr:postcode": "605001",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Certh India Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083730,
+      "lat": 11.9036033,
+      "lon": 79.7005588,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "13-A, Pondy-Villupuram Main Road,Ariyur",
+        "addr:postcode": "605102",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "Sri Venkateshwaraa Medical College Hospital and Research Centre, Puducherry",
+        "operator:type": "government",
+        "source": "OpenGovernmentData",
+        "website": "www.svmcpondy.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908083755,
+      "lat": 11.9304575,
+      "lon": 79.8248966,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "No.205,Chinna Subraya Pillai Street,OppositeKamban Kalaiarangam",
+        "addr:postcode": "605001",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sri Arunachalam Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908094347,
+      "lat": 11.831514,
+      "lon": 79.7823693,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Kirumampakkam, Puducherry",
+        "addr:postcode": "607403",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aarupadai Veedu Medical College and Hospital",
+        "operator:type": "private",
+        "short_name": "AVMCH",
+        "source": "OpenGovernmentData",
+        "website": "https://avmc.edu.in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908100811,
+      "lat": 11.9341827,
+      "lon": 79.8189354,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "12, Goubert Street Kamaraj Nagar",
+        "addr:postcode": "605011",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Puducherry City Hospitals Pvt Ltd.",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7076759799,
+      "lat": 11.9382438,
+      "lon": 79.7356399,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sri Lakshminarayana Institute of Medical Sciences"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111517856,
+      "lat": 11.7322159,
+      "lon": 75.5418889,
+      "tags": {
+        "addr:district": "Mahe",
+        "addr:landmark": "Near Palloor Police Station",
+        "addr:postcode": "673310",
+        "addr:state": "Puducherry",
+        "addr:street": "Main Road Palloor",
+        "addr:subdistrict": "Mahe",
+        "amenity": "hospital",
+        "contact:phone": "4902338028",
+        "description": "government hospital",
+        "healthcare": "hospital",
+        "locality": "Palloor",
+        "name": "Government Hospital, Palloor",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111517863,
+      "lat": 16.7293925,
+      "lon": 82.2148295,
+      "tags": {
+        "addr:subdistrict": "Yanam",
+        "amenity": "hospital",
+        "contact:phone": "8842321224",
+        "healthcare": "hospital",
+        "locality": "Yanam",
+        "name": "Government General Hospital",
+        "name:fr": "Hôpital Général Gouvernemental",
+        "name:ur": "سرکاری جنرل ہسپتال"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111517871,
+      "lat": 10.9084301,
+      "lon": 79.7653396,
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:landmark": "Near Vizhidiyur Bus Stop",
+        "addr:postcode": "609607",
+        "addr:state": "Puducherry",
+        "addr:street": "West Main Road",
+        "addr:subdistrict": "Karaikal",
+        "amenity": "hospital",
+        "contact:phone": "268224",
+        "description": "government hospital",
+        "locality": "Vizhidiyur",
+        "name": "GH, Vizhidiyur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7111517878,
+      "lat": 11.910803,
+      "lon": 79.7564867,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:landmark": "Near Bdo Office",
+        "addr:postcode": "605110",
+        "addr:state": "Puducherry",
+        "addr:street": "Odiyampet Road",
+        "addr:subdistrict": "Villianur",
+        "amenity": "hospital",
+        "contact:phone": "2618851",
+        "description": "Government hospital",
+        "healthcare": "hospital",
+        "locality": "Villianur",
+        "name": "Government Hospital Villianur",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7160176976,
+      "lat": 11.8649014,
+      "lon": 79.7484102,
+      "tags": {
+        "addr:street": "Madukarai Road, Karikalampakkam",
+        "amenity": "hospital",
+        "name": "Community Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7160227640,
+      "lat": 11.864827,
+      "lon": 79.7484049,
+      "tags": {
+        "addr:housenumber": "80",
+        "addr:street": "Madukarai Road",
+        "amenity": "pharmacy",
+        "name": "Sri Saraswathi Medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7160260912,
+      "lat": 11.86499,
+      "lon": 79.7483642,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605007",
+        "addr:street": "Thavalakuppam-Embalam Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Community Health Care Center - Pharmacy",
+        "opening_hours": "Mo-Fr 08:00-14:00; Sa 08:00-12:00; Su 08:00-09:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7163539352,
+      "lat": 11.8813559,
+      "lon": 79.67536,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Essar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7164331451,
+      "lat": 11.8645509,
+      "lon": 79.7528278,
+      "tags": {
+        "addr:street": "Thavalakuppam main road",
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP petrol pump",
+        "official_name": "Hindustan Petroleum",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7168673237,
+      "lat": 11.8619272,
+      "lon": 79.7918978,
+      "tags": {
+        "addr:street": "Madukarai Road",
+        "amenity": "pharmacy",
+        "name": "Sri sundhari medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7169011971,
+      "lat": 11.8139337,
+      "lon": 79.780414,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharath Petroleum - Krishna Agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7210832075,
+      "lat": 11.9548989,
+      "lon": 79.8321191,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Simonpet, Puducherry",
+        "addr:postcode": "605003",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Padmavathi Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7210876877,
+      "lat": 11.9282269,
+      "lon": 79.8281897,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "No. 10 & 12,, Thillai Maistry Street', MG Road Area, Puducherry",
+        "addr:postcode": "605001",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Senthil Women & Child Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7232510174,
+      "lat": 11.9192596,
+      "lon": 79.8299896,
+      "tags": {
+        "addr:street": "Gingee road",
+        "amenity": "hospital",
+        "description": "near water treatment plant.",
+        "healthcare": "hospital",
+        "name": "CERTH India"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257166774,
+      "lat": 10.93157,
+      "lon": 79.838195,
+      "tags": {
+        "addr:block": "Kumbakonam Mpty",
+        "addr:district": "Thanjavur",
+        "addr:full": "Karaikal Road, Palavanthankattalai, Sakkottai,Kumbakonam",
+        "addr:postcode": "612401",
+        "addr:state": "Tamil Nadu",
+        "addr:subdistrict": "Kumbakonam",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sacred Heart Physiotherapy Centre",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7390066508,
+      "lat": 11.7289135,
+      "lon": 75.5522795,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7390066514,
+      "lat": 11.7301939,
+      "lon": 75.5499038,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062766,
+      "lat": 16.7333073,
+      "lon": 82.215274,
+      "tags": {
+        "addr:district": "Yanam",
+        "addr:full": "Golala Line",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "Renuka Nursing Home",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062768,
+      "lat": 16.7310642,
+      "lon": 82.2149476,
+      "tags": {
+        "addr:district": "Yanam",
+        "addr:full": "Tyagaraja Street",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "Rama Nature Cure Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062769,
+      "lat": 16.727861,
+      "lon": 82.229313,
+      "tags": {
+        "addr:district": "Yanam",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government General Hospital",
+        "name:fr": "Hôpital Général Gouvernemental",
+        "name:ur": "سرکاری جنرل ہسپتال"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062770,
+      "lat": 16.733472,
+      "lon": 82.212287,
+      "tags": {
+        "addr:district": "Yanam",
+        "addr:full": "Yanam",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "District Ayurveda Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062772,
+      "lat": 16.7313923,
+      "lon": 82.2156519,
+      "tags": {
+        "addr:district": "Yanam",
+        "addr:full": "Yanam",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "Veer Raju Nursing Home",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062774,
+      "lat": 11.921894,
+      "lon": 79.815586,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Near Police Station, Bharathidasan Nagar, Mudaliarpet",
+        "addr:postcode": "605004",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "V.K.N. Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062775,
+      "lat": 11.9434009,
+      "lon": 79.8091914,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Lawspet Main Road, Pakkamudayanpet, Saram",
+        "addr:postcode": "605008",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dakshin Women Care Hospital and Fertility Center",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062777,
+      "lat": 11.9531761,
+      "lon": 79.8366768,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Solai Nagar Main Road, Muthialpet",
+        "addr:postcode": "605003",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "AUM Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062778,
+      "lat": 11.952675,
+      "lon": 79.792046,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Mettupalayam Road, Indira Nagar, Gorimedu, Priyadarshini Nagar",
+        "addr:postcode": "605006",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "ESI Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062780,
+      "lat": 11.7200019,
+      "lon": 75.5351897,
+      "tags": {
+        "addr:district": "Mahe",
+        "addr:full": "Bus Stop, Punnol",
+        "addr:postcode": "670102",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Ayurveda Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062783,
+      "lat": 10.9557678,
+      "lon": 79.8479203,
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:full": "Karaikal",
+        "addr:postcode": "609609",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "name": "VMMC Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062787,
+      "lat": 10.9285213,
+      "lon": 79.8317554,
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:full": "Karaikal, Puducherry",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Vasan Eye Care Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7629062788,
+      "lat": 10.9196311,
+      "lon": 79.833629,
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:full": "Neelakidangu Street, Karaikal",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "KMC Hospital",
+        "name:fr": "Hôpital KMC",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7679453939,
+      "lat": 11.9093116,
+      "lon": 79.7690302,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7852791583,
+      "lat": 11.694567,
+      "lon": 75.5365125,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7852852211,
+      "lat": 11.6973217,
+      "lon": 75.5353162,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Dhanwantary Ayurveda Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7927783881,
+      "lat": 11.9267548,
+      "lon": 79.8266981,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "12",
+        "addr:postcode": "605013",
+        "addr:street": "Coron Street",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;traditional_chinese_medicine;chiropractic",
+        "name": "Relax Body Spa",
+        "operator": "Anand Thalakutty",
+        "operator:type": "private_individual"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8204046896,
+      "lat": 11.0007336,
+      "lon": 79.7516445,
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Nallathur",
+        "addr:postcode": "609603",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Government Hospital, Nallathur",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8356485656,
+      "lat": 11.9588295,
+      "lon": 79.8227628,
+      "tags": {
+        "addr:street": "2nd main road, Mahaveer Nagar",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "L.K. Nursing Home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8446025272,
+      "lat": 12.029167,
+      "lon": 79.8639058,
+      "tags": {
+        "addr:street": "poongavanam Chettiar street",
+        "name": "புதுச்சேரி பாப்ஸ்கோ நியாயவிலை கடை எண் -202",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8446064284,
+      "lat": 12.0285359,
+      "lon": 79.8655501,
+      "tags": {
+        "addr:street": "பூங்கவனம் செட்டியார் வீதி",
+        "name": "அங்கன்வாடி",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8446075833,
+      "lat": 12.0303571,
+      "lon": 79.8656219,
+      "tags": {
+        "addr:street": "ettat civil street",
+        "name": "புதுவை அரசு வருவாய் மற்றும் பேரிடர் மேலாண்மை துறை காலப்பட்டு கிராமம் நிர்வாக அலுவலர்கள் அலுவலகம்",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8446094019,
+      "lat": 12.0322103,
+      "lon": 79.8663012,
+      "tags": {
+        "addr:street": "வாணிதாசன் வீதி",
+        "amenity": "hospital",
+        "name": "கால்நடை சிறு மருந்தகம் புதிய கட்டிடம்"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8458740994,
+      "lat": 11.8950249,
+      "lon": 79.8111808,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "High school Street, RK Nagar",
+        "amenity": "townhall",
+        "name": "Annamalai Annapoorani Mahal",
+        "phone": "04132600880"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8969091896,
+      "lat": 11.9380947,
+      "lon": 79.7733535,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8969091897,
+      "lat": 11.9202285,
+      "lon": 79.7634462,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605110",
+        "addr:street": "Villupuram Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9442094942,
+      "lat": 11.9314921,
+      "lon": 79.8064308,
+      "tags": {
+        "addr:street": "Villianur Main Road, Natesan Nagar, Puducherry",
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "description": "A unit of Apollo Pharmacies Ltd.",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy",
+        "opening_hours": "Mo-Fr 09:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9591574017,
+      "lat": 10.939507,
+      "lon": 79.829578,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kumaran Medicals",
+        "survey:date": "2022-03-14"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9591574321,
+      "lat": 10.9179398,
+      "lon": 79.8332894,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy",
+        "survey:date": "2022-03-19"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9591574322,
+      "lat": 10.9174542,
+      "lon": 79.8333652,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "State Pharmacy",
+        "survey:date": "2022-03-19"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9725950318,
+      "lat": 10.9250838,
+      "lon": 79.8322696,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "New Vinayaga Medical Store",
+        "survey:date": "2022-03-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9725950417,
+      "lat": 10.9328992,
+      "lon": 79.8316908,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy",
+        "survey:date": "2022-03-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9818721585,
+      "lat": 12.043475,
+      "lon": 79.8690907,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9818721618,
+      "lat": 12.039374,
+      "lon": 79.8679692,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9818721619,
+      "lat": 12.0389785,
+      "lon": 79.86785,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9818721620,
+      "lat": 12.0374368,
+      "lon": 79.8671747,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9857875075,
+      "lat": 10.9260254,
+      "lon": 79.8248767,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10001469815,
+      "lat": 11.9398069,
+      "lon": 79.8166676,
+      "tags": {
+        "addr:housenumber": "11-13",
+        "addr:street": "LIC Building, Kamaraj Salai, New Saram, Puducherry-13",
+        "name": "Housing & Urban Development Corporation Ltd",
+        "office": "government",
+        "phone": "04132244214"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10123135790,
+      "lat": 11.6992969,
+      "lon": 75.5362404,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahi Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10598496816,
+      "lat": 11.9445277,
+      "lon": 79.8179882,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:postcode": "605013",
+        "addr:state": "Puducherry",
+        "addr:street": "5th Cross St. Annamalai Nagar",
+        "government": "government",
+        "name": "One Stop Centre (Sakhi)",
+        "office": "government",
+        "phone": "0413-2914964",
+        "ref": "PY001"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10598578823,
+      "lat": 11.6957192,
+      "lon": 75.5360904,
+      "tags": {
+        "addr:city": "Mahe",
+        "addr:district": "Mahe",
+        "addr:postcode": "673310",
+        "addr:state": "Puducherry",
+        "addr:street": "Old Government Lower Primary School Building, Parakkal",
+        "government": "government",
+        "name": "One Stop Centre (Sakhi)",
+        "office": "government",
+        "phone": "9446991019",
+        "ref": "MA002"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10600761323,
+      "lat": 16.7292695,
+      "lon": 82.2134962,
+      "tags": {
+        "addr:city": "Yanam",
+        "addr:housenumber": "Office of Government Girls Hostel, Behind Mini Civil Station",
+        "addr:postcode": "533464",
+        "addr:state": "Puducherry",
+        "addr:street": "Bella Street",
+        "government": "government",
+        "name": "One Stop Centre (Sakhi)",
+        "office": "government",
+        "phone": "9989517079",
+        "ref": "YA003"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10600773730,
+      "lat": 10.9181744,
+      "lon": 79.8369287,
+      "tags": {
+        "addr:city": "Karaikal",
+        "addr:housenumber": "Out Patient Block, Government General Hospital",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "addr:street": "Karaikal",
+        "government": "government",
+        "name": "One Stop Centre (Sakhi)",
+        "office": "government",
+        "phone": "91438223614",
+        "ref": "KKL004"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10657384514,
+      "lat": 11.9246032,
+      "lon": 79.8311221,
+      "tags": {
+        "name": "Electricity post",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703100598,
+      "lat": 11.8237375,
+      "lon": 79.7821903,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "check_date": "2023-03-02",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Bharat Petroleum",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703105221,
+      "lat": 11.8899397,
+      "lon": 79.8013175,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2023-03-02",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil",
+        "self_service": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703110754,
+      "lat": 11.7922463,
+      "lon": 79.7691037,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "check_date": "2024-09-20",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:upi": "yes",
+        "self_service": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703110755,
+      "lat": 11.7963902,
+      "lon": 79.7714678,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2023-03-02",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703110756,
+      "lat": 11.797907,
+      "lon": 79.7739294,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2023-03-02",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10841503689,
+      "lat": 16.7365957,
+      "lon": 82.2127439,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Yanam New Bus Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10949444080,
+      "lat": 11.885559,
+      "lon": 79.8006705,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "compressed_air": "yes",
+        "name": "Indian Oil",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10956759416,
+      "lat": 11.9434904,
+      "lon": 79.8308438,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "compressed_air": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11266453084,
+      "lat": 11.9316069,
+      "lon": 79.8194273,
+      "tags": {
+        "addr:street": "Animal Husbandry complex, Maraimalai Adigal Salai, Puducherry",
+        "check_date": "2023-10-16",
+        "description": "Token issue: 9:15 AM to 5:00 PM\nLunch break 1:15 PM - 1:45 PM",
+        "government": "public_service",
+        "name": "Passport Seva Kendra - Puducherry",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:30",
+        "source": "survey",
+        "website": "https://passportindia.gov.in/AppOnlineProject/welcomeLink"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11327748896,
+      "lat": 11.9554525,
+      "lon": 79.7954836,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital for Chest Diseases",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11799298370,
+      "lat": 11.8586562,
+      "lon": 79.7914204,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "check_date": "2024-04-06",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11799298371,
+      "lat": 11.8613319,
+      "lon": 79.7922268,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "check_date": "2024-04-06",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11799300853,
+      "lat": 11.7947777,
+      "lon": 79.7710902,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2024-04-06",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11799305070,
+      "lat": 11.8223312,
+      "lon": 79.7822067,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-04-06",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11829758949,
+      "lat": 11.9431661,
+      "lon": 79.8042036,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Kalki Medicals Enterprises",
+        "name:en": "Kalki Medicals Enterprises",
+        "name:ta": "கல்கி மருந்தகம்",
+        "opening_hours": "PH,Mo-Su 09:00-21:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832252144,
+      "lat": 11.9417109,
+      "lon": 79.8070132,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Takshan pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832296571,
+      "lat": 11.9386355,
+      "lon": 79.8078245,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Ramana Medicals",
+        "name:en": "Ramana Medicals",
+        "name:ta": "ரமணா மருந்தகம்",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11833081315,
+      "lat": 11.933167,
+      "lon": 79.8307749,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Madha medical store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11866554143,
+      "lat": 11.9362555,
+      "lon": 79.8077151,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Discount pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11898263194,
+      "lat": 10.9557206,
+      "lon": 79.8251025,
+      "tags": {
+        "amenity": "fuel",
+        "name": "IOCL Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078744983,
+      "lat": 11.9526807,
+      "lon": 79.7969762,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana Kendra",
+        "brand:wikidata": "Q39058281",
+        "healthcare": "pharmacy",
+        "name": "Jan Aushadhi",
+        "official_name": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana Kendra",
+        "opening_hours": "24/7",
+        "operator": "P. R. Enterprisers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12078744994,
+      "lat": 11.9539908,
+      "lon": 79.7978557,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12160515384,
+      "lat": 11.9497744,
+      "lon": 79.8208269,
+      "tags": {
+        "addr:street": "Krishna Nagar Main Road",
+        "amenity": "pharmacy",
+        "name": "Medplus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054145,
+      "lat": 11.8956455,
+      "lon": 79.8028274,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name:ta": "ஶ்ரீ கோமதி மெடிக்கல்ஸ்",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054146,
+      "lat": 11.9076137,
+      "lon": 79.8082195,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Om Velavan Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054148,
+      "lat": 11.9388816,
+      "lon": 79.8078658,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Arulmangai Medicals & Surgicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054154,
+      "lat": 11.9105522,
+      "lon": 79.8093258,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Ganesh Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054157,
+      "lat": 11.9093216,
+      "lon": 79.809062,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Om Velavan Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054158,
+      "lat": 11.9087415,
+      "lon": 79.8086412,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Thirumalai Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187054165,
+      "lat": 11.9340941,
+      "lon": 79.8071891,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070405,
+      "lat": 11.81444,
+      "lon": 79.7803788,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070414,
+      "lat": 11.860954,
+      "lon": 79.7919929,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Nyraa Pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070415,
+      "lat": 11.8611373,
+      "lon": 79.791718,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Ragul Medicals",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070416,
+      "lat": 11.8623293,
+      "lon": 79.7920879,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "name": "Ashwath Pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070417,
+      "lat": 11.8661646,
+      "lon": 79.7937927,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070418,
+      "lat": 11.8128713,
+      "lon": 79.779725,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-20",
+        "healthcare": "pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070420,
+      "lat": 11.8076556,
+      "lon": 79.777663,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-20",
+        "healthcare": "pharmacy",
+        "name": "Anbu Pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187070478,
+      "lat": 11.8680572,
+      "lon": 79.7941314,
+      "tags": {
+        "amenity": "pharmacy",
+        "check_date": "2024-09-18",
+        "healthcare": "pharmacy",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12470317660,
+      "lat": 11.9277314,
+      "lon": 79.8192792,
+      "tags": {
+        "addr:street": "AFT Ground, Cuddalore Road, Puducherry",
+        "amenity": "bus_station",
+        "name": "Puducherry Bus Stand (Temporary)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12475384801,
+      "lat": 11.9409482,
+      "lon": 79.7936955,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "Sembaruthi Pharmacy",
+        "phone": "8220440059"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12558330301,
+      "lat": 11.9272277,
+      "lon": 79.8192957,
+      "tags": {
+        "amenity": "bus_station",
+        "name:en": "Puducherry new bus stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12942422041,
+      "lat": 11.9415983,
+      "lon": 79.8033587,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13008877111,
+      "lat": 11.960149,
+      "lon": 79.814529,
+      "tags": {
+        "description": "Office of Junior Engineer",
+        "name": "Ashok Nagar EB - Operations & Maintenance",
+        "office": "government",
+        "phone": "+914132257100"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13008877321,
+      "lat": 11.9601746,
+      "lon": 79.8146271,
+      "tags": {
+        "name": "Fire Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13108585201,
+      "lat": 10.9178103,
+      "lon": 79.8438441,
+      "tags": {
+        "amenity": "fuel",
+        "name": "BPCL PETROL PUMP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13288549244,
+      "lat": 11.7913172,
+      "lon": 79.7415206,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil - Fuel Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13376036329,
+      "lat": 10.9827097,
+      "lon": 79.8256866,
+      "tags": {
+        "addr:city": "varichikudy",
+        "addr:district": "karaikal",
+        "addr:housenumber": "no :1",
+        "addr:postcode": "609609",
+        "addr:street": "periyanayagi kovil street",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "karai medicals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13601920201,
+      "lat": 11.9290211,
+      "lon": 79.8299786,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "SIMS Pharmacy & Clinics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13962617027,
+      "lat": 11.9282502,
+      "lon": 79.8348064,
+      "tags": {
+        "name": "PSCDL - Smart City Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14017652301,
+      "lat": 11.7280859,
+      "lon": 75.5393454,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14028639590,
+      "lat": 11.9307702,
+      "lon": 79.7815367,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14028639597,
+      "lat": 11.9311434,
+      "lon": 79.7762747,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14028859478,
+      "lat": 11.9545771,
+      "lon": 79.7976224,
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605006",
+        "amenity": "pharmacy",
+        "brand": "AMRIT",
+        "healthcare": "pharmacy",
+        "level": "0",
+        "name": "Amrit Pharmacy",
+        "operator": "HLL Lifecare Limited",
+        "operator:wikidata": "Q5630211"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14063261101,
+      "lat": 11.9598729,
+      "lon": 79.8139881,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "PUDUCHERRY CONSUMERS COURT (NEW)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 221066096,
+      "center": {
+        "lat": 11.9335122,
+        "lon": 79.8329953
+      },
+      "nodes": [
+        2301171718,
+        2301171719,
+        2301171720,
+        2301171721,
+        2301171718
+      ],
+      "tags": {
+        "alt_name": "Legislative Assembly of Pondicherry",
+        "alt_name:en": "Legislative Assembly of Pondicherry",
+        "building": "yes",
+        "name": "Legislative Assembly of Puducherry",
+        "name:en": "Legislative Assembly of Puducherry",
+        "name:fr": "Assemblée législative de Pondichéry",
+        "name:ta": "புதுச்சேரி சட்டச்சபை அலுவலகம்",
+        "office": "government",
+        "wikidata": "Q3391663",
+        "wikipedia": "en:Puducherry Legislative Assembly"
+      }
+    },
+    {
+      "type": "way",
+      "id": 261920647,
+      "center": {
+        "lat": 11.9249983,
+        "lon": 79.6450127
+      },
+      "nodes": [
+        2675521452,
+        2675521453,
+        2675521454,
+        2675521455,
+        2675521452
+      ],
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:landmark": "Near Police Station",
+        "addr:postcode": "605107",
+        "addr:state": "Puducherry",
+        "addr:street": "Hospital Street",
+        "addr:subdistrict": "Bahour",
+        "amenity": "hospital",
+        "building": "yes",
+        "contact:phone": "2641138",
+        "description": "Primary Health Centre",
+        "healthcare": "centre",
+        "locality": "Thirubhuvanai",
+        "name": "Primary health care, Thirubhuvanai",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 298320318,
+      "center": {
+        "lat": 11.9231192,
+        "lon": 79.7775655
+      },
+      "nodes": [
+        3022358684,
+        3022358685,
+        3022358686,
+        3022358687,
+        3022358684
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:full": "R.S. No. 127 / 1A / 1A / Ia / 1 , Villiyanoor Main Road , Arumbarthapuram",
+        "addr:postcode": "605110",
+        "addr:state": "Puducherry",
+        "addr:street": "Villupuram - Puducherry Saalai",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "A. G. Padmavati's Hospital",
+        "name:ta": "ஏ.ஜி. பத்மாவதி மருத்துவமனை",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 298331991,
+      "center": {
+        "lat": 11.9321367,
+        "lon": 79.8327254
+      },
+      "nodes": [
+        3022450177,
+        3022450178,
+        3022450179,
+        3022450180,
+        3413835765,
+        3413835771,
+        3022450177
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "General Hospital",
+        "name:en": "General Hospital",
+        "name:fr": "Hôpital Général",
+        "name:ta": "பொது மருத்துவமனை"
+      }
+    },
+    {
+      "type": "way",
+      "id": 332629251,
+      "center": {
+        "lat": 11.9376497,
+        "lon": 79.8069229
+      },
+      "nodes": [
+        3397783411,
+        3397783412,
+        3397783480,
+        3397783413,
+        3397783481,
+        3397783414,
+        3397783415,
+        3397783416,
+        3397783417,
+        3397783418,
+        3397783411
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:district": "Puducherry",
+        "addr:landmark": "Near Rajiv Gandhi Statue",
+        "addr:postcode": "605005",
+        "addr:state": "Puducherry",
+        "addr:street": "100 Feet Road",
+        "addr:subdistrict": "Ozhukarai",
+        "amenity": "hospital",
+        "contact:phone": "2205480",
+        "description": "District Hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "paediatrics; maternity",
+        "locality": "Ellaipillaichavady",
+        "name": "Rajiv Gandhi Government Women And Children Hospital",
+        "name:etymology:wikidata": "Q4593",
+        "operator": "State Government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334271509,
+      "center": {
+        "lat": 11.9319197,
+        "lon": 79.8324994
+      },
+      "nodes": [
+        3413835778,
+        3413835779,
+        3413835770,
+        3413835772,
+        3413835786,
+        3413835784,
+        3413835783,
+        3413835782,
+        3413835791,
+        3413835788,
+        3413835775,
+        3413835777,
+        3413835767,
+        3413835769,
+        3413835778
+      ],
+      "tags": {
+        "addr:district": "Puducherry",
+        "addr:full": "Puducherry",
+        "addr:postcode": "605001",
+        "addr:state": "Puducherry",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Government General Hospital",
+        "name:en": "Government General Hospital",
+        "name:fr": "Hôpital général gouvernemental",
+        "name:ta": "அரசு பொது மருத்துவமனை, புதுச்சேரி",
+        "operator:type": "government",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 345029308,
+      "center": {
+        "lat": 11.9393143,
+        "lon": 79.7877984
+      },
+      "nodes": [
+        3517282560,
+        3517282561,
+        3517282562,
+        3517282563,
+        3517282560
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "building": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 359180870,
+      "center": {
+        "lat": 11.9281286,
+        "lon": 79.8181978
+      },
+      "nodes": [
+        3639379222,
+        3639379218,
+        3639379219,
+        3639379220,
+        9078788453,
+        3632659073,
+        3639379223,
+        3639379222
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "name": "District Courts"
+      }
+    },
+    {
+      "type": "way",
+      "id": 391729806,
+      "center": {
+        "lat": 11.9450335,
+        "lon": 79.8091608
+      },
+      "nodes": [
+        3949812957,
+        3949812958,
+        3949812959,
+        3949812960,
+        3949812957
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605013",
+        "addr:street": "Lawspet Main Road",
+        "building": "yes",
+        "name": "Department of Sainik Welfare",
+        "office": "government",
+        "phone": "(0413) 2253107"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463413826,
+      "center": {
+        "lat": 11.9463756,
+        "lon": 79.7996459
+      },
+      "nodes": [
+        4586798402,
+        4586798403,
+        4586798404,
+        4586798405,
+        4586798406,
+        4586798407,
+        4586798408,
+        4586798409,
+        4586798402
+      ],
+      "tags": {
+        "building": "government",
+        "building:levels": "3",
+        "government": "administrative",
+        "name": "Nirman Bhavan",
+        "office": "government",
+        "opening_hours": "Mo-Sa 9:30-17:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 464766467,
+      "center": {
+        "lat": 12.0470378,
+        "lon": 79.8555658
+      },
+      "nodes": [
+        4598421763,
+        4598421764,
+        4598421765,
+        4598421766,
+        4598421767,
+        4629119925,
+        4598421786,
+        4598421768,
+        2407699805,
+        4598421763
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "internet_access": "yes",
+        "name": "Pondicherry Institute of Medical Sciences",
+        "wikidata": "Q7227728"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484318945,
+      "center": {
+        "lat": 11.7037298,
+        "lon": 75.53525
+      },
+      "nodes": [
+        4770650138,
+        4770650139,
+        4770650140,
+        4770650141,
+        4770650138
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484318946,
+      "center": {
+        "lat": 11.6971581,
+        "lon": 75.5355535
+      },
+      "nodes": [
+        4770650142,
+        4770650143,
+        4770650144,
+        4770650145,
+        4770650146,
+        4770650147,
+        4770650142
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484318948,
+      "center": {
+        "lat": 11.699547,
+        "lon": 75.536679
+      },
+      "nodes": [
+        4770650152,
+        4770650153,
+        4770650154,
+        4770650155,
+        7849750940,
+        7849750939,
+        4770650156,
+        4770650157,
+        7849750937,
+        7849750936,
+        4770650152
+      ],
+      "tags": {
+        "addr:district": "Mahe",
+        "addr:landmark": "Near By Church",
+        "addr:postcode": "673310",
+        "addr:state": "Puducherry",
+        "addr:street": "Hospital Road",
+        "addr:subdistrict": "Mahe",
+        "amenity": "hospital",
+        "building": "yes",
+        "contact:phone": "4902332225",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "locality": "Mahe",
+        "name": "Puducherry State Government General Hospital Mahe",
+        "name:en": "Puducherry State Government General Hospital Mahe",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484466188,
+      "center": {
+        "lat": 11.7053109,
+        "lon": 75.534443
+      },
+      "nodes": [
+        4772158085,
+        4772158086,
+        4772158087,
+        4772158088,
+        4772158085
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "KTC Petrol Pump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 484466193,
+      "center": {
+        "lat": 11.6967354,
+        "lon": 75.5353294
+      },
+      "nodes": [
+        4772158107,
+        4772158108,
+        4772158109,
+        4772158110,
+        4772158107
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540451168,
+      "center": {
+        "lat": 11.94134,
+        "lon": 79.8060627
+      },
+      "nodes": [
+        5228564595,
+        5228564596,
+        5228564597,
+        7648092941,
+        5228564595
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "government": "collector_office",
+        "name": "District Collector Office",
+        "name:ta": "மாவட்ட ஆட்சியர் அலுவலகம்",
+        "office": "government",
+        "opening_hours": "Mo-Sa 09:00-18:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540784947,
+      "center": {
+        "lat": 11.9412368,
+        "lon": 79.8114339
+      },
+      "nodes": [
+        5231014069,
+        5231014070,
+        5231014071,
+        5231014072,
+        5231014069
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:place": "Saram",
+        "addr:postcode": "605013",
+        "addr:street": "Kamaraj Salai",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Confed Cooperative Petrol Bunk",
+        "opening_hours": "PH,Mo-Su 05:00-24:00",
+        "operator": "State owned Cooperative"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540784948,
+      "center": {
+        "lat": 11.9412523,
+        "lon": 79.8120554
+      },
+      "nodes": [
+        5231014073,
+        5231014074,
+        5231014075,
+        5231014076,
+        10948819132,
+        10948819131,
+        5259225272,
+        5231014073
+      ],
+      "tags": {
+        "addr:city": "Saram, Pondicherry",
+        "addr:street": "Kamaraj Salai",
+        "building": "government",
+        "government": "RTO",
+        "name": "Regional Transport Office Oulgaret",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "ref": "PY05"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541388801,
+      "center": {
+        "lat": 11.9422333,
+        "lon": 79.8013658
+      },
+      "nodes": [
+        5235181712,
+        5351282790,
+        5351282802,
+        5235181713,
+        5235181714,
+        5235181715,
+        5235181712
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "building": "yes",
+        "name": "Labour Department Complex",
+        "name:ta": "தொழிலாளர் துறை வளாகம்",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541388804,
+      "center": {
+        "lat": 11.9417603,
+        "lon": 79.7992
+      },
+      "nodes": [
+        5235181716,
+        5235181717,
+        5235181718,
+        5235181719,
+        5235181716
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "4/1",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "level": "0",
+        "name": "HP - Petrol Bunk",
+        "official_name": "Hindustan Petroleum",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "operator": "Ramachandra Agency",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541390306,
+      "center": {
+        "lat": 11.9413549,
+        "lon": 79.7971267
+      },
+      "nodes": [
+        5235201442,
+        6046319448,
+        5235201443,
+        8389548866,
+        5235201444,
+        5235201446,
+        8389548867,
+        5235201447,
+        5235201442
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "addr:street": "Vazhudavoor Road",
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "brand:wikipedia": "en:Bharat Petroleum",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "CONFED Co-Op. Petrol Bunk",
+        "operator": "State Owned Cooperative"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544061693,
+      "center": {
+        "lat": 11.9407356,
+        "lon": 79.8122298
+      },
+      "nodes": [
+        5259225256,
+        5259225257,
+        5259225258,
+        5259225259,
+        5259225256
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:street": "Kamaraj Salai",
+        "building": "yes",
+        "government": "yes",
+        "name": "Planning and Research Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544061694,
+      "center": {
+        "lat": 11.9407583,
+        "lon": 79.8117797
+      },
+      "nodes": [
+        5259225260,
+        5259225261,
+        5259225262,
+        5259225263,
+        5259225260
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:street": "Kamaraj Salai",
+        "amenity": "courthouse",
+        "building": "yes",
+        "government": "yes",
+        "name": "Sub-divisional Magistrate Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544317072,
+      "center": {
+        "lat": 11.9310544,
+        "lon": 79.7926013
+      },
+      "nodes": [
+        5261855925,
+        5261855926,
+        5261855927,
+        5261855928,
+        5261855929,
+        5261855930,
+        5261855931,
+        5261855932,
+        5261855933,
+        5261855934,
+        5261855935,
+        5261855936,
+        5261855938,
+        5261855937,
+        5261855925
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:street": "Villupuram Pondicherry Nagapatinam",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Election Comission of Pondicherry",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-06:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544327885,
+      "center": {
+        "lat": 11.9564117,
+        "lon": 79.7869567
+      },
+      "nodes": [
+        5261946373,
+        5261946374,
+        5261946375,
+        5261946376,
+        5261946377,
+        5261946378,
+        5261946373
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:street": "Mettupalayam Link Road",
+        "building": "yes",
+        "government": "transportation",
+        "name": "Regional Transport Office (RTO)",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544327900,
+      "center": {
+        "lat": 11.951288,
+        "lon": 79.7872102
+      },
+      "nodes": [
+        5261946493,
+        5261946494,
+        5261946495,
+        5261946496,
+        5261946493
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605009",
+        "addr:street": "Mettupalayam Link Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 545878613,
+      "center": {
+        "lat": 11.9239616,
+        "lon": 79.7794137
+      },
+      "nodes": [
+        5275617864,
+        5275617865,
+        5275617866,
+        5275617867,
+        5275617864
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605110",
+        "addr:street": "Villupuram Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 546808359,
+      "center": {
+        "lat": 11.9289665,
+        "lon": 79.831523
+      },
+      "nodes": [
+        5283855209,
+        5283855210,
+        5283855211,
+        5283855212,
+        5283855209
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 548060962,
+      "center": {
+        "lat": 11.9385403,
+        "lon": 79.8333046
+      },
+      "nodes": [
+        5295077721,
+        5295077722,
+        5295077723,
+        5295077724,
+        5295077721
+      ],
+      "tags": {
+        "building": "government",
+        "name": "Pondicherry Council for Child Welfare",
+        "office": "government",
+        "opening_hours": "Mo-Sa 09:00-18:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 548525365,
+      "center": {
+        "lat": 11.9207639,
+        "lon": 79.8093641
+      },
+      "nodes": [
+        5299125824,
+        5299125825,
+        5299125826,
+        5299125831,
+        11070480653,
+        11070480652,
+        5299125824
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "transportation",
+        "name": "Pondicherry Regional Transport Office",
+        "name:ta": "புதுச்சேரி வட்டார போக்குவரத்து அலுவலகம்",
+        "office": "government",
+        "opening_hours": "Mo-Sa 10:00-06:00",
+        "ref": "PY01"
+      }
+    },
+    {
+      "type": "way",
+      "id": 548526275,
+      "center": {
+        "lat": 11.921651,
+        "lon": 79.8236749
+      },
+      "nodes": [
+        5299133050,
+        5299133051,
+        5299133052,
+        5299133053,
+        5299133050
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "TNSTC Bus depot",
+        "operator": "Tamil Nadu Govt",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549123434,
+      "center": {
+        "lat": 11.931844,
+        "lon": 79.8204087
+      },
+      "nodes": [
+        5304526099,
+        7680900672,
+        5651149733,
+        5304526101,
+        7680900670,
+        7680900671,
+        11070455392,
+        5304526103,
+        5304526099
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "SETC bus depot",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549936094,
+      "center": {
+        "lat": 11.9422641,
+        "lon": 79.8063181
+      },
+      "nodes": [
+        5312202642,
+        5312202643,
+        5312202644,
+        5312202645,
+        5312202646,
+        5312202647,
+        5312202642
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605009",
+        "addr:street": "Tindivanam Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "check_date": "2024-09-18",
+        "compressed_air": "no",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "Indian Oil",
+        "self_service": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554515921,
+      "center": {
+        "lat": 11.9540875,
+        "lon": 79.8208106
+      },
+      "nodes": [
+        5351264401,
+        5351264402,
+        5351264403,
+        5351264404,
+        5351264401
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605008",
+        "addr:street": "ECR (Chennai Road)",
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "compressed_air": "yes",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum",
+        "short_name": "HP"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554515931,
+      "center": {
+        "lat": 11.9516767,
+        "lon": 79.8161363
+      },
+      "nodes": [
+        5351266000,
+        5351266001,
+        5351266002,
+        5351266003,
+        5351266000
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "178/14",
+        "addr:postcode": "605008",
+        "addr:street": "ECR (Chennai Road), Lawspet",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "LifeLine Hospital",
+        "operator": "Private",
+        "phone": "+91 413 2255755"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554515933,
+      "center": {
+        "lat": 11.9508212,
+        "lon": 79.8153255
+      },
+      "nodes": [
+        5351266008,
+        5351266006,
+        5351266009,
+        5351266010,
+        5351266008
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:full": "15 Lawspet, Green Garden",
+        "addr:housenumber": "15",
+        "addr:postcode": "605008",
+        "addr:state": "Puducherry",
+        "addr:street": "ECR (Chennai Road), Lawspet",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Be well Hospital Puducherry",
+        "operator": "Private",
+        "phone": "+91 413 2257490",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554515945,
+      "center": {
+        "lat": 11.9482348,
+        "lon": 79.8124442
+      },
+      "nodes": [
+        5351266096,
+        5351266097,
+        5351266098,
+        5351266099,
+        5351266100,
+        5351266101,
+        5351266102,
+        5351266103,
+        5351266104,
+        5351266105,
+        5351266106,
+        5351266096
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605008",
+        "addr:street": "ECR (Chennai Road), Lawspet",
+        "building": "yes",
+        "description": "Certificates - caste, community, residence, income etc.",
+        "layer": "1",
+        "name": "Taluk Office Oulgaret",
+        "office": "government",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 555015634,
+      "center": {
+        "lat": 11.9000605,
+        "lon": 79.7522036
+      },
+      "nodes": [
+        5355743486,
+        5355743487,
+        5355743488,
+        5355743489,
+        5355743486
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Petrol Bunk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 555015642,
+      "center": {
+        "lat": 11.9002871,
+        "lon": 79.7522192
+      },
+      "nodes": [
+        5355744464,
+        5355744465,
+        5355744466,
+        5355744467,
+        5355744464
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharath Petrol Bunk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568646578,
+      "center": {
+        "lat": 11.9339376,
+        "lon": 79.8077424
+      },
+      "nodes": [
+        5470529107,
+        5470529108,
+        5470529109,
+        5470529110,
+        5470529107
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605005",
+        "addr:street": "100 Feet Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil",
+        "opening_hours": "PH,Mo-Su 06:00-18:00+"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568646583,
+      "center": {
+        "lat": 11.9328405,
+        "lon": 79.8079823
+      },
+      "nodes": [
+        5470529150,
+        5470529151,
+        5470529152,
+        5470529153,
+        6344831392,
+        6344831393,
+        5470529154,
+        11070149566,
+        5470529155,
+        5470529156,
+        5470529157,
+        11070149586,
+        5470529150
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605005",
+        "addr:street": "Ellapillaichavady Road",
+        "government": "education",
+        "name": "Directorate of School Education",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568646587,
+      "center": {
+        "lat": 11.9320158,
+        "lon": 79.8069496
+      },
+      "nodes": [
+        5470529177,
+        5470529178,
+        5470529179,
+        5470529180,
+        5470529181,
+        5470529182,
+        5470529183,
+        5470529184,
+        5470529177
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605005",
+        "addr:street": "Villupuram Pondicherry Nagapatinam",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568646595,
+      "center": {
+        "lat": 11.9308456,
+        "lon": 79.8101823
+      },
+      "nodes": [
+        5470529245,
+        5470529246,
+        5470529247,
+        5470529248,
+        5470529245
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:district": "Puducherry",
+        "addr:full": "15, Pointcare Street, Nellithope Indiragandhi Statue",
+        "addr:postcode": "605005",
+        "addr:state": "Puducherry",
+        "addr:street": "Bonkarae street / cement road",
+        "amenity": "hospital",
+        "building": "hospital",
+        "description": "Urology Hospital",
+        "healthcare": "hospital",
+        "name": "Madhava Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568667644,
+      "center": {
+        "lat": 11.9394891,
+        "lon": 79.8161802
+      },
+      "nodes": [
+        5470686667,
+        5470686668,
+        5470686669,
+        5470686670,
+        5470686671,
+        5470686672,
+        5470686667
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605013",
+        "addr:street": "Kamaraj Salai",
+        "building": "yes",
+        "name": "Puducherry Khadi & Village Industries Board",
+        "name:ta": "புதுச்சேரி காதி மற்றும் கிராம வாரியம்",
+        "office": "government",
+        "website": "https://ponkhadi.py.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568688813,
+      "center": {
+        "lat": 11.9152916,
+        "lon": 79.8109556
+      },
+      "nodes": [
+        5470844743,
+        5470844744,
+        5470844745,
+        5470844746,
+        5470844743
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:place": "Mudaliarpet",
+        "addr:postcode": "605004",
+        "addr:street": "100 ft Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "compressed_air": "yes",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 583081693,
+      "center": {
+        "lat": 11.9418216,
+        "lon": 79.8200418
+      },
+      "nodes": [
+        5575004324,
+        5575004325,
+        5575004326,
+        5575004327,
+        5575004328,
+        5575004329,
+        5575004324
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605013",
+        "amenity": "fuel",
+        "brand": "Bharat Petroleum",
+        "brand:wikidata": "Q854826",
+        "brand:wikipedia": "en:Bharat Petroleum",
+        "check_date": "2026-04-28",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "internet_access": "no",
+        "name": "Bharat Petroleum",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:upi": "yes",
+        "self_service": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 591313079,
+      "center": {
+        "lat": 11.9618973,
+        "lon": 79.8145454
+      },
+      "nodes": [
+        5645325217,
+        5645325218,
+        5645325219,
+        5645325220,
+        5645325821,
+        5645325217
+      ],
+      "tags": {
+        "name": "Govt Guest House",
+        "office": "government",
+        "opening_hours": "PH,Mo-Su 08:00-18:00+"
+      }
+    },
+    {
+      "type": "way",
+      "id": 591641040,
+      "center": {
+        "lat": 11.9318806,
+        "lon": 79.8092858
+      },
+      "nodes": [
+        5648080189,
+        5648080190,
+        5648080191,
+        5648080194,
+        5648080189
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:postcode": "605005",
+        "addr:street": "Anna nagar",
+        "building": "yes",
+        "government": "local",
+        "name": "Pondicherry Housing Board",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 591642098,
+      "center": {
+        "lat": 11.9303652,
+        "lon": 79.8245755
+      },
+      "nodes": [
+        5648091240,
+        5648091241,
+        5648091242,
+        5648091243,
+        5648091244,
+        5648091245,
+        5648091240
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:housenumber": "254",
+        "addr:postcode": "605001",
+        "addr:street": "Bussy Street / Lal Bahadur Shastri Street",
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:website": "http://hpretail.in/",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "check_date": "2023-02-06",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:petroleum": "yes",
+        "name": "HP",
+        "official_name": "Hindustan Petroleum",
+        "opening_hours": "PH,Mo-Su 06:00-18:00+"
+      }
+    },
+    {
+      "type": "way",
+      "id": 592770878,
+      "center": {
+        "lat": 11.8639298,
+        "lon": 79.7909858
+      },
+      "nodes": [
+        5656568686,
+        5656568687,
+        5656568688,
+        5656568689,
+        5656568690,
+        5656568691,
+        5656568692,
+        5656568693,
+        5656568694,
+        5656568695,
+        5656568696,
+        5656568697,
+        5656568698,
+        5656568699,
+        5656568700,
+        5656568701,
+        5656568702,
+        5656568703,
+        5656568704,
+        5656568705,
+        5656568706,
+        5656568707,
+        5656568708,
+        5656568709,
+        5656568710,
+        5656568711,
+        5656568712,
+        5656568713,
+        5656568714,
+        5656568715,
+        5656568716,
+        5656568717,
+        5656568718,
+        5656568719,
+        5656568720,
+        5656569921,
+        5656569922,
+        5656569923,
+        5656568686
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aravind Eye Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593588687,
+      "center": {
+        "lat": 11.9451886,
+        "lon": 79.8006403
+      },
+      "nodes": [
+        5662572533,
+        5662572534,
+        5662572535,
+        5662572536,
+        5662572533
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:district": "Puducherry",
+        "addr:postcode": "605006",
+        "addr:street": "Tindivanam Road",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:website": "https://iocl.com/",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "building": "shed",
+        "name": "Indian Oil",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594619624,
+      "center": {
+        "lat": 11.9419701,
+        "lon": 79.8034388
+      },
+      "nodes": [
+        5669620706,
+        5669620707,
+        5669620708,
+        5669620709,
+        5669620710,
+        5669620711,
+        5669620712,
+        5669620713,
+        5669620714,
+        5669620715,
+        5669620706
+      ],
+      "tags": {
+        "addr:city": "Pondicherry",
+        "addr:district": "Puducherry",
+        "addr:full": "No-90,Vazhuthavur Main Road,V.V.P Nagar",
+        "addr:postcode": "605009",
+        "addr:state": "Puducherry",
+        "addr:street": "Vazhudavoor Road, VVP Nagar",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2026-05-27",
+        "healthcare": "hospital",
+        "name": "Ashwini Maternity Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645719826,
+      "center": {
+        "lat": 11.830253,
+        "lon": 79.7806758
+      },
+      "nodes": [
+        6069125582,
+        6069125583,
+        6069125584,
+        6069125685,
+        8811542252,
+        6069125689,
+        8811542248,
+        6069125690,
+        6069125691,
+        8811542251,
+        8811542249,
+        6069125692,
+        8811542250,
+        8811542246,
+        6069125693,
+        8811542247,
+        6069125694,
+        6069125695,
+        6069125697,
+        6069125698,
+        6069125699,
+        6069125700,
+        6070768937,
+        10292670613,
+        6069125582
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "607403",
+        "addr:state": "Puducherry",
+        "addr:street": "Pondy - Cuddalore Main Road",
+        "addr:suburb": "Kirumampakkam",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aarupadai Veedu Medical College & Hospital",
+        "operator:type": "private",
+        "short_name": "AVMC;AVMCH",
+        "website": "https://avmc.edu.in",
+        "wikidata": "Q14956966",
+        "wikipedia": "en:Aarupadai Veedu Medical College"
+      }
+    },
+    {
+      "type": "way",
+      "id": 668058878,
+      "center": {
+        "lat": 11.914197,
+        "lon": 79.7526674
+      },
+      "nodes": [
+        5692271425,
+        6255741127,
+        6255741126,
+        6255741125,
+        5692271425
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "name": "HP Petrol Bunk",
+        "official_name": "Hindustan Petroleum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689596886,
+      "center": {
+        "lat": 11.9345302,
+        "lon": 79.7964956
+      },
+      "nodes": [
+        6469278641,
+        6469278642,
+        6469278643,
+        6469278644,
+        6469278645,
+        6469278646,
+        6469278641
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 690015073,
+      "center": {
+        "lat": 11.9238326,
+        "lon": 79.8109274
+      },
+      "nodes": [
+        6473524547,
+        6473524548,
+        6473524549,
+        6473524550,
+        6473524547
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605004",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720854168,
+      "center": {
+        "lat": 11.9251418,
+        "lon": 79.8334833
+      },
+      "nodes": [
+        6763630126,
+        6763630127,
+        6763630128,
+        6763630129,
+        6763630130,
+        6763630131,
+        6763630132,
+        6763630126
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605001",
+        "addr:street": "Dumas Street",
+        "amenity": "fuel",
+        "brand": "Hindustan Petroleum",
+        "brand:wikidata": "Q1619375",
+        "brand:wikipedia": "en:Hindustan Petroleum",
+        "fuel:diesel": "yes",
+        "fuel:petrol": "yes",
+        "name": "HP Fuel Station",
+        "name:fr": "Station d'essence HP",
+        "official_name": "Hindustan Petroleum",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 737754786,
+      "center": {
+        "lat": 11.9301435,
+        "lon": 79.8258252
+      },
+      "nodes": [
+        6907555258,
+        6907555257,
+        6907555256,
+        6907555255,
+        11072317090,
+        6907555258
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 757755841,
+      "center": {
+        "lat": 11.9542057,
+        "lon": 79.7183715
+      },
+      "nodes": [
+        7648619666,
+        7648619652,
+        7076766688,
+        7648619667,
+        7648619668,
+        7648619666
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "JIPMER Rural Health Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759412263,
+      "center": {
+        "lat": 10.9175991,
+        "lon": 79.837452
+      },
+      "nodes": [
+        2019360171,
+        7093524577,
+        7093524576,
+        7093524575,
+        7093524574,
+        7093524573,
+        2019360171
+      ],
+      "tags": {
+        "addr:district": "Karaikal",
+        "addr:landmark": "Near Govt.Avviyar College",
+        "addr:postcode": "609602",
+        "addr:state": "Puducherry",
+        "addr:street": "Kamarajar Salai",
+        "addr:subdistrict": "Karaikal",
+        "amenity": "hospital",
+        "contact:phone": "222450",
+        "description": "District Hospital",
+        "healthcare": "hospital",
+        "locality": "Karaikal",
+        "name": "Government General Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759412264,
+      "center": {
+        "lat": 10.918734,
+        "lon": 79.8351923
+      },
+      "nodes": [
+        7093524581,
+        2019361430,
+        7093524580,
+        7093524579,
+        7093524578,
+        7093524581
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "name": "District Collector Office",
+        "name:ta": "மாவட்ட கலெக்டர் அலுவலகம்"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759412269,
+      "center": {
+        "lat": 10.9164175,
+        "lon": 79.8350666
+      },
+      "nodes": [
+        7093559297,
+        4947078326,
+        7093559295,
+        7093559296,
+        7093559297
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "name": "Karaikal District Munisif Court",
+        "name:ta": "காரைக்கால் மாவட்ட நீதிமன்றம்"
+      }
+    },
+    {
+      "type": "way",
+      "id": 759412282,
+      "center": {
+        "lat": 10.9318337,
+        "lon": 79.8324055
+      },
+      "nodes": [
+        5769655253,
+        7093559340,
+        7093559339,
+        7093559338,
+        7093559337,
+        7093559336,
+        5769655253
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 765727719,
+      "center": {
+        "lat": 11.9071005,
+        "lon": 79.7903794
+      },
+      "nodes": [
+        7151467076,
+        7151467075,
+        7151467074,
+        7151467073,
+        7151467076
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 798813361,
+      "center": {
+        "lat": 11.7180956,
+        "lon": 75.5315593
+      },
+      "nodes": [
+        7470771202,
+        7470771203,
+        7470771204,
+        7470771205,
+        7470771206,
+        7470771207,
+        7470771208,
+        7470771202
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "RASA SHALA (pharmacy) ,RGAMC"
+      }
+    },
+    {
+      "type": "way",
+      "id": 803314876,
+      "center": {
+        "lat": 11.6992986,
+        "lon": 75.5365965
+      },
+      "nodes": [
+        7514395623,
+        7514395624,
+        7849750946,
+        7849750945,
+        7514395625,
+        7514395626,
+        7514395627,
+        7514395623
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahe Government General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 803328400,
+      "center": {
+        "lat": 11.7030243,
+        "lon": 75.5342218
+      },
+      "nodes": [
+        7514559771,
+        7514559772,
+        7514559773,
+        7514559774,
+        7514559775,
+        7514559771
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Puducherry State Civil Station",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 806096242,
+      "center": {
+        "lat": 11.7043082,
+        "lon": 75.5353518
+      },
+      "nodes": [
+        7538207389,
+        7538207390,
+        7538207391,
+        7538207392,
+        7538207389
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 841300058,
+      "center": {
+        "lat": 11.6986918,
+        "lon": 75.537611
+      },
+      "nodes": [
+        7849750953,
+        7849750954,
+        7849750955,
+        7849750956,
+        7849750953
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "branch": "Kendra",
+        "brand": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana Kendra",
+        "brand:wikidata": "Q39058281",
+        "building": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Jan Aushadhi",
+        "official_name": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana Kendra"
+      }
+    },
+    {
+      "type": "way",
+      "id": 841683088,
+      "center": {
+        "lat": 11.7007563,
+        "lon": 75.5341191
+      },
+      "nodes": [
+        7852852212,
+        7852852213,
+        7852852214,
+        7852852215,
+        7852852212
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "public_works",
+        "name": "Puducherry State Public Works Department",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 841683089,
+      "center": {
+        "lat": 11.7005573,
+        "lon": 75.5341304
+      },
+      "nodes": [
+        7852852216,
+        7852852217,
+        7852852218,
+        7852852219,
+        7852852216
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "building": "yes",
+        "name": "MAHÉ DISTRICT Court"
+      }
+    },
+    {
+      "type": "way",
+      "id": 841683090,
+      "center": {
+        "lat": 11.7003105,
+        "lon": 75.5341377
+      },
+      "nodes": [
+        7852852220,
+        7852852221,
+        7852852222,
+        7852852223,
+        7852852220
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "Mahe Municipal Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 841683103,
+      "center": {
+        "lat": 11.703036,
+        "lon": 75.5339557
+      },
+      "nodes": [
+        7852852291,
+        7852852292,
+        7852852293,
+        7852852294,
+        7852852295,
+        7852852296,
+        7852852297,
+        7852852291
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Civil Station, Mahe",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1031946107,
+      "center": {
+        "lat": 11.9452476,
+        "lon": 79.7959335
+      },
+      "nodes": [
+        9510046616,
+        9510056017,
+        9510056018,
+        9510056019,
+        9510046616
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "building": "yes",
+        "government": "government",
+        "name": "Office of the Assitant Engineer (Electricity Board)",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "website": "https://pedservices.py.gov.in"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092053902,
+      "center": {
+        "lat": 11.939951,
+        "lon": 79.8162765
+      },
+      "nodes": [
+        10001451696,
+        10001451697,
+        10001451698,
+        10001451699,
+        10001451700,
+        10001451701,
+        10001451702,
+        10001451703,
+        10001451696
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605013",
+        "addr:street": "Kamaraj Salai",
+        "building": "yes",
+        "government": "administrative",
+        "name": "Department of Women & Child Welfare",
+        "name:ta": "பெண்கள் மற்றும் குழந்தைகள் நலத்துறை",
+        "office": "government",
+        "website": "https://wcd.py.gov.in/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126956403,
+      "center": {
+        "lat": 11.9313287,
+        "lon": 79.8352742
+      },
+      "nodes": [
+        10304773205,
+        10304800415,
+        10304800414,
+        10304800413,
+        10304800412,
+        10304773206,
+        10304773207,
+        10304800411,
+        10304800410,
+        10304800416,
+        10304800409,
+        10304773208,
+        10304773205
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Hôtel de Ville Pondicherry",
+        "name:en": "Puducherry Town Hall",
+        "name:fr": "Hôtel de Ville Pondicherry",
+        "name:ta": "லா மேரி டி பாண்டிச்சேரி"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1177236426,
+      "center": {
+        "lat": 11.9687713,
+        "lon": 79.8121971
+      },
+      "nodes": [
+        10936802790,
+        10936802791,
+        10936802792,
+        10936802778,
+        10936802777,
+        10936802776,
+        10936802775,
+        10936802774,
+        10936802773,
+        10936802772,
+        10936802771,
+        10936802770,
+        10936802769,
+        10936802768,
+        10936802767,
+        10936802766,
+        10936802765,
+        10936802764,
+        10936802763,
+        10936802762,
+        10936802761,
+        10936802760,
+        10936802759,
+        10936802758,
+        10936802757,
+        10936802756,
+        10936802755,
+        10936802754,
+        10936802753,
+        10936802752,
+        10936802751,
+        10936802750,
+        10936802749,
+        10936802748,
+        10936802745,
+        10936802744,
+        10936802746,
+        10936802747,
+        10936802726,
+        10936802727,
+        10936802728,
+        10936802729,
+        10936802730,
+        10936802731,
+        10936802732,
+        10936802733,
+        10936802734,
+        10936802735,
+        10936802736,
+        10936802737,
+        10936802738,
+        10936838493,
+        10936802739,
+        10936838486,
+        10936802740,
+        10936802741,
+        10936802742,
+        10936802743,
+        3636652026,
+        10936802780,
+        3636652024,
+        10936802781,
+        10936802782,
+        10936802783,
+        10936838791,
+        10936802784,
+        10936802785,
+        10936802786,
+        10936802787,
+        10936802788,
+        10936802789,
+        10936802790
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "check_date": "2023-07-30",
+        "ele": "41",
+        "iata": "PNY",
+        "icao": "VOPC",
+        "name": "Pondicherry Airport",
+        "name:en": "Puducherry Airport",
+        "name:fr": "Aéroport de Pondichéry",
+        "name:ru": "Аэропорт Пудуччери",
+        "name:ta": "புதுச்சேரி விமான நிலையம்",
+        "operator": "Airports Authority of India",
+        "start_date": "1989",
+        "website": "https://www.aai.aero/en/airports/puducherry",
+        "wikidata": "Q3334432",
+        "wikipedia": "en:Pondicherry Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192455106,
+      "center": {
+        "lat": 11.9245279,
+        "lon": 79.8324466
+      },
+      "nodes": [
+        11069622503,
+        11069622504,
+        11069629305,
+        11069629306,
+        11069622503
+      ],
+      "tags": {
+        "amenity": "fire_station",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192472560,
+      "center": {
+        "lat": 11.9281056,
+        "lon": 79.8245336
+      },
+      "nodes": [
+        11069747836,
+        11069747837,
+        11069747838,
+        11069747839,
+        11069747840,
+        11069747841,
+        11069747842,
+        11069747843,
+        11069747844,
+        11069747836
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192524503,
+      "center": {
+        "lat": 11.9373359,
+        "lon": 79.8191527
+      },
+      "nodes": [
+        11070237692,
+        11070237693,
+        11070237694,
+        11070237695,
+        11070237692
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192524596,
+      "center": {
+        "lat": 11.9353961,
+        "lon": 79.8188899
+      },
+      "nodes": [
+        11070241694,
+        11070241695,
+        11070241696,
+        11070241697,
+        11070241694
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "building": "commercial",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192547934,
+      "center": {
+        "lat": 11.9286753,
+        "lon": 79.8260205
+      },
+      "nodes": [
+        11070394208,
+        11070394209,
+        11070394210,
+        11070394211,
+        11070401177,
+        11070394212,
+        11070394208
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192553140,
+      "center": {
+        "lat": 11.9353348,
+        "lon": 79.834767
+      },
+      "nodes": [
+        11070432443,
+        11070432444,
+        11070432445,
+        11070432446,
+        11070432447,
+        11070432448,
+        11070432449,
+        11070432450,
+        11070432451,
+        11070432452,
+        11070432443
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192556558,
+      "center": {
+        "lat": 11.931064,
+        "lon": 79.8215828
+      },
+      "nodes": [
+        11070363199,
+        11070363200,
+        11070363201,
+        11070363202,
+        11070363203,
+        11070363204,
+        11070363199
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192558684,
+      "center": {
+        "lat": 11.9304499,
+        "lon": 79.8249612
+      },
+      "nodes": [
+        11070467212,
+        11070467213,
+        11070467214,
+        11070467215,
+        11070467216,
+        11070467217,
+        11070467212
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192560561,
+      "center": {
+        "lat": 11.9366761,
+        "lon": 79.8356067
+      },
+      "nodes": [
+        11070484242,
+        11070484243,
+        11070484244,
+        11070484245,
+        11070484246,
+        11070484247,
+        11070484242
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192561299,
+      "center": {
+        "lat": 11.9301764,
+        "lon": 79.8256162
+      },
+      "nodes": [
+        11070488619,
+        11070488620,
+        11070488621,
+        11072317089,
+        11070488622,
+        11070488619
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192563114,
+      "center": {
+        "lat": 11.9299587,
+        "lon": 79.826588
+      },
+      "nodes": [
+        11070404065,
+        11070404066,
+        11070404067,
+        11070404062,
+        11070404068,
+        11070404065
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192563624,
+      "center": {
+        "lat": 11.9167571,
+        "lon": 79.8214911
+      },
+      "nodes": [
+        11070465388,
+        11070465389,
+        11070465390,
+        11070465391,
+        11070465392,
+        11070465393,
+        11070465394,
+        11070465388
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192564942,
+      "center": {
+        "lat": 11.9198609,
+        "lon": 79.8101019
+      },
+      "nodes": [
+        11070480678,
+        11070480679,
+        11070480680,
+        11070480681,
+        11070480682,
+        11070480683,
+        11070480678
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192565026,
+      "center": {
+        "lat": 11.9296107,
+        "lon": 79.8267474
+      },
+      "nodes": [
+        11070516879,
+        11070516880,
+        11070516881,
+        11070516882,
+        11070516879
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192565027,
+      "center": {
+        "lat": 11.9296328,
+        "lon": 79.8266204
+      },
+      "nodes": [
+        11070516883,
+        11070516884,
+        11070516885,
+        11070516886,
+        11070516883
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192568826,
+      "center": {
+        "lat": 11.9051395,
+        "lon": 79.8090856
+      },
+      "nodes": [
+        11070542926,
+        11070542927,
+        11070542928,
+        11070542929,
+        11070542930,
+        11070542926
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192576681,
+      "center": {
+        "lat": 11.914352,
+        "lon": 79.8018933
+      },
+      "nodes": [
+        11070604406,
+        11070604407,
+        11070604408,
+        11070604409,
+        11070604410,
+        11070604411,
+        11070604406
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192576683,
+      "center": {
+        "lat": 11.9141842,
+        "lon": 79.8019003
+      },
+      "nodes": [
+        11070604409,
+        11070604416,
+        11070604417,
+        11070604418,
+        11070604409
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192582611,
+      "center": {
+        "lat": 11.9339125,
+        "lon": 79.8251346
+      },
+      "nodes": [
+        11070649090,
+        11070649091,
+        11070649092,
+        11070649093,
+        11070649090
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192605925,
+      "center": {
+        "lat": 11.9326142,
+        "lon": 79.8265842
+      },
+      "nodes": [
+        11070848852,
+        11070848851,
+        11070848853,
+        11070848848,
+        11070848852
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192717636,
+      "center": {
+        "lat": 11.911012,
+        "lon": 79.8179812
+      },
+      "nodes": [
+        11071722715,
+        11071722716,
+        11071722717,
+        11071722718,
+        11071722715
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728600,
+      "center": {
+        "lat": 11.9098078,
+        "lon": 79.8234463
+      },
+      "nodes": [
+        11071818442,
+        11071818443,
+        11071818444,
+        11071818445,
+        11071818442
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728601,
+      "center": {
+        "lat": 11.9094154,
+        "lon": 79.8225637
+      },
+      "nodes": [
+        11071818446,
+        11071818447,
+        11071818448,
+        11071818449,
+        11071818446
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728602,
+      "center": {
+        "lat": 11.909326,
+        "lon": 79.8229682
+      },
+      "nodes": [
+        11071818450,
+        11071818451,
+        11071818452,
+        11071818453,
+        11071818450
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728605,
+      "center": {
+        "lat": 11.9091619,
+        "lon": 79.8240073
+      },
+      "nodes": [
+        11071818462,
+        11071818463,
+        11071818464,
+        11071818465,
+        11071818462
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728606,
+      "center": {
+        "lat": 11.9089505,
+        "lon": 79.8243999
+      },
+      "nodes": [
+        11071818466,
+        11071818467,
+        11071818468,
+        11071818469,
+        11071818466
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728607,
+      "center": {
+        "lat": 11.9089213,
+        "lon": 79.8248023
+      },
+      "nodes": [
+        11071818470,
+        11071818471,
+        11071818472,
+        11071818473,
+        11071818470
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728608,
+      "center": {
+        "lat": 11.9087564,
+        "lon": 79.8247678
+      },
+      "nodes": [
+        11071818474,
+        11071818475,
+        11071818476,
+        11071818477,
+        11071818478,
+        11071818479,
+        11071818474
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728609,
+      "center": {
+        "lat": 11.9086664,
+        "lon": 79.8235308
+      },
+      "nodes": [
+        11071818480,
+        11071818481,
+        11071818482,
+        11071818483,
+        11071818480
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192728610,
+      "center": {
+        "lat": 11.9084481,
+        "lon": 79.8244615
+      },
+      "nodes": [
+        11071818484,
+        11071818485,
+        11071818486,
+        11071818487,
+        11071818484
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192740385,
+      "center": {
+        "lat": 11.9073489,
+        "lon": 79.7874253
+      },
+      "nodes": [
+        11071899433,
+        11071899434,
+        11071899435,
+        11071899436,
+        11071899433
+      ],
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192782119,
+      "center": {
+        "lat": 11.9331374,
+        "lon": 79.8161505
+      },
+      "nodes": [
+        11072266543,
+        11072266544,
+        11072266545,
+        11072266546,
+        11072266547,
+        11072266548,
+        11072266549,
+        11072266550,
+        11072266551,
+        11072266552,
+        11072266553,
+        11072266554,
+        11072290411,
+        11072266555,
+        11072290412,
+        11072266556,
+        11072290423,
+        11072290424,
+        11072266557,
+        11072266558,
+        11072266559,
+        11072266560,
+        11072266561,
+        11072266563,
+        11072266564,
+        11072266565,
+        11072266543
+      ],
+      "tags": {
+        "addr:city": "Orleanpet",
+        "addr:district": "Puducherry",
+        "addr:street": "Maraimalai Adigal Salai",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Puducherry New Bus Stand",
+        "name:ta": "புதுச்சேரி புதிய பேருந்து நிலையம்",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192794856,
+      "center": {
+        "lat": 11.9335592,
+        "lon": 79.8321403
+      },
+      "nodes": [
+        11072360165,
+        11072360166,
+        11072360167,
+        11072360168,
+        11072360165
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "compressed_air": "yes",
+        "name": "Aurobindo Ashram Petrol Bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192802892,
+      "center": {
+        "lat": 11.9407155,
+        "lon": 79.8287801
+      },
+      "nodes": [
+        11072398404,
+        11072425205,
+        11072425206,
+        11072425207,
+        11072425208,
+        11072425209,
+        11072425210,
+        11072425211,
+        11072425212,
+        11072425213,
+        11072425214,
+        11072425215,
+        11072425216,
+        11072425217,
+        11072425218,
+        11072398404
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192813414,
+      "center": {
+        "lat": 11.9274574,
+        "lon": 79.8331358
+      },
+      "nodes": [
+        11072548355,
+        11072548356,
+        11072548357,
+        11072548358,
+        11072548359,
+        11072548360,
+        11072548361,
+        11072548362,
+        11072548363,
+        11072548364,
+        11072548355
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192829601,
+      "center": {
+        "lat": 11.9531208,
+        "lon": 79.8367308
+      },
+      "nodes": [
+        11072646548,
+        11072646549,
+        11072646550,
+        11072646551,
+        11072646552,
+        11072646553,
+        11072646554,
+        11072646555,
+        11072646556,
+        11072646557,
+        11072646548
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192837985,
+      "center": {
+        "lat": 11.9105753,
+        "lon": 79.8086901
+      },
+      "nodes": [
+        11072720877,
+        11072720878,
+        11072720879,
+        11072720880,
+        11072720877
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Asha's Speech and Hearing Clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192845057,
+      "center": {
+        "lat": 11.9058069,
+        "lon": 79.8060009
+      },
+      "nodes": [
+        11072762886,
+        11072762887,
+        11072762888,
+        11072762889,
+        11072762886
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Eye Care Clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193544314,
+      "center": {
+        "lat": 11.9139481,
+        "lon": 79.8012618
+      },
+      "nodes": [
+        11078675061,
+        11078675062,
+        11078675063,
+        11078675064,
+        11078675061
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1461488906,
+      "center": {
+        "lat": 16.7288972,
+        "lon": 82.2142081
+      },
+      "nodes": [
+        13404126342,
+        13404126343,
+        13404126344,
+        13404126345,
+        13404126342
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "administrative",
+        "name": "Regional Administrator, Yanam",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1461488907,
+      "center": {
+        "lat": 16.7290701,
+        "lon": 82.21422
+      },
+      "nodes": [
+        13404126346,
+        13404126347,
+        13404126348,
+        13404126349,
+        13404126346
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1464075169,
+      "center": {
+        "lat": 16.7294599,
+        "lon": 82.2139408
+      },
+      "nodes": [
+        13429826556,
+        13429826557,
+        13429826558,
+        13429826559,
+        13429826556
+      ],
+      "tags": {
+        "building": "yes",
+        "government": "yes",
+        "name": "Mini Civil Station, Yanam",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1532501520,
+      "center": {
+        "lat": 11.9655552,
+        "lon": 79.8110094
+      },
+      "nodes": [
+        13966627641,
+        13966627642,
+        13966627643,
+        13966627644,
+        13966627641
+      ],
+      "tags": {
+        "government": "defence",
+        "name": "NCC Group Headquarters - Puducherry",
+        "office": "government",
+        "operator": "Ministry of Defence"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1546659350,
+      "center": {
+        "lat": 11.7029142,
+        "lon": 75.5309473
+      },
+      "nodes": [
+        14067548692,
+        14067548693,
+        14067548694,
+        14067548695,
+        14067548692
+      ],
+      "tags": {
+        "addr:city": "Mahe",
+        "addr:district": "Puducherry",
+        "addr:postcode": "673310",
+        "addr:street": "Government House",
+        "building": "yes",
+        "government": "yes",
+        "name": "Office of the Regional Administrator, Mahe",
+        "office": "government",
+        "phone": "+91 0490 2332222",
+        "website": "https://mahe.gov.in/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5336187,
+      "center": {
+        "lat": 11.9283843,
+        "lon": 79.8178268
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 358328373,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 358328371,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "courthouse",
+        "building": "yes",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8280940,
+      "center": {
+        "lat": 11.9575398,
+        "lon": 79.7934853
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 586504727,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 586504715,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605006",
+        "addr:street": "Link Rd Jipmer Campus",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Mahatma Gandhi Dental College",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16127659,
+      "center": {
+        "lat": 11.951225,
+        "lon": 79.8008669
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 358864092,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1192151732,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Puducherry",
+        "addr:postcode": "605006",
+        "addr:suburb": "Dhanvantari Nagar",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Jawaharlal Institute of Post Graduate Medical Education and Research",
+        "name:etymology:wikidata": "Q1047",
+        "name:hi": "जवाहरलाल स्नातकोत्तर चिकित्सा शिक्षा एवं अनुसंधान संस्थान",
+        "name:ml": "ജിപ്മെർ",
+        "name:ta": "ஜவஹர்லால் பட்ட மேற்படிப்பு மருத்துவக்கல்வி மற்றும் ஆராய்ச்சி நிறுவனம்",
+        "short_name": "JIPMER",
+        "type": "multipolygon",
+        "website": "https://jipmer.edu.in",
+        "wikidata": "Q3260662",
+        "wikipedia": "en:Jawaharlal Institute of Postgraduate Medical Education and Research"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2544 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T07:10:58Z",
+    "timestamp_areas_base": "2026-10-14T11:21:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1042045127,
+      "lat": 25.6614876,
+      "lon": 90.3450394,
+      "tags": {
+        "aeroway": "aerodrome",
+        "is_in": "Tura",
+        "name": "Baljek Airstrip",
+        "source": "ourairports.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1365562981,
+      "lat": 25.5656962,
+      "lon": 91.8865659,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Malki Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1366429337,
+      "lat": 25.5659429,
+      "lon": 91.8975806,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Assam Oil",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Assam Oil Service Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1366451651,
+      "lat": 25.5665028,
+      "lon": 91.8895298,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "name": "Bawri Service Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1368863797,
+      "lat": 25.565506,
+      "lon": 91.8999525,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Fire Brigade Service Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1375751934,
+      "lat": 25.5679611,
+      "lon": 91.8807062,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Main road, Near Shillong cantonment Board Office/ Near Lady Hydari Park, Laban, Lachumiere",
+        "addr:postcode": "793001",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "contact:phone": "0364 - 2223889",
+        "description": "District Hospital",
+        "emergency": "yes",
+        "name": "Civil Hospital Shillong",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1429695985,
+      "lat": 25.5718863,
+      "lon": 91.8767893,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Anjali Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1449670747,
+      "lat": 25.914975,
+      "lon": 90.6338596,
+      "tags": {
+        "name": "Mendipathar",
+        "network": "IR",
+        "operator": "NFR",
+        "railway": "station",
+        "ref": "MNDP",
+        "wikidata": "Q17073060",
+        "wikipedia": "en:Mendipathar railway station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1455773215,
+      "lat": 25.5824923,
+      "lon": 91.8904024,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:postcode": "793001",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "SRGT Parking Lot",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2854434377,
+      "lat": 25.5781658,
+      "lon": 91.8838091,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3701091175,
+      "lat": 25.271938,
+      "lon": 91.7325224,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Assam Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3701202277,
+      "lat": 25.0702163,
+      "lon": 92.3794354,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566446598,
+      "lat": 25.5735853,
+      "lon": 91.8768251,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Dawki - Guwahati bus stand",
+        "name:en": "Dawki - Guwahati bus stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571284543,
+      "lat": 25.5261052,
+      "lon": 90.8707044,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571284736,
+      "lat": 25.5268649,
+      "lon": 90.8654097,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869717739,
+      "lat": 25.7556131,
+      "lon": 91.8856792,
+      "tags": {
+        "addr:street": "Umsning Nongthymmai",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Bethany Hospital Outreach OPD Services",
+        "operator": "Bethany"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4871891718,
+      "lat": 25.909543,
+      "lon": 91.8768375,
+      "tags": {
+        "addr:district": "Ri Bhoi",
+        "addr:full": "Near Post Office Nongpoh, Nongpoh Proper, G.S Road",
+        "addr:postcode": "793102",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Umling",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Nongpoh Civil Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4871899047,
+      "lat": 25.9180372,
+      "lon": 91.877252,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petrol Pump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4905437995,
+      "lat": 26.1105477,
+      "lon": 91.8402395,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5525833824,
+      "lat": 25.5425539,
+      "lon": 91.8302991,
+      "tags": {
+        "name": "Meghalaya Helicopter Service",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5549380362,
+      "lat": 25.2850303,
+      "lon": 91.7215246,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo to Shillong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5549380535,
+      "lat": 25.2703774,
+      "lon": 91.7325825,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5864925490,
+      "lat": 25.5796539,
+      "lon": 91.8731514,
+      "tags": {
+        "name": "District Council",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6382932587,
+      "lat": 25.3342467,
+      "lon": 92.1389903,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6874649542,
+      "lat": 25.7024096,
+      "lon": 92.0126117,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6876823585,
+      "lat": 25.5748618,
+      "lon": 91.8826797,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Guwahati airport",
+        "name:en": "Sumo to Guwahati"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6908213058,
+      "lat": 25.5771305,
+      "lon": 91.8662676,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Jhalupara, Upper Mawprem",
+        "addr:postcode": "793002",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "R.P. Chest Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909772443,
+      "lat": 25.5147491,
+      "lon": 90.2037942,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Near Der Mile Petrol Pump, Der Mile, Tetengkol Araimile road",
+        "addr:postcode": "794101",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Rongram",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Tura Civil Hospital(DH)",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6909772449,
+      "lat": 25.584894,
+      "lon": 91.8751504,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Jaiaw Main Road, Jaiaw Main Road, Shillong",
+        "addr:postcode": "793002",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "name": "Dr. H. Gordon Robert Hospital (Khasi-Jaintia Presbyterian)",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6911715919,
+      "lat": 25.5195842,
+      "lon": 91.2681726,
+      "tags": {
+        "addr:district": "West Khasi Hills",
+        "addr:full": "Mawiaban, Nongstoin",
+        "addr:postcode": "793119",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Nongstoin District Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959417645,
+      "lat": 25.5960714,
+      "lon": 91.894193,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:postcode": "793008",
+        "addr:street": "Golf Link - Mawroh Main Road",
+        "government": "administrative",
+        "name": "Food Corporation of India",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:30",
+        "website": "https://fci.gov.in/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959952550,
+      "lat": 25.5770121,
+      "lon": 91.8834264,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959952557,
+      "lat": 25.5767034,
+      "lon": 91.8823786,
+      "tags": {
+        "name": "MUDA",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959992040,
+      "lat": 25.5762001,
+      "lon": 91.8819938,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959992041,
+      "lat": 25.5764268,
+      "lon": 91.881718,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6959992082,
+      "lat": 25.5918768,
+      "lon": 91.8733352,
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6969705853,
+      "lat": 25.5608599,
+      "lon": 91.911378,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Near Holy Child Road & Meghalaya Transport Commissioner Office, Demthring, Lum Sohra, Sawlad",
+        "addr:postcode": "793021",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "contact:phone": "0364 - 2537211",
+        "healthcare": "hospital",
+        "name": "Supercare Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6969819078,
+      "lat": 25.5658671,
+      "lon": 91.9112432,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Near State Bank of India & St. John's School, Pohkseh, Shillong, Pohkseh Road",
+        "addr:postcode": "793014",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "contact:phone": "0364 - 2535061",
+        "healthcare": "hospital",
+        "name": "The Children's Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6970682885,
+      "lat": 25.523045,
+      "lon": 91.2746977,
+      "tags": {
+        "amenity": "fuel",
+        "name": "petrol station indian oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6970682886,
+      "lat": 25.5413799,
+      "lon": 91.3348115,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975841829,
+      "lat": 25.5590618,
+      "lon": 91.9099476,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975852124,
+      "lat": 25.5718996,
+      "lon": 91.9079341,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975904987,
+      "lat": 25.5603939,
+      "lon": 91.9055271,
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975942519,
+      "lat": 25.5531765,
+      "lon": 91.9059431,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975942528,
+      "lat": 25.5421446,
+      "lon": 91.8973019,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6984192487,
+      "lat": 25.211927,
+      "lon": 92.3740675,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6986663585,
+      "lat": 25.5734159,
+      "lon": 91.8830383,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Sumo stand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138548117,
+      "lat": 25.5107094,
+      "lon": 92.1629554,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138549033,
+      "lat": 25.5008973,
+      "lon": 92.1727581,
+      "tags": {
+        "name": "Block Development Officer BDO",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138552987,
+      "lat": 25.4566305,
+      "lon": 92.2937594,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138562116,
+      "lat": 25.469038,
+      "lon": 92.2817249,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Reliance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660278,
+      "lat": 25.5179517,
+      "lon": 90.1704141,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Near Dakopgre Catholic Church, Walbakgre, Tura Walbakgre Road",
+        "addr:postcode": "794101",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Rongram",
+        "amenity": "hospital",
+        "name": "Holy Cross Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660279,
+      "lat": 25.556393,
+      "lon": 91.2290792,
+      "tags": {
+        "addr:district": "West Khasi Hills",
+        "addr:full": "Nearing Shillong-Tura bypass road, Mawiawban, Nongstoin-Riangdo road",
+        "addr:postcode": "793119",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Nongstoin",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Nongstoin Civil Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660288,
+      "lat": 25.1987267,
+      "lon": 90.6309637,
+      "tags": {
+        "addr:district": "South Garo Hills",
+        "addr:full": "Near District Medical & Health Office, Asim Chiring, Baghmara",
+        "addr:postcode": "794102",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Baghmara",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Capt. Williamson Memorial Hospital, Baghmara",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660298,
+      "lat": 25.560466,
+      "lon": 91.6307355,
+      "tags": {
+        "addr:district": "West Khasi Hills",
+        "addr:full": "Near old Shillong-Nongstoin road, Lum Iew, Mairang",
+        "addr:postcode": "793120",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mairang",
+        "amenity": "hospital",
+        "name": "Holy Cross Private Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660307,
+      "lat": 25.444011,
+      "lon": 92.198903,
+      "tags": {
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "Near Thomas Jones Synod College, Moosalynkat",
+        "addr:postcode": "793150",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Thadlaskein",
+        "amenity": "hospital",
+        "name": "Dr. Norman Tunnel Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660313,
+      "lat": 25.514655,
+      "lon": 90.219953,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Near District Medical & Health Officer's office, Lower Babupara, Lower Babupara Road",
+        "addr:postcode": "794001",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Rongram",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Tura Maternity and Child Hospital(SDH)",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660337,
+      "lat": 25.5541791,
+      "lon": 91.6330915,
+      "tags": {
+        "addr:district": "West Khasi Hills",
+        "addr:full": "Sangshong, Mairang",
+        "addr:postcode": "793120",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mairang",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Tirot Sing Memorial Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660375,
+      "lat": 25.467945,
+      "lon": 92.260988,
+      "tags": {
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "Ialong Village, Jowai Khliehriat Road",
+        "addr:postcode": "793150",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Thadlaskein",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Jowai Civil Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660381,
+      "lat": 25.5146304,
+      "lon": 90.6046435,
+      "tags": {
+        "addr:district": "East Garo Hills",
+        "addr:full": "Near PWD Road/Opp. Children Park, Medical Colony, Williamnagar",
+        "addr:postcode": "794111",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Samanda",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Williamnagar Civil Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7138660404,
+      "lat": 25.5762376,
+      "lon": 91.8666306,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Mawprem, Garikhana",
+        "addr:postcode": "793002",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "Reid Provincial Chest Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7150731765,
+      "lat": 25.721206,
+      "lon": 89.9047078,
+      "tags": {
+        "addr:district": "Dhubri",
+        "addr:full": "Hatsingimari, Near DC&#39; Office",
+        "addr:postcode": "783135",
+        "addr:state": "Assam",
+        "addr:subdistrict": "Mankachar",
+        "amenity": "hospital",
+        "name": "Civil Hospital, Hatsingimari",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517041,
+      "lat": 25.2873638,
+      "lon": 92.0968584,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "Umlarem, Meghalaya",
+        "addr:housenumber": "Amlarem",
+        "addr:postcode": "793109",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Rasongsli Nursing Home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517042,
+      "lat": 25.582507,
+      "lon": 91.9217576,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Mawarliang, Shillong, Meghalaya",
+        "addr:postcode": "793006",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "CAPF Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517043,
+      "lat": 25.592821,
+      "lon": 91.942756,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Mawdiangdiang, Meghalaya",
+        "addr:postcode": "793018",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Regional Cancer Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517044,
+      "lat": 25.5958462,
+      "lon": 91.9474231,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Mawdiangdiang, Meghalaya",
+        "addr:postcode": "793018",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Ayurvedic & Homoeopathy Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517045,
+      "lat": 25.588019,
+      "lon": 91.913836,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Nongmynsong, Shillong, Meghalaya",
+        "addr:postcode": "793019",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Nigrimes Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517046,
+      "lat": 25.590552,
+      "lon": 91.910655,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Pynthorumkhrah, Shillong, Meghalaya",
+        "addr:postcode": "793019",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Composite Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517049,
+      "lat": 25.6789181,
+      "lon": 91.9094552,
+      "tags": {
+        "addr:district": "Ri-Bhoi",
+        "addr:full": "Sumer Village, Meghalaya",
+        "addr:postcode": "793122",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "ICAR Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517055,
+      "lat": 25.4362133,
+      "lon": 92.2052507,
+      "tags": {
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "Jowai, Meghalaya",
+        "addr:postcode": "793150",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517063,
+      "lat": 25.4682013,
+      "lon": 92.2876219,
+      "tags": {
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "HynniewMer, Meghalaya",
+        "addr:postcode": "793150",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Nazareth Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517076,
+      "lat": 25.4692031,
+      "lon": 92.2391729,
+      "tags": {
+        "addr:city": "Jowai",
+        "addr:district": "West Jaintia Hills",
+        "addr:full": "Jowai, Meghalaya",
+        "addr:postcode": "793150",
+        "addr:state": "Meghalaya",
+        "addr:street": "Sabahmuswang Elaka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Woodland  WK Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517077,
+      "lat": 25.5752156,
+      "lon": 91.8714508,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Upper Mawprem, Garikhana, Shillong, Meghalaya",
+        "addr:postcode": "793002",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Jiban Ram Goenka Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517078,
+      "lat": 25.5721912,
+      "lon": 91.8867398,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Secretariat Hills, Shillong, Meghalaya",
+        "addr:postcode": "793001",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "CHGS Wellness Centre",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7577517079,
+      "lat": 25.5647415,
+      "lon": 91.9031082,
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Nongrimbah, Shillong, Meghalaya",
+        "addr:postcode": "793014",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "John Roberts Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580173,
+      "lat": 25.5165354,
+      "lon": 90.1671545,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Tura, Meghalaya",
+        "addr:postcode": "794101",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Danak Samguri Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580175,
+      "lat": 25.4940162,
+      "lon": 89.9432399,
+      "tags": {
+        "addr:district": "South West Garo Hills",
+        "addr:full": "Betasing, Meghalaya",
+        "addr:postcode": "794115",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Civil Hospital, Ampati",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580176,
+      "lat": 25.6520385,
+      "lon": 90.3347324,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Jengjal, Meghalaya",
+        "addr:postcode": "794109",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Adventis Mission Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580179,
+      "lat": 25.49798,
+      "lon": 90.618645,
+      "tags": {
+        "addr:district": "East Garo Hills",
+        "addr:full": "Sampalgre, Meghalaya",
+        "addr:postcode": "794111",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Sampalgre Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580180,
+      "lat": 25.5201568,
+      "lon": 90.1767347,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Tura, Meghalaya",
+        "addr:postcode": "794101",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Maternity and Child Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580181,
+      "lat": 25.5227112,
+      "lon": 90.18235,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Tura, Meghalaya",
+        "addr:postcode": "794101",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "CRPF Composite Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580182,
+      "lat": 25.912899,
+      "lon": 90.628695,
+      "tags": {
+        "addr:district": "North Garo Hills",
+        "addr:full": "Gangdobi Road, Mendipathar, Meghalaya",
+        "addr:postcode": "794112",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Gangdobi Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580191,
+      "lat": 25.5212405,
+      "lon": 90.2171856,
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Lower Wadanang, Tura, Meghalaya",
+        "addr:postcode": "794001",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "T.B. Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580192,
+      "lat": 25.5079447,
+      "lon": 91.2738426,
+      "tags": {
+        "addr:district": "West Khasi Hills",
+        "addr:full": "Shnong , Nongstoin, Meghalaya",
+        "addr:postcode": "793119",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "T.B. Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579580193,
+      "lat": 25.9165611,
+      "lon": 90.6493529,
+      "tags": {
+        "addr:district": "North Garo Hills",
+        "addr:full": "Salpara, Mendipathar, Meghalaya",
+        "addr:postcode": "794112",
+        "addr:state": "Meghalaya",
+        "amenity": "hospital",
+        "name": "Civil Hospital",
+        "source": "Local Knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8677982104,
+      "lat": 25.3073404,
+      "lon": 91.5862866,
+      "tags": {
+        "addr:city": "Mawsynram",
+        "addr:postcode": "793113",
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "brand:wikipedia": "en:Indian Oil Corporation",
+        "name": "Indian Oil",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9470745970,
+      "lat": 25.2988116,
+      "lon": 91.5814165,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Mawsynram Station",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9470762651,
+      "lat": 25.2990071,
+      "lon": 91.5816423,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Taxi to Shillong",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10697365681,
+      "lat": 25.559566,
+      "lon": 91.9034074,
+      "tags": {
+        "name": "Office Jong Ka Dorbar Shnong Lawjynriew cum Community Hall",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10725545924,
+      "lat": 25.7250428,
+      "lon": 89.9003208,
+      "tags": {
+        "addr:city": "Hatsingimari",
+        "addr:housenumber": "Hatsingimari",
+        "addr:postcode": "783135",
+        "addr:street": "Near Circuit House, Hatsingimari",
+        "government": "government",
+        "mobile": "916001676069",
+        "name": "Sakhi One Stop Centre",
+        "office": "government",
+        "phone": "916001676069"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10729730937,
+      "lat": 25.5155614,
+      "lon": 90.2162754,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "description": "Buses to Singimari, Phulbari, Mahendraganj, Tikrikilla, Selsella",
+        "name": "Bus stand at Hawakhana",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10729730944,
+      "lat": 25.5197081,
+      "lon": 90.2189239,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "description": "Transport to Krishnai and other destinations",
+        "name": "Bus stand at Chandmari",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10729730946,
+      "lat": 25.5079247,
+      "lon": 90.2153556,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Bus stand at Dobasipara",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10895824519,
+      "lat": 25.5711799,
+      "lon": 91.8720444,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Military Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11350592431,
+      "lat": 25.5158621,
+      "lon": 90.2162668,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Shell",
+        "brand:wikidata": "Q110716465",
+        "name": "Shell"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11353484723,
+      "lat": 25.5150062,
+      "lon": 90.1861145,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Didagre service station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11353484755,
+      "lat": 25.5156079,
+      "lon": 90.1858984,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District PHE Lab, Tura"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11357651010,
+      "lat": 25.5150175,
+      "lon": 90.2038069,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tura Civil Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11359888648,
+      "lat": 25.2851547,
+      "lon": 92.1094201,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:district": "West Jaintia Hills",
+        "addr:housenumber": "Amlarem",
+        "government": "administrative",
+        "name": "Sub-Divisional Office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11359888684,
+      "lat": 25.2848461,
+      "lon": 92.1064913,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:district": "West Jaintia Hills",
+        "addr:housenumber": "Amlarem",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "A.Shylla Pharmacy",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "A. Shylla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11637338969,
+      "lat": 25.5680759,
+      "lon": 91.8817937,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "Guwahati sumo & shared taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11744691117,
+      "lat": 25.6372427,
+      "lon": 91.8932403,
+      "tags": {
+        "amenity": "fuel",
+        "name": "HP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11744695909,
+      "lat": 25.6949491,
+      "lon": 91.9294234,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11744696788,
+      "lat": 25.6393153,
+      "lon": 91.892157,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11744699156,
+      "lat": 25.6670461,
+      "lon": 91.9005194,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11744703827,
+      "lat": 25.6354214,
+      "lon": 91.8923928,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11747475337,
+      "lat": 25.5860372,
+      "lon": 91.8723985,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11749698160,
+      "lat": 25.5656793,
+      "lon": 91.8948668,
+      "tags": {
+        "name": "Government of Meghalaya - Office of the research officer",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11749723964,
+      "lat": 25.5645756,
+      "lon": 91.8945482,
+      "tags": {
+        "name": "Government of Meghalaya -  Directorate of horticulture",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11749726206,
+      "lat": 25.5627934,
+      "lon": 91.8941014,
+      "tags": {
+        "name": "Government of Meghalaya -  Directorate of mineral resources",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11752719698,
+      "lat": 25.5104078,
+      "lon": 91.8120952,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11752744338,
+      "lat": 25.4812483,
+      "lon": 91.819389,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11752773939,
+      "lat": 25.554056,
+      "lon": 91.8455995,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11752778000,
+      "lat": 25.400257,
+      "lon": 91.7705185,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11755384332,
+      "lat": 25.2587857,
+      "lon": 91.7345509,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11758174546,
+      "lat": 25.6263404,
+      "lon": 91.8859879,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11758294136,
+      "lat": 25.328115,
+      "lon": 91.731553,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11758296612,
+      "lat": 25.2222481,
+      "lon": 91.9640234,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11758300264,
+      "lat": 25.3210926,
+      "lon": 91.8902102,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11760485356,
+      "lat": 25.7181664,
+      "lon": 91.9636746,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Indian Oil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11760502215,
+      "lat": 25.7008211,
+      "lon": 91.933379,
+      "tags": {
+        "name": "Meghalaya State Fishery research",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804161546,
+      "lat": 25.5160114,
+      "lon": 90.2160193,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "V Health Care Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804161547,
+      "lat": 25.5160408,
+      "lon": 90.2160618,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apollo Pharmacy",
+        "brand:wikidata": "Q62562612",
+        "healthcare": "pharmacy",
+        "name": "Apollo Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804475491,
+      "lat": 25.5162165,
+      "lon": 90.2189463,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804475494,
+      "lat": 25.5160949,
+      "lon": 90.2192595,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "New Drugs House"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804475495,
+      "lat": 25.5160981,
+      "lon": 90.2193465,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Downtown Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804475499,
+      "lat": 25.5164454,
+      "lon": 90.2202414,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "N. S. Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11804475513,
+      "lat": 25.5199296,
+      "lon": 90.2193173,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Kokhnal Medicos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11906862908,
+      "lat": 25.6311051,
+      "lon": 91.8927209,
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:district": "east khasi hills",
+        "addr:postcode": "793022",
+        "addr:street": "mawlai mawiong",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "ISBT",
+        "operator": "MTC",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11909388852,
+      "lat": 25.5523127,
+      "lon": 91.6444454,
+      "tags": {
+        "amenity": "fuel",
+        "self_service": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11909394519,
+      "lat": 25.5591162,
+      "lon": 91.6418871,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11934315725,
+      "lat": 25.5182853,
+      "lon": 90.2189168,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tura Christian Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12195542637,
+      "lat": 25.3426976,
+      "lon": 92.4784604,
+      "tags": {
+        "amenity": "fuel",
+        "source": "Esri world imagery (retreived 09/2024)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12450459404,
+      "lat": 25.5222181,
+      "lon": 91.7978592,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12460882519,
+      "lat": 25.2293278,
+      "lon": 91.5624484,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12462035169,
+      "lat": 25.1699082,
+      "lon": 91.6919619,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ichamati Community Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465320861,
+      "lat": 25.5820634,
+      "lon": 91.8722645,
+      "tags": {
+        "name": "Veterinary and Animal Husbandry Directorate",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465326526,
+      "lat": 25.5534314,
+      "lon": 91.9064854,
+      "tags": {
+        "name": "Anthropological Survey of India",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12465345801,
+      "lat": 25.5497206,
+      "lon": 91.9076258,
+      "tags": {
+        "amenity": "fuel",
+        "fixme": "location"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13371568901,
+      "lat": 26.0123873,
+      "lon": 91.8657527,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Bharat Petroleum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536124201,
+      "lat": 25.3722518,
+      "lon": 92.3252285,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536124301,
+      "lat": 25.3719246,
+      "lon": 92.3255567,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536149101,
+      "lat": 25.3692668,
+      "lon": 92.3368167,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536184901,
+      "lat": 25.367122,
+      "lon": 92.353008,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536219101,
+      "lat": 25.3687867,
+      "lon": 92.3660756,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536276901,
+      "lat": 25.3687867,
+      "lon": 92.3660756,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536279101,
+      "lat": 25.375278,
+      "lon": 92.402147,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536279201,
+      "lat": 25.3763813,
+      "lon": 92.4065724,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13536279601,
+      "lat": 25.3727799,
+      "lon": 92.4333112,
+      "tags": {
+        "amenity": "pharmacy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122522987,
+      "center": {
+        "lat": 25.5662149,
+        "lon": 91.8915401
+      },
+      "nodes": [
+        1368872662,
+        1368872649,
+        1368872660,
+        1368872647,
+        1368872662
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "building": "shed",
+        "name": "Peak Petrol Pump"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271150514,
+      "center": {
+        "lat": 25.7035863,
+        "lon": 91.9777512
+      },
+      "nodes": [
+        2761100247,
+        2761100359,
+        7392960439,
+        2761100348,
+        2761100458,
+        7392960726,
+        7392960727,
+        2761100364,
+        2761100260,
+        2761100408,
+        2761100229,
+        2761100390,
+        2761100289,
+        2761100426,
+        2761100422,
+        2761100272,
+        2761100490,
+        2761100486,
+        2761100337,
+        2761100276,
+        2761100476,
+        2761100264,
+        2761100318,
+        2761100324,
+        2761100377,
+        2761100311,
+        2761100335,
+        2761100352,
+        2761100430,
+        2761100369,
+        2761100208,
+        2761100257,
+        2761100271,
+        7392960728,
+        2761100344,
+        7392960729,
+        7392960730,
+        2761100333,
+        2761100222,
+        2761100473,
+        2772259051,
+        2761100413,
+        7392960722,
+        2761100435,
+        7392960723,
+        2761100339,
+        7392960725,
+        2761120910,
+        2761120912,
+        7392960724,
+        2761100329,
+        2761100247
+      ],
+      "tags": {
+        "aeroway": "aerodrome",
+        "alt_name": "Umroi Airport",
+        "barrier": "wall",
+        "ele": "887",
+        "iata": "SHL",
+        "icao": "VEBI",
+        "name": "Shillong Airport",
+        "old_name": "Barapani Airport",
+        "operator": "Airports Authority of India",
+        "ref": "SHL",
+        "wikidata": "Q1931305",
+        "wikipedia": "en:Shillong Airport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 278820821,
+      "center": {
+        "lat": 25.5662011,
+        "lon": 91.9011296
+      },
+      "nodes": [
+        2831233750,
+        2831233752,
+        2831233749,
+        2831233751,
+        2831233748,
+        2831233750
+      ],
+      "tags": {
+        "addr:district": "East Khasi Hills",
+        "addr:full": "Nongrim Hills, Nongrim Hills, Shillong, Opposite Nagaland House",
+        "addr:postcode": "793003",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Mylliem",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Bethany Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335701764,
+      "center": {
+        "lat": 25.5759582,
+        "lon": 91.876719
+      },
+      "nodes": [
+        3428114264,
+        3428114276,
+        3428114280,
+        3428114281,
+        3428114286,
+        3428114283,
+        3428114277,
+        3428114274,
+        3428114273,
+        3428114251,
+        3428114252,
+        3428114246,
+        3428114236,
+        3428114229,
+        3428114226,
+        3428114228,
+        3428114223,
+        3428114264
+      ],
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344541796,
+      "center": {
+        "lat": 25.5771089,
+        "lon": 91.8835234
+      },
+      "nodes": [
+        3512808953,
+        3512808954,
+        3512808947,
+        3512808946,
+        3512808948,
+        3512808952,
+        3512808951,
+        3512808950,
+        3512808949,
+        3512808953
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "name": "MTC Bus station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 345602981,
+      "center": {
+        "lat": 25.5844501,
+        "lon": 91.8824253
+      },
+      "nodes": [
+        3522457434,
+        3522457435,
+        3522457407,
+        3522457433,
+        3522457411,
+        3522457428,
+        3522457409,
+        3522457418,
+        3522457420,
+        3522457415,
+        3522457417,
+        3522457419,
+        3522457436,
+        3522457410,
+        3522457402,
+        3522457405,
+        3522457434
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "108 Emergency"
+      }
+    },
+    {
+      "type": "way",
+      "id": 492500533,
+      "center": {
+        "lat": 25.8836495,
+        "lon": 91.8820611
+      },
+      "nodes": [
+        4845169424,
+        4845169425,
+        4845169426,
+        4845169427,
+        4845169428,
+        4845169429,
+        4845169430,
+        4845169431,
+        4845169424
+      ],
+      "tags": {
+        "addr:housenumber": "Saiden",
+        "addr:postcode": "793102",
+        "addr:street": "NH40",
+        "building": "yes",
+        "name": "District Agricukture & Horticulture Office",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 494668025,
+      "center": {
+        "lat": 25.9003255,
+        "lon": 91.877919
+      },
+      "nodes": [
+        4864034346,
+        4864034347,
+        4864034348,
+        4864034349,
+        4864034350,
+        4864034351,
+        4864034352,
+        4864034353,
+        4864034354,
+        4864034355,
+        4864034356,
+        4864034357,
+        4864034358,
+        4864034359,
+        4864034360,
+        4864034361,
+        4864034346
+      ],
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:postcode": "793102",
+        "addr:street": "Pahamsyiem",
+        "amenity": "hospital",
+        "name": "Bethany Hospital Outreach"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499306196,
+      "center": {
+        "lat": 25.2013452,
+        "lon": 91.9156449
+      },
+      "nodes": [
+        4905938650,
+        4905938649,
+        4905938648,
+        4905938647,
+        4905938650
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "name": "Community Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556878346,
+      "center": {
+        "lat": 25.232296,
+        "lon": 91.8097623
+      },
+      "nodes": [
+        5371424009,
+        5371424238,
+        5371424237,
+        5371424007,
+        5371424016,
+        5371424017,
+        5371424004,
+        5371424015,
+        5371424014,
+        5371424005,
+        5371424006,
+        5371424236,
+        5371424239,
+        5371424008,
+        5371424019,
+        5371424018,
+        5371424011,
+        5371424013,
+        5371424012,
+        5371424010,
+        5371424009
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556878347,
+      "center": {
+        "lat": 25.2319673,
+        "lon": 91.8101421
+      },
+      "nodes": [
+        5371424223,
+        5371424222,
+        5371424221,
+        5371424020,
+        5371424223
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556878348,
+      "center": {
+        "lat": 25.2320497,
+        "lon": 91.8098787
+      },
+      "nodes": [
+        5371424227,
+        5371424226,
+        5371424225,
+        5371424224,
+        5371424227
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556878349,
+      "center": {
+        "lat": 25.2320766,
+        "lon": 91.8100169
+      },
+      "nodes": [
+        5371424231,
+        5371424230,
+        5371424229,
+        5371424228,
+        5371424231
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556878350,
+      "center": {
+        "lat": 25.2322175,
+        "lon": 91.8101042
+      },
+      "nodes": [
+        5371424235,
+        5371424234,
+        5371424233,
+        5371424232,
+        5371424235
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 743600794,
+      "center": {
+        "lat": 25.5698481,
+        "lon": 91.9259526
+      },
+      "nodes": [
+        6959757740,
+        6959757741,
+        6959757742,
+        6959757743,
+        6959757744,
+        6959757745,
+        6959757746,
+        6959757747,
+        6959757748,
+        6959757749,
+        6959757750,
+        6959757751,
+        6959757752,
+        6959757753,
+        6959757754,
+        6959757755,
+        9659892063,
+        6959757756,
+        6959757757,
+        6959757758,
+        6959757759,
+        6959757760,
+        6959757740
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Powergrid Corporation",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 764111388,
+      "center": {
+        "lat": 25.5185173,
+        "lon": 90.2187483
+      },
+      "nodes": [
+        7138660364,
+        7138659306,
+        7138659307,
+        7138659304,
+        7138659302,
+        7138659311,
+        7138659312,
+        7138659313,
+        7138659310,
+        7138659303,
+        7138659309,
+        7138659308,
+        7138660364
+      ],
+      "tags": {
+        "addr:district": "West Garo Hills",
+        "addr:full": "Near Tura Baptist Church, AB Mission Compound, Upper Chandmari Road",
+        "addr:postcode": "794001",
+        "addr:state": "Meghalaya",
+        "addr:subdistrict": "Rongram",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Tura Christian Hospital",
+        "source": "OpenGovernmentData"
+      }
+    },
+    {
+      "type": "way",
+      "id": 936394796,
+      "center": {
+        "lat": 25.2954212,
+        "lon": 91.5785797
+      },
+      "nodes": [
+        8676764364,
+        8676764365,
+        8676764366,
+        8676764367,
+        8676764368,
+        8676764369,
+        8676764370,
+        8676764371,
+        8676764372,
+        8676764373,
+        8676764374,
+        8676764375,
+        8676764376,
+        8676764377,
+        8676764378,
+        8676764379,
+        8676764380,
+        8676764381,
+        8676764382,
+        8676764383,
+        8676764384,
+        8676764385,
+        8676764386,
+        8676764387,
+        8676764388,
+        8676764364
+      ],
+      "tags": {
+        "addr:city": "Mawsynram",
+        "addr:postcode": "793113",
+        "addr:street": "Dongrum",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 949678835,
+      "center": {
+        "lat": 25.3073346,
+        "lon": 91.5863741
+      },
+      "nodes": [
+        8791659330,
+        8791659331,
+        8791659332,
+        8791659333,
+        8791659330
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil Mawsynram"
+      }
+    },
+    {
+      "type": "way",
+      "id": 949680047,
+      "center": {
+        "lat": 25.3082845,
+        "lon": 91.5815483
+      },
+      "nodes": [
+        8791663276,
+        8791663277,
+        8791663278,
+        8791663279,
+        8791663276
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "3",
+        "name": "BDO Mawsynram",
+        "office": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1134932104,
+      "center": {
+        "lat": 25.364489,
+        "lon": 91.6229006
+      },
+      "nodes": [
+        10579838253,
+        10579838254,
+        10579838255,
+        10579838256,
+        10579838253
+      ],
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Indian Oil",
+        "brand:wikidata": "Q1289348",
+        "name": "Indian Oil Weiloi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1137881744,
+      "center": {
+        "lat": 25.4507819,
+        "lon": 92.1985124
+      },
+      "nodes": [
+        10606516976,
+        10606516977,
+        10606516978,
+        10606516979,
+        10606516980,
+        10606516976
+      ],
+      "tags": {
+        "amenity": "townhall",
+        "building": "yes",
+        "name": "Ladthadlaboh Community Hall",
+        "townhall:type": "city"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1224938013,
+      "center": {
+        "lat": 25.4996233,
+        "lon": 90.6906146
+      },
+      "nodes": [
+        11359595597,
+        11359595598,
+        11359595599,
+        11359595600,
+        11359595597
+      ],
+      "tags": {
+        "addr:city": "NENGKHRA AWE",
+        "addr:district": "EAST GARO HILLS MEGHALAYA",
+        "addr:postcode": "794111",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "NENGKHRA AWE  SUB_CENTRE"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1224971268,
+      "center": {
+        "lat": 25.283874,
+        "lon": 92.1117143
+      },
+      "nodes": [
+        11359888616,
+        11359888617,
+        11359888618,
+        11359888619,
+        11359888616
+      ],
+      "tags": {
+        "addr:city": "Shillong",
+        "addr:district": "West Jaintia Hills",
+        "addr:housenumber": "Amlarem",
+        "amenity": "courthouse",
+        "building": "service",
+        "name": "Sub-Divisional Court"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3714419,
+      "center": {
+        "lat": 25.5707418,
+        "lon": 91.8732736
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 279320537,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 279320543,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3717774,
+      "center": {
+        "lat": 25.5837155,
+        "lon": 91.8843218
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 279506760,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 279506763,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19472195,
+      "center": {
+        "lat": 25.5758545,
+        "lon": 91.8835189
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1422913665,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1422913658,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "office": "government",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}
