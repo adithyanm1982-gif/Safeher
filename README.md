@@ -1,5 +1,4 @@
 # SafeHer
-
 SafeHer is a privacy-focused, mobile-first women safety application designed to work reliably even when the internet connection is weak or unavailable. Built as a progressive web app (PWA), SafeHer brings emergency support, location-aware safety tools, and offline access into one secure, fast, and easy-to-use experience.
 
 The platform is designed for real-world safety scenarios where every second matters. Whether the user is commuting, travelling alone, returning home late, or facing an uncertain environment, SafeHer helps them respond quickly, notify trusted contacts, and access essential safety information without depending on constant connectivity.
